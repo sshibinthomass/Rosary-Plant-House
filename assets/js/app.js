@@ -73,7 +73,7 @@ class UI {
             />
           </div>
           <h3>${product.title}</h3>
-          <h4>Price: $ ${product.price}</h4>
+          <h4>Price: ₹ ${product.price}</h4>
           <button type="button" class="bag-btn1" data-id=${product.id}><i class="fas fa-shopping-cart"></i>add to cart</button>
 
         </article>
@@ -152,7 +152,7 @@ class UI {
 
             <div>
               <h4>${item.title}</h4>
-              <h5>Price1 : $ ${item.price}</h5>
+              <h5>Price : ₹ ${item.price}</h5>
               <span class="remove-item" onClick="window.location.reload()" data-id=${item.id}>remove</span>
             </div>
 
