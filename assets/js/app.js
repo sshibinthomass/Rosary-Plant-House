@@ -30,10 +30,10 @@ let buttonsDOM = [];
 class Products {
   async getProducts() {
     try {
-      //let result = await fetch("assets/json/products.json");
-      let result = await fetch(
-        "https://script.google.com/macros/s/AKfycbwhEHwcHRkWt8AqMDQCC0SQMHzMswaS9IIKYx8hd8P6UXp82FURUVr7DZ1AUlH-jj1r/exec"
-      );
+      let result = await fetch("assets/json/products.json");
+      //let result = await fetch(
+      //  "https://script.google.com/macros/s/AKfycbwhEHwcHRkWt8AqMDQCC0SQMHzMswaS9IIKYx8hd8P6UXp82FURUVr7DZ1AUlH-jj1r/exec"
+      //);
 
       let data = await result.json();
 
