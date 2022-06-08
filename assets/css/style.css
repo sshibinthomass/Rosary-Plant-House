@@ -182,8 +182,16 @@ body {
 .product h3 {
   text-transform: capitalize;
   font-size: 1.1rem;
-  margin-top: 1rem;
+  margin-top: 0.3rem;
   letter-spacing: var(--mainSpacing);
+  text-align: center;
+}
+.product a {
+  text-transform: capitalize;
+  font-size:larger;
+  margin-top: 0.3rem;
+  letter-spacing: var(--mainSpacing);
+  align-items: center;
   text-align: center;
 }
 .product h4 {

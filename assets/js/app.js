@@ -72,6 +72,29 @@ class UI {
               class="product-img"
             />
           </div>
+          <div class="d-flex justify-content-center">
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal">${product.id}. ${product.title}</button>
+          </div>
+          <!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
           <h3>${product.id}. ${product.title}</h3>
           <h4>Price: ₹ ${product.price}</h4>
           <div class="d-flex justify-content-center">
