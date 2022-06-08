@@ -6,6 +6,12 @@
         "title": "Sempervivum Tectorum",
         "price": 89,
         "ava": 1,
+        "size": "(1.5\"-2\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Low",
+        "common": "Red tip",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/1.jpg" } } }
       }
     },
@@ -15,6 +21,12 @@
         "title": "Bergeranthus",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Low",
+        "common": "Yellow Flower",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/2.jpg" } } }
       }
     },
@@ -24,6 +36,12 @@
         "title": "Sedum Lineare(yellow)",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Yellow sedum",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/3.jpg" } } }
       }
     },
@@ -33,6 +51,12 @@
         "title": "Haworthia cymbiformis",
         "price": 49,
         "ava": 1,
+        "size": "(1.5\"-2.5\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Stone",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/4.jpg" } } }
       }
     },
@@ -42,6 +66,12 @@
         "title": "Chamaecerus Silvestii",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Low",
+        "sun": "Low",
+        "common": "Peanut Cactus",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/5.jpg" } } }
       }
     },
@@ -51,6 +81,12 @@
         "title": "Sempervivum (Lakshmi Kamal)",
         "price": 89,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Low",
+        "common": "Lakshmi Kamal",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/6.jpg" } } }
       }
     },
@@ -60,6 +96,12 @@
         "title": "Echeveria peacockii",
         "price": 99,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Low",
+        "common": "White Lotus",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/7.jpg" } } }
       }
     },
@@ -69,6 +111,12 @@
         "title": "Crassula Portulacea(miniature)",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Low",
+        "common": "Jade miniature",
+        "category": "jade",
         "image": { "fields": { "file": { "url": "./assets/img/8.jpg" } } }
       }
     },
@@ -78,6 +126,12 @@
         "title": "Senecio Radicans",
         "price": 69,
         "ava": 1,
+        "size": "(3\"-4\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "string of necklace",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/9.jpg" } } }
       }
     },
@@ -87,6 +141,12 @@
         "title": "Zebrina Huernia",
         "price": 99,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "Chocolate",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/10.jpg" } } }
       }
     },
@@ -96,6 +156,12 @@
         "title": "Hoodia",
         "price": 99,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Low",
+        "common": "Jack fruit",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/11.jpg" } } }
       }
     },
@@ -105,6 +171,12 @@
         "title": "Callisia",
         "price": 89,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "High",
+        "common": "Lavender",
+        "category": "jade",
         "image": { "fields": { "file": { "url": "./assets/img/12.jpg" } } }
       }
     },
@@ -114,6 +186,12 @@
         "title": "Crassula ovatha",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Finger Jade",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/13.jpg" } } }
       }
     },
@@ -123,6 +201,12 @@
         "title": "Echeveria Setosa",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Diamond",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/14.jpg" } } }
       }
     },
@@ -132,6 +216,12 @@
         "title": "Echeveria",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Echeveria",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/15.jpg" } } }
       }
     },
@@ -141,6 +231,12 @@
         "title": "Sedum Morganianum",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "Monkey Tail",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/16.jpg" } } }
       }
     },
@@ -150,6 +246,12 @@
         "title": "Haworthiopsis Reinwardtii",
         "price": 99,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Height Haworthia",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/17.jpg" } } }
       }
     },
@@ -159,6 +261,12 @@
         "title": "Sinocrassula yunnanensis",
         "price": 89,
         "ava": 0,
+        "size": "(1.5\"-2.5\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Chinese Jade",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/18.jpg" } } }
       }
     },
@@ -168,6 +276,12 @@
         "title": "Malephoracrocea",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Oval",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/19.jpg" } } }
       }
     },
@@ -177,6 +291,12 @@
         "title": "Opuntia Red",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "Opuntia Red",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/20.jpg" } } }
       }
     },
@@ -186,6 +306,12 @@
         "title": "Opuntia yellow",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "Opuntia yellow",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/21.jpg" } } }
       }
     },
@@ -195,6 +321,12 @@
         "title": "Graptopetalum Amethystinum",
         "price": 99,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Moonstone",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/22.jpg" } } }
       }
     },
@@ -204,6 +336,12 @@
         "title": "Echeveria Setosa",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Velvet",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/23.jpg" } } }
       }
     },
@@ -213,6 +351,12 @@
         "title": "Opuntia Monacantha",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "Tree Cactus",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/24.jpg" } } }
       }
     },
@@ -222,6 +366,12 @@
         "title": "Kalanchoe Tomentosa (Chocolate Soldier)",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Rabbit ears",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/25.jpg" } } }
       }
     },
@@ -231,6 +381,12 @@
         "title": "Echeveria Gilwa",
         "price": 79,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Black Prince",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/26.jpg" } } }
       }
     },
@@ -240,6 +396,12 @@
         "title": "Echeveria Akmalia",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Bramha Prabhu",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/27.jpg" } } }
       }
     },
@@ -249,6 +411,12 @@
         "title": "Echeveria elegans",
         "price": 89,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Blue Echeviria",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/28.jpg" } } }
       }
     },
@@ -258,6 +426,12 @@
         "title": "Aloe juvenna",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Tiger Tooth Aloe",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/29.jpg" } } }
       }
     },
@@ -267,6 +441,12 @@
         "title": "Blue stick long",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Blue stick long",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/30.jpg" } } }
       }
     },
@@ -276,6 +456,12 @@
         "title": "Mammillaria vetula",
         "price": 79,
         "ava": 1,
+        "size": "(1.5\"-2\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "thimble cactus",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/31.jpg" } } }
       }
     },
@@ -285,6 +471,12 @@
         "title": "Aloe Breuifolia",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "White Aloe",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/32.jpg" } } }
       }
     },
@@ -294,6 +486,12 @@
         "title": "Aloe humilis",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Grey Aloe",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/33.jpg" } } }
       }
     },
@@ -303,6 +501,12 @@
         "title": "Faucaria Tigrina",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Chrocodile Teeth",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/34.jpg" } } }
       }
     },
@@ -312,6 +516,12 @@
         "title": "Haworthia Resendeana",
         "price": 120,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Normal Haworthia",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/35.jpg" } } }
       }
     },
@@ -321,6 +531,12 @@
         "title": "Sedum Dasyphyllum",
         "price": 99,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Face Sedum",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/36.jpg" } } }
       }
     },
@@ -330,6 +546,12 @@
         "title": "Crassula tetragona",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Cone Tree",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/37.jpg" } } }
       }
     },
@@ -339,6 +561,12 @@
         "title": "Sedum Lineare(green)",
         "price": 49,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Green Sedum",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/38.jpg" } } }
       }
     },
@@ -348,6 +576,12 @@
         "title": "Radiator Plant",
         "price": 49,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Radiator",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/39.jpg" } } }
       }
     },
@@ -357,6 +591,12 @@
         "title": "Short leaved Aloe",
         "price": 49,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Brown Aloe",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/40.jpg" } } }
       }
     },
@@ -366,6 +606,12 @@
         "title": "Senecio Cephalophorus",
         "price": 99,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Cabbage succulent",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/41.jpg" } } }
       }
     },
@@ -375,6 +621,12 @@
         "title": "chlorophytum laxum",
         "price": 69,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Zebra Grass",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/42.jpg" } } }
       }
     },
@@ -384,6 +636,12 @@
         "title": "Fairy Castle",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Fairy Castle",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/43.jpg" } } }
       }
     },
@@ -393,6 +651,12 @@
         "title": "Echeveria Runyonii",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Curve Echeveria",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/44.jpg" } } }
       }
     },
@@ -402,6 +666,12 @@
         "title": "Kalanchoe",
         "price": 79,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Kalanchoe",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/45.jpg" } } }
       }
     },
@@ -411,6 +681,12 @@
         "title": "Pereskiopsis",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Tree Succulent",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/46.jpg" } } }
       }
     },
@@ -420,6 +696,12 @@
         "title": "Dianthus",
         "price": 69,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Dianthus",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/47.jpg" } } }
       }
     },
@@ -429,6 +711,12 @@
         "title": "Peperomia caperata",
         "price": 120,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Low",
+        "common": "Pepromia Long leaf",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/48.jpg" } } }
       }
     },
@@ -438,6 +726,12 @@
         "title": "Hydrangea",
         "price": 39,
         "ava": 1,
+        "size": "(3\"-4\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Not Specific",
+        "common": "Hydrangea",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/49.jpg" } } }
       }
     },
@@ -447,6 +741,12 @@
         "title": "Wax Ivy",
         "price": 39,
         "ava": 1,
+        "size": "(5\"-6\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Wax Ivy",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/50.jpg" } } }
       }
     },
@@ -456,6 +756,12 @@
         "title": "Camelia",
         "price": 149,
         "ava": 0,
+        "size": "(4\"-5\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Not Specific",
+        "common": "Camelia",
+        "category": "jade",
         "image": { "fields": { "file": { "url": "./assets/img/51.jpg" } } }
       }
     },
@@ -465,6 +771,12 @@
         "title": "Crassula ovata",
         "price": 49,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": " Not Specific",
+        "sun": " Not Specific",
+        "common": "Jade",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/52.jpg" } } }
       }
     },
@@ -474,6 +786,12 @@
         "title": "Haworthia Zebra",
         "price": 120,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Haworthia Zebra",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/53.jpg" } } }
       }
     },
@@ -483,6 +801,12 @@
         "title": "Sempervivum arachnoideum",
         "price": 79,
         "ava": 0,
+        "size": "(1.5\"-2\")",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Cob Web",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/54.jpg" } } }
       }
     },
@@ -492,6 +816,12 @@
         "title": "Crassula capitella",
         "price": 79,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "High",
+        "common": "camp fire",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/55.jpg" } } }
       }
     },
@@ -501,6 +831,12 @@
         "title": "Opuntia white",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "Opentia white",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/56.jpg" } } }
       }
     },
@@ -510,6 +846,12 @@
         "title": "Syngonium podophyllum",
         "price": 99,
         "ava": 0,
+        "size": "(4\"-5\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Not Specific",
+        "common": "arrowhead",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/57.jpg" } } }
       }
     },
@@ -519,6 +861,12 @@
         "title": "Resnova",
         "price": 99,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "High",
+        "sun": "Low",
+        "common": "Indoor Big Leaf",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/58.jpg" } } }
       }
     },
@@ -528,6 +876,12 @@
         "title": "Cheiridopsis denticulata",
         "price": 79,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Oval Flower",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/59.jpg" } } }
       }
     },
@@ -537,6 +891,12 @@
         "title": "Peperomia caperata",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Low",
+        "common": "Pepromia Purple",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/60.jpg" } } }
       }
     },
@@ -546,6 +906,12 @@
         "title": "Acanthocalycium",
         "price": 99,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "Ball Cactus long",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/61.jpg" } } }
       }
     },
@@ -555,6 +921,12 @@
         "title": "Short-leaved aloe",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "White Aloe(S-L)",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/62.jpg" } } }
       }
     },
@@ -564,6 +936,12 @@
         "title": "Echinopsis subdenudata",
         "price": 149,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "Ball white flower",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/63.jpg" } } }
       }
     },
@@ -573,6 +951,12 @@
         "title": "Echeveria setosa",
         "price": 249,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Echeveria fur",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/64.jpg" } } }
       }
     },
@@ -582,6 +966,12 @@
         "title": "Crassula Falcata",
         "price": 120,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Boat",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/65.jpg" } } }
       }
     },
@@ -591,6 +981,12 @@
         "title": "Haworthia bayeri",
         "price": 120,
         "ava": 1,
+        "size": "(1.5\"-2\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "brown stone",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/66.jpg" } } }
       }
     },
@@ -600,6 +996,12 @@
         "title": "Haworthiopsis attenuata",
         "price": 120,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Haworthia Fat",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/67.jpg" } } }
       }
     },
@@ -609,6 +1011,12 @@
         "title": "Haworthiopsis coarctata",
         "price": 120,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Haworthia Dot",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/68.jpg" } } }
       }
     },
@@ -618,6 +1026,12 @@
         "title": "Haworth's aeonium",
         "price": 99,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "tricolour aeonium",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/69.jpg" } } }
       }
     },
@@ -627,6 +1041,12 @@
         "title": "Echeveria agavoides",
         "price": 149,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Low",
+        "sun": "High",
+        "common": "Rangoli Echeviria",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/70.jpg" } } }
       }
     },
@@ -636,6 +1056,12 @@
         "title": "Pachyphytum oviferum",
         "price": 120,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Low",
+        "sun": "High",
+        "common": "Grey Moonstone",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/71.jpg" } } }
       }
     },
@@ -645,6 +1071,12 @@
         "title": "String of pearls",
         "price": 79,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "String of pearls",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/72.jpg" } } }
       }
     },
@@ -654,6 +1086,12 @@
         "title": "Dracaena trifasciata",
         "price": 149,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Low",
+        "common": "Snake Draft Yellow Border",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/73.jpg" } } }
       }
     },
@@ -663,6 +1101,12 @@
         "title": "Senecio barbertonicus",
         "price": 149,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Pepromia long green",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/74.jpg" } } }
       }
     },
@@ -672,6 +1116,12 @@
         "title": "Adromischus Cristatus",
         "price": 149,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Low",
+        "common": "Panda",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/75.jpg" } } }
       }
     },
@@ -681,6 +1131,12 @@
         "title": "Haworthiopsis limifolia",
         "price": 149,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Haworthia Rough",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/76.jpg" } } }
       }
     },
@@ -690,6 +1146,12 @@
         "title": "Anacampseros Baeseckei",
         "price": 69,
         "ava": 0,
+        "size": "(1.5\"-2\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Seed Plant",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/77.jpg" } } }
       }
     },
@@ -699,6 +1161,12 @@
         "title": "Aloe vera",
         "price": 149,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Aloe vera black",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/78.jpg" } } }
       }
     },
@@ -708,6 +1176,12 @@
         "title": "Gasteria",
         "price": 199,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Dot Aloe",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/79.jpg" } } }
       }
     },
@@ -717,6 +1191,12 @@
         "title": "Jain temple",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "Jain temple",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/80.jpg" } } }
       }
     },
@@ -726,6 +1206,12 @@
         "title": "English ivy",
         "price": 39,
         "ava": 1,
+        "size": "(5\"-6\")",
+        "transit": "Moderate",
+        "water": "High",
+        "sun": "Low",
+        "common": "English Variegated ivy",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/81.jpg" } } }
       }
     },
@@ -735,6 +1221,12 @@
         "title": "Vinca major",
         "price": 39,
         "ava": 0,
+        "size": "(5\"-6\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Vinca major",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/82.jpg" } } }
       }
     },
@@ -744,6 +1236,12 @@
         "title": "Hedera Ivy",
         "price": 39,
         "ava": 1,
+        "size": "(5\"-6\")",
+        "transit": "Moderate",
+        "water": "High",
+        "sun": "Low",
+        "common": "Hedera Ivy",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/83.jpg" } } }
       }
     },
@@ -753,6 +1251,12 @@
         "title": "Drimiopsis",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "High",
+        "sun": "Low",
+        "common": "Indoor small leaf",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/84.jpg" } } }
       }
     },
@@ -762,6 +1266,12 @@
         "title": "Sedum lineare(silver)",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Silver sedum",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/85.jpg" } } }
       }
     },
@@ -771,6 +1281,12 @@
         "title": "haworthia decipiens",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Haworthia green",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/86.jpg" } } }
       }
     },
@@ -780,6 +1296,12 @@
         "title": "echeveria glauca cristata",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "High",
+        "common": "White stick",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/87.jpg" } } }
       }
     },
@@ -789,6 +1311,12 @@
         "title": "Hechtia glauca",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Green Aloe",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/88.jpg" } } }
       }
     },
@@ -798,6 +1326,12 @@
         "title": "Echeveria nuda",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "Green Echeviria",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/89.jpg" } } }
       }
     },
@@ -807,6 +1341,12 @@
         "title": "portulakarea",
         "price": 89,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Umbrella",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/90.jpg" } } }
       }
     },
@@ -816,6 +1356,12 @@
         "title": "Crassula perforata",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Chilly",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/91.jpg" } } }
       }
     },
@@ -825,6 +1371,12 @@
         "title": "Fishbone",
         "price": 89,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Fishbone",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/92.jpg" } } }
       }
     },
@@ -834,6 +1386,12 @@
         "title": "Chlorophytum/spider plant",
         "price": 39,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Not Specific",
+        "common": "Chlorophytm",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/93.jpg" } } }
       }
     },
@@ -843,6 +1401,12 @@
         "title": "CC",
         "price": 89,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Change Color",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/94.jpg" } } }
       }
     },
@@ -852,6 +1416,12 @@
         "title": "Serissafoetida",
         "price": 49,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Bad smell",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/95.jpg" } } }
       }
     },
@@ -861,6 +1431,12 @@
         "title": "Stapelia Lepida",
         "price": 89,
         "ava": 0,
+        "size": "(1.5\"-2\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Tiger Flower",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/96.jpg" } } }
       }
     },
@@ -870,6 +1446,12 @@
         "title": "Euphorbia flanaganii",
         "price": 99,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "medusa's head",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/97.jpg" } } }
       }
     },
@@ -879,6 +1461,12 @@
         "title": "Euphorbia ferox",
         "price": 99,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "Bomb",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/98.jpg" } } }
       }
     },
@@ -888,6 +1476,12 @@
         "title": "Aeonium arboreum/green",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Aeonium Green",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/99.jpg" } } }
       }
     },
@@ -897,6 +1491,12 @@
         "title": "Aeonium arboreum/Purple",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Aeonium Purple",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/100.jpg" } } }
       }
     },
@@ -906,6 +1506,12 @@
         "title": "crassula exilis",
         "price": 99,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Tiger sedum",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/101.jpg" } } }
       }
     },
@@ -915,6 +1521,12 @@
         "title": "Sansevieria zeylanica",
         "price": 99,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Low",
+        "common": "Snake Long",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/102.jpg" } } }
       }
     },
@@ -924,6 +1536,12 @@
         "title": "blue chalksticks",
         "price": 59,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Blue stick",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/103.jpg" } } }
       }
     },
@@ -933,6 +1551,12 @@
         "title": "Christmas cactus",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Christmas cactus",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/104.jpg" } } }
       }
     },
@@ -942,6 +1566,12 @@
         "title": "Spyder plant/ iris",
         "price": 39,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Iris",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/105.jpg" } } }
       }
     },
@@ -951,6 +1581,12 @@
         "title": "Sansevieria Compacta Dwarf",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Low",
+        "common": "Snake Draft Long",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/106.jpg" } } }
       }
     },
@@ -960,6 +1596,12 @@
         "title": "Delosperma",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Rough Sedum",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/107.jpg" } } }
       }
     },
@@ -969,6 +1611,12 @@
         "title": "Jade plant (verigated)",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Jade Verigated",
+        "category": "jade",
         "image": { "fields": { "file": { "url": "./assets/img/108.jpg" } } }
       }
     },
@@ -978,6 +1626,12 @@
         "title": "Sedum Morganianum",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Donkey Tail",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/109.jpg" } } }
       }
     },
@@ -987,6 +1641,12 @@
         "title": "Super Donkey Tail",
         "price": 89,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Super Donkey Tail",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/110.jpg" } } }
       }
     },
@@ -996,6 +1656,12 @@
         "title": "String of tears",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "String of tears",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/111.jpg" } } }
       }
     },
@@ -1005,6 +1671,12 @@
         "title": "Crassula muscosa",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "lizard's tail",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/112.jpg" } } }
       }
     },
@@ -1014,6 +1686,12 @@
         "title": "Syngonium/golden yellow",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Low",
+        "common": "Syngonium yellow",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/113.jpg" } } }
       }
     },
@@ -1023,6 +1701,12 @@
         "title": "Syngonium/golden green",
         "price": 69,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Low",
+        "common": "Syngonium green",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/114.jpg" } } }
       }
     },
@@ -1032,6 +1716,12 @@
         "title": "Peace lily",
         "price": 79,
         "ava": 0,
+        "size": "(3\"-4\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Low",
+        "common": "Peace lily",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/115.jpg" } } }
       }
     },
@@ -1041,6 +1731,12 @@
         "title": "Aloe brown",
         "price": 99,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Aloe brown",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/116.jpg" } } }
       }
     },
@@ -1050,6 +1746,12 @@
         "title": "Sedum rubrotinctum",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "jelly bean",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/117.jpg" } } }
       }
     },
@@ -1059,6 +1761,12 @@
         "title": "Lavandula lanata",
         "price": 99,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "woolly lavender",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/118.jpg" } } }
       }
     },
@@ -1068,6 +1776,12 @@
         "title": "African violet",
         "price": 149,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Low",
+        "common": "African violet",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/119.jpg" } } }
       }
     },
@@ -1077,6 +1791,12 @@
         "title": "Peperomia obtusifolia variegated green",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Peperomia var green",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/120.jpg" } } }
       }
     },
@@ -1086,6 +1806,12 @@
         "title": "Peperomia obtusifolia/green",
         "price": 99,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Pep thick green",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/121.jpg" } } }
       }
     },
@@ -1095,6 +1821,12 @@
         "title": "Peperomia obtusifolia",
         "price": 99,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "High",
+        "sun": "Low",
+        "common": "Pep thick green",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/122.jpg" } } }
       }
     },
@@ -1104,6 +1836,12 @@
         "title": "Peperomia obtusifolia variegated",
         "price": 120,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Pep thick var white",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/123.jpg" } } }
       }
     },
@@ -1113,6 +1851,12 @@
         "title": "Portulaka variegated",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "High",
+        "sun": "High",
+        "common": "Portulaka variegated",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/124.jpg" } } }
       }
     },
@@ -1122,6 +1866,12 @@
         "title": "Turtle wine",
         "price": 39,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Turtle wine",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/125.jpg" } } }
       }
     },
@@ -1131,6 +1881,12 @@
         "title": "Snake Draft Verigated",
         "price": 99,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "Snake Draft Verigated",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/126.jpg" } } }
       }
     },
@@ -1140,6 +1896,12 @@
         "title": "Aeonium Silver",
         "price": 69,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Aeonium Silver",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/127.jpg" } } }
       }
     },
@@ -1149,6 +1911,12 @@
         "title": "Jellybean stonecrop",
         "price": 99,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Jellybean stonecrop",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/128.jpg" } } }
       }
     },
@@ -1158,6 +1926,12 @@
         "title": "Graptosedum",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Sun Sedum",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/129.jpg" } } }
       }
     },
@@ -1167,6 +1941,12 @@
         "title": "Sedum crassulaceae",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Grey Sedum",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/130.jpg" } } }
       }
     },
@@ -1176,6 +1956,12 @@
         "title": "Senecio barbertonicus",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Green Stick",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/131.jpg" } } }
       }
     },
@@ -1185,6 +1971,12 @@
         "title": "heartleaf philodendron",
         "price": 39,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Low",
+        "common": "Heart Leaf",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/132.jpg" } } }
       }
     },
@@ -1194,6 +1986,12 @@
         "title": "Gold moss",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Gold Moss",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/133.jpg" } } }
       }
     },
@@ -1203,6 +2001,12 @@
         "title": "Sedum stonecrops",
         "price": 49,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Sedum stonecrops",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/134.jpg" } } }
       }
     },
@@ -1212,6 +2016,12 @@
         "title": "Sedum Pachychyllum",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Fingure Succulent",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/135.jpg" } } }
       }
     },
@@ -1221,6 +2031,12 @@
         "title": "Pilea cadierei",
         "price": 99,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Low",
+        "common": "Pilea",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/136.jpg" } } }
       }
     },
@@ -1230,6 +2046,12 @@
         "title": "sedum chamomile",
         "price": 49,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Grass Sedum",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/137.jpg" } } }
       }
     },
@@ -1239,6 +2061,12 @@
         "title": "Cotyledon tomentosa",
         "price": 89,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "bear's paw",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/138.jpg" } } }
       }
     },
@@ -1248,6 +2076,12 @@
         "title": "string of hearts",
         "price": 120,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "Not Specific",
+        "sun": "Not Specific",
+        "common": "string of hearts",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/139.jpg" } } }
       }
     },
@@ -1257,6 +2091,12 @@
         "title": "creeping jade",
         "price": 69,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "creeping jade",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/140.jpg" } } }
       }
     },
@@ -1266,6 +2106,12 @@
         "title": "Graptopetalum",
         "price": 69,
         "ava": 1,
+        "size": "(1.5\"-2\")",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "white sedum",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/141.jpg" } } }
       }
     },
@@ -1275,6 +2121,12 @@
         "title": "Sedum nussbaumerianum",
         "price": 69,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Not Specific",
+        "sun": "High",
+        "common": "yellow sun",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/142.jpg" } } }
       }
     },
@@ -1284,6 +2136,12 @@
         "title": "Graptopetalum paraguayense",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Ghost plant",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/143.jpg" } } }
       }
     },
@@ -1293,6 +2151,12 @@
         "title": "Aloe Camperi",
         "price": 69,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Low",
+        "common": "Purple Aloe",
+        "category": "jade",
         "image": { "fields": { "file": { "url": "./assets/img/144.jpg" } } }
       }
     },
@@ -1302,6 +2166,12 @@
         "title": "Gasteria Bicolor Liliputana",
         "price": 69,
         "ava": 1,
+        "size": "(1.5\"-2\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Miniature Aloe",
+        "category": "jade",
         "image": { "fields": { "file": { "url": "./assets/img/145.jpg" } } }
       }
     },
@@ -1311,6 +2181,12 @@
         "title": "Crassula ovata verigated",
         "price": 99,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Tricolour jade",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/146.jpg" } } }
       }
     },
@@ -1320,6 +2196,12 @@
         "title": "Crassula ovata",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "jade big leaf",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/147.jpg" } } }
       }
     },
@@ -1329,6 +2211,12 @@
         "title": "Hedera rhombea",
         "price": 39,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "High",
+        "sun": "Moderate",
+        "common": "Common ivy",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/148.jpg" } } }
       }
     },
@@ -1338,6 +2226,12 @@
         "title": "Hedera helix",
         "price": 39,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "High",
+        "sun": "Low",
+        "common": "English ivy Green",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/149.jpg" } } }
       }
     },
@@ -1347,6 +2241,12 @@
         "title": "Alligator plant",
         "price": 79,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "mother of thousands",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/150.jpg" } } }
       }
     },
@@ -1356,6 +2256,12 @@
         "title": "Peperomia caperata/ green",
         "price": 59,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Low",
+        "common": "Pepromia Grey",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/151.jpg" } } }
       }
     },
@@ -1365,6 +2271,12 @@
         "title": "Ophiopogon japonicus",
         "price": 99,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "lilyturf",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/152.jpg" } } }
       }
     },
@@ -1374,6 +2286,12 @@
         "title": "Aeonium arboreum/verigated",
         "price": 89,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Aeonium Verigated",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/153.jpg" } } }
       }
     },
@@ -1383,6 +2301,12 @@
         "title": "Peperomia rubella",
         "price": 59,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "High",
+        "water": "High",
+        "sun": "Low",
+        "common": "pep small leaf",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/154.jpg" } } }
       }
     },
@@ -1392,6 +2316,12 @@
         "title": "Rebutia",
         "price": 79,
         "ava": 0,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "Ball yellow Flower",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/155.jpg" } } }
       }
     },
@@ -1401,6 +2331,12 @@
         "title": "Echeveria prolifica",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Close Fingure",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/156.jpg" } } }
       }
     },
@@ -1410,6 +2346,12 @@
         "title": "Kalanchoe daigremontiana",
         "price": 79,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "devil's backbone",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/157.jpg" } } }
       }
     },
@@ -1419,6 +2361,12 @@
         "title": "Aeonium haworthii",
         "price": 69,
         "ava": 1,
+        "size": "(2\"-3\")",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Aeonium Draft",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/158.jpg" } } }
       }
     },
@@ -1428,6 +2376,12 @@
         "title": "Red Tip (Big)",
         "price": 199,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Red Tip (Big)",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/159.jpg" } } }
       }
     },
@@ -1437,6 +2391,12 @@
         "title": "Echeviria (Big)",
         "price": 149,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Echeviria (Big)",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/160.jpg" } } }
       }
     },
@@ -1446,6 +2406,12 @@
         "title": "portulaka green",
         "price": 39,
         "ava": 0,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "portulaka(green)",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/161.jpg" } } }
       }
     },
@@ -1455,6 +2421,12 @@
         "title": "Sedum Lizard",
         "price": 89,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "needle sedum",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/162.jpg" } } }
       }
     },
@@ -1464,6 +2436,12 @@
         "title": "Echeveria Shaviana",
         "price": 199,
         "ava": 1,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Echeveria cabbage",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/163.jpg" } } }
       }
     },
@@ -1473,6 +2451,12 @@
         "title": "Lenophyllum",
         "price": 79,
         "ava": 1,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Pink sedum",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/164.jpg" } } }
       }
     },
@@ -1482,6 +2466,12 @@
         "title": "String of Dolphin",
         "price": 79,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "String of Dolphin",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/165.jpg" } } }
       }
     },
@@ -1491,6 +2481,12 @@
         "title": "Echeveria melaco",
         "price": 120,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "brown echeveria",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/166.jpg" } } }
       }
     },
@@ -1500,6 +2496,12 @@
         "title": "Baby sun flower",
         "price": 79,
         "ava": 1,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Baby sun flower",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/167.jpg" } } }
       }
     },
@@ -1509,6 +2511,12 @@
         "title": "kalanchoe marnieriane",
         "price": 79,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "doller colour",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/168.jpg" } } }
       }
     },
@@ -1518,6 +2526,12 @@
         "title": "Kalanchoe panamensis",
         "price": 69,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "doller",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/169.jpg" } } }
       }
     },
@@ -1527,6 +2541,12 @@
         "title": "Rose Cactus",
         "price": 79,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Rose Cactus",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/170.jpg" } } }
       }
     },
@@ -1536,6 +2556,12 @@
         "title": "Corsican stonecrop",
         "price": 69,
         "ava": 1,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "thick-leaved sedum",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/171.jpg" } } }
       }
     },
@@ -1545,6 +2571,12 @@
         "title": "Pigmyweeds",
         "price": 69,
         "ava": 1,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "green-pink sedum",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/172.jpg" } } }
       }
     },
@@ -1554,6 +2586,12 @@
         "title": "Echinopsis tubiflora",
         "price": 79,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "cactus daddy",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/173.jpg" } } }
       }
     },
@@ -1563,6 +2601,12 @@
         "title": "Kalanchoe thyrsiflora",
         "price": 120,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "flapjacks",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/174.jpg" } } }
       }
     },
@@ -1572,6 +2616,12 @@
         "title": "Tradescantia sillamontana",
         "price": 79,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "cotton",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/175.jpg" } } }
       }
     },
@@ -1581,6 +2631,12 @@
         "title": "Syngonium podophyllum",
         "price": 79,
         "ava": 0,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Low",
+        "common": "arrowhead plant",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/176.jpg" } } }
       }
     },
@@ -1590,6 +2646,12 @@
         "title": "Crassula tetragona (Big)",
         "price": 99,
         "ava": 0,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Cone Tree (Big)",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/177.jpg" } } }
       }
     },
@@ -1599,6 +2661,12 @@
         "title": "Opuntia Monacantha (Big)",
         "price": 99,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Tree Cactus (Big)",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/178.jpg" } } }
       }
     },
@@ -1608,6 +2676,12 @@
         "title": "Crassula ovata (Big)",
         "price": 79,
         "ava": 1,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Jade (Big)",
+        "category": "jade",
         "image": { "fields": { "file": { "url": "./assets/img/179.jpg" } } }
       }
     },
@@ -1617,6 +2691,12 @@
         "title": "Sedum Pachychyllum (Big)",
         "price": 99,
         "ava": 0,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Fingure Succulent (Big)",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/180.jpg" } } }
       }
     },
@@ -1626,6 +2706,12 @@
         "title": "Graptosedum (Big)",
         "price": 99,
         "ava": 0,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Sun Sedum (Big)",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/181.jpg" } } }
       }
     },
@@ -1635,6 +2721,12 @@
         "title": "Sedum rubrotinctum (Big)",
         "price": 99,
         "ava": 0,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "jelly bean (Big)",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/182.jpg" } } }
       }
     },
@@ -1644,6 +2736,12 @@
         "title": "Sedum nussbaumerianum (Big)",
         "price": 99,
         "ava": 0,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "yellow sun (Big)",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/183.jpg" } } }
       }
     },
@@ -1653,6 +2751,12 @@
         "title": "Echeveria Gilwa (Big)",
         "price": 149,
         "ava": 0,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Low",
+        "sun": "High",
+        "common": "Black Prince (Big)",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/184.jpg" } } }
       }
     },
@@ -1662,6 +2766,12 @@
         "title": "creeping jade (Big)",
         "price": 99,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "creeping jade (Big)",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/185.jpg" } } }
       }
     },
@@ -1671,6 +2781,12 @@
         "title": "Aloe juvenna (Big)",
         "price": 99,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Tiger Tooth Aloe (Big)",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/186.jpg" } } }
       }
     },
@@ -1680,6 +2796,12 @@
         "title": "Echeveria Setosa (Big)",
         "price": "",
         "ava": 0,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Diamond (Big)",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/187.jpg" } } }
       }
     },
@@ -1689,6 +2811,12 @@
         "title": "Crassula ovata (Big)",
         "price": 99,
         "ava": 1,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "jade big leaf (Big)",
+        "category": "jade",
         "image": { "fields": { "file": { "url": "./assets/img/188.jpg" } } }
       }
     },
@@ -1698,6 +2826,12 @@
         "title": "Aeonium haworthii (Big)",
         "price": 99,
         "ava": 1,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Aeonium Draft (Big)",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/189.jpg" } } }
       }
     },
@@ -1707,6 +2841,12 @@
         "title": "Senecio Radicans (Big)",
         "price": 120,
         "ava": 0,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "String of necklace (Big)",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/190.jpg" } } }
       }
     },
@@ -1716,6 +2856,12 @@
         "title": "Opuntia yellow (Big)",
         "price": 99,
         "ava": 1,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Low",
+        "sun": "High",
+        "common": "Opentia Yellow (Big)",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/191.jpg" } } }
       }
     },
@@ -1725,6 +2871,12 @@
         "title": "Opuntia white (Big)",
         "price": 99,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "Opentia white (Big)",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/192.jpg" } } }
       }
     },
@@ -1734,6 +2886,12 @@
         "title": "Crassula ovatha (Big)",
         "price": 79,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Finger Jade (Big)",
+        "category": "jade",
         "image": { "fields": { "file": { "url": "./assets/img/193.jpg" } } }
       }
     },
@@ -1743,6 +2901,12 @@
         "title": "Haworthiopsis attenuata (Big)",
         "price": 199,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Haworthia Fat (Big)",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/194.jpg" } } }
       }
     },
@@ -1752,6 +2916,12 @@
         "title": "Echeveria Akmalia(big)",
         "price": 249,
         "ava": 1,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Low",
+        "sun": "High",
+        "common": "Bramha Prabhu(big)",
+        "category": "sedum",
         "image": { "fields": { "file": { "url": "./assets/img/195.jpg" } } }
       }
     },
@@ -1761,6 +2931,12 @@
         "title": "Haworthia cymbiformis(big)",
         "price": 199,
         "ava": 1,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Stone(big)",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/196.jpg" } } }
       }
     },
@@ -1770,6 +2946,12 @@
         "title": "sedum spurium(tricolour)",
         "price": 59,
         "ava": 1,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "tricolor sedum",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/197.jpg" } } }
       }
     },
@@ -1779,6 +2961,12 @@
         "title": "sansevieria trifasciata",
         "price": 69,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Low",
+        "common": "snake normal",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/198.jpg" } } }
       }
     },
@@ -1788,6 +2976,12 @@
         "title": "Aloe vera",
         "price": 49,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Low",
+        "common": "aloe vera normal",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/199.jpg" } } }
       }
     },
@@ -1797,6 +2991,12 @@
         "title": "wax ivy(green border)",
         "price": 49,
         "ava": 0,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "wax ivy(green border)",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/200.jpg" } } }
       }
     },
@@ -1806,6 +3006,12 @@
         "title": "Haworthia cymbiformis",
         "price": 69,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Low",
+        "common": "stone brown",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/201.jpg" } } }
       }
     },
@@ -1815,6 +3021,12 @@
         "title": "Crassula Sarmentosa Variegated",
         "price": 79,
         "ava": 1,
+        "size": "",
+        "transit": "Moderate",
+        "water": "Moderate",
+        "sun": "High",
+        "common": "variegated leaf",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/202.jpg" } } }
       }
     },
@@ -1824,6 +3036,12 @@
         "title": "Peperomia Ferreyrae",
         "price": 120,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Happy bean Peperomia",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/203.jpg" } } }
       }
     },
@@ -1833,6 +3051,12 @@
         "title": "Peperomia argyreia",
         "price": 149,
         "ava": 1,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Low",
+        "common": "watermelon peperomia",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/204.jpg" } } }
       }
     },
@@ -1842,6 +3066,12 @@
         "title": "Pilea peperomioides",
         "price": 149,
         "ava": 1,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Low",
+        "common": "Chinese money plant",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/205.jpg" } } }
       }
     },
@@ -1851,6 +3081,12 @@
         "title": "Gasteria (variegated)",
         "price": 149,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "aloe variegated",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/206.jpg" } } }
       }
     },
@@ -1860,6 +3096,12 @@
         "title": "Peperomia clusiifolia",
         "price": 69,
         "ava": 1,
+        "size": "",
+        "transit": "Moderate",
+        "water": "High",
+        "sun": "Low",
+        "common": "peperomia black",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/207.jpg" } } }
       }
     },
@@ -1869,6 +3111,12 @@
         "title": "Wandering Jew(small leaf)",
         "price": 59,
         "ava": 1,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "small wandering Jew",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/208.jpg" } } }
       }
     },
@@ -1878,6 +3126,12 @@
         "title": "cereus forma",
         "price": 79,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "thorny cactus",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/209.jpg" } } }
       }
     },
@@ -1887,6 +3141,12 @@
         "title": "aloe aristata",
         "price": 199,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Low",
+        "common": "aloe flat",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/210.jpg" } } }
       }
     },
@@ -1896,6 +3156,12 @@
         "title": "Mammillaria elongata",
         "price": 149,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "oval cactus",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/211.jpg" } } }
       }
     },
@@ -1905,6 +3171,12 @@
         "title": "echinopsis peanut",
         "price": 199,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "button cactus",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/212.jpg" } } }
       }
     },
@@ -1914,6 +3186,12 @@
         "title": "Mammillaria bocasana",
         "price": 120,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "seed cactus",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/213.jpg" } } }
       }
     },
@@ -1923,6 +3201,12 @@
         "title": "Euphorbia lactea",
         "price": 120,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "dragon bone",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/214.jpg" } } }
       }
     },
@@ -1932,6 +3216,12 @@
         "title": "opuntua cylindrica",
         "price": 120,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "grey opentia",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/215.jpg" } } }
       }
     },
@@ -1941,6 +3231,12 @@
         "title": "stapelia flavopurpurea",
         "price": 199,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "High",
+        "common": "carrion flower",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/216.jpg" } } }
       }
     },
@@ -1950,6 +3246,12 @@
         "title": "red pagoda",
         "price": 149,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "small jain temple",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/217.jpg" } } }
       }
     },
@@ -1959,6 +3261,12 @@
         "title": "crassula davil",
         "price": 149,
         "ava": 0,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "coral relif sedum",
+        "category": "sedum",
         "image": { "fields": { "file": { "url": "./assets/img/218.jpg" } } }
       }
     },
@@ -1968,6 +3276,12 @@
         "title": "string of banana",
         "price": 99,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "string of banana",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/219.jpg" } } }
       }
     },
@@ -1977,6 +3291,12 @@
         "title": "Peperomia caperata (variegated)",
         "price": 149,
         "ava": 1,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Peperomia white",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/220.jpg" } } }
       }
     },
@@ -1986,6 +3306,12 @@
         "title": "echeveria fabila",
         "price": 199,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "High",
+        "common": "pink echeveria",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/221.jpg" } } }
       }
     },
@@ -1995,6 +3321,12 @@
         "title": "Cryptanthus bivittatus",
         "price": 99,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Cryptanthus normal",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/222.jpg" } } }
       }
     },
@@ -2004,6 +3336,12 @@
         "title": "Aloe bright star",
         "price": 149,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Aloe bright star",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/223.jpg" } } }
       }
     },
@@ -2013,6 +3351,12 @@
         "title": "Kalanchoe millottii",
         "price": 79,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "white Kalanchoe",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/224.jpg" } } }
       }
     },
@@ -2022,6 +3366,12 @@
         "title": "Murdannia",
         "price": 149,
         "ava": 0,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Cryptanthus colour",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/225.jpg" } } }
       }
     },
@@ -2031,6 +3381,12 @@
         "title": "Rhoeo Plant",
         "price": 99,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Rhoeo Plant",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/226.jpg" } } }
       }
     },
@@ -2040,6 +3396,12 @@
         "title": "Spiderwort",
         "price": 99,
         "ava": 0,
+        "size": "",
+        "transit": "High",
+        "water": "Moderate",
+        "sun": "Moderate",
+        "common": "Wandering Jew",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/227.jpg" } } }
       }
     },
@@ -2049,6 +3411,12 @@
         "title": "Haworthia cooperi var. pilifera",
         "price": 149,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Haworthia glass",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/228.jpg" } } }
       }
     },
@@ -2058,6 +3426,12 @@
         "title": "Aloe minnie belle",
         "price": 149,
         "ava": 0,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "grey aloe",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/229.jpg" } } }
       }
     },
@@ -2067,6 +3441,12 @@
         "title": "Haworthia retusa",
         "price": 120,
         "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Haworthia flat green",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/230.jpg" } } }
       }
     },
@@ -2076,6 +3456,12 @@
         "title": "Silver pagoda",
         "price": 99,
         "ava": 1,
+        "size": "",
+        "transit": "",
+        "water": "",
+        "sun": "",
+        "common": "Silver Succulent",
+        "category": "",
         "image": { "fields": { "file": { "url": "./assets/img/231.jpg" } } }
       }
     },
@@ -2085,6 +3471,12 @@
         "title": "senecio obovatus",
         "price": 99,
         "ava": 0,
+        "size": "",
+        "transit": "",
+        "water": "",
+        "sun": "",
+        "common": "Kalanchoe grey",
+        "category": "",
         "image": { "fields": { "file": { "url": "./assets/img/232.jpg" } } }
       }
     },
@@ -2094,6 +3486,12 @@
         "title": "Sedum burrito",
         "price": 69,
         "ava": 0,
+        "size": "",
+        "transit": "",
+        "water": "",
+        "sun": "",
+        "common": "big leaf donkey tail",
+        "category": "",
         "image": { "fields": { "file": { "url": "./assets/img/233.jpg" } } }
       }
     },
@@ -2103,6 +3501,12 @@
         "title": "curio radicans",
         "price": 89,
         "ava": 0,
+        "size": "",
+        "transit": "",
+        "water": "",
+        "sun": "",
+        "common": "string of banana green",
+        "category": "",
         "image": { "fields": { "file": { "url": "./assets/img/234.jpg" } } }
       }
     },
@@ -2112,6 +3516,12 @@
         "title": "Peperomia nivalis",
         "price": 149,
         "ava": 0,
+        "size": "",
+        "transit": "",
+        "water": "",
+        "sun": "",
+        "common": "green line peperomia",
+        "category": "",
         "image": { "fields": { "file": { "url": "./assets/img/235.jpg" } } }
       }
     },
@@ -2121,6 +3531,12 @@
         "title": "Haworthia Asema",
         "price": 99,
         "ava": 0,
+        "size": "",
+        "transit": "",
+        "water": "",
+        "sun": "",
+        "common": "haworthia small leaf",
+        "category": "",
         "image": { "fields": { "file": { "url": "./assets/img/236.jpg" } } }
       }
     },
@@ -2130,6 +3546,12 @@
         "title": "",
         "price": "",
         "ava": "",
+        "size": "",
+        "transit": "",
+        "water": "",
+        "sun": "",
+        "common": "",
+        "category": "",
         "image": { "fields": { "file": { "url": "" } } }
       }
     }

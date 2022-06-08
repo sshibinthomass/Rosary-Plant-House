@@ -19,7 +19,7 @@ const cartItems = document.querySelector(".cart-items");
 const cartTotal = document.querySelector(".cart-total");
 const cartContent = document.querySelector(".cart-content");
 const productsDOM = document.querySelector(".products-center");
-
+const productPrice=document.querySelector(".product-price");
 // let's cart
 let cart = [];
 // buttons
@@ -39,11 +39,11 @@ class Products {
       let products = data.items;
 
       products = products.map((item) => {
-        const { title, price, ava } = item.fields;
+        const { title, price, ava,size,transit,water,sun,common,category } = item.fields;
         const { id } = item.sys;
         const image = item.fields.image.fields.file.url;
 
-        return { title, price, ava, id, image };
+        return { title, price, ava, id, image,size,transit,water,sun,common,category  };
       });
       return products;
     } catch (error) {
@@ -84,15 +84,20 @@ class UI {
           <div class="modal fade" id="exampleModal${product.id}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
           <div class="modal-content">
-            <div class="modal-header p-0 ">
-              <h5 class="modal-title text-center" id="exampleModalLabel">
-                <strong>${product.id}. ${product.title} </strong>
-              </h5>
-            </div>
+          <div class="modal-header">
+          <h5 class="modal-title text-center" id="exampleModalLabel">
+          <strong>${product.id}. ${product.title} </strong>
+        </h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
             <p class="card-text">
-              <div class="text-center m-0 p-0">
+              <div class="text-center m-0 p-0" >
                 <img
                 class="img-fluid"
+                style="border-radius: 5%;"
                 alt="Responsive image"
                 src=${product.image}
                 width="200px"
@@ -104,15 +109,15 @@ class UI {
               <tbody>
               <tr >
                   <td class="py-1">Category</td>
-                  <td class="py-1">: {{ product.category }}</td>
+                  <td class="py-1">: ${product.category }</td>
               </tr>
               <tr>
                   <td class="py-1">Transist Risk:</td>
-                  <td class="py-1">: {{product.risk}}</td>
+                  <td class="py-1">: ${product.transit}</td>
               </tr>
               <tr>
                   <td class="py-1">Size</td>
-                  <td class="py-1">: {{product.size}} Inches </td>
+                  <td class="py-1">: ${product.size} Inches </td>
               </tr>
               <tr>
                   <td class="py-1">Price</td>
@@ -124,11 +129,11 @@ class UI {
               </tr>
               <tr>
                   <td class="py-1">Watering</td>
-                  <td class="py-1">: {{product.Watering}}</td>
+                  <td class="py-1">: ${product.water}</td>
               </tr>
               <tr>
                   <td class="py-1">Sunlight</td>
-                  <td class="py-1">: {{product.sun}}</td>
+                  <td class="py-1">: ${product.sun}</td>
               </tr>
               <tr>
                 <td class="py-1">Maintenance</td>
@@ -150,17 +155,16 @@ class UI {
               </tr>
               </tbody>
             </table>                      
-            <div class="modal-footer py-1">
-            <div >
-            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <div class="modal-footer py-1 ">
+            <div  >
+                <button type="button" class="btn btn-outline-danger btn-sm" data-dismiss="modal">Close</button>
+                <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
             </div>
             </div>
           </div>
         </div>
           </div>
           
-
-          <h3>${product.id}. ${product.title}</h3>
           <h4>Price: ₹ ${product.price}</h4>
           <div class="d-flex justify-content-center">
           <button type="button" class="bag-btn1 btn btn-outline-success btn-sm" data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
@@ -231,6 +235,7 @@ class UI {
     cartItems.innerText = itemsTotal;
     //console.log(cartTotal, cartItems);
   }
+
 
   // add item to cart
   addCartItem(item) {
