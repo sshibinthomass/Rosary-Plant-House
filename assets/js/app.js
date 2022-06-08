@@ -73,28 +73,93 @@ class UI {
             />
           </div>
           <div class="d-flex justify-content-center">
-          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#exampleModal">${product.id}. ${product.title}</button>
+ <!-- Button trigger modal -->
+          <button type="button"           id="${product.id}"
+          value="${product.id}" class="btn btn-link" data-toggle="modal" data-target="#exampleModal${product.id}">
+          ${product.id}. ${product.title}
+          </button>
           </div>
+          
           <!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        ...
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
-    </div>
-  </div>
-</div>
+          <div class="modal fade" id="exampleModal${product.id}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header p-0 ">
+              <h5 class="modal-title text-center" id="exampleModalLabel">
+                <strong>${product.id}. ${product.title} </strong>
+              </h5>
+            </div>
+            <p class="card-text">
+              <div class="text-center m-0 p-0">
+                <img
+                class="img-fluid"
+                alt="Responsive image"
+                src=${product.image}
+                width="200px"
+              />
+              </div>
+
+            </p>
+            <table class="table table-hover mt-3">
+              <tbody>
+              <tr >
+                  <td class="py-1">Category</td>
+                  <td class="py-1">: {{ product.category }}</td>
+              </tr>
+              <tr>
+                  <td class="py-1">Transist Risk:</td>
+                  <td class="py-1">: {{product.risk}}</td>
+              </tr>
+              <tr>
+                  <td class="py-1">Size</td>
+                  <td class="py-1">: {{product.size}} Inches </td>
+              </tr>
+              <tr>
+                  <td class="py-1">Price</td>
+                  <td class="py-1">:                       {% if product.orgprice != product.price %}
+                    <strike>&#8377;{{product.orgprice}}</strike>
+                    {% endif %}
+                    <b> &#8377; ${product.price}</b>
+                  </td>
+              </tr>
+              <tr>
+                  <td class="py-1">Watering</td>
+                  <td class="py-1">: {{product.Watering}}</td>
+              </tr>
+              <tr>
+                  <td class="py-1">Sunlight</td>
+                  <td class="py-1">: {{product.sun}}</td>
+              </tr>
+              <tr>
+                <td class="py-1">Maintenance</td>
+                <td class="py-1">: {{product.maintenance}}</td>
+              </tr>
+              <tr>
+                <td>
+                  <div class="d-flex justify-content-around pt-0" style="color: black;">
+                  <a href="https://wa.me/message/Z73MZA6IMYFWO1" target="_blank" class="fab fa-whatsapp-square pt-1"></a>            
+                  <a href="https://facebook.com/rosaryplanthouse" target="_blank" class="fab fa-facebook pt-1"></a>
+                </div>
+                </td>
+                <td>
+                  <div class="d-flex justify-content-around pt-0" style="color: black;">
+                  <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w" target="_blank" class="fab fa-youtube pt-1"></a>
+                  <a href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1" style="color: rgba(0, 0, 0, 0.295);"></a>
+                </div>
+                </td>
+              </tr>
+              </tbody>
+            </table>                      
+            <div class="modal-footer py-1">
+            <div >
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            </div>
+          </div>
+        </div>
+          </div>
+          
+
           <h3>${product.id}. ${product.title}</h3>
           <h4>Price: ₹ ${product.price}</h4>
           <div class="d-flex justify-content-center">
