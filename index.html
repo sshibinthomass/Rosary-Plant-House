@@ -7,6 +7,8 @@
 
     <!-- style / css -->
     <!-- <link rel="stylesheet" href="./assets/css/main.css"> -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
     <link rel="stylesheet" href="./assets/css/style.css" />
 
     <!-- favicon -->
@@ -26,6 +28,8 @@
   </head>
   <body>
     <!-- start of navbar -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
     <nav class="navbar">
       <div class="navbar-center">
         <span class="nav-icon">
@@ -113,12 +117,11 @@
         </div>
         <!-- cart footer -->
         <div class="cart-footer">
-          <h3>your total : $ <span class="cart-total">0</span></h3>
+          <h3>your total : ₹ <span class="cart-total">0</span>+ delivery</h3>
 
           <!-- clear all cart item button -->
-          <button class="clear-cart banner-btn" onClick="window.location.reload()">clear cart</button>
-          <button class="place-order banner-btn" >Place Order</button>
-          <a id="demo" onclick="myFunction()">Click me to change my color.</a>
+          <button class="clear-cart btn btn-secondary " onClick="window.location.reload()">clear cart</button>
+          <button type="button" class="btn btn-secondary   " id="demo" onclick="myFunction()">Place Order</button>
         </div>
       </div>
     </div>

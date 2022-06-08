@@ -18,7 +18,6 @@ const cartOverlay = document.querySelector(".cart-overlay");
 const cartItems = document.querySelector(".cart-items");
 const cartTotal = document.querySelector(".cart-total");
 const cartContent = document.querySelector(".cart-content");
-const placeOrder = document.querySelector(".place-order");
 const productsDOM = document.querySelector(".products-center");
 
 // let's cart
@@ -289,7 +288,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   // setup app
   ui.setupAPP();
-  placeOrder.addEventListener("click", console.log(cart));
   // get all products
   products
     .getProducts()
@@ -310,7 +308,7 @@ function getBilling(cart) {
   const val=[];
 
     cart.map((item) => {
-      val.push(item.id+ ". "+ item.title+"- ",item.price+"₹ * "+item.amount+" = "+(item.price * item.amount) +"₹ %0a ");
+      val.push(item.id+ ". "+ item.title+"- ₹",item.price+" * "+item.amount+" = ₹"+(item.price * item.amount) +" %0a ");
     });
 
   //console.log(tempTotal, itemsTotal);
@@ -329,7 +327,7 @@ function myFunction() {
     itemsTotal += item.amount;
   });
 
-  var finalText="*Total Plants= "+itemsTotal+"*%0a*Total Price="+priceTotal+"₹*%2Bdelivery%0a%0a";
+  var finalText="*Total Plants= "+itemsTotal+"*%0a*Total Price=₹"+priceTotal+"*%2Bdelivery%0a%0a";
 
 
   console.log(cart);
