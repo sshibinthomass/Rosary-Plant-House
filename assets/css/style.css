@@ -133,6 +133,7 @@ body {
   grid-column-gap: 1.5rem;
   grid-row-gap: 2rem;
 }
+
 .img-container {
   position: relative;
   overflow: hidden;
@@ -151,12 +152,14 @@ body {
   transform: translateX(101%);
   cursor: pointer;
 }
+
 .bag-btn:hover {
   color: var(--mainWhite);
 }
 .fa-shopping-cart {
   margin-right: 0.5rem;
 }
+
 .img-container:hover .bag-btn {
   transform: translateX(0);
 }
@@ -171,9 +174,10 @@ body {
   -ms-border-radius: 5%;
   -o-border-radius: 5%;
 }
+/*
 .img-container:hover .product-img {
   opacity: 0.5;
-}
+}*/
 
 .product h3 {
   text-transform: capitalize;
@@ -183,9 +187,11 @@ body {
   text-align: center;
 }
 .product h4 {
-  margin-top: 0.7rem;
-  letter-spacing: var(--mainSpacing);
-  color: var(--primaryColor);
+  font-size:medium;
+  font-weight: bold;
+  margin-top: 0.3rem;
+  letter-spacing: normal;
+  color: rgb(0, 0, 131);
   text-align: center;
 }
 /* ---------------> End Of Products <---------------- */

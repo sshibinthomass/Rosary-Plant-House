@@ -74,8 +74,9 @@ class UI {
           </div>
           <h3>${product.id}. ${product.title}</h3>
           <h4>Price: ₹ ${product.price}</h4>
-          <button type="button" class="bag-btn1" data-id=${product.id}><i class="fas fa-shopping-cart"></i>add to cart</button>
-
+          <div class="d-flex justify-content-center">
+          <button type="button" class="bag-btn1 btn btn-outline-success btn-sm" data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
+          </div>
         </article>
         <!-- single product end -->`;
       }
