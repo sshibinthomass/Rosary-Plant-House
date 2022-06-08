@@ -74,7 +74,7 @@ body {
 }
 /* ---------------> End Of Navbar <---------------- */
 
-/* ---------------> Start Of Hero <---------------- */
+/* ---------------> Start Of Hero <---------------- 
 .hero {
   min-height: calc(100vh - 60px);
   background: url("../img/hero-bcg.jpeg") center/cover no-repeat;
@@ -109,16 +109,16 @@ body {
   background: transparent;
   color: var(--primaryColor);
 }
-/* ---------------> End Of Hero <---------------- */
+ ---------------> End Of Hero <---------------- */
 
 /* ---------------> Start Of Products <---------------- */
 .products {
-  padding: 4rem 0;
+  /*padding: 4rem 0;*/
 }
 .section-title h2 {
   text-align: center;
-  font-size: 2.5rem;
-  margin-bottom: 5rem;
+  font-size: 2.5rem; 
+ /* margin-bottom: 5rem; */
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
 }

@@ -60,8 +60,9 @@ class UI {
 
     let result = "";
     products.forEach((product) => {
-      console.log(product.ava);
-      if (product.ava == 1) {
+      //console.log(product.ava);
+      if (product.ava == 1) 
+      {
         result += `
       <!-- single product start -->
         <article class="product">
@@ -72,7 +73,7 @@ class UI {
               class="product-img"
             />
           </div>
-          <h3>${product.title}</h3>
+          <h3>${product.id}. ${product.title}</h3>
           <h4>Price: ₹ ${product.price}</h4>
           <button type="button" class="bag-btn1" data-id=${product.id}><i class="fas fa-shopping-cart"></i>add to cart</button>
 
