@@ -1,0 +1,70 @@
+{
+  "items": [
+    {
+      "sys": { "id": "1" },
+      "fields": {
+        "title": "Product 111",
+        "price": 52,
+        "ava": 1,
+        "image": {
+          "fields": { "file": { "url": "./assets/img/product-1.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": 2 },
+      "fields": {
+        "title": "Product 2",
+        "price": 62,
+        "ava": 0,
+        "image": {
+          "fields": { "file": { "url": "./assets/img/product-2.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": 3 },
+      "fields": {
+        "title": "Product 3",
+        "price": 15,
+        "ava": 1,
+        "image": {
+          "fields": { "file": { "url": "./assets/img/product-3.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": 4 },
+      "fields": {
+        "title": "Product 4",
+        "price": 85,
+        "ava": 1,
+        "image": {
+          "fields": { "file": { "url": "./assets/img/product-4.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": 5 },
+      "fields": {
+        "title": "Product 5",
+        "price": 65,
+        "ava": 1,
+        "image": {
+          "fields": { "file": { "url": "./assets/img/product-5.jpeg" } }
+        }
+      }
+    },
+    {
+      "sys": { "id": 6 },
+      "fields": {
+        "title": "Product 6",
+        "price": 87,
+        "ava": 0,
+        "image": {
+          "fields": { "file": { "url": "./assets/img/product-6.jpeg" } }
+        }
+      }
+    }
+  ]
+}
