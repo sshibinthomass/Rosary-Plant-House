@@ -150,7 +150,7 @@ class UI {
               <a href="https://wa.me/message/Z73MZA6IMYFWO1" target="_blank" class="fab fa-whatsapp-square pt-1"></a>            
               <a href="https://facebook.com/rosaryplanthouse" target="_blank" class="fab fa-facebook pt-1"></a>
               <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w" target="_blank" class="fab fa-youtube pt-1"></a>
-              <a href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1" style="color: rgba(0, 0, 0, 0.295);"></a>
+              <a href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1" style="color: rgb(97, 64, 64);"></a>
            
             </div>
             </td>
