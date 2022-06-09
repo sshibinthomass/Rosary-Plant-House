@@ -10,7 +10,7 @@
       crossorigin="anonymous"
     />
 
-    <title>Comfy House / Shopping Cart</title>
+    <title>All Plants</title>
 
     <!-- style / css -->
     <!-- <link rel="stylesheet" href="./assets/css/main.css"> -->
@@ -68,7 +68,7 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse navbar-light pl-2"
+        class="collapse navbar-collapse navbar-light pl-0"
         style="background-color: rgb(208, 255, 208)"
         id="navbarNavAltMarkup"
       >
@@ -82,14 +82,16 @@
           Home
         </a>
 
-        <a
-          type="button "
-          role="button"
-          class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-          href="index1.html"
-        >
-          Category
-        </a>
+        <div class="dropdown show">
+          <a class="nav-link btn btn-outline-secondary  nav-item btn-sm m-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Category
+          </a>
+          <div class="dropdown-menu mx-2" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="faq.html">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
 
         <a
           type="button"
