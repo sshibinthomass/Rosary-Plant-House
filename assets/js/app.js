@@ -19,6 +19,7 @@ const cartItems = document.querySelector(".cart-items");
 const cartTotal = document.querySelector(".cart-total");
 const cartContent = document.querySelector(".cart-content");
 const productsDOM = document.querySelector(".products-center");
+const productsDOM1 = document.querySelector(".products-center1");
 const productPrice=document.querySelector(".product-price");
 // let's cart
 let cart = [];
@@ -147,7 +148,7 @@ class UI {
             <tr>
             <td>
               <div class="d-flex justify-content-around pt-0" style="color: black;">
-              <a href="https://wa.me/message/Z73MZA6IMYFWO1" target="_blank" class="fab fa-whatsapp-square pt-1"></a>            
+              <a href="https://api.whatsapp.com/send?phone=%2B917904050237" target="_blank" class="fab fa-whatsapp-square pt-1"></a>            
               <a href="https://facebook.com/rosaryplanthouse" target="_blank" class="fab fa-facebook pt-1"></a>
               <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w" target="_blank" class="fab fa-youtube pt-1"></a>
               <a href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1" style="color: rgb(97, 64, 64);"></a>
@@ -176,6 +177,132 @@ class UI {
     try {
       // console.log(result);
       productsDOM.innerHTML = result;
+    } catch (e) {
+      console.log("Error = " + e);
+    }
+  }
+  displayProducts1(products) {
+    // console.log(products);
+
+    let result = "";
+    products.forEach((product) => {
+      //console.log(product.ava);
+      if (product.ava == 1 
+        && product.category=="succulents"
+        ) 
+      {
+        result += `
+      <!-- single product start -->
+        <article class="product">
+          <div class="img-container">
+            <img
+              src=${product.image}
+              alt="product"
+              class="product-img"
+            />
+          </div>
+          <div class="d-flex justify-content-center">
+ <!-- Button trigger modal -->
+          <button type="button"           id="${product.id}"
+          value="${product.id}" class="btn btn-link" data-toggle="modal" data-target="#exampleModal${product.id}">
+          ${product.id}. ${product.title}
+          </button>
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal${product.id}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+          <div class="modal-header p-0 ml-3 pt-2">
+          <h5 class="modal-title text-center" id="exampleModalLabel">
+          <strong>${product.id}. ${product.title} </strong>
+        </h5>
+          <button type="button" class="close  mr-2" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+            <p class="card-text">
+              <div class="text-center m-0 p-0" >
+                <img
+                class="img-fluid"
+                style="border-radius: 5%;"
+                alt="Responsive image"
+                src=${product.image}
+                width="200px"
+              />
+              </div>
+
+            </p>
+            <table class="table table-hover mt-3">
+              <tbody>
+              <tr >
+                  <td class="py-1">Category</td>
+                  <td class="py-1">: ${product.category }</td>
+              </tr>
+              <tr>
+                  <td class="py-1">Transit risk</td>
+                  <td class="py-1">: ${product.transit}</td>
+              </tr>
+              <tr>
+                  <td class="py-1">Size</td>
+                  <td class="py-1">: ${product.size} Inches </td>
+              </tr>
+              <tr>
+                  <td class="py-1">Price</td>
+                  <td class="py-1">:                       {% if product.orgprice != product.price %}
+                    <strike>&#8377;{{product.orgprice}}</strike>
+                    {% endif %}
+                    <b> &#8377; ${product.price}</b>
+                  </td>
+              </tr>
+              <tr>
+                  <td class="py-1">Watering</td>
+                  <td class="py-1">: ${product.water}</td>
+              </tr>
+              <tr>
+                  <td class="py-1">Sunlight</td>
+                  <td class="py-1">: ${product.sun}</td>
+              </tr>
+              <tr>
+                <td class="py-1">Maintenance</td>
+                <td class="py-1">: {{product.maintenance}}</td>
+              </tr>
+
+              </tbody>
+            </table>  
+            <tr>
+            <td>
+              <div class="d-flex justify-content-around pt-0" style="color: black;">
+              <a href="https://api.whatsapp.com/send?phone=%2B917904050237" target="_blank" class="fab fa-whatsapp-square pt-1"></a>            
+              <a href="https://facebook.com/rosaryplanthouse" target="_blank" class="fab fa-facebook pt-1"></a>
+              <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w" target="_blank" class="fab fa-youtube pt-1"></a>
+              <a href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1" style="color: rgb(97, 64, 64);"></a>
+           
+            </div>
+            </td>
+          </tr>                    
+            <div class="modal-footer py-1 ">
+            <div  >
+                <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
+            </div>
+            </div>
+          </div>
+        </div>
+          </div>
+          
+          <h4 class="mt-0">Price: ₹ ${product.price}</h4>
+          <div class="d-flex justify-content-center">
+          <button type="button" class="bag-btn1 btn btn-outline-success btn-sm" data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
+          </div>
+        </article>
+        <!-- single product end -->`;
+      }
+    });
+    try {
+      // console.log(result);
+      productsDOM1.innerHTML = result;
     } catch (e) {
       console.log("Error = " + e);
     }
@@ -321,22 +448,29 @@ class UI {
           lowerAmount.previousElementSibling.innerText = tempItem.amount;
         } else {
           cartContent.removeChild;
+          location.reload();
           lowerAmount.parentElement.parentElement;
           this.removeItem(id);
-          location.reload();
+          
         }
       }
     });
-  }
+  };
+  
   clearCart() {
-    let cartItems = cart.map((item) => item.id);
-    cartItems.forEach((id) => this.removeItem(id));
-    console.log(cartContent.children);
-
     while (cartContent.children.length > 0) {
       cartContent.removeChild(cartContent.children[0]);
-    }
+    };
+    localStorage.removeItem("cart");
+    cart = Storage.getCart();
+    //setCartValues(cart);
+    let cartItems = cart.map((item) => item.id);
+    cartItems.forEach((id) => this.removeItem(id));
+    //console.log(cartContent.children);
+    //console.log("hi");
+
     this.hideCart();
+    location.reload();
   }
   removeItem(id) {
     cart = cart.filter((item) => item.id !== id);
@@ -389,6 +523,7 @@ document.addEventListener("DOMContentLoaded", () => {
     .getProducts()
     .then((products) => {
       ui.displayProducts(products);
+      ui.displayProducts1(products);
       Storage.saveProducts(products);
     })
     .then(() => {
@@ -432,4 +567,4 @@ function myFunction() {
   var linkText = "https://api.whatsapp.com/send?phone=%2B917904050237&text=*Hello, i have chosen the following plants from your site* %0a";
   window.open(linkText.concat(productText,finalText), "_blank");
 }
-console.log("hello");
+console.log(cart);

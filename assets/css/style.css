@@ -52,7 +52,7 @@ body {
 }
 .nav-icon:hover {
   cursor: pointer;
-  color: var(--primaryColor);
+  color: white;
   transition: var(--mainTransition);
   -webkit-transition: var(--mainTransition);
   -moz-transition: var(--mainTransition);
@@ -122,7 +122,7 @@ body {
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
 }
-.products-center {
+.products-center,.products-center1 {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
