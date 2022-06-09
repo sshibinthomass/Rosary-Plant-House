@@ -176,7 +176,7 @@
         "water": "High",
         "sun": "High",
         "common": "Lavender",
-        "category": "jade",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/12.jpg" } } }
       }
     },
@@ -191,7 +191,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Finger Jade",
-        "category": "succulents",
+        "category": "jade",
         "image": { "fields": { "file": { "url": "./assets/img/13.jpg" } } }
       }
     },
@@ -221,7 +221,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Echeveria",
-        "category": "hanging",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/15.jpg" } } }
       }
     },
@@ -236,7 +236,7 @@
         "water": "Low",
         "sun": "High",
         "common": "Monkey Tail",
-        "category": "haworthia",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/16.jpg" } } }
       }
     },
@@ -251,7 +251,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Height Haworthia",
-        "category": "succulents",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/17.jpg" } } }
       }
     },
@@ -281,7 +281,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Oval",
-        "category": "cactus",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/19.jpg" } } }
       }
     },
@@ -311,7 +311,7 @@
         "water": "Low",
         "sun": "High",
         "common": "Opuntia yellow",
-        "category": "succulents",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/21.jpg" } } }
       }
     },
@@ -341,7 +341,7 @@
         "water": "Low",
         "sun": "Moderate",
         "common": "Velvet",
-        "category": "cactus",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/23.jpg" } } }
       }
     },
@@ -356,7 +356,7 @@
         "water": "Low",
         "sun": "High",
         "common": "Tree Cactus",
-        "category": "succulents",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/24.jpg" } } }
       }
     },
@@ -416,7 +416,7 @@
         "water": "Low",
         "sun": "Moderate",
         "common": "Blue Echeviria",
-        "category": "aloe",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/28.jpg" } } }
       }
     },
@@ -431,7 +431,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Tiger Tooth Aloe",
-        "category": "succulents",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/29.jpg" } } }
       }
     },
@@ -446,7 +446,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Blue stick long",
-        "category": "cactus",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/30.jpg" } } }
       }
     },
@@ -461,7 +461,7 @@
         "water": "Low",
         "sun": "High",
         "common": "thimble cactus",
-        "category": "aloe",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/31.jpg" } } }
       }
     },
@@ -491,7 +491,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Grey Aloe",
-        "category": "succulents",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/33.jpg" } } }
       }
     },
@@ -506,7 +506,7 @@
         "water": "Low",
         "sun": "Moderate",
         "common": "Chrocodile Teeth",
-        "category": "haworthia",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/34.jpg" } } }
       }
     },
@@ -521,7 +521,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Normal Haworthia",
-        "category": "hanging",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/35.jpg" } } }
       }
     },
@@ -536,7 +536,7 @@
         "water": "High",
         "sun": "Moderate",
         "common": "Face Sedum",
-        "category": "succulents",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/36.jpg" } } }
       }
     },
@@ -551,7 +551,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Cone Tree",
-        "category": "hanging",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/37.jpg" } } }
       }
     },
@@ -566,7 +566,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Green Sedum",
-        "category": "otherPlants",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/38.jpg" } } }
       }
     },
@@ -581,7 +581,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Radiator",
-        "category": "aloe",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/39.jpg" } } }
       }
     },
@@ -596,7 +596,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Brown Aloe",
-        "category": "succulents",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/40.jpg" } } }
       }
     },
@@ -611,7 +611,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Cabbage succulent",
-        "category": "otherPlants",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/41.jpg" } } }
       }
     },
@@ -626,7 +626,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Zebra Grass",
-        "category": "cactus",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/42.jpg" } } }
       }
     },
@@ -641,7 +641,7 @@
         "water": "Not Specific",
         "sun": "Not Specific",
         "common": "Fairy Castle",
-        "category": "succulents",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/43.jpg" } } }
       }
     },
@@ -701,7 +701,7 @@
         "water": "High",
         "sun": "Moderate",
         "common": "Dianthus",
-        "category": "otherPlants",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/47.jpg" } } }
       }
     },
@@ -731,7 +731,7 @@
         "water": "Moderate",
         "sun": "Not Specific",
         "common": "Hydrangea",
-        "category": "hanging",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/49.jpg" } } }
       }
     },
@@ -746,7 +746,7 @@
         "water": "High",
         "sun": "Moderate",
         "common": "Wax Ivy",
-        "category": "otherPlants",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/50.jpg" } } }
       }
     },
@@ -761,7 +761,7 @@
         "water": "Moderate",
         "sun": "Not Specific",
         "common": "Camelia",
-        "category": "jade",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/51.jpg" } } }
       }
     },
@@ -776,7 +776,7 @@
         "water": " Not Specific",
         "sun": " Not Specific",
         "common": "Jade",
-        "category": "haworthia",
+        "category": "jade",
         "image": { "fields": { "file": { "url": "./assets/img/52.jpg" } } }
       }
     },
@@ -791,7 +791,7 @@
         "water": "Not Specific",
         "sun": "Not Specific",
         "common": "Haworthia Zebra",
-        "category": "succulents",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/53.jpg" } } }
       }
     },
@@ -821,7 +821,7 @@
         "water": "Moderate",
         "sun": "High",
         "common": "camp fire",
-        "category": "hanging",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/55.jpg" } } }
       }
     },
@@ -1016,7 +1016,7 @@
         "water": "Not Specific",
         "sun": "Not Specific",
         "common": "Haworthia Dot",
-        "category": "succulents",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/68.jpg" } } }
       }
     },
@@ -1061,7 +1061,7 @@
         "water": "Low",
         "sun": "High",
         "common": "Grey Moonstone",
-        "category": "hanging",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/71.jpg" } } }
       }
     },
@@ -1076,7 +1076,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "String of pearls",
-        "category": "otherPlants",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/72.jpg" } } }
       }
     },
@@ -1106,7 +1106,7 @@
         "water": "Low",
         "sun": "Moderate",
         "common": "Pepromia long green",
-        "category": "succulents",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/74.jpg" } } }
       }
     },
@@ -1121,7 +1121,7 @@
         "water": "Moderate",
         "sun": "Low",
         "common": "Panda",
-        "category": "haworthia",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/75.jpg" } } }
       }
     },
@@ -1136,7 +1136,7 @@
         "water": "Not Specific",
         "sun": "Not Specific",
         "common": "Haworthia Rough",
-        "category": "succulents",
+        "category": "haworthia",
         "image": { "fields": { "file": { "url": "./assets/img/76.jpg" } } }
       }
     },
@@ -1151,7 +1151,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Seed Plant",
-        "category": "aloe",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/77.jpg" } } }
       }
     },
@@ -1181,7 +1181,7 @@
         "water": "Not Specific",
         "sun": "Not Specific",
         "common": "Dot Aloe",
-        "category": "succulents",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/79.jpg" } } }
       }
     },
@@ -1196,7 +1196,7 @@
         "water": "Low",
         "sun": "High",
         "common": "Jain temple",
-        "category": "haworthia",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/80.jpg" } } }
       }
     },
@@ -1856,7 +1856,7 @@
         "water": "High",
         "sun": "High",
         "common": "Portulaka variegated",
-        "category": "hanging",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/124.jpg" } } }
       }
     },
@@ -1871,7 +1871,7 @@
         "water": "High",
         "sun": "Moderate",
         "common": "Turtle wine",
-        "category": "otherPlants",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/125.jpg" } } }
       }
     },
@@ -1886,7 +1886,7 @@
         "water": "Not Specific",
         "sun": "Not Specific",
         "common": "Snake Draft Verigated",
-        "category": "succulents",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/126.jpg" } } }
       }
     },
@@ -1931,7 +1931,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Sun Sedum",
-        "category": "hanging",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/129.jpg" } } }
       }
     },
@@ -1946,7 +1946,7 @@
         "water": "High",
         "sun": "Moderate",
         "common": "Grey Sedum",
-        "category": "succulents",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/130.jpg" } } }
       }
     },
@@ -1961,7 +1961,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Green Stick",
-        "category": "otherPlants",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/131.jpg" } } }
       }
     },
@@ -1976,7 +1976,7 @@
         "water": "High",
         "sun": "Low",
         "common": "Heart Leaf",
-        "category": "hanging",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/132.jpg" } } }
       }
     },
@@ -2006,7 +2006,7 @@
         "water": "High",
         "sun": "Moderate",
         "common": "Sedum stonecrops",
-        "category": "succulents",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/134.jpg" } } }
       }
     },
@@ -2021,7 +2021,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Fingure Succulent",
-        "category": "otherPlants",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/135.jpg" } } }
       }
     },
@@ -2036,7 +2036,7 @@
         "water": "High",
         "sun": "Low",
         "common": "Pilea",
-        "category": "hanging",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/136.jpg" } } }
       }
     },
@@ -2051,7 +2051,7 @@
         "water": "High",
         "sun": "Moderate",
         "common": "Grass Sedum",
-        "category": "succulents",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/137.jpg" } } }
       }
     },
@@ -2066,7 +2066,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "bear's paw",
-        "category": "hanging",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/138.jpg" } } }
       }
     },
@@ -2096,7 +2096,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "creeping jade",
-        "category": "succulents",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/140.jpg" } } }
       }
     },
@@ -2126,7 +2126,7 @@
         "water": "Not Specific",
         "sun": "High",
         "common": "yellow sun",
-        "category": "aloe",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/142.jpg" } } }
       }
     },
@@ -2156,7 +2156,7 @@
         "water": "Moderate",
         "sun": "Low",
         "common": "Purple Aloe",
-        "category": "jade",
+        "category": "aloe",
         "image": { "fields": { "file": { "url": "./assets/img/144.jpg" } } }
       }
     },
@@ -2171,7 +2171,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Miniature Aloe",
-        "category": "jade",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/145.jpg" } } }
       }
     },
@@ -2186,7 +2186,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Tricolour jade",
-        "category": "otherPlants",
+        "category": "jade",
         "image": { "fields": { "file": { "url": "./assets/img/146.jpg" } } }
       }
     },
@@ -2201,7 +2201,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "jade big leaf",
-        "category": "otherPlants",
+        "category": "jade",
         "image": { "fields": { "file": { "url": "./assets/img/147.jpg" } } }
       }
     },
@@ -2216,7 +2216,7 @@
         "water": "High",
         "sun": "Moderate",
         "common": "Common ivy",
-        "category": "succulents",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/148.jpg" } } }
       }
     },
@@ -2261,7 +2261,7 @@
         "water": "High",
         "sun": "Low",
         "common": "Pepromia Grey",
-        "category": "succulents",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/151.jpg" } } }
       }
     },
@@ -2276,7 +2276,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "lilyturf",
-        "category": "otherPlants",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/152.jpg" } } }
       }
     },
@@ -2291,7 +2291,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Aeonium Verigated",
-        "category": "cactus",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/153.jpg" } } }
       }
     },
@@ -2306,7 +2306,7 @@
         "water": "High",
         "sun": "Low",
         "common": "pep small leaf",
-        "category": "succulents",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/154.jpg" } } }
       }
     },
@@ -2321,7 +2321,7 @@
         "water": "Low",
         "sun": "High",
         "common": "Ball yellow Flower",
-        "category": "succulents",
+        "category": "cactus",
         "image": { "fields": { "file": { "url": "./assets/img/155.jpg" } } }
       }
     },
@@ -2366,7 +2366,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Aeonium Draft",
-        "category": "otherPlants",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/158.jpg" } } }
       }
     },
@@ -2396,7 +2396,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Echeviria (Big)",
-        "category": "hanging",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/160.jpg" } } }
       }
     },
@@ -2411,7 +2411,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "portulaka(green)",
-        "category": "succulents",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/161.jpg" } } }
       }
     },
@@ -2426,7 +2426,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "needle sedum",
-        "category": "otherPlants",
+        "category": "hanging",
         "image": { "fields": { "file": { "url": "./assets/img/162.jpg" } } }
       }
     },
@@ -2501,7 +2501,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "Baby sun flower",
-        "category": "succulents",
+        "category": "otherPlants",
         "image": { "fields": { "file": { "url": "./assets/img/167.jpg" } } }
       }
     },
@@ -2516,7 +2516,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "doller colour",
-        "category": "otherPlants",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/168.jpg" } } }
       }
     },
@@ -2921,7 +2921,7 @@
         "water": "Low",
         "sun": "High",
         "common": "Bramha Prabhu(big)",
-        "category": "sedum",
+        "category": "succulents",
         "image": { "fields": { "file": { "url": "./assets/img/195.jpg" } } }
       }
     },
@@ -2951,7 +2951,7 @@
         "water": "Moderate",
         "sun": "Moderate",
         "common": "tricolor sedum",
-        "category": "succulents",
+        "category": "sedum",
         "image": { "fields": { "file": { "url": "./assets/img/197.jpg" } } }
       }
     },

@@ -61,9 +61,9 @@ class UI {
     let result = "";
     products.forEach((product) => {
       //console.log(product.ava);
-      if (product.ava == 1 
+     // if (product.ava == 1 
         //&& product.category=="succulents"
-        ) 
+       // ) 
       {
         result += `
       <!-- single product start -->
