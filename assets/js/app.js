@@ -60,7 +60,9 @@ class UI {
     let result = "";
     products.forEach((product) => {
       //console.log(product.ava);
-      if (product.ava == 1) 
+      if (product.ava == 1 
+        //&& product.category=="succulents"
+        ) 
       {
         result += `
       <!-- single product start -->
@@ -84,11 +86,11 @@ class UI {
           <div class="modal fade" id="exampleModal${product.id}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
           <div class="modal-dialog">
           <div class="modal-content">
-          <div class="modal-header">
+          <div class="modal-header p-0 ml-3 pt-2">
           <h5 class="modal-title text-center" id="exampleModalLabel">
           <strong>${product.id}. ${product.title} </strong>
         </h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <button type="button" class="close  mr-2" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
@@ -112,7 +114,7 @@ class UI {
                   <td class="py-1">: ${product.category }</td>
               </tr>
               <tr>
-                  <td class="py-1">Transist Risk:</td>
+                  <td class="py-1">Transit risk</td>
                   <td class="py-1">: ${product.transit}</td>
               </tr>
               <tr>
@@ -155,8 +157,8 @@ class UI {
           </tr>                    
             <div class="modal-footer py-1 ">
             <div  >
-                <button type="button" class="btn btn-outline-danger btn-sm" data-dismiss="modal">Close</button>
-                <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
             </div>
             </div>
           </div>
