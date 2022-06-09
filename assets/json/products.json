@@ -4,7 +4,8 @@
       "sys": { "id": "1" },
       "fields": {
         "title": "Sempervivum Tectorum",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 1,
         "size": "(1.5\"-2\")",
         "transit": "Low",
@@ -12,6 +13,11 @@
         "sun": "Low",
         "common": "Red tip",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/1.jpg" } } }
       }
     },
@@ -19,7 +25,8 @@
       "sys": { "id": "2" },
       "fields": {
         "title": "Bergeranthus",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -27,6 +34,11 @@
         "sun": "Low",
         "common": "Yellow Flower",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/2.jpg" } } }
       }
     },
@@ -34,7 +46,8 @@
       "sys": { "id": "3" },
       "fields": {
         "title": "Sedum Lineare(yellow)",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -42,6 +55,11 @@
         "sun": "Moderate",
         "common": "Yellow sedum",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/3.jpg" } } }
       }
     },
@@ -49,7 +67,8 @@
       "sys": { "id": "4" },
       "fields": {
         "title": "Haworthia cymbiformis",
-        "price": 49,
+        "orgPrice": 49,
+        "price": 44,
         "ava": 1,
         "size": "(1.5\"-2.5\")",
         "transit": "Low",
@@ -57,6 +76,11 @@
         "sun": "Moderate",
         "common": "Stone",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/4.jpg" } } }
       }
     },
@@ -64,7 +88,8 @@
       "sys": { "id": "5" },
       "fields": {
         "title": "Chamaecerus Silvestii",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -72,6 +97,11 @@
         "sun": "Low",
         "common": "Peanut Cactus",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/5.jpg" } } }
       }
     },
@@ -79,7 +109,8 @@
       "sys": { "id": "6" },
       "fields": {
         "title": "Sempervivum (Lakshmi Kamal)",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -87,6 +118,11 @@
         "sun": "Low",
         "common": "Lakshmi Kamal",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/6.jpg" } } }
       }
     },
@@ -94,7 +130,8 @@
       "sys": { "id": "7" },
       "fields": {
         "title": "Echeveria peacockii",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -102,6 +139,11 @@
         "sun": "Low",
         "common": "White Lotus",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/7.jpg" } } }
       }
     },
@@ -109,7 +151,8 @@
       "sys": { "id": "8" },
       "fields": {
         "title": "Crassula Portulacea(miniature)",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -117,6 +160,11 @@
         "sun": "Low",
         "common": "Jade miniature",
         "category": "jade",
+        "mother": 0,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/8.jpg" } } }
       }
     },
@@ -124,7 +172,8 @@
       "sys": { "id": "9" },
       "fields": {
         "title": "Senecio Radicans",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(3\"-4\")",
         "transit": "Moderate",
@@ -132,6 +181,11 @@
         "sun": "Moderate",
         "common": "string of necklace",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/9.jpg" } } }
       }
     },
@@ -139,7 +193,8 @@
       "sys": { "id": "10" },
       "fields": {
         "title": "Zebrina Huernia",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -147,6 +202,11 @@
         "sun": "High",
         "common": "Chocolate",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/10.jpg" } } }
       }
     },
@@ -154,7 +214,8 @@
       "sys": { "id": "11" },
       "fields": {
         "title": "Hoodia",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -162,6 +223,11 @@
         "sun": "Low",
         "common": "Jack fruit",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/11.jpg" } } }
       }
     },
@@ -169,7 +235,8 @@
       "sys": { "id": "12" },
       "fields": {
         "title": "Callisia",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -177,6 +244,11 @@
         "sun": "High",
         "common": "Lavender",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/12.jpg" } } }
       }
     },
@@ -184,7 +256,8 @@
       "sys": { "id": "13" },
       "fields": {
         "title": "Crassula ovatha",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -192,6 +265,11 @@
         "sun": "Moderate",
         "common": "Finger Jade",
         "category": "jade",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/13.jpg" } } }
       }
     },
@@ -199,7 +277,8 @@
       "sys": { "id": "14" },
       "fields": {
         "title": "Echeveria Setosa",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -207,6 +286,11 @@
         "sun": "Moderate",
         "common": "Diamond",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/14.jpg" } } }
       }
     },
@@ -214,7 +298,8 @@
       "sys": { "id": "15" },
       "fields": {
         "title": "Echeveria",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -222,6 +307,11 @@
         "sun": "Moderate",
         "common": "Echeveria",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/15.jpg" } } }
       }
     },
@@ -229,7 +319,8 @@
       "sys": { "id": "16" },
       "fields": {
         "title": "Sedum Morganianum",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -237,6 +328,11 @@
         "sun": "High",
         "common": "Monkey Tail",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/16.jpg" } } }
       }
     },
@@ -244,7 +340,8 @@
       "sys": { "id": "17" },
       "fields": {
         "title": "Haworthiopsis Reinwardtii",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -252,6 +349,11 @@
         "sun": "Moderate",
         "common": "Height Haworthia",
         "category": "haworthia",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/17.jpg" } } }
       }
     },
@@ -259,7 +361,8 @@
       "sys": { "id": "18" },
       "fields": {
         "title": "Sinocrassula yunnanensis",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 0,
         "size": "(1.5\"-2.5\")",
         "transit": "Low",
@@ -267,6 +370,11 @@
         "sun": "Moderate",
         "common": "Chinese Jade",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/18.jpg" } } }
       }
     },
@@ -274,7 +382,8 @@
       "sys": { "id": "19" },
       "fields": {
         "title": "Malephoracrocea",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -282,6 +391,11 @@
         "sun": "Moderate",
         "common": "Oval",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/19.jpg" } } }
       }
     },
@@ -289,7 +403,8 @@
       "sys": { "id": "20" },
       "fields": {
         "title": "Opuntia Red",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -297,6 +412,11 @@
         "sun": "High",
         "common": "Opuntia Red",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/20.jpg" } } }
       }
     },
@@ -304,7 +424,8 @@
       "sys": { "id": "21" },
       "fields": {
         "title": "Opuntia yellow",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -312,6 +433,11 @@
         "sun": "High",
         "common": "Opuntia yellow",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/21.jpg" } } }
       }
     },
@@ -319,7 +445,8 @@
       "sys": { "id": "22" },
       "fields": {
         "title": "Graptopetalum Amethystinum",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -327,6 +454,11 @@
         "sun": "Moderate",
         "common": "Moonstone",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/22.jpg" } } }
       }
     },
@@ -334,7 +466,8 @@
       "sys": { "id": "23" },
       "fields": {
         "title": "Echeveria Setosa",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -342,6 +475,11 @@
         "sun": "Moderate",
         "common": "Velvet",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/23.jpg" } } }
       }
     },
@@ -349,7 +487,8 @@
       "sys": { "id": "24" },
       "fields": {
         "title": "Opuntia Monacantha",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -357,6 +496,11 @@
         "sun": "High",
         "common": "Tree Cactus",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/24.jpg" } } }
       }
     },
@@ -364,7 +508,8 @@
       "sys": { "id": "25" },
       "fields": {
         "title": "Kalanchoe Tomentosa (Chocolate Soldier)",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -372,6 +517,11 @@
         "sun": "Moderate",
         "common": "Rabbit ears",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/25.jpg" } } }
       }
     },
@@ -379,7 +529,8 @@
       "sys": { "id": "26" },
       "fields": {
         "title": "Echeveria Gilwa",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -387,6 +538,11 @@
         "sun": "Moderate",
         "common": "Black Prince",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/26.jpg" } } }
       }
     },
@@ -394,7 +550,8 @@
       "sys": { "id": "27" },
       "fields": {
         "title": "Echeveria Akmalia",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -402,6 +559,11 @@
         "sun": "Moderate",
         "common": "Bramha Prabhu",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/27.jpg" } } }
       }
     },
@@ -409,7 +571,8 @@
       "sys": { "id": "28" },
       "fields": {
         "title": "Echeveria elegans",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -417,6 +580,11 @@
         "sun": "Moderate",
         "common": "Blue Echeviria",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/28.jpg" } } }
       }
     },
@@ -424,7 +592,8 @@
       "sys": { "id": "29" },
       "fields": {
         "title": "Aloe juvenna",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -432,6 +601,11 @@
         "sun": "Moderate",
         "common": "Tiger Tooth Aloe",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/29.jpg" } } }
       }
     },
@@ -439,7 +613,8 @@
       "sys": { "id": "30" },
       "fields": {
         "title": "Blue stick long",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -447,6 +622,11 @@
         "sun": "Moderate",
         "common": "Blue stick long",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/30.jpg" } } }
       }
     },
@@ -454,7 +634,8 @@
       "sys": { "id": "31" },
       "fields": {
         "title": "Mammillaria vetula",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(1.5\"-2\")",
         "transit": "Low",
@@ -462,6 +643,11 @@
         "sun": "High",
         "common": "thimble cactus",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/31.jpg" } } }
       }
     },
@@ -469,7 +655,8 @@
       "sys": { "id": "32" },
       "fields": {
         "title": "Aloe Breuifolia",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -477,6 +664,11 @@
         "sun": "Moderate",
         "common": "White Aloe",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/32.jpg" } } }
       }
     },
@@ -484,7 +676,8 @@
       "sys": { "id": "33" },
       "fields": {
         "title": "Aloe humilis",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -492,6 +685,11 @@
         "sun": "Moderate",
         "common": "Grey Aloe",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/33.jpg" } } }
       }
     },
@@ -499,7 +697,8 @@
       "sys": { "id": "34" },
       "fields": {
         "title": "Faucaria Tigrina",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -507,6 +706,11 @@
         "sun": "Moderate",
         "common": "Chrocodile Teeth",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/34.jpg" } } }
       }
     },
@@ -514,7 +718,8 @@
       "sys": { "id": "35" },
       "fields": {
         "title": "Haworthia Resendeana",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -522,6 +727,11 @@
         "sun": "Moderate",
         "common": "Normal Haworthia",
         "category": "haworthia",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/35.jpg" } } }
       }
     },
@@ -529,7 +739,8 @@
       "sys": { "id": "36" },
       "fields": {
         "title": "Sedum Dasyphyllum",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -537,6 +748,11 @@
         "sun": "Moderate",
         "common": "Face Sedum",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/36.jpg" } } }
       }
     },
@@ -544,7 +760,8 @@
       "sys": { "id": "37" },
       "fields": {
         "title": "Crassula tetragona",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -552,6 +769,11 @@
         "sun": "Moderate",
         "common": "Cone Tree",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/37.jpg" } } }
       }
     },
@@ -559,7 +781,8 @@
       "sys": { "id": "38" },
       "fields": {
         "title": "Sedum Lineare(green)",
-        "price": 49,
+        "orgPrice": 49,
+        "price": 44,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -567,6 +790,11 @@
         "sun": "Moderate",
         "common": "Green Sedum",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/38.jpg" } } }
       }
     },
@@ -574,7 +802,8 @@
       "sys": { "id": "39" },
       "fields": {
         "title": "Radiator Plant",
-        "price": 49,
+        "orgPrice": 49,
+        "price": 44,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -582,6 +811,11 @@
         "sun": "Moderate",
         "common": "Radiator",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/39.jpg" } } }
       }
     },
@@ -589,7 +823,8 @@
       "sys": { "id": "40" },
       "fields": {
         "title": "Short leaved Aloe",
-        "price": 49,
+        "orgPrice": 49,
+        "price": 44,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -597,6 +832,11 @@
         "sun": "Moderate",
         "common": "Brown Aloe",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/40.jpg" } } }
       }
     },
@@ -604,7 +844,8 @@
       "sys": { "id": "41" },
       "fields": {
         "title": "Senecio Cephalophorus",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -612,6 +853,11 @@
         "sun": "Moderate",
         "common": "Cabbage succulent",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/41.jpg" } } }
       }
     },
@@ -619,7 +865,8 @@
       "sys": { "id": "42" },
       "fields": {
         "title": "chlorophytum laxum",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -627,6 +874,11 @@
         "sun": "Moderate",
         "common": "Zebra Grass",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/42.jpg" } } }
       }
     },
@@ -634,7 +886,8 @@
       "sys": { "id": "43" },
       "fields": {
         "title": "Fairy Castle",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -642,6 +895,11 @@
         "sun": "Not Specific",
         "common": "Fairy Castle",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/43.jpg" } } }
       }
     },
@@ -649,7 +907,8 @@
       "sys": { "id": "44" },
       "fields": {
         "title": "Echeveria Runyonii",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -657,6 +916,11 @@
         "sun": "Moderate",
         "common": "Curve Echeveria",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/44.jpg" } } }
       }
     },
@@ -664,7 +928,8 @@
       "sys": { "id": "45" },
       "fields": {
         "title": "Kalanchoe",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -672,6 +937,11 @@
         "sun": "Moderate",
         "common": "Kalanchoe",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/45.jpg" } } }
       }
     },
@@ -679,7 +949,8 @@
       "sys": { "id": "46" },
       "fields": {
         "title": "Pereskiopsis",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -687,6 +958,11 @@
         "sun": "Not Specific",
         "common": "Tree Succulent",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/46.jpg" } } }
       }
     },
@@ -694,7 +970,8 @@
       "sys": { "id": "47" },
       "fields": {
         "title": "Dianthus",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -702,6 +979,11 @@
         "sun": "Moderate",
         "common": "Dianthus",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/47.jpg" } } }
       }
     },
@@ -709,7 +991,8 @@
       "sys": { "id": "48" },
       "fields": {
         "title": "Peperomia caperata",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -717,6 +1000,11 @@
         "sun": "Low",
         "common": "Pepromia Long leaf",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/48.jpg" } } }
       }
     },
@@ -724,7 +1012,8 @@
       "sys": { "id": "49" },
       "fields": {
         "title": "Hydrangea",
-        "price": 39,
+        "orgPrice": 39,
+        "price": 34,
         "ava": 1,
         "size": "(3\"-4\")",
         "transit": "Moderate",
@@ -732,6 +1021,11 @@
         "sun": "Not Specific",
         "common": "Hydrangea",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/49.jpg" } } }
       }
     },
@@ -739,7 +1033,8 @@
       "sys": { "id": "50" },
       "fields": {
         "title": "Wax Ivy",
-        "price": 39,
+        "orgPrice": 39,
+        "price": 34,
         "ava": 1,
         "size": "(5\"-6\")",
         "transit": "High",
@@ -747,6 +1042,11 @@
         "sun": "Moderate",
         "common": "Wax Ivy",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/50.jpg" } } }
       }
     },
@@ -754,7 +1054,8 @@
       "sys": { "id": "51" },
       "fields": {
         "title": "Camelia",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "(4\"-5\")",
         "transit": "Moderate",
@@ -762,6 +1063,11 @@
         "sun": "Not Specific",
         "common": "Camelia",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/51.jpg" } } }
       }
     },
@@ -769,7 +1075,8 @@
       "sys": { "id": "52" },
       "fields": {
         "title": "Crassula ovata",
-        "price": 49,
+        "orgPrice": 49,
+        "price": 44,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -777,6 +1084,11 @@
         "sun": " Not Specific",
         "common": "Jade",
         "category": "jade",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/52.jpg" } } }
       }
     },
@@ -784,7 +1096,8 @@
       "sys": { "id": "53" },
       "fields": {
         "title": "Haworthia Zebra",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -792,6 +1105,11 @@
         "sun": "Not Specific",
         "common": "Haworthia Zebra",
         "category": "haworthia",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/53.jpg" } } }
       }
     },
@@ -799,7 +1117,8 @@
       "sys": { "id": "54" },
       "fields": {
         "title": "Sempervivum arachnoideum",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 0,
         "size": "(1.5\"-2\")",
         "transit": "High",
@@ -807,6 +1126,11 @@
         "sun": "Moderate",
         "common": "Cob Web",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/54.jpg" } } }
       }
     },
@@ -814,7 +1138,8 @@
       "sys": { "id": "55" },
       "fields": {
         "title": "Crassula capitella",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -822,6 +1147,11 @@
         "sun": "High",
         "common": "camp fire",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/55.jpg" } } }
       }
     },
@@ -829,7 +1159,8 @@
       "sys": { "id": "56" },
       "fields": {
         "title": "Opuntia white",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -837,6 +1168,11 @@
         "sun": "High",
         "common": "Opentia white",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/56.jpg" } } }
       }
     },
@@ -844,7 +1180,8 @@
       "sys": { "id": "57" },
       "fields": {
         "title": "Syngonium podophyllum",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "(4\"-5\")",
         "transit": "High",
@@ -852,6 +1189,11 @@
         "sun": "Not Specific",
         "common": "arrowhead",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/57.jpg" } } }
       }
     },
@@ -859,7 +1201,8 @@
       "sys": { "id": "58" },
       "fields": {
         "title": "Resnova",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -867,6 +1210,11 @@
         "sun": "Low",
         "common": "Indoor Big Leaf",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/58.jpg" } } }
       }
     },
@@ -874,7 +1222,8 @@
       "sys": { "id": "59" },
       "fields": {
         "title": "Cheiridopsis denticulata",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -882,6 +1231,11 @@
         "sun": "Not Specific",
         "common": "Oval Flower",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/59.jpg" } } }
       }
     },
@@ -889,7 +1243,8 @@
       "sys": { "id": "60" },
       "fields": {
         "title": "Peperomia caperata",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -897,6 +1252,11 @@
         "sun": "Low",
         "common": "Pepromia Purple",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/60.jpg" } } }
       }
     },
@@ -904,7 +1264,8 @@
       "sys": { "id": "61" },
       "fields": {
         "title": "Acanthocalycium",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -912,6 +1273,11 @@
         "sun": "High",
         "common": "Ball Cactus long",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/61.jpg" } } }
       }
     },
@@ -919,7 +1285,8 @@
       "sys": { "id": "62" },
       "fields": {
         "title": "Short-leaved aloe",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -927,6 +1294,11 @@
         "sun": "Not Specific",
         "common": "White Aloe(S-L)",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/62.jpg" } } }
       }
     },
@@ -934,7 +1306,8 @@
       "sys": { "id": "63" },
       "fields": {
         "title": "Echinopsis subdenudata",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -942,6 +1315,11 @@
         "sun": "High",
         "common": "Ball white flower",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/63.jpg" } } }
       }
     },
@@ -949,7 +1327,8 @@
       "sys": { "id": "64" },
       "fields": {
         "title": "Echeveria setosa",
-        "price": 249,
+        "orgPrice": 249,
+        "price": 244,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -957,6 +1336,11 @@
         "sun": "Moderate",
         "common": "Echeveria fur",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/64.jpg" } } }
       }
     },
@@ -964,7 +1348,8 @@
       "sys": { "id": "65" },
       "fields": {
         "title": "Crassula Falcata",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -972,6 +1357,11 @@
         "sun": "Moderate",
         "common": "Boat",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/65.jpg" } } }
       }
     },
@@ -979,7 +1369,8 @@
       "sys": { "id": "66" },
       "fields": {
         "title": "Haworthia bayeri",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 1,
         "size": "(1.5\"-2\")",
         "transit": "Low",
@@ -987,6 +1378,11 @@
         "sun": "Not Specific",
         "common": "brown stone",
         "category": "haworthia",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/66.jpg" } } }
       }
     },
@@ -994,7 +1390,8 @@
       "sys": { "id": "67" },
       "fields": {
         "title": "Haworthiopsis attenuata",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1002,6 +1399,11 @@
         "sun": "Not Specific",
         "common": "Haworthia Fat",
         "category": "haworthia",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/67.jpg" } } }
       }
     },
@@ -1009,7 +1411,8 @@
       "sys": { "id": "68" },
       "fields": {
         "title": "Haworthiopsis coarctata",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1017,6 +1420,11 @@
         "sun": "Not Specific",
         "common": "Haworthia Dot",
         "category": "haworthia",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/68.jpg" } } }
       }
     },
@@ -1024,7 +1432,8 @@
       "sys": { "id": "69" },
       "fields": {
         "title": "Haworth's aeonium",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1032,6 +1441,11 @@
         "sun": "Moderate",
         "common": "tricolour aeonium",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/69.jpg" } } }
       }
     },
@@ -1039,7 +1453,8 @@
       "sys": { "id": "70" },
       "fields": {
         "title": "Echeveria agavoides",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1047,6 +1462,11 @@
         "sun": "High",
         "common": "Rangoli Echeviria",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/70.jpg" } } }
       }
     },
@@ -1054,7 +1474,8 @@
       "sys": { "id": "71" },
       "fields": {
         "title": "Pachyphytum oviferum",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1062,6 +1483,11 @@
         "sun": "High",
         "common": "Grey Moonstone",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/71.jpg" } } }
       }
     },
@@ -1069,7 +1495,8 @@
       "sys": { "id": "72" },
       "fields": {
         "title": "String of pearls",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1077,6 +1504,11 @@
         "sun": "Moderate",
         "common": "String of pearls",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/72.jpg" } } }
       }
     },
@@ -1084,7 +1516,8 @@
       "sys": { "id": "73" },
       "fields": {
         "title": "Dracaena trifasciata",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1092,6 +1525,11 @@
         "sun": "Low",
         "common": "Snake Draft Yellow Border",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/73.jpg" } } }
       }
     },
@@ -1099,7 +1537,8 @@
       "sys": { "id": "74" },
       "fields": {
         "title": "Senecio barbertonicus",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1107,6 +1546,11 @@
         "sun": "Moderate",
         "common": "Pepromia long green",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/74.jpg" } } }
       }
     },
@@ -1114,7 +1558,8 @@
       "sys": { "id": "75" },
       "fields": {
         "title": "Adromischus Cristatus",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1122,6 +1567,11 @@
         "sun": "Low",
         "common": "Panda",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/75.jpg" } } }
       }
     },
@@ -1129,7 +1579,8 @@
       "sys": { "id": "76" },
       "fields": {
         "title": "Haworthiopsis limifolia",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1137,6 +1588,11 @@
         "sun": "Not Specific",
         "common": "Haworthia Rough",
         "category": "haworthia",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/76.jpg" } } }
       }
     },
@@ -1144,7 +1600,8 @@
       "sys": { "id": "77" },
       "fields": {
         "title": "Anacampseros Baeseckei",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 0,
         "size": "(1.5\"-2\")",
         "transit": "Low",
@@ -1152,6 +1609,11 @@
         "sun": "Moderate",
         "common": "Seed Plant",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/77.jpg" } } }
       }
     },
@@ -1159,7 +1621,8 @@
       "sys": { "id": "78" },
       "fields": {
         "title": "Aloe vera",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1167,6 +1630,11 @@
         "sun": "Not Specific",
         "common": "Aloe vera black",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/78.jpg" } } }
       }
     },
@@ -1174,7 +1642,8 @@
       "sys": { "id": "79" },
       "fields": {
         "title": "Gasteria",
-        "price": 199,
+        "orgPrice": 199,
+        "price": 194,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1182,6 +1651,11 @@
         "sun": "Not Specific",
         "common": "Dot Aloe",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/79.jpg" } } }
       }
     },
@@ -1189,7 +1663,8 @@
       "sys": { "id": "80" },
       "fields": {
         "title": "Jain temple",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1197,6 +1672,11 @@
         "sun": "High",
         "common": "Jain temple",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/80.jpg" } } }
       }
     },
@@ -1204,7 +1684,8 @@
       "sys": { "id": "81" },
       "fields": {
         "title": "English ivy",
-        "price": 39,
+        "orgPrice": 39,
+        "price": 34,
         "ava": 1,
         "size": "(5\"-6\")",
         "transit": "Moderate",
@@ -1212,6 +1693,11 @@
         "sun": "Low",
         "common": "English Variegated ivy",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/81.jpg" } } }
       }
     },
@@ -1219,7 +1705,8 @@
       "sys": { "id": "82" },
       "fields": {
         "title": "Vinca major",
-        "price": 39,
+        "orgPrice": 39,
+        "price": 34,
         "ava": 0,
         "size": "(5\"-6\")",
         "transit": "High",
@@ -1227,6 +1714,11 @@
         "sun": "Moderate",
         "common": "Vinca major",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/82.jpg" } } }
       }
     },
@@ -1234,7 +1726,8 @@
       "sys": { "id": "83" },
       "fields": {
         "title": "Hedera Ivy",
-        "price": 39,
+        "orgPrice": 39,
+        "price": 34,
         "ava": 1,
         "size": "(5\"-6\")",
         "transit": "Moderate",
@@ -1242,6 +1735,11 @@
         "sun": "Low",
         "common": "Hedera Ivy",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/83.jpg" } } }
       }
     },
@@ -1249,7 +1747,8 @@
       "sys": { "id": "84" },
       "fields": {
         "title": "Drimiopsis",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1257,6 +1756,11 @@
         "sun": "Low",
         "common": "Indoor small leaf",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/84.jpg" } } }
       }
     },
@@ -1264,7 +1768,8 @@
       "sys": { "id": "85" },
       "fields": {
         "title": "Sedum lineare(silver)",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1272,6 +1777,11 @@
         "sun": "Moderate",
         "common": "Silver sedum",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/85.jpg" } } }
       }
     },
@@ -1279,7 +1789,8 @@
       "sys": { "id": "86" },
       "fields": {
         "title": "haworthia decipiens",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1287,6 +1798,11 @@
         "sun": "Not Specific",
         "common": "Haworthia green",
         "category": "haworthia",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/86.jpg" } } }
       }
     },
@@ -1294,7 +1810,8 @@
       "sys": { "id": "87" },
       "fields": {
         "title": "echeveria glauca cristata",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1302,6 +1819,11 @@
         "sun": "High",
         "common": "White stick",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/87.jpg" } } }
       }
     },
@@ -1309,7 +1831,8 @@
       "sys": { "id": "88" },
       "fields": {
         "title": "Hechtia glauca",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1317,6 +1840,11 @@
         "sun": "Not Specific",
         "common": "Green Aloe",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/88.jpg" } } }
       }
     },
@@ -1324,7 +1852,8 @@
       "sys": { "id": "89" },
       "fields": {
         "title": "Echeveria nuda",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1332,6 +1861,11 @@
         "sun": "High",
         "common": "Green Echeviria",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/89.jpg" } } }
       }
     },
@@ -1339,7 +1873,8 @@
       "sys": { "id": "90" },
       "fields": {
         "title": "portulakarea",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1347,6 +1882,11 @@
         "sun": "Moderate",
         "common": "Umbrella",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/90.jpg" } } }
       }
     },
@@ -1354,7 +1894,8 @@
       "sys": { "id": "91" },
       "fields": {
         "title": "Crassula perforata",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1362,6 +1903,11 @@
         "sun": "Moderate",
         "common": "Chilly",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/91.jpg" } } }
       }
     },
@@ -1369,7 +1915,8 @@
       "sys": { "id": "92" },
       "fields": {
         "title": "Fishbone",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1377,6 +1924,11 @@
         "sun": "Not Specific",
         "common": "Fishbone",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/92.jpg" } } }
       }
     },
@@ -1384,7 +1936,8 @@
       "sys": { "id": "93" },
       "fields": {
         "title": "Chlorophytum/spider plant",
-        "price": 39,
+        "orgPrice": 39,
+        "price": 34,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1392,6 +1945,11 @@
         "sun": "Not Specific",
         "common": "Chlorophytm",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/93.jpg" } } }
       }
     },
@@ -1399,7 +1957,8 @@
       "sys": { "id": "94" },
       "fields": {
         "title": "CC",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1407,6 +1966,11 @@
         "sun": "Moderate",
         "common": "Change Color",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/94.jpg" } } }
       }
     },
@@ -1414,7 +1978,8 @@
       "sys": { "id": "95" },
       "fields": {
         "title": "Serissafoetida",
-        "price": 49,
+        "orgPrice": 49,
+        "price": 44,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1422,6 +1987,11 @@
         "sun": "Not Specific",
         "common": "Bad smell",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/95.jpg" } } }
       }
     },
@@ -1429,7 +1999,8 @@
       "sys": { "id": "96" },
       "fields": {
         "title": "Stapelia Lepida",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 0,
         "size": "(1.5\"-2\")",
         "transit": "Low",
@@ -1437,6 +2008,11 @@
         "sun": "Moderate",
         "common": "Tiger Flower",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/96.jpg" } } }
       }
     },
@@ -1444,7 +2020,8 @@
       "sys": { "id": "97" },
       "fields": {
         "title": "Euphorbia flanaganii",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1452,6 +2029,11 @@
         "sun": "Moderate",
         "common": "medusa's head",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/97.jpg" } } }
       }
     },
@@ -1459,7 +2041,8 @@
       "sys": { "id": "98" },
       "fields": {
         "title": "Euphorbia ferox",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1467,6 +2050,11 @@
         "sun": "High",
         "common": "Bomb",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/98.jpg" } } }
       }
     },
@@ -1474,7 +2062,8 @@
       "sys": { "id": "99" },
       "fields": {
         "title": "Aeonium arboreum/green",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1482,6 +2071,11 @@
         "sun": "Moderate",
         "common": "Aeonium Green",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/99.jpg" } } }
       }
     },
@@ -1489,7 +2083,8 @@
       "sys": { "id": "100" },
       "fields": {
         "title": "Aeonium arboreum/Purple",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1497,6 +2092,11 @@
         "sun": "Moderate",
         "common": "Aeonium Purple",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/100.jpg" } } }
       }
     },
@@ -1504,7 +2104,8 @@
       "sys": { "id": "101" },
       "fields": {
         "title": "crassula exilis",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1512,6 +2113,11 @@
         "sun": "Moderate",
         "common": "Tiger sedum",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/101.jpg" } } }
       }
     },
@@ -1519,7 +2125,8 @@
       "sys": { "id": "102" },
       "fields": {
         "title": "Sansevieria zeylanica",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1527,6 +2134,11 @@
         "sun": "Low",
         "common": "Snake Long",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/102.jpg" } } }
       }
     },
@@ -1534,7 +2146,8 @@
       "sys": { "id": "103" },
       "fields": {
         "title": "blue chalksticks",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1542,6 +2155,11 @@
         "sun": "Moderate",
         "common": "Blue stick",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/103.jpg" } } }
       }
     },
@@ -1549,7 +2167,8 @@
       "sys": { "id": "104" },
       "fields": {
         "title": "Christmas cactus",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1557,6 +2176,11 @@
         "sun": "Moderate",
         "common": "Christmas cactus",
         "category": "cactus",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/104.jpg" } } }
       }
     },
@@ -1564,7 +2188,8 @@
       "sys": { "id": "105" },
       "fields": {
         "title": "Spyder plant/ iris",
-        "price": 39,
+        "orgPrice": 39,
+        "price": 34,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1572,6 +2197,11 @@
         "sun": "Moderate",
         "common": "Iris",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/105.jpg" } } }
       }
     },
@@ -1579,7 +2209,8 @@
       "sys": { "id": "106" },
       "fields": {
         "title": "Sansevieria Compacta Dwarf",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1587,6 +2218,11 @@
         "sun": "Low",
         "common": "Snake Draft Long",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/106.jpg" } } }
       }
     },
@@ -1594,7 +2230,8 @@
       "sys": { "id": "107" },
       "fields": {
         "title": "Delosperma",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1602,6 +2239,11 @@
         "sun": "Moderate",
         "common": "Rough Sedum",
         "category": "hanging",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/107.jpg" } } }
       }
     },
@@ -1609,7 +2251,8 @@
       "sys": { "id": "108" },
       "fields": {
         "title": "Jade plant (verigated)",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1617,6 +2260,11 @@
         "sun": "Not Specific",
         "common": "Jade Verigated",
         "category": "jade",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/108.jpg" } } }
       }
     },
@@ -1624,7 +2272,8 @@
       "sys": { "id": "109" },
       "fields": {
         "title": "Sedum Morganianum",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1632,6 +2281,11 @@
         "sun": "Not Specific",
         "common": "Donkey Tail",
         "category": "hanging",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/109.jpg" } } }
       }
     },
@@ -1639,7 +2293,8 @@
       "sys": { "id": "110" },
       "fields": {
         "title": "Super Donkey Tail",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1647,6 +2302,11 @@
         "sun": "Not Specific",
         "common": "Super Donkey Tail",
         "category": "hanging",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/110.jpg" } } }
       }
     },
@@ -1654,7 +2314,8 @@
       "sys": { "id": "111" },
       "fields": {
         "title": "String of tears",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1662,6 +2323,11 @@
         "sun": "Moderate",
         "common": "String of tears",
         "category": "hanging",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/111.jpg" } } }
       }
     },
@@ -1669,7 +2335,8 @@
       "sys": { "id": "112" },
       "fields": {
         "title": "Crassula muscosa",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1677,6 +2344,11 @@
         "sun": "Moderate",
         "common": "lizard's tail",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/112.jpg" } } }
       }
     },
@@ -1684,7 +2356,8 @@
       "sys": { "id": "113" },
       "fields": {
         "title": "Syngonium/golden yellow",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1692,6 +2365,11 @@
         "sun": "Low",
         "common": "Syngonium yellow",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/113.jpg" } } }
       }
     },
@@ -1699,7 +2377,8 @@
       "sys": { "id": "114" },
       "fields": {
         "title": "Syngonium/golden green",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1707,6 +2386,11 @@
         "sun": "Low",
         "common": "Syngonium green",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/114.jpg" } } }
       }
     },
@@ -1714,7 +2398,8 @@
       "sys": { "id": "115" },
       "fields": {
         "title": "Peace lily",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 0,
         "size": "(3\"-4\")",
         "transit": "High",
@@ -1722,6 +2407,11 @@
         "sun": "Low",
         "common": "Peace lily",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/115.jpg" } } }
       }
     },
@@ -1729,7 +2419,8 @@
       "sys": { "id": "116" },
       "fields": {
         "title": "Aloe brown",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1737,6 +2428,11 @@
         "sun": "Not Specific",
         "common": "Aloe brown",
         "category": "aloe",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/116.jpg" } } }
       }
     },
@@ -1744,7 +2440,8 @@
       "sys": { "id": "117" },
       "fields": {
         "title": "Sedum rubrotinctum",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1752,6 +2449,11 @@
         "sun": "Not Specific",
         "common": "jelly bean",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/117.jpg" } } }
       }
     },
@@ -1759,7 +2461,8 @@
       "sys": { "id": "118" },
       "fields": {
         "title": "Lavandula lanata",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1767,6 +2470,11 @@
         "sun": "Moderate",
         "common": "woolly lavender",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/118.jpg" } } }
       }
     },
@@ -1774,7 +2482,8 @@
       "sys": { "id": "119" },
       "fields": {
         "title": "African violet",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1782,6 +2491,11 @@
         "sun": "Low",
         "common": "African violet",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/119.jpg" } } }
       }
     },
@@ -1789,7 +2503,8 @@
       "sys": { "id": "120" },
       "fields": {
         "title": "Peperomia obtusifolia variegated green",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1797,6 +2512,11 @@
         "sun": "Moderate",
         "common": "Peperomia var green",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/120.jpg" } } }
       }
     },
@@ -1804,7 +2524,8 @@
       "sys": { "id": "121" },
       "fields": {
         "title": "Peperomia obtusifolia/green",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1812,6 +2533,11 @@
         "sun": "Moderate",
         "common": "Pep thick green",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/121.jpg" } } }
       }
     },
@@ -1819,7 +2545,8 @@
       "sys": { "id": "122" },
       "fields": {
         "title": "Peperomia obtusifolia",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1827,6 +2554,11 @@
         "sun": "Low",
         "common": "Pep thick green",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/122.jpg" } } }
       }
     },
@@ -1834,7 +2566,8 @@
       "sys": { "id": "123" },
       "fields": {
         "title": "Peperomia obtusifolia variegated",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1842,6 +2575,11 @@
         "sun": "Moderate",
         "common": "Pep thick var white",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/123.jpg" } } }
       }
     },
@@ -1849,7 +2587,8 @@
       "sys": { "id": "124" },
       "fields": {
         "title": "Portulaka variegated",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1857,6 +2596,11 @@
         "sun": "High",
         "common": "Portulaka variegated",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/124.jpg" } } }
       }
     },
@@ -1864,7 +2608,8 @@
       "sys": { "id": "125" },
       "fields": {
         "title": "Turtle wine",
-        "price": 39,
+        "orgPrice": 39,
+        "price": 34,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1872,6 +2617,11 @@
         "sun": "Moderate",
         "common": "Turtle wine",
         "category": "hanging",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/125.jpg" } } }
       }
     },
@@ -1879,7 +2629,8 @@
       "sys": { "id": "126" },
       "fields": {
         "title": "Snake Draft Verigated",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1887,6 +2638,11 @@
         "sun": "Not Specific",
         "common": "Snake Draft Verigated",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/126.jpg" } } }
       }
     },
@@ -1894,7 +2650,8 @@
       "sys": { "id": "127" },
       "fields": {
         "title": "Aeonium Silver",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1902,6 +2659,11 @@
         "sun": "Moderate",
         "common": "Aeonium Silver",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/127.jpg" } } }
       }
     },
@@ -1909,7 +2671,8 @@
       "sys": { "id": "128" },
       "fields": {
         "title": "Jellybean stonecrop",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1917,6 +2680,11 @@
         "sun": "Moderate",
         "common": "Jellybean stonecrop",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/128.jpg" } } }
       }
     },
@@ -1924,7 +2692,8 @@
       "sys": { "id": "129" },
       "fields": {
         "title": "Graptosedum",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1932,6 +2701,11 @@
         "sun": "Moderate",
         "common": "Sun Sedum",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/129.jpg" } } }
       }
     },
@@ -1939,7 +2713,8 @@
       "sys": { "id": "130" },
       "fields": {
         "title": "Sedum crassulaceae",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1947,6 +2722,11 @@
         "sun": "Moderate",
         "common": "Grey Sedum",
         "category": "hanging",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/130.jpg" } } }
       }
     },
@@ -1954,7 +2734,8 @@
       "sys": { "id": "131" },
       "fields": {
         "title": "Senecio barbertonicus",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1962,6 +2743,11 @@
         "sun": "Moderate",
         "common": "Green Stick",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/131.jpg" } } }
       }
     },
@@ -1969,7 +2755,8 @@
       "sys": { "id": "132" },
       "fields": {
         "title": "heartleaf philodendron",
-        "price": 39,
+        "orgPrice": 39,
+        "price": 34,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1977,6 +2764,11 @@
         "sun": "Low",
         "common": "Heart Leaf",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/132.jpg" } } }
       }
     },
@@ -1984,7 +2776,8 @@
       "sys": { "id": "133" },
       "fields": {
         "title": "Gold moss",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1992,6 +2785,11 @@
         "sun": "Moderate",
         "common": "Gold Moss",
         "category": "hanging",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/133.jpg" } } }
       }
     },
@@ -1999,7 +2797,8 @@
       "sys": { "id": "134" },
       "fields": {
         "title": "Sedum stonecrops",
-        "price": 49,
+        "orgPrice": 49,
+        "price": 44,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -2007,6 +2806,11 @@
         "sun": "Moderate",
         "common": "Sedum stonecrops",
         "category": "hanging",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/134.jpg" } } }
       }
     },
@@ -2014,7 +2818,8 @@
       "sys": { "id": "135" },
       "fields": {
         "title": "Sedum Pachychyllum",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -2022,6 +2827,11 @@
         "sun": "Moderate",
         "common": "Fingure Succulent",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/135.jpg" } } }
       }
     },
@@ -2029,7 +2839,8 @@
       "sys": { "id": "136" },
       "fields": {
         "title": "Pilea cadierei",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -2037,6 +2848,11 @@
         "sun": "Low",
         "common": "Pilea",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/136.jpg" } } }
       }
     },
@@ -2044,7 +2860,8 @@
       "sys": { "id": "137" },
       "fields": {
         "title": "sedum chamomile",
-        "price": 49,
+        "orgPrice": 49,
+        "price": 44,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -2052,6 +2869,11 @@
         "sun": "Moderate",
         "common": "Grass Sedum",
         "category": "hanging",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/137.jpg" } } }
       }
     },
@@ -2059,7 +2881,8 @@
       "sys": { "id": "138" },
       "fields": {
         "title": "Cotyledon tomentosa",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -2067,6 +2890,11 @@
         "sun": "Moderate",
         "common": "bear's paw",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/138.jpg" } } }
       }
     },
@@ -2074,7 +2902,8 @@
       "sys": { "id": "139" },
       "fields": {
         "title": "string of hearts",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -2082,6 +2911,11 @@
         "sun": "Not Specific",
         "common": "string of hearts",
         "category": "hanging",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/139.jpg" } } }
       }
     },
@@ -2089,7 +2923,8 @@
       "sys": { "id": "140" },
       "fields": {
         "title": "creeping jade",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2097,6 +2932,11 @@
         "sun": "Moderate",
         "common": "creeping jade",
         "category": "hanging",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/140.jpg" } } }
       }
     },
@@ -2104,7 +2944,8 @@
       "sys": { "id": "141" },
       "fields": {
         "title": "Graptopetalum",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(1.5\"-2\")",
         "transit": "High",
@@ -2112,6 +2953,11 @@
         "sun": "Moderate",
         "common": "white sedum",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/141.jpg" } } }
       }
     },
@@ -2119,7 +2965,8 @@
       "sys": { "id": "142" },
       "fields": {
         "title": "Sedum nussbaumerianum",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -2127,6 +2974,11 @@
         "sun": "High",
         "common": "yellow sun",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/142.jpg" } } }
       }
     },
@@ -2134,7 +2986,8 @@
       "sys": { "id": "143" },
       "fields": {
         "title": "Graptopetalum paraguayense",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2142,6 +2995,11 @@
         "sun": "Moderate",
         "common": "Ghost plant",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/143.jpg" } } }
       }
     },
@@ -2149,7 +3007,8 @@
       "sys": { "id": "144" },
       "fields": {
         "title": "Aloe Camperi",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2157,6 +3016,11 @@
         "sun": "Low",
         "common": "Purple Aloe",
         "category": "aloe",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/144.jpg" } } }
       }
     },
@@ -2164,7 +3028,8 @@
       "sys": { "id": "145" },
       "fields": {
         "title": "Gasteria Bicolor Liliputana",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(1.5\"-2\")",
         "transit": "Low",
@@ -2172,6 +3037,11 @@
         "sun": "Moderate",
         "common": "Miniature Aloe",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/145.jpg" } } }
       }
     },
@@ -2179,7 +3049,8 @@
       "sys": { "id": "146" },
       "fields": {
         "title": "Crassula ovata verigated",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2187,6 +3058,11 @@
         "sun": "Moderate",
         "common": "Tricolour jade",
         "category": "jade",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/146.jpg" } } }
       }
     },
@@ -2194,7 +3070,8 @@
       "sys": { "id": "147" },
       "fields": {
         "title": "Crassula ovata",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2202,6 +3079,11 @@
         "sun": "Moderate",
         "common": "jade big leaf",
         "category": "jade",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/147.jpg" } } }
       }
     },
@@ -2209,7 +3091,8 @@
       "sys": { "id": "148" },
       "fields": {
         "title": "Hedera rhombea",
-        "price": 39,
+        "orgPrice": 39,
+        "price": 34,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -2217,6 +3100,11 @@
         "sun": "Moderate",
         "common": "Common ivy",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/148.jpg" } } }
       }
     },
@@ -2224,7 +3112,8 @@
       "sys": { "id": "149" },
       "fields": {
         "title": "Hedera helix",
-        "price": 39,
+        "orgPrice": 39,
+        "price": 34,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -2232,6 +3121,11 @@
         "sun": "Low",
         "common": "English ivy Green",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/149.jpg" } } }
       }
     },
@@ -2239,7 +3133,8 @@
       "sys": { "id": "150" },
       "fields": {
         "title": "Alligator plant",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2247,6 +3142,11 @@
         "sun": "Moderate",
         "common": "mother of thousands",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/150.jpg" } } }
       }
     },
@@ -2254,7 +3154,8 @@
       "sys": { "id": "151" },
       "fields": {
         "title": "Peperomia caperata/ green",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -2262,6 +3163,11 @@
         "sun": "Low",
         "common": "Pepromia Grey",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/151.jpg" } } }
       }
     },
@@ -2269,7 +3175,8 @@
       "sys": { "id": "152" },
       "fields": {
         "title": "Ophiopogon japonicus",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -2277,6 +3184,11 @@
         "sun": "Moderate",
         "common": "lilyturf",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/152.jpg" } } }
       }
     },
@@ -2284,7 +3196,8 @@
       "sys": { "id": "153" },
       "fields": {
         "title": "Aeonium arboreum/verigated",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -2292,6 +3205,11 @@
         "sun": "Moderate",
         "common": "Aeonium Verigated",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/153.jpg" } } }
       }
     },
@@ -2299,7 +3217,8 @@
       "sys": { "id": "154" },
       "fields": {
         "title": "Peperomia rubella",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -2307,6 +3226,11 @@
         "sun": "Low",
         "common": "pep small leaf",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/154.jpg" } } }
       }
     },
@@ -2314,7 +3238,8 @@
       "sys": { "id": "155" },
       "fields": {
         "title": "Rebutia",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2322,6 +3247,11 @@
         "sun": "High",
         "common": "Ball yellow Flower",
         "category": "cactus",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/155.jpg" } } }
       }
     },
@@ -2329,7 +3259,8 @@
       "sys": { "id": "156" },
       "fields": {
         "title": "Echeveria prolifica",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2337,6 +3268,11 @@
         "sun": "Moderate",
         "common": "Close Fingure",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/156.jpg" } } }
       }
     },
@@ -2344,7 +3280,8 @@
       "sys": { "id": "157" },
       "fields": {
         "title": "Kalanchoe daigremontiana",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2352,6 +3289,11 @@
         "sun": "Moderate",
         "common": "devil's backbone",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/157.jpg" } } }
       }
     },
@@ -2359,7 +3301,8 @@
       "sys": { "id": "158" },
       "fields": {
         "title": "Aeonium haworthii",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2367,6 +3310,11 @@
         "sun": "Moderate",
         "common": "Aeonium Draft",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/158.jpg" } } }
       }
     },
@@ -2374,7 +3322,8 @@
       "sys": { "id": "159" },
       "fields": {
         "title": "Red Tip (Big)",
-        "price": 199,
+        "orgPrice": 199,
+        "price": 194,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -2382,6 +3331,11 @@
         "sun": "Moderate",
         "common": "Red Tip (Big)",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/159.jpg" } } }
       }
     },
@@ -2389,7 +3343,8 @@
       "sys": { "id": "160" },
       "fields": {
         "title": "Echeviria (Big)",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -2397,6 +3352,11 @@
         "sun": "Moderate",
         "common": "Echeviria (Big)",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/160.jpg" } } }
       }
     },
@@ -2404,7 +3364,8 @@
       "sys": { "id": "161" },
       "fields": {
         "title": "portulaka green",
-        "price": 39,
+        "orgPrice": 39,
+        "price": 34,
         "ava": 0,
         "size": "",
         "transit": "Moderate",
@@ -2412,6 +3373,11 @@
         "sun": "Moderate",
         "common": "portulaka(green)",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/161.jpg" } } }
       }
     },
@@ -2419,7 +3385,8 @@
       "sys": { "id": "162" },
       "fields": {
         "title": "Sedum Lizard",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -2427,6 +3394,11 @@
         "sun": "Moderate",
         "common": "needle sedum",
         "category": "hanging",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/162.jpg" } } }
       }
     },
@@ -2434,7 +3406,8 @@
       "sys": { "id": "163" },
       "fields": {
         "title": "Echeveria Shaviana",
-        "price": 199,
+        "orgPrice": 199,
+        "price": 194,
         "ava": 1,
         "size": "",
         "transit": "Moderate",
@@ -2442,6 +3415,11 @@
         "sun": "Moderate",
         "common": "Echeveria cabbage",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/163.jpg" } } }
       }
     },
@@ -2449,7 +3427,8 @@
       "sys": { "id": "164" },
       "fields": {
         "title": "Lenophyllum",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "",
         "transit": "Moderate",
@@ -2457,6 +3436,11 @@
         "sun": "Moderate",
         "common": "Pink sedum",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/164.jpg" } } }
       }
     },
@@ -2464,7 +3448,8 @@
       "sys": { "id": "165" },
       "fields": {
         "title": "String of Dolphin",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -2472,6 +3457,11 @@
         "sun": "Moderate",
         "common": "String of Dolphin",
         "category": "hanging",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/165.jpg" } } }
       }
     },
@@ -2479,7 +3469,8 @@
       "sys": { "id": "166" },
       "fields": {
         "title": "Echeveria melaco",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -2487,6 +3478,11 @@
         "sun": "Moderate",
         "common": "brown echeveria",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/166.jpg" } } }
       }
     },
@@ -2494,7 +3490,8 @@
       "sys": { "id": "167" },
       "fields": {
         "title": "Baby sun flower",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "",
         "transit": "Moderate",
@@ -2502,6 +3499,11 @@
         "sun": "Moderate",
         "common": "Baby sun flower",
         "category": "otherPlants",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/167.jpg" } } }
       }
     },
@@ -2509,7 +3511,8 @@
       "sys": { "id": "168" },
       "fields": {
         "title": "kalanchoe marnieriane",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -2517,6 +3520,11 @@
         "sun": "Moderate",
         "common": "doller colour",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/168.jpg" } } }
       }
     },
@@ -2524,7 +3532,8 @@
       "sys": { "id": "169" },
       "fields": {
         "title": "Kalanchoe panamensis",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -2532,6 +3541,11 @@
         "sun": "Moderate",
         "common": "doller",
         "category": "succulents",
+        "mother": 0,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/169.jpg" } } }
       }
     },
@@ -2539,7 +3553,8 @@
       "sys": { "id": "170" },
       "fields": {
         "title": "Rose Cactus",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -2547,6 +3562,11 @@
         "sun": "Moderate",
         "common": "Rose Cactus",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/170.jpg" } } }
       }
     },
@@ -2554,7 +3574,8 @@
       "sys": { "id": "171" },
       "fields": {
         "title": "Corsican stonecrop",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "",
         "transit": "High",
@@ -2562,6 +3583,11 @@
         "sun": "Moderate",
         "common": "thick-leaved sedum",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/171.jpg" } } }
       }
     },
@@ -2569,7 +3595,8 @@
       "sys": { "id": "172" },
       "fields": {
         "title": "Pigmyweeds",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "",
         "transit": "Moderate",
@@ -2577,6 +3604,11 @@
         "sun": "Moderate",
         "common": "green-pink sedum",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/172.jpg" } } }
       }
     },
@@ -2584,7 +3616,8 @@
       "sys": { "id": "173" },
       "fields": {
         "title": "Echinopsis tubiflora",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -2592,6 +3625,11 @@
         "sun": "Moderate",
         "common": "cactus daddy",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/173.jpg" } } }
       }
     },
@@ -2599,7 +3637,8 @@
       "sys": { "id": "174" },
       "fields": {
         "title": "Kalanchoe thyrsiflora",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -2607,6 +3646,11 @@
         "sun": "Moderate",
         "common": "flapjacks",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/174.jpg" } } }
       }
     },
@@ -2614,7 +3658,8 @@
       "sys": { "id": "175" },
       "fields": {
         "title": "Tradescantia sillamontana",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -2622,6 +3667,11 @@
         "sun": "Moderate",
         "common": "cotton",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/175.jpg" } } }
       }
     },
@@ -2629,7 +3679,8 @@
       "sys": { "id": "176" },
       "fields": {
         "title": "Syngonium podophyllum",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 0,
         "size": "",
         "transit": "High",
@@ -2637,6 +3688,11 @@
         "sun": "Low",
         "common": "arrowhead plant",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 0,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/176.jpg" } } }
       }
     },
@@ -2644,7 +3700,8 @@
       "sys": { "id": "177" },
       "fields": {
         "title": "Crassula tetragona (Big)",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "",
         "transit": "Moderate",
@@ -2652,6 +3709,11 @@
         "sun": "Moderate",
         "common": "Cone Tree (Big)",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/177.jpg" } } }
       }
     },
@@ -2659,7 +3721,8 @@
       "sys": { "id": "178" },
       "fields": {
         "title": "Opuntia Monacantha (Big)",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -2667,6 +3730,11 @@
         "sun": "Moderate",
         "common": "Tree Cactus (Big)",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 0,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/178.jpg" } } }
       }
     },
@@ -2674,7 +3742,8 @@
       "sys": { "id": "179" },
       "fields": {
         "title": "Crassula ovata (Big)",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "",
         "transit": "Moderate",
@@ -2682,6 +3751,11 @@
         "sun": "Moderate",
         "common": "Jade (Big)",
         "category": "jade",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/179.jpg" } } }
       }
     },
@@ -2689,7 +3763,8 @@
       "sys": { "id": "180" },
       "fields": {
         "title": "Sedum Pachychyllum (Big)",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "",
         "transit": "High",
@@ -2697,6 +3772,11 @@
         "sun": "Moderate",
         "common": "Fingure Succulent (Big)",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/180.jpg" } } }
       }
     },
@@ -2704,7 +3784,8 @@
       "sys": { "id": "181" },
       "fields": {
         "title": "Graptosedum (Big)",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "",
         "transit": "High",
@@ -2712,6 +3793,11 @@
         "sun": "Moderate",
         "common": "Sun Sedum (Big)",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/181.jpg" } } }
       }
     },
@@ -2719,7 +3805,8 @@
       "sys": { "id": "182" },
       "fields": {
         "title": "Sedum rubrotinctum (Big)",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "",
         "transit": "High",
@@ -2727,6 +3814,11 @@
         "sun": "Moderate",
         "common": "jelly bean (Big)",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/182.jpg" } } }
       }
     },
@@ -2734,7 +3826,8 @@
       "sys": { "id": "183" },
       "fields": {
         "title": "Sedum nussbaumerianum (Big)",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "",
         "transit": "High",
@@ -2742,6 +3835,11 @@
         "sun": "Moderate",
         "common": "yellow sun (Big)",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/183.jpg" } } }
       }
     },
@@ -2749,7 +3847,8 @@
       "sys": { "id": "184" },
       "fields": {
         "title": "Echeveria Gilwa (Big)",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "",
         "transit": "Moderate",
@@ -2757,6 +3856,11 @@
         "sun": "High",
         "common": "Black Prince (Big)",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/184.jpg" } } }
       }
     },
@@ -2764,7 +3868,8 @@
       "sys": { "id": "185" },
       "fields": {
         "title": "creeping jade (Big)",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -2772,6 +3877,11 @@
         "sun": "Moderate",
         "common": "creeping jade (Big)",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/185.jpg" } } }
       }
     },
@@ -2779,7 +3889,8 @@
       "sys": { "id": "186" },
       "fields": {
         "title": "Aloe juvenna (Big)",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -2787,6 +3898,11 @@
         "sun": "Moderate",
         "common": "Tiger Tooth Aloe (Big)",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/186.jpg" } } }
       }
     },
@@ -2794,7 +3910,8 @@
       "sys": { "id": "187" },
       "fields": {
         "title": "Echeveria Setosa (Big)",
-        "price": "",
+        "orgPrice": "",
+        "price": -5,
         "ava": 0,
         "size": "",
         "transit": "Moderate",
@@ -2802,6 +3919,11 @@
         "sun": "Moderate",
         "common": "Diamond (Big)",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/187.jpg" } } }
       }
     },
@@ -2809,7 +3931,8 @@
       "sys": { "id": "188" },
       "fields": {
         "title": "Crassula ovata (Big)",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "",
         "transit": "Moderate",
@@ -2817,6 +3940,11 @@
         "sun": "Moderate",
         "common": "jade big leaf (Big)",
         "category": "jade",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/188.jpg" } } }
       }
     },
@@ -2824,7 +3952,8 @@
       "sys": { "id": "189" },
       "fields": {
         "title": "Aeonium haworthii (Big)",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "",
         "transit": "High",
@@ -2832,6 +3961,11 @@
         "sun": "Moderate",
         "common": "Aeonium Draft (Big)",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/189.jpg" } } }
       }
     },
@@ -2839,7 +3973,8 @@
       "sys": { "id": "190" },
       "fields": {
         "title": "Senecio Radicans (Big)",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 0,
         "size": "",
         "transit": "High",
@@ -2847,6 +3982,11 @@
         "sun": "Moderate",
         "common": "String of necklace (Big)",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/190.jpg" } } }
       }
     },
@@ -2854,7 +3994,8 @@
       "sys": { "id": "191" },
       "fields": {
         "title": "Opuntia yellow (Big)",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "",
         "transit": "Moderate",
@@ -2862,6 +4003,11 @@
         "sun": "High",
         "common": "Opentia Yellow (Big)",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/191.jpg" } } }
       }
     },
@@ -2869,7 +4015,8 @@
       "sys": { "id": "192" },
       "fields": {
         "title": "Opuntia white (Big)",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -2877,6 +4024,11 @@
         "sun": "High",
         "common": "Opentia white (Big)",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/192.jpg" } } }
       }
     },
@@ -2884,7 +4036,8 @@
       "sys": { "id": "193" },
       "fields": {
         "title": "Crassula ovatha (Big)",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -2892,6 +4045,11 @@
         "sun": "Moderate",
         "common": "Finger Jade (Big)",
         "category": "jade",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/193.jpg" } } }
       }
     },
@@ -2899,7 +4057,8 @@
       "sys": { "id": "194" },
       "fields": {
         "title": "Haworthiopsis attenuata (Big)",
-        "price": 199,
+        "orgPrice": 199,
+        "price": 194,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -2907,6 +4066,11 @@
         "sun": "Moderate",
         "common": "Haworthia Fat (Big)",
         "category": "haworthia",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/194.jpg" } } }
       }
     },
@@ -2914,7 +4078,8 @@
       "sys": { "id": "195" },
       "fields": {
         "title": "Echeveria Akmalia(big)",
-        "price": 249,
+        "orgPrice": 249,
+        "price": 244,
         "ava": 1,
         "size": "",
         "transit": "Moderate",
@@ -2922,6 +4087,11 @@
         "sun": "High",
         "common": "Bramha Prabhu(big)",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/195.jpg" } } }
       }
     },
@@ -2929,7 +4099,8 @@
       "sys": { "id": "196" },
       "fields": {
         "title": "Haworthia cymbiformis(big)",
-        "price": 199,
+        "orgPrice": 199,
+        "price": 194,
         "ava": 1,
         "size": "",
         "transit": "Moderate",
@@ -2937,6 +4108,11 @@
         "sun": "Moderate",
         "common": "Stone(big)",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/196.jpg" } } }
       }
     },
@@ -2944,7 +4120,8 @@
       "sys": { "id": "197" },
       "fields": {
         "title": "sedum spurium(tricolour)",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "",
         "transit": "High",
@@ -2952,6 +4129,11 @@
         "sun": "Moderate",
         "common": "tricolor sedum",
         "category": "sedum",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/197.jpg" } } }
       }
     },
@@ -2959,7 +4141,8 @@
       "sys": { "id": "198" },
       "fields": {
         "title": "sansevieria trifasciata",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -2967,6 +4150,11 @@
         "sun": "Low",
         "common": "snake normal",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/198.jpg" } } }
       }
     },
@@ -2974,7 +4162,8 @@
       "sys": { "id": "199" },
       "fields": {
         "title": "Aloe vera",
-        "price": 49,
+        "orgPrice": 49,
+        "price": 44,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -2982,6 +4171,11 @@
         "sun": "Low",
         "common": "aloe vera normal",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/199.jpg" } } }
       }
     },
@@ -2989,7 +4183,8 @@
       "sys": { "id": "200" },
       "fields": {
         "title": "wax ivy(green border)",
-        "price": 49,
+        "orgPrice": 49,
+        "price": 44,
         "ava": 0,
         "size": "",
         "transit": "High",
@@ -2997,6 +4192,11 @@
         "sun": "Moderate",
         "common": "wax ivy(green border)",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/200.jpg" } } }
       }
     },
@@ -3004,7 +4204,8 @@
       "sys": { "id": "201" },
       "fields": {
         "title": "Haworthia cymbiformis",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -3012,6 +4213,11 @@
         "sun": "Low",
         "common": "stone brown",
         "category": "haworthia",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 0,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/201.jpg" } } }
       }
     },
@@ -3019,7 +4225,8 @@
       "sys": { "id": "202" },
       "fields": {
         "title": "Crassula Sarmentosa Variegated",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "",
         "transit": "Moderate",
@@ -3027,6 +4234,11 @@
         "sun": "High",
         "common": "variegated leaf",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/202.jpg" } } }
       }
     },
@@ -3034,7 +4246,8 @@
       "sys": { "id": "203" },
       "fields": {
         "title": "Peperomia Ferreyrae",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -3042,6 +4255,11 @@
         "sun": "Moderate",
         "common": "Happy bean Peperomia",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/203.jpg" } } }
       }
     },
@@ -3049,7 +4267,8 @@
       "sys": { "id": "204" },
       "fields": {
         "title": "Peperomia argyreia",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 1,
         "size": "",
         "transit": "High",
@@ -3057,6 +4276,11 @@
         "sun": "Low",
         "common": "watermelon peperomia",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/204.jpg" } } }
       }
     },
@@ -3064,7 +4288,8 @@
       "sys": { "id": "205" },
       "fields": {
         "title": "Pilea peperomioides",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 1,
         "size": "",
         "transit": "High",
@@ -3072,6 +4297,11 @@
         "sun": "Low",
         "common": "Chinese money plant",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/205.jpg" } } }
       }
     },
@@ -3079,7 +4309,8 @@
       "sys": { "id": "206" },
       "fields": {
         "title": "Gasteria (variegated)",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -3087,6 +4318,11 @@
         "sun": "Moderate",
         "common": "aloe variegated",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/206.jpg" } } }
       }
     },
@@ -3094,7 +4330,8 @@
       "sys": { "id": "207" },
       "fields": {
         "title": "Peperomia clusiifolia",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 1,
         "size": "",
         "transit": "Moderate",
@@ -3102,6 +4339,11 @@
         "sun": "Low",
         "common": "peperomia black",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/207.jpg" } } }
       }
     },
@@ -3109,7 +4351,8 @@
       "sys": { "id": "208" },
       "fields": {
         "title": "Wandering Jew(small leaf)",
-        "price": 59,
+        "orgPrice": 59,
+        "price": 54,
         "ava": 1,
         "size": "",
         "transit": "High",
@@ -3117,6 +4360,11 @@
         "sun": "Moderate",
         "common": "small wandering Jew",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/208.jpg" } } }
       }
     },
@@ -3124,7 +4372,8 @@
       "sys": { "id": "209" },
       "fields": {
         "title": "cereus forma",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -3132,6 +4381,11 @@
         "sun": "High",
         "common": "thorny cactus",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/209.jpg" } } }
       }
     },
@@ -3139,7 +4393,8 @@
       "sys": { "id": "210" },
       "fields": {
         "title": "aloe aristata",
-        "price": 199,
+        "orgPrice": 199,
+        "price": 194,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -3147,6 +4402,11 @@
         "sun": "Low",
         "common": "aloe flat",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/210.jpg" } } }
       }
     },
@@ -3154,7 +4414,8 @@
       "sys": { "id": "211" },
       "fields": {
         "title": "Mammillaria elongata",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -3162,6 +4423,11 @@
         "sun": "High",
         "common": "oval cactus",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/211.jpg" } } }
       }
     },
@@ -3169,7 +4435,8 @@
       "sys": { "id": "212" },
       "fields": {
         "title": "echinopsis peanut",
-        "price": 199,
+        "orgPrice": 199,
+        "price": 194,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -3177,6 +4444,11 @@
         "sun": "High",
         "common": "button cactus",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/212.jpg" } } }
       }
     },
@@ -3184,7 +4456,8 @@
       "sys": { "id": "213" },
       "fields": {
         "title": "Mammillaria bocasana",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -3192,6 +4465,11 @@
         "sun": "High",
         "common": "seed cactus",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/213.jpg" } } }
       }
     },
@@ -3199,7 +4477,8 @@
       "sys": { "id": "214" },
       "fields": {
         "title": "Euphorbia lactea",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -3207,6 +4486,11 @@
         "sun": "High",
         "common": "dragon bone",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/214.jpg" } } }
       }
     },
@@ -3214,7 +4498,8 @@
       "sys": { "id": "215" },
       "fields": {
         "title": "opuntua cylindrica",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -3222,6 +4507,11 @@
         "sun": "High",
         "common": "grey opentia",
         "category": "cactus",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/215.jpg" } } }
       }
     },
@@ -3229,7 +4519,8 @@
       "sys": { "id": "216" },
       "fields": {
         "title": "stapelia flavopurpurea",
-        "price": 199,
+        "orgPrice": 199,
+        "price": 194,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -3237,6 +4528,11 @@
         "sun": "High",
         "common": "carrion flower",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/216.jpg" } } }
       }
     },
@@ -3244,7 +4540,8 @@
       "sys": { "id": "217" },
       "fields": {
         "title": "red pagoda",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -3252,6 +4549,11 @@
         "sun": "High",
         "common": "small jain temple",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/217.jpg" } } }
       }
     },
@@ -3259,7 +4561,8 @@
       "sys": { "id": "218" },
       "fields": {
         "title": "crassula davil",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "",
         "transit": "High",
@@ -3267,6 +4570,11 @@
         "sun": "Moderate",
         "common": "coral relif sedum",
         "category": "sedum",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/218.jpg" } } }
       }
     },
@@ -3274,7 +4582,8 @@
       "sys": { "id": "219" },
       "fields": {
         "title": "string of banana",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -3282,6 +4591,11 @@
         "sun": "Moderate",
         "common": "string of banana",
         "category": "hanging",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/219.jpg" } } }
       }
     },
@@ -3289,7 +4603,8 @@
       "sys": { "id": "220" },
       "fields": {
         "title": "Peperomia caperata (variegated)",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 1,
         "size": "",
         "transit": "High",
@@ -3297,6 +4612,11 @@
         "sun": "Moderate",
         "common": "Peperomia white",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/220.jpg" } } }
       }
     },
@@ -3304,7 +4624,8 @@
       "sys": { "id": "221" },
       "fields": {
         "title": "echeveria fabila",
-        "price": 199,
+        "orgPrice": 199,
+        "price": 194,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -3312,6 +4633,11 @@
         "sun": "High",
         "common": "pink echeveria",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/221.jpg" } } }
       }
     },
@@ -3319,7 +4645,8 @@
       "sys": { "id": "222" },
       "fields": {
         "title": "Cryptanthus bivittatus",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -3327,6 +4654,11 @@
         "sun": "Moderate",
         "common": "Cryptanthus normal",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/222.jpg" } } }
       }
     },
@@ -3334,7 +4666,8 @@
       "sys": { "id": "223" },
       "fields": {
         "title": "Aloe bright star",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -3342,6 +4675,11 @@
         "sun": "Moderate",
         "common": "Aloe bright star",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/223.jpg" } } }
       }
     },
@@ -3349,7 +4687,8 @@
       "sys": { "id": "224" },
       "fields": {
         "title": "Kalanchoe millottii",
-        "price": 79,
+        "orgPrice": 79,
+        "price": 74,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -3357,6 +4696,11 @@
         "sun": "Moderate",
         "common": "white Kalanchoe",
         "category": "succulents",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/224.jpg" } } }
       }
     },
@@ -3364,7 +4708,8 @@
       "sys": { "id": "225" },
       "fields": {
         "title": "Murdannia",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "",
         "transit": "High",
@@ -3372,6 +4717,11 @@
         "sun": "Moderate",
         "common": "Cryptanthus colour",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/225.jpg" } } }
       }
     },
@@ -3379,7 +4729,8 @@
       "sys": { "id": "226" },
       "fields": {
         "title": "Rhoeo Plant",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -3387,6 +4738,11 @@
         "sun": "Moderate",
         "common": "Rhoeo Plant",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/226.jpg" } } }
       }
     },
@@ -3394,7 +4750,8 @@
       "sys": { "id": "227" },
       "fields": {
         "title": "Spiderwort",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "",
         "transit": "High",
@@ -3402,6 +4759,11 @@
         "sun": "Moderate",
         "common": "Wandering Jew",
         "category": "otherPlants",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/227.jpg" } } }
       }
     },
@@ -3409,7 +4771,8 @@
       "sys": { "id": "228" },
       "fields": {
         "title": "Haworthia cooperi var. pilifera",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -3417,6 +4780,11 @@
         "sun": "Moderate",
         "common": "Haworthia glass",
         "category": "haworthia",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/228.jpg" } } }
       }
     },
@@ -3424,7 +4792,8 @@
       "sys": { "id": "229" },
       "fields": {
         "title": "Aloe minnie belle",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "",
         "transit": "Low",
@@ -3432,6 +4801,11 @@
         "sun": "Moderate",
         "common": "grey aloe",
         "category": "aloe",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/229.jpg" } } }
       }
     },
@@ -3439,7 +4813,8 @@
       "sys": { "id": "230" },
       "fields": {
         "title": "Haworthia retusa",
-        "price": 120,
+        "orgPrice": 120,
+        "price": 115,
         "ava": 1,
         "size": "",
         "transit": "Low",
@@ -3447,6 +4822,11 @@
         "sun": "Moderate",
         "common": "Haworthia flat green",
         "category": "haworthia",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/230.jpg" } } }
       }
     },
@@ -3454,7 +4834,8 @@
       "sys": { "id": "231" },
       "fields": {
         "title": "Silver pagoda",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 1,
         "size": "",
         "transit": "",
@@ -3462,6 +4843,11 @@
         "sun": "",
         "common": "Silver Succulent",
         "category": "",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/231.jpg" } } }
       }
     },
@@ -3469,7 +4855,8 @@
       "sys": { "id": "232" },
       "fields": {
         "title": "senecio obovatus",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "",
         "transit": "",
@@ -3477,6 +4864,11 @@
         "sun": "",
         "common": "Kalanchoe grey",
         "category": "",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/232.jpg" } } }
       }
     },
@@ -3484,7 +4876,8 @@
       "sys": { "id": "233" },
       "fields": {
         "title": "Sedum burrito",
-        "price": 69,
+        "orgPrice": 69,
+        "price": 64,
         "ava": 0,
         "size": "",
         "transit": "",
@@ -3492,6 +4885,11 @@
         "sun": "",
         "common": "big leaf donkey tail",
         "category": "",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/233.jpg" } } }
       }
     },
@@ -3499,7 +4897,8 @@
       "sys": { "id": "234" },
       "fields": {
         "title": "curio radicans",
-        "price": 89,
+        "orgPrice": 89,
+        "price": 84,
         "ava": 0,
         "size": "",
         "transit": "",
@@ -3507,6 +4906,11 @@
         "sun": "",
         "common": "string of banana green",
         "category": "",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/234.jpg" } } }
       }
     },
@@ -3514,7 +4918,8 @@
       "sys": { "id": "235" },
       "fields": {
         "title": "Peperomia nivalis",
-        "price": 149,
+        "orgPrice": 149,
+        "price": 144,
         "ava": 0,
         "size": "",
         "transit": "",
@@ -3522,6 +4927,11 @@
         "sun": "",
         "common": "green line peperomia",
         "category": "",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/235.jpg" } } }
       }
     },
@@ -3529,7 +4939,8 @@
       "sys": { "id": "236" },
       "fields": {
         "title": "Haworthia Asema",
-        "price": 99,
+        "orgPrice": 99,
+        "price": 94,
         "ava": 0,
         "size": "",
         "transit": "",
@@ -3537,6 +4948,11 @@
         "sun": "",
         "common": "haworthia small leaf",
         "category": "",
+        "mother": 1,
+        "hanging": 1,
+        "offer": 1,
+        "indoor": 1,
+        "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/236.jpg" } } }
       }
     },
@@ -3544,6 +4960,7 @@
       "sys": { "id": "" },
       "fields": {
         "title": "",
+        "orgPrice": "",
         "price": "",
         "ava": "",
         "size": "",
@@ -3552,6 +4969,11 @@
         "sun": "",
         "common": "",
         "category": "",
+        "mother": "",
+        "hanging": "",
+        "offer": "",
+        "indoor": "",
+        "restock": "",
         "image": { "fields": { "file": { "url": "" } } }
       }
     }

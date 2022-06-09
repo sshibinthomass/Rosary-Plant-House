@@ -40,11 +40,11 @@ class Products {
       let products = data.items;
 
       products = products.map((item) => {
-        const { title, price, ava,size,transit,water,sun,common,category } = item.fields;
+        const { title,orgPrice, price, ava,size,transit,water,sun,common,category,mother,hanging,offer,indoor,restock } = item.fields;
         const { id } = item.sys;
         const image = item.fields.image.fields.file.url;
 
-        return { title, price, ava, id, image,size,transit,water,sun,common,category  };
+        return { title,orgPrice, price, ava, id, image,size,transit,water,sun,common,category,mother,hanging,offer,indoor,restock  };
       });
       return products;
     } catch (error) {
@@ -60,10 +60,9 @@ class UI {
 
     let result = "";
     products.forEach((product) => {
-      //console.log(product.ava);
-     // if (product.ava == 1 
+      if (product.ava == 1 
         //&& product.category=="succulents"
-       // ) 
+        ) 
       {
         result += `
       <!-- single product start -->
@@ -124,10 +123,7 @@ class UI {
               </tr>
               <tr>
                   <td class="py-1">Price</td>
-                  <td class="py-1">:                       {% if product.orgprice != product.price %}
-                    <strike>&#8377;{{product.orgprice}}</strike>
-                    {% endif %}
-                    <b> &#8377; ${product.price}</b>
+                  <td class="py-1">:   ${product.price}
                   </td>
               </tr>
               <tr>
@@ -139,10 +135,9 @@ class UI {
                   <td class="py-1">: ${product.sun}</td>
               </tr>
               <tr>
-                <td class="py-1">Maintenance</td>
-                <td class="py-1">: {{product.maintenance}}</td>
-              </tr>
-
+              <td class="py-1">Indoor</td>
+              <td class="py-1">: ${product.indoor}</td>
+          </tr>
               </tbody>
             </table>  
             <tr>
