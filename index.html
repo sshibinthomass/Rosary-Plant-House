@@ -3,7 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
 
     <title>Comfy House / Shopping Cart</title>
 
@@ -29,16 +34,30 @@
   </head>
   <body>
     <!-- start of navbar -->
-    <nav class="navbar">
-      <div class="navbar-center">
-        <span class="nav-icon">
-          <i class="fa fa-bars" aria-hidden="true"></i>
-        </span>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="/">
+        <img src="assets/img/logo(only).png" alt="" width="30" height="30" />
+      </a>
 
-        <!-- app logo -->
-        <h5 style="color:rgb(72, 97, 0);">Rosary Plant House</h5>
-      <!--  <img src="./assets/img/logo.svg" alt="store logo" />-->
-
+      <button
+      class="navbar-toggler navbar-light  bg-light"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbar-light  bg-light" id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link active" href="#"
+          >Home <span class="sr-only">(current)</span></a
+        >
+        <a class="nav-item nav-link" href="#">Features</a>
+        <a class="nav-item nav-link" href="#">Pricing</a>
+        <a class="nav-item nav-link disabled" href="#">Disabled</a>
         <div class="cart-btn">
           <span class="nav-icon">
             <i class="fa fa-cart-plus" aria-hidden="true"></i>
@@ -46,8 +65,11 @@
           <div class="cart-items">0</div>
         </div>
       </div>
+    </div>
+
     </nav>
     <!-- end of navbar -->
+
 
     <!-- start of hero
     <header class="hero">
@@ -63,7 +85,6 @@
       <div class="section-title">
         <h2>our products</h2>
       </div>
-
 
       <div class="products-center">
         <!-- single product start -->
@@ -121,9 +142,21 @@
 
           <!-- clear all cart item button -->
           <div class="d-flex justify-content-between">
-          <button class="clear-cart btn btn-danger " onClick="window.location.reload()">clear cart</button>
-          <button type="button" class="btn btn-secondary   " id="demo" onclick="myFunction()">Place Order</button>
-        </div>
+            <button
+              class="clear-cart btn btn-danger"
+              onClick="window.location.reload()"
+            >
+              clear cart
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              id="demo"
+              onclick="myFunction()"
+            >
+              Place Order
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -131,9 +164,20 @@
 
     <!-- javascript -->
     <script src="./assets/js/app.js"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
