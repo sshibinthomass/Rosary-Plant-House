@@ -1,0 +1,704 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <title>Comfy House / Shopping Cart</title>
+
+    <!-- style / css -->
+    <!-- <link rel="stylesheet" href="./assets/css/main.css"> -->
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <!-- favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/img/favicon.png"
+      type="image/png"
+    />
+    <script src="https://kit.fontawesome.com/9b720ae962.js" crossorigin="anonymous"></script>
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <style>
+      /* Carousel base class */
+.carousel {
+  margin-bottom: 4rem;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: .75rem;
+  margin-left: .75rem;
+}
+
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 40em) {
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+    margin-top: 7rem;
+  }
+}  
+      .bd-placeholder-img {
+          font-size: 1.125rem;
+          text-anchor: middle;
+          -webkit-user-select: none;
+          -moz-user-select: none;
+          user-select: none;
+        }
+  
+        @media (min-width: 768px) {
+          .bd-placeholder-img-lg {
+            font-size: 3.5rem;
+          }
+        }
+      .fab {
+           font-size: 20px;
+         width: 30px;
+          text-align: center;
+          text-decoration: none;
+        }
+        .fas {
+          font-size: 20px;
+        width: 30px;
+         text-align: center;
+         text-decoration: none;
+       }
+        
+        /* Add a hover effect if you want */
+        .fa:hover {
+          opacity: 0.7;
+        }
+        
+        /* Set a specific color for each brand */
+        
+        /* Facebook */
+        .fa-facebook {
+          color: rgb(17, 0, 255);
+        }
+        .fa-whatsapp-square{
+          color: rgb(0, 90, 0);
+        }
+        /* Twitter */
+        .fa-youtube {
+          color: rgb(179, 0, 0);
+        }
+        
+        .fa-instagram {
+          color: white;
+        }
+
+        .fa-home{
+            color: rgb(0, 0, 0);
+        }
+
+        .fa-arrow-alt-circle-up{
+          color: rgb(0, 0, 0);
+          }
+          .destinations
+          {
+            width: 100%;
+            background: #FFFFFF;
+            padding-top: 115px;
+            padding-bottom: 116px;
+          }
+          .section_subtitle
+          {
+            font-family: 'Oswald', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            color: #72728c;
+            line-height: 0.75;
+            text-transform: uppercase;
+            letter-spacing: 0.2em;
+          }
+          .section_title
+          {
+            color: #181818;
+            margin-top: 26px;
+          }
+          .destination_sorting_row
+          {
+            margin-top: 100px;
+          }
+          .destination_sorting
+          {
+            width: 100%;
+          }
+          .item_sorting > li
+          {
+            display: inline-block;
+            position: relative;
+            width: 123px;
+            height: 33px;
+            background: #f2f5f6;
+            line-height: 33px;
+            cursor: pointer;
+            padding-left: 20px;
+            padding-right: 17px;
+            margin-right: 8px;
+            font-family: 'Oswald', sans-serif;
+            font-size: 12px;
+            font-weight: 400;
+            color: #7c7c94;
+            margin-bottom: 10px;
+          }
+          .item_sorting > li:last-child
+          {
+            margin-right: 0;
+          }
+          .num_sorting_text
+          {
+            padding-right: 11px;
+          }
+          .item_sorting li i
+          {
+            float: right;
+            line-height: 33px;
+            font-size: 12px;
+            color: #7c7c94;
+          }
+          .item_sorting li ul
+          {
+            display: block;
+            position: absolute;
+            right: 0;
+            top: 120%;
+            margin: 0;
+            width: 100%;
+            background: #FFFFFF;
+            visibility: hidden;
+            opacity: 0;
+            z-index: 1;
+            box-shadow: 0 15px 25px rgba(63, 78, 100, 0.15);
+            -webkit-transition: opacity 0.3s ease;
+            -moz-transition: opacity 0.3s ease;
+            -ms-transition: opacity 0.3s ease;
+            -o-transition: opacity 0.3s ease;
+            transition: all 0.3s ease;
+          }
+          .item_sorting > li:hover ul
+          {
+            visibility: visible;
+            opacity: 1;
+            top: calc(100% + 1px);
+          }
+          .item_sorting li ul li
+          {
+            display: block;
+            text-align: left;
+            padding-left: 15px;
+            padding-right: 15px;
+          }
+          .item_sorting li ul li span
+          {
+            display: block;
+            height: 36px;
+            line-height: 36px;
+            border-bottom: solid 1px #dddddd;
+            color: #131a2f;
+            text-align: right;
+            padding-right: 22px;
+            -webkit-transition: opacity 0.3s ease;
+            -moz-transition: opacity 0.3s ease;
+            -ms-transition: opacity 0.3s ease;
+            -o-transition: opacity 0.3s ease;
+            transition: all 0.3s ease;
+          }
+          .item_sorting li ul li span:hover
+          {
+            color: #b5aec4;
+          }
+          .item_sorting li ul li:last-child span
+          {
+            border-bottom: none;
+          }
+          .item_sorting li span:nth-child(2)
+          {
+            margin-left: 63px;
+          }
+          .sort_box
+          {
+            width: 16px;
+            height: 16px;
+            cursor: pointer;
+          }
+          .sort_box i
+          {
+            width: 100%;
+            height: 100%;
+            font-size: 18px;
+            color: #7c7c94;
+            -webkit-transition: all 200ms ease;
+            -moz-transition: all 200ms ease;
+            -ms-transition: all 200ms ease;
+            -o-transition: all 200ms ease;
+            transition: all 200ms ease;
+          }
+          .sort_box i:hover
+          {
+            color: #181818;
+          }
+          .destinations_row
+          {
+            margin-top: 45px;
+          }
+          .destination_image
+          {
+            width: 100%;
+          }
+          .destination_image img
+          {
+            max-width: 100%;
+          }
+          .spec_offer
+          {
+            position: absolute;
+            top: 15px;
+            left: 16px;
+            width: 118px;
+            height: 30px;
+            background: rgba(0, 128, 0, 0);
+            border-radius: 40%;
+          }
+          .spec_offer a
+          {
+            display: block;
+            font-family: 'Oswald', sans-serif;
+            font-size: 12px;
+            color: #ffffff77;
+            line-height: 36px;
+            font-weight: 400;
+          }
+          .destinations_container
+          {
+            width: calc(100% + 30px);
+            left: -15px;
+          }
+          .destination
+          {
+            width: calc(100% / 3);
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-bottom: 58px;
+          }
+          .destination_title
+          {
+            margin-top: 15px;
+          }
+          .destination_title a
+          {
+            font-family: 'Oswald', sans-serif;
+            font-size: 30px;
+            font-weight: 400;
+            color: #181818;
+          }
+          .destination_subtitle
+          {
+            margin-top: -4px;
+          }
+          .destination_price
+          {
+            font-size: 16px;
+            font-weight: 700;
+            color: #181818;
+            margin-top: 16px;
+          }
+          .destination_list
+          {
+            margin-top: 41px;
+          }
+          .destination_list ul li
+          {
+            position: relative;
+            font-size: 15px;
+            font-weight: 600;
+            color: #72728c;
+            padding-left: 36px;
+          }
+          .destination_list ul li:not(:last-child)
+          {
+            margin-bottom: 14px;
+          }
+          .destination_list ul li::before
+          {
+            display: block;
+            position: absolute;
+            top: 50%;
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            transform: translateY(-50%);
+            left: 0;
+            width: 7px;
+            height: 7px;
+            background: #181818;
+            border-radius: 50%;
+            content: '';
+          }
+          .load_more_button
+          {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 51px;
+          }
+          .map-container-6{
+            overflow:hidden;
+            padding-bottom:56.25%;
+            position:relative;
+            height:0;
+            }
+            .map-container-6 iframe{
+            left:0;
+            top:0;
+            height:100%;
+            width:100%;
+            position:absolute;
+            }
+          
+  </style>
+  </head>
+  <body>
+    <!-- start of navbar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light pl-0 pr-0"
+      style="background-color: rgb(208, 255, 208)"
+    >
+      <a class="navbar-brand">
+        <img src="assets/img/logo(only).png" alt="" width="30" height="30" />
+      </a>
+      <a
+        type="button "
+        role="button"
+        class="nav-link btn-sm btn btn-outline-secondary p-0 m-0"
+      >
+        <div class="cart-btn px-1 p-0 m-0">
+          <span class="nav-icon p-0 m-0" style="size: small">
+            <i class="fa fa-shopping-cart" aria-hidden="true">Cart</i>
+          </span>
+          <div class="cart-items">0</div>
+        </div>
+      </a>
+
+      <button
+        class="navbar-toggler navbar-light"
+        style="background-color: rgb(208, 255, 208)"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div
+        class="collapse navbar-collapse navbar-light pl-2"
+        style="background-color: rgb(208, 255, 208)"
+        id="navbarNavAltMarkup"
+      >
+      <div class="navbar-nav">
+        <a
+          type="button "
+          role="button"
+          class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+          href="index.html"
+        >
+          Home
+        </a>
+
+        <a
+          type="button "
+          role="button"
+          class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+          href="catalogue.html"
+        >
+          Category
+        </a>
+
+        <a
+          type="button "
+          role="button"
+          class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+          href="https://google.com"
+        >
+          FAQ
+        </a>
+
+        <a
+          type="button "
+          role="button"
+          class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+          href="about.html"
+        >
+          Contact us
+        </a>
+      </div>
+      </div>
+    </nav>
+    <!-- end of navbar -->
+
+
+    <div class="container mt-1">
+      <main class="pt-5">
+        <marquee behavior="scroll" direction="left" style="background-color: rgba(255, 255, 0, 0.589);">If you require any details please feel free to contact us in any one of the following modes.</marquee>
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4 text-center" style="background-color: antiquewhite;">
+              <i class="fa fa-whatsapp" style="font-size:128px;color:green"></i>
+                <a type="button" target="_blank" class="nav-link btn btn-outline-secondary py-1" href="https://wa.me/message/Z73MZA6IMYFWO1"><strong>Reach us</strong></a>
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title text-center">WhatsApp</h5>
+                <p class="card-text">Whatsapp is the primary mode to contact us. We are always open for <strong>Querries and Orders</strong> through Whatsapp</p>
+              </div>
+            </div>
+          </div>
+        </div>
+    
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4 text-center" style="background-color: antiquewhite;">
+          <i class="fa fa-facebook" style="font-size:128px;color:rgb(62, 0, 231)"></i>
+          <a type="button" target="_blank" class="nav-link btn btn-outline-secondary py-1" href="https://facebook.com/rosaryplanthouse"><strong>Reach us</strong></a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-center">Facebook</h5>
+            <p class="card-text">Facebook page is another place where you can contact us with ease.</p>
+            <p class="card-text">You can also check out our customer Feedback in our page.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4 text-center" style="background-color: antiquewhite;">
+          <i class="fa fa-instagram" style="font-size:128px;color:rgb(255, 255, 255)"></i>
+          <a type="button" target="_blank" class="nav-link btn btn-outline-secondary py-1" href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu"><strong>Reach us</strong></a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-center">Instagram</h5>
+            <p class="card-text">Facebook page is another place where you can contact us with ease.</p>
+            <p class="card-text">You can also check out our customer Feedback in our page.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <div class="card mb-3">
+      <div class="row g-0">
+        <div class="col-md-4 text-center" style="background-color: antiquewhite;">
+          <i class="fa fa-youtube" style="font-size:128px;color:rgb(255, 0, 0)"></i>
+          <a type="button" target="_blank" class="nav-link btn btn-outline-secondary py-1" href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w"><strong>Reach us</strong></a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title text-center">Youtube</h5>
+            <p class="card-text">We are soon planning to post content in youtube.</p>
+            <p class="card-text">Please subscribe to our channel and support us.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!--Section: Contact v.1-->
+    <section class="section pb-5">
+    
+      <!--Section heading-->
+      <h2 class="section-heading h1 pt-4">Contact us</h2>
+      <!--Section description-->
+      <p class="section-description pb-4">We're located at the queen of hills Nilgiris, Coonoor. Very near the the famous tourist spot <strong>Simspark</strong>. 
+      Just 5 minutes drive from there. We're exactly located at brooklands at a pleasant on the way from simspark to Lambsrock.</p>
+    
+      <div class="row">
+    
+        <!--Grid column-->
+        <div class="col-lg-12">
+    
+          <!--Google map-->
+          <div id="map-container-google-11" class="z-depth-1-half map-container-6" style="height: 400px">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3911.746369989186!2d76.80270601450755!3d11.353226991931695!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba8959a3a8073d5%3A0x768f93a1248be062!2sRosary%20Plant%20House!5e0!3m2!1sen!2sin!4v1623343406182!5m2!1sen!2sin"
+              frameborder="0" style="border:0" allowfullscreen></iframe>
+          </div>
+    
+          <br>
+          <!--Buttons-->
+          <div class="row text-center">
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1"><i class="fas fa-map-marker-alt"></i></a>
+              <p>Rosary Plant House, Samayapuram Alwarpet</p>
+              <p>Coonoor, The Nilgiris</p>
+            </div>
+    
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1"><i class="fas fa-phone"></i></a>
+              <p>+91 7904050237</p>
+              <p>Mon - Fri, 10:00-5:00</p>
+            </div>
+    
+            <div class="col-md-4">
+              <a class="btn-floating blue accent-1"><i class="fas fa-envelope"></i></a>
+              <p>rosaryplanthouse@gmail.com</p>
+              <p>sshibinthomass@gmail.com</p>
+            </div>
+          </div>
+    
+        </div>
+        <!--Grid column-->
+    
+      </div>
+    
+    </section>
+    <!--Section: Contact v.1-->
+    
+    </main>
+    </div>
+    <!-- end of products -->
+
+    <!-- start of cart -->
+    <div class="cart-overlay">
+      <div class="cart">
+        <div>
+          <span class="close-cart d-flex flex-row-reverse">
+            <i class="fa fa-window-close" aria-hidden="true"></i>
+          </span>
+        </div>
+
+        <h2>your cart</h2>
+
+        <div class="cart-content">
+          <!-- cart item start -->
+          <!-- <div class="cart-item">
+            <img src="./assets/img/product-1.jpeg" alt="product" />
+
+            <div>
+              <h4>queen bed</h4>
+              <h5>$9.00</h5>
+              <span class="remove-item">remove</span>
+            </div>
+
+            <div>
+              <i class="fa fa-chevron-up" aria-hidden="true"></i>
+              <p class="item-amount">1</p>
+              <i class="fa fa-chevron-down" aria-hidden="true"></i>
+            </div>
+          </div> -->
+          <!-- cart item end -->
+        </div>
+        <!-- cart footer -->
+        <div class="cart-footer">
+          <h3>your total : ₹ <span class="cart-total">0</span>+ delivery</h3>
+
+          <!-- clear all cart item button -->
+          <div class="d-flex justify-content-between">
+            <button
+              class="clear-cart btn btn-danger"
+              onClick="window.location.reload()"
+            >
+              clear cart
+            </button>
+            <button
+              type="button"
+              class="btn btn-secondary"
+              id="demo"
+              onclick="myFunction()"
+            >
+              Place Order
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end of cart -->
+
+    <!-- javascript -->
+    <script src="./assets/js/app.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

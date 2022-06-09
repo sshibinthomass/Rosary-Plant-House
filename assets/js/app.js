@@ -139,22 +139,20 @@ class UI {
                 <td class="py-1">Maintenance</td>
                 <td class="py-1">: {{product.maintenance}}</td>
               </tr>
-              <tr>
-                <td>
-                  <div class="d-flex justify-content-around pt-0" style="color: black;">
-                  <a href="https://wa.me/message/Z73MZA6IMYFWO1" target="_blank" class="fab fa-whatsapp-square pt-1"></a>            
-                  <a href="https://facebook.com/rosaryplanthouse" target="_blank" class="fab fa-facebook pt-1"></a>
-                </div>
-                </td>
-                <td>
-                  <div class="d-flex justify-content-around pt-0" style="color: black;">
-                  <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w" target="_blank" class="fab fa-youtube pt-1"></a>
-                  <a href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1" style="color: rgba(0, 0, 0, 0.295);"></a>
-                </div>
-                </td>
-              </tr>
+
               </tbody>
-            </table>                      
+            </table>  
+            <tr>
+            <td>
+              <div class="d-flex justify-content-around pt-0" style="color: black;">
+              <a href="https://wa.me/message/Z73MZA6IMYFWO1" target="_blank" class="fab fa-whatsapp-square pt-1"></a>            
+              <a href="https://facebook.com/rosaryplanthouse" target="_blank" class="fab fa-facebook pt-1"></a>
+              <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w" target="_blank" class="fab fa-youtube pt-1"></a>
+              <a href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1" style="color: rgba(0, 0, 0, 0.295);"></a>
+           
+            </div>
+            </td>
+          </tr>                    
             <div class="modal-footer py-1 ">
             <div  >
                 <button type="button" class="btn btn-outline-danger btn-sm" data-dismiss="modal">Close</button>
@@ -165,7 +163,7 @@ class UI {
         </div>
           </div>
           
-          <h4>Price: ₹ ${product.price}</h4>
+          <h4 class="mt-0">Price: ₹ ${product.price}</h4>
           <div class="d-flex justify-content-center">
           <button type="button" class="bag-btn1 btn btn-outline-success btn-sm" data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
           </div>
@@ -245,15 +243,17 @@ class UI {
     div.innerHTML = `<img src=${item.image} alt="product" />
 
             <div>
+            <div class="mb-0">
               <h4>${item.title}</h4>
-              <h5>Price : ₹ ${item.price}</h5>
-              <span class="remove-item" onClick="window.location.reload()" data-id=${item.id}>remove</span>
+              </div>
+              <h4>Price : ₹ ${item.price}</h4>
+              <span class="remove-item" onClick="window.location.reload()" data-id=${item.id}>Remove item</span>
             </div>
 
             <div>
-              <i class="fa fa-chevron-up" aria-hidden="true" data-id=${item.id}></i>
-              <p class="item-amount">${item.amount}</p>
-              <i class="fa fa-chevron-down" aria-hidden="true" data-id=${item.id}></i>
+              <i class="fa fa-plus" aria-hidden="true" data-id=${item.id}></i>
+              <p class="item-amount mb-0">${item.amount}</p>
+              <i class="fa fa-minus" aria-hidden="true" data-id=${item.id}></i>
             </div>`;
 
     cartContent.appendChild(div);
@@ -299,7 +299,7 @@ class UI {
         cartContent.removeChild;
         removeItem.parentElement.parentElement;
         this.removeItem(id);
-      } else if (event.target.classList.contains("fa-chevron-up")) {
+      } else if (event.target.classList.contains("fa-plus")) {
         let addAmount = event.target;
         let id = addAmount.dataset.id;
         let tempItem = cart.find((item) => item.id === id);
@@ -307,7 +307,7 @@ class UI {
         Storage.saveCart(cart);
         this.setCartValues(cart);
         addAmount.nextElementSibling.innerText = tempItem.amount;
-      } else if (event.target.classList.contains("fa-chevron-down")) {
+      } else if (event.target.classList.contains("fa-minus")) {
         let lowerAmount = event.target;
         let id = lowerAmount.dataset.id;
         let tempItem = cart.find((item) => item.id === id);
