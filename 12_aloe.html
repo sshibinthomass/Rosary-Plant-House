@@ -3,6 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aloe</title>
+
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
@@ -10,17 +12,13 @@
       crossorigin="anonymous"
     />
 
-    <title>Comfy House / Shopping Cart</title>
-
     <!-- style / css -->
-    <!-- <link rel="stylesheet" href="./assets/css/main.css"> -->
-
     <link rel="stylesheet" href="./assets/css/style.css" />
 
     <!-- favicon -->
     <link
       rel="shortcut icon"
-      href="./assets/img/favicon.png"
+      href="assets/img/logo(only).png"
       type="image/png"
     />
 
@@ -31,7 +29,6 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
-
   </head>
   <body>
     <!-- start of navbar -->
@@ -39,7 +36,7 @@
       class="navbar navbar-expand-lg navbar-light pl-0 pr-0"
       style="background-color: rgb(208, 255, 208)"
     >
-      <a class="navbar-brand">
+      <a class="navbar-brand" href="index.html">
         <img src="assets/img/logo(only).png" alt="" width="30" height="30" />
       </a>
       <a
@@ -54,7 +51,6 @@
           <div class="cart-items">0</div>
         </div>
       </a>
-
       <button
         class="navbar-toggler navbar-light"
         style="background-color: rgb(208, 255, 208)"
@@ -68,221 +64,208 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div
-        class="collapse navbar-collapse navbar-light pl-2"
+        class="collapse navbar-collapse navbar-light pl-0"
         style="background-color: rgb(208, 255, 208)"
         id="navbarNavAltMarkup"
       >
-      <div class="navbar-nav">
-        <a
-          type="button "
-          role="button"
-          class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-          href="index.html"
-        >
-          Home
-        </a>
+        <div class="navbar-nav">
+          <a
+            type="button "
+            role="button"
+            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+            href="index.html"
+          >
+            Home
+          </a>
 
-        <a
-          type="button "
-          role="button"
-          class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-          href="catalogue.html"
-        >
-          Category
-        </a>
+          <div class="nav-item dropdown show dropdown">
+            <a
+              class="nav-link dropdown-toggle btn btn-outline-primary btn-sm m-2"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Category
+            </a>
+            <div
+              class="dropdown-menu mx-2 mb-1"
+              aria-labelledby="dropdownMenuLink"
+            >
+              <!--All Plants-->
+              <a class="dropdown-item" href="5_allPlants.html">All Plants</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Succulent-->
+              <a class="dropdown-item" href="6_succulent.html">Succulent</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Cactus-->
+              <a class="dropdown-item" href="7_cactus.html">Cactus</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Echeveria-->
+              <a class="dropdown-item" href="8_echeveria.html">Echeveria</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Jade-->
+              <a class="dropdown-item" href="9_jade.html">Jade</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Crassula-->
+              <a class="dropdown-item" href="10_crassula.html"
+                >Crassula (except Jade)</a
+              >
+              <div class="dropdown-divider my-1"></div>
+              <!--Peperomia-->
+              <a class="dropdown-item" href="11_pepromia.html">Peperomia</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Aloe-->
+              <a class="dropdown-item" href="12_aloe.html">Aloe</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Sedum-->
+              <a class="dropdown-item" href="13_sedum.html">Sedum</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Haworthia-->
+              <a class="dropdown-item" href="14_haworthia.html">Haworthia</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Creeper-->
+              <a class="dropdown-item" href="15_creeper.html">Creeper (Ivy)</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Sansevieria-->
+              <a class="dropdown-item" href="16_sansevieria.html"
+                >Sansevieria</a
+              >
+              <div class="dropdown-divider my-1"></div>
+              <!--Other Plants-->
+              <a class="dropdown-item" href="17_otherPlants.html"
+                >Other Plants</a
+              >
+              <div class="dropdown-divider my-1"></div>
+              <!--Indoor-->
+              <a class="dropdown-item" href="18_indoorPlants.html"
+                >Indoor Plants</a
+              >
+              <div class="dropdown-divider my-1"></div>
+              <!--Hanging-->
+              <a class="dropdown-item" href="19_hanging.html">Hanging</a>
+              <div class="dropdown-divider my-1"></div>
+            </div>
+          </div>
+          <div class="nav-item dropdown show dropdown">
+            <a
+              class="nav-link dropdown-toggle btn btn-outline-primary btn-sm m-2"
+              href="#"
+              role="button"
+              id="dropdownMenuLink"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              Transit Risk
+            </a>
+            <div
+              class="dropdown-menu mx-2 mb-1"
+              aria-labelledby="dropdownMenuLink"
+            >
+              <!--Low Risk-->
+              <a class="dropdown-item" href="1_lowRisk.html">Low Risk</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Moderate Risk-->
+              <a class="dropdown-item" href="2_moderateRisk.html"
+                >Moderate Risk</a
+              >
+              <div class="dropdown-divider my-1"></div>
+              <!--High Risk-->
+              <a class="dropdown-item" href="3_highRisk.html">High Risk</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Low and Moderate Risk-->
+              <a class="dropdown-item" href="4_lowAndModerate.html"
+                >Low & Moderate</a
+              >
+              <div class="dropdown-divider my-1"></div>
+            </div>
+          </div>
+          <a
+            type="button "
+            role="button"
+            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+            href="5_allPlants.html"
+          >
+            Catalogue
+          </a>
+          <a
+            type="button"
+            role="button"
+            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+            href="faq.html"
+          >
+            FAQ
+          </a>
 
-        <a
-          type="button "
-          role="button"
-          class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-          href="index1.html"
-        >
-          FAQ
-        </a>
-
-        <a
-          type="button "
-          role="button"
-          class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-          href="about.html"
-        >
-          Contact us
-        </a>
-      </div>
+          <a
+            type="button "
+            role="button"
+            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+            href="about.html"
+          >
+            Contact us
+          </a>
+          <a
+            type="button "
+            role="button"
+            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+            href="20_offers.html"
+          >
+            Offers
+          </a>
+          <a
+            type="button "
+            role="button"
+            id="plantCategory"
+            value="bigPlants"
+            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+            href="21_bigPlants.html"
+          >
+            Big Plants
+          </a>
+          <a
+            type="button "
+            role="button"
+            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+            href="22_combo.html"
+          >
+            Combo
+          </a>
+          <a
+            type="button "
+            role="button"
+            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+            href="23_restocked.html"
+          >
+            Restocked
+          </a>
+          <a
+            type="button "
+            role="button"
+            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+            href="care.html"
+          >
+            Care
+          </a>
+        </div>
       </div>
     </nav>
     <!-- end of navbar -->
+    <div class="marquee-product"></div>
 
-    <!-- start of hero
-    <header class="hero">
-      <div class="banner">
-        <h1 class="banner-title">furniture collection</h1>
-        <button class="banner-btn">shop now</button>
-      </div>
-    </header>
-     end of hero -->
-
-    <!-- start of products -->
-    <div class="d-flex justify-content-center mt-2">
-      <button type="button " class="btn btn-primary " data-toggle="modal" data-target="#termsAndConditions">
-        Terms & Conditions (click here)
-      </button>
-
-    </div>
-    <div class="d-flex justify-content-center mt-2">
-      <button type="button " class="btn btn-primary " data-toggle="modal" data-target="#deliveryCharges">
-        Delivery Charges (click here)
-      </button>
-
-    </div>
-    <!-- Modal Terms and Condition-->
-    <div class="modal fade" id="termsAndConditions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header p-0 ml-3 pt-2">
-            <h5 class="modal-title" id="exampleModalLabel">Terms & Conditions </h5>
-            <button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body p-1">
-            <table class="table table-hover mt-3 text-center">
-              <tbody>
-              <tr>
-                  <td class="pb-0 pt-1 px-0">Delivery limited due to covid.</td>
-              </tr>
-              <tr>
-                  <td class="pb-0 pt-1 px-0">Size and Cost is Mentioned bellow each Plant (Minimum order is 5 plants)</td>
-              </tr>
-              <tr>
-                  <td class="pb-0 pt-1 px-0">Plants will be dispatched on nearest Monday or Wednesday only.</td>
-              </tr>
-              <tr>
-                  <td class="pb-0 pt-1 px-0">Plants will be sent bareroot</td>
-              </tr>
-              <tr>
-                  <td class="pb-0 pt-1 px-0">Any Damage will be replaced with customers next order.</td>
-              </tr>
-              <tr>
-                  <td class="pb-0 pt-1 px-0">Only after payment order will be confirmed</td>
-              </tr>
-              <tr>
-                  <td class="pb-0 pt-1 px-0">Plants will be dispatched by DTDC(preferably), Speed post or Professional(on client request).</td>
-              </tr>
-              <tr>
-                <td class="pb-0 pt-1 px-0">Add Plants to cart individually</td>
-              </tr>
-              <tr>
-                <td class="pb-0 pt-1 px-0">After adding to cart click <b>Place order</b></td>
-              </tr>
-              <tr>
-                <td class="pb-0 pt-1 px-0">Additional Shipping cost will be applicable depending on place.</td>
-              </tr>
-              <tr>
-                <td class="pb-0 pt-1 px-0">Payment and other details can be availed in Whatsapp(after clicking Place order)</td>
-              </tr>
-              <tr>
-                <td class="pb-0 pt-1 px-0">
-                  <div class="d-flex justify-content-around pt-0" style="color: black;">
-                  <a href="https://wa.me/message/Z73MZA6IMYFWO1" target="_blank" class="fab fa-whatsapp-square pt-1"></a>            
-                  <a href="https://facebook.com/rosaryplanthouse" target="_blank" class="fab fa-facebook pt-1"></a>
-                  <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w" target="_blank" class="fab fa-youtube pt-1"></a>
-                  <a href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1" style="color: rgba(0, 0, 0, 0.295);"></a>
-                </div>
-                </td>
-              </tr>
-              </tbody>
-            </table>   
-          </div>
-          <div class="modal-footer p-2">
-            <button type="button" class="btn btn-secondary mr-3" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
-      <!-- Modal Delivery Charges-->
-    <div class="modal fade" id="deliveryCharges" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-      <div class="modal-dialog modal-lg" role="document">
-        <div class="modal-content">
-          <div class="modal-header p-0 ml-3 pt-2">
-            <h5 class="modal-title" id="exampleModalLabel">Delivery Charges</h5>
-            <button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
-              <span aria-hidden="true">&times;</span>
-            </button>
-          </div>
-          <div class="modal-body p-1">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">Location</th>
-                  <th scope="col">Cost</th>
-                  <th scope="col">Plants</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">Tamil Nadu</th>
-                  <td>80</td>
-                  <td>12</td>
-                </tr>
-                <tr>
-                  <th scope="row">South India(except T.N)</th>
-                  <td>100</td>
-                  <td>12</td>
-                </tr>
-                <tr>
-                  <th scope="row">Other parts of India</th>
-                  <td>150</td>
-                  <td>6</td>
-                </tr>
-                <tr>
-                  <th scope="row">Other parts of India</th>
-                  <td>200</td>
-                  <td>12</td>
-                </tr>
-              </tbody>
-            </table>  
-          </div>
-          <div class="modal-footer p-2">
-            <button type="button" class="btn btn-secondary mr-3" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
-    </div>
     <section class="products">
-      
       <div class="section-title">
-        <h2>our products</h2>
+        <h2>Aloe</h2>
       </div>
 
-      <div class="products-center1">
-        <!-- single product start -->
-        <!-- <article class="product">
-          <div class="img-container">
-            <img
-              src="./assets/img/product-1.jpeg"
-              alt="product"
-              class="product-img"
-            />
-
-            <button class="bag-btn" data-id="1">
-              <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-              add to bag
-            </button>
-          </div>
-          <h3>queen bag</h3>
-          <h4>Price: $16</h4>
-        </article> -->
-        <!-- single product end -->
-      </div>
+      <div class="products-center12"></div>
     </section>
     <!-- end of products -->
-    <a href="#" class="fas fa-arrow-alt-circle-up pt-1" style="position: fixed; bottom:20px; right: 10px; "></a>
-    <a href="#" class="fab fa-whatsapp-square pt-1" style="position: fixed; bottom: 50px; right: 10px; "></a>
-    <a href="#" class="fab fa-facebook pt-1" style="position: fixed; bottom: 80px; right: 10px; "></a>
-    <a href="#" class="fab fa-instagram pt-1" style="position: fixed; bottom: 110px; right: 10px; "></a>
-    <a href="#" class="fab fa-youtube pt-1" style="position: fixed; bottom: 140px; right: 10px; "></a>
-    </a>
+    <div class="foot-icons"></div>
+
     <!-- start of cart -->
     <div class="cart-overlay">
       <div class="cart">
@@ -291,41 +274,18 @@
             <i class="fa fa-window-close" aria-hidden="true"></i>
           </span>
         </div>
+        <div class="marquee"></div>
 
         <h2 class="mb-1">your cart</h2>
 
-        <div class="cart-content">
-
-          <!-- cart item start -->
-          <!-- <div class="cart-item">
-            <img src="./assets/img/product-1.jpeg" alt="product" />
-
-            <div>
-              <h4>queen bed</h4>
-              <h5>$9.00</h5>
-              <span class="remove-item">remove</span>
-            </div>
-
-            <div>
-              <i class="fa fa-chevron-up" aria-hidden="true"></i>
-              <p class="item-amount">1</p>
-              <i class="fa fa-chevron-down" aria-hidden="true"></i>
-            </div>
-          </div> -->
-          <!-- cart item end -->
-        </div>
+        <div class="cart-content"></div>
         <!-- cart footer -->
         <div class="cart-footer">
           <h3>Total Cost : ₹ <span class="cart-total">0</span>+ delivery</h3>
 
           <!-- clear all cart item button -->
           <div class="d-flex justify-content-between">
-            <button
-              class="clear-cart btn btn-danger"
-              <!--onClick="window.location.reload()"-->
-            >
-              clear cart
-            </button>
+            <button class="clear-cart btn btn-danger">clear cart</button>
             <button
               type="button"
               class="btn btn-secondary"
