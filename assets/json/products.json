@@ -5,7 +5,7 @@
       "fields": {
         "title": "Sempervivum Tectorum",
         "orgPrice": 89,
-        "price": 84,
+        "price": 89,
         "ava": 1,
         "size": "(1.5\"-2\")",
         "transit": "Low",
@@ -15,7 +15,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/1.jpg" } } }
@@ -26,7 +26,7 @@
       "fields": {
         "title": "Bergeranthus",
         "orgPrice": 59,
-        "price": 54,
+        "price": 59,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -36,7 +36,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/2.jpg" } } }
@@ -47,7 +47,7 @@
       "fields": {
         "title": "Sedum Lineare(yellow)",
         "orgPrice": 79,
-        "price": 74,
+        "price": 79,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -57,7 +57,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/3.jpg" } } }
@@ -68,7 +68,7 @@
       "fields": {
         "title": "Haworthia cymbiformis",
         "orgPrice": 49,
-        "price": 44,
+        "price": 49,
         "ava": 1,
         "size": "(1.5\"-2.5\")",
         "transit": "Low",
@@ -78,7 +78,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/4.jpg" } } }
@@ -89,7 +89,7 @@
       "fields": {
         "title": "Chamaecerus Silvestii",
         "orgPrice": 69,
-        "price": 64,
+        "price": 69,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -99,7 +99,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/5.jpg" } } }
@@ -110,7 +110,7 @@
       "fields": {
         "title": "Sempervivum (Lakshmi Kamal)",
         "orgPrice": 89,
-        "price": 84,
+        "price": 89,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -120,7 +120,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/6.jpg" } } }
@@ -131,7 +131,7 @@
       "fields": {
         "title": "Echeveria peacockii",
         "orgPrice": 99,
-        "price": 94,
+        "price": 99,
         "ava": 0,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -141,7 +141,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/7.jpg" } } }
@@ -152,7 +152,7 @@
       "fields": {
         "title": "Crassula Portulacea(miniature)",
         "orgPrice": 59,
-        "price": 54,
+        "price": 59,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -162,7 +162,7 @@
         "category": "jade",
         "mother": 0,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/8.jpg" } } }
@@ -173,7 +173,7 @@
       "fields": {
         "title": "Senecio Radicans",
         "orgPrice": 69,
-        "price": 64,
+        "price": 69,
         "ava": 1,
         "size": "(3\"-4\")",
         "transit": "Moderate",
@@ -183,7 +183,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/9.jpg" } } }
@@ -194,7 +194,7 @@
       "fields": {
         "title": "Zebrina Huernia",
         "orgPrice": 99,
-        "price": 94,
+        "price": 99,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -204,7 +204,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/10.jpg" } } }
@@ -215,7 +215,7 @@
       "fields": {
         "title": "Hoodia",
         "orgPrice": 99,
-        "price": 94,
+        "price": 99,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -225,7 +225,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/11.jpg" } } }
@@ -236,7 +236,7 @@
       "fields": {
         "title": "Callisia",
         "orgPrice": 89,
-        "price": 84,
+        "price": 89,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "High",
@@ -246,7 +246,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/12.jpg" } } }
@@ -257,7 +257,7 @@
       "fields": {
         "title": "Crassula ovatha",
         "orgPrice": 59,
-        "price": 54,
+        "price": 59,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -267,7 +267,7 @@
         "category": "jade",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/13.jpg" } } }
@@ -278,7 +278,7 @@
       "fields": {
         "title": "Echeveria Setosa",
         "orgPrice": 69,
-        "price": 64,
+        "price": 69,
         "ava": 1,
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -288,7 +288,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/14.jpg" } } }
@@ -309,7 +309,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/15.jpg" } } }
@@ -330,7 +330,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/16.jpg" } } }
@@ -351,7 +351,7 @@
         "category": "haworthia",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/17.jpg" } } }
@@ -372,7 +372,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/18.jpg" } } }
@@ -393,7 +393,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/19.jpg" } } }
@@ -414,7 +414,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/20.jpg" } } }
@@ -435,7 +435,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/21.jpg" } } }
@@ -456,7 +456,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/22.jpg" } } }
@@ -477,7 +477,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/23.jpg" } } }
@@ -498,7 +498,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/24.jpg" } } }
@@ -519,7 +519,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/25.jpg" } } }
@@ -540,7 +540,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/26.jpg" } } }
@@ -561,7 +561,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/27.jpg" } } }
@@ -582,7 +582,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/28.jpg" } } }
@@ -603,7 +603,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/29.jpg" } } }
@@ -624,7 +624,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/30.jpg" } } }
@@ -645,7 +645,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/31.jpg" } } }
@@ -666,7 +666,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/32.jpg" } } }
@@ -687,7 +687,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/33.jpg" } } }
@@ -708,7 +708,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/34.jpg" } } }
@@ -729,7 +729,7 @@
         "category": "haworthia",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/35.jpg" } } }
@@ -750,7 +750,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/36.jpg" } } }
@@ -771,7 +771,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/37.jpg" } } }
@@ -792,7 +792,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/38.jpg" } } }
@@ -813,7 +813,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/39.jpg" } } }
@@ -834,7 +834,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/40.jpg" } } }
@@ -855,7 +855,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/41.jpg" } } }
@@ -876,7 +876,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/42.jpg" } } }
@@ -897,7 +897,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/43.jpg" } } }
@@ -918,7 +918,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/44.jpg" } } }
@@ -939,7 +939,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/45.jpg" } } }
@@ -960,7 +960,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/46.jpg" } } }
@@ -981,7 +981,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/47.jpg" } } }
@@ -1002,7 +1002,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/48.jpg" } } }
@@ -1023,7 +1023,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/49.jpg" } } }
@@ -1044,7 +1044,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/50.jpg" } } }
@@ -1065,7 +1065,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/51.jpg" } } }
@@ -1086,7 +1086,7 @@
         "category": "jade",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/52.jpg" } } }
@@ -1107,7 +1107,7 @@
         "category": "haworthia",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/53.jpg" } } }
@@ -1128,7 +1128,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/54.jpg" } } }
@@ -1149,7 +1149,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/55.jpg" } } }
@@ -1170,7 +1170,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/56.jpg" } } }
@@ -1191,7 +1191,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/57.jpg" } } }
@@ -1212,7 +1212,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/58.jpg" } } }
@@ -1233,7 +1233,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/59.jpg" } } }
@@ -1254,7 +1254,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/60.jpg" } } }
@@ -1275,7 +1275,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/61.jpg" } } }
@@ -1296,7 +1296,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/62.jpg" } } }
@@ -1317,7 +1317,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/63.jpg" } } }
@@ -1338,7 +1338,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/64.jpg" } } }
@@ -1359,7 +1359,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/65.jpg" } } }
@@ -1380,7 +1380,7 @@
         "category": "haworthia",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/66.jpg" } } }
@@ -1401,7 +1401,7 @@
         "category": "haworthia",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/67.jpg" } } }
@@ -1422,7 +1422,7 @@
         "category": "haworthia",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/68.jpg" } } }
@@ -1443,7 +1443,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/69.jpg" } } }
@@ -1464,7 +1464,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/70.jpg" } } }
@@ -1485,7 +1485,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/71.jpg" } } }
@@ -1506,7 +1506,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/72.jpg" } } }
@@ -1527,7 +1527,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/73.jpg" } } }
@@ -1548,7 +1548,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/74.jpg" } } }
@@ -1569,7 +1569,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/75.jpg" } } }
@@ -1590,7 +1590,7 @@
         "category": "haworthia",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/76.jpg" } } }
@@ -1611,7 +1611,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/77.jpg" } } }
@@ -1632,7 +1632,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/78.jpg" } } }
@@ -1653,7 +1653,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/79.jpg" } } }
@@ -1674,7 +1674,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/80.jpg" } } }
@@ -1695,7 +1695,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/81.jpg" } } }
@@ -1716,7 +1716,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/82.jpg" } } }
@@ -1737,7 +1737,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/83.jpg" } } }
@@ -1758,7 +1758,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/84.jpg" } } }
@@ -1779,7 +1779,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/85.jpg" } } }
@@ -1800,7 +1800,7 @@
         "category": "haworthia",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/86.jpg" } } }
@@ -1821,7 +1821,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/87.jpg" } } }
@@ -1842,7 +1842,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/88.jpg" } } }
@@ -1863,7 +1863,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/89.jpg" } } }
@@ -1884,7 +1884,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/90.jpg" } } }
@@ -1905,7 +1905,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/91.jpg" } } }
@@ -1926,7 +1926,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/92.jpg" } } }
@@ -1947,7 +1947,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/93.jpg" } } }
@@ -1968,7 +1968,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/94.jpg" } } }
@@ -1989,7 +1989,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/95.jpg" } } }
@@ -2010,7 +2010,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/96.jpg" } } }
@@ -2031,7 +2031,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/97.jpg" } } }
@@ -2052,7 +2052,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/98.jpg" } } }
@@ -2073,7 +2073,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/99.jpg" } } }
@@ -2094,7 +2094,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/100.jpg" } } }
@@ -2115,7 +2115,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/101.jpg" } } }
@@ -2136,7 +2136,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/102.jpg" } } }
@@ -2157,7 +2157,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/103.jpg" } } }
@@ -2178,7 +2178,7 @@
         "category": "cactus",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/104.jpg" } } }
@@ -2199,7 +2199,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/105.jpg" } } }
@@ -2220,7 +2220,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/106.jpg" } } }
@@ -2241,7 +2241,7 @@
         "category": "hanging",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/107.jpg" } } }
@@ -2262,7 +2262,7 @@
         "category": "jade",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/108.jpg" } } }
@@ -2283,7 +2283,7 @@
         "category": "hanging",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/109.jpg" } } }
@@ -2304,7 +2304,7 @@
         "category": "hanging",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/110.jpg" } } }
@@ -2325,7 +2325,7 @@
         "category": "hanging",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/111.jpg" } } }
@@ -2346,7 +2346,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/112.jpg" } } }
@@ -2367,7 +2367,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/113.jpg" } } }
@@ -2388,7 +2388,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/114.jpg" } } }
@@ -2409,7 +2409,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/115.jpg" } } }
@@ -2430,7 +2430,7 @@
         "category": "aloe",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/116.jpg" } } }
@@ -2451,7 +2451,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/117.jpg" } } }
@@ -2472,7 +2472,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/118.jpg" } } }
@@ -2493,7 +2493,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/119.jpg" } } }
@@ -2514,7 +2514,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/120.jpg" } } }
@@ -2535,7 +2535,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/121.jpg" } } }
@@ -2556,7 +2556,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/122.jpg" } } }
@@ -2577,7 +2577,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/123.jpg" } } }
@@ -2598,7 +2598,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/124.jpg" } } }
@@ -2619,7 +2619,7 @@
         "category": "hanging",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/125.jpg" } } }
@@ -2640,7 +2640,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/126.jpg" } } }
@@ -2661,7 +2661,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/127.jpg" } } }
@@ -2682,7 +2682,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/128.jpg" } } }
@@ -2703,7 +2703,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/129.jpg" } } }
@@ -2724,7 +2724,7 @@
         "category": "hanging",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/130.jpg" } } }
@@ -2745,7 +2745,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/131.jpg" } } }
@@ -2766,7 +2766,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/132.jpg" } } }
@@ -2787,7 +2787,7 @@
         "category": "hanging",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/133.jpg" } } }
@@ -2808,7 +2808,7 @@
         "category": "hanging",
         "mother": 0,
         "hanging": 0,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/134.jpg" } } }
@@ -2829,7 +2829,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/135.jpg" } } }
@@ -2850,7 +2850,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/136.jpg" } } }
@@ -2871,7 +2871,7 @@
         "category": "hanging",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/137.jpg" } } }
@@ -2892,7 +2892,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/138.jpg" } } }
@@ -2913,7 +2913,7 @@
         "category": "hanging",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/139.jpg" } } }
@@ -2934,7 +2934,7 @@
         "category": "hanging",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/140.jpg" } } }
@@ -2955,7 +2955,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/141.jpg" } } }
@@ -2976,7 +2976,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/142.jpg" } } }
@@ -2997,7 +2997,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/143.jpg" } } }
@@ -3018,7 +3018,7 @@
         "category": "aloe",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/144.jpg" } } }
@@ -3039,7 +3039,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/145.jpg" } } }
@@ -3060,7 +3060,7 @@
         "category": "jade",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/146.jpg" } } }
@@ -3081,7 +3081,7 @@
         "category": "jade",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/147.jpg" } } }
@@ -3102,7 +3102,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/148.jpg" } } }
@@ -3123,7 +3123,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/149.jpg" } } }
@@ -3144,7 +3144,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/150.jpg" } } }
@@ -3165,7 +3165,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/151.jpg" } } }
@@ -3186,7 +3186,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/152.jpg" } } }
@@ -3207,7 +3207,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/153.jpg" } } }
@@ -3228,7 +3228,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/154.jpg" } } }
@@ -3249,7 +3249,7 @@
         "category": "cactus",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/155.jpg" } } }
@@ -3270,7 +3270,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/156.jpg" } } }
@@ -3291,7 +3291,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/157.jpg" } } }
@@ -3312,7 +3312,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/158.jpg" } } }
@@ -3333,7 +3333,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/159.jpg" } } }
@@ -3354,7 +3354,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/160.jpg" } } }
@@ -3375,7 +3375,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/161.jpg" } } }
@@ -3396,7 +3396,7 @@
         "category": "hanging",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/162.jpg" } } }
@@ -3417,7 +3417,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/163.jpg" } } }
@@ -3438,7 +3438,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/164.jpg" } } }
@@ -3459,7 +3459,7 @@
         "category": "hanging",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/165.jpg" } } }
@@ -3480,7 +3480,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/166.jpg" } } }
@@ -3501,7 +3501,7 @@
         "category": "otherPlants",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/167.jpg" } } }
@@ -3522,7 +3522,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/168.jpg" } } }
@@ -3543,7 +3543,7 @@
         "category": "succulents",
         "mother": 0,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/169.jpg" } } }
@@ -3564,7 +3564,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/170.jpg" } } }
@@ -3585,7 +3585,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/171.jpg" } } }
@@ -3606,7 +3606,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/172.jpg" } } }
@@ -3627,7 +3627,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/173.jpg" } } }
@@ -3648,7 +3648,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/174.jpg" } } }
@@ -3669,7 +3669,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/175.jpg" } } }
@@ -3690,7 +3690,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 0,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/176.jpg" } } }
@@ -3711,7 +3711,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/177.jpg" } } }
@@ -3732,7 +3732,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 0,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/178.jpg" } } }
@@ -3753,7 +3753,7 @@
         "category": "jade",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/179.jpg" } } }
@@ -3774,7 +3774,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/180.jpg" } } }
@@ -3795,7 +3795,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/181.jpg" } } }
@@ -3816,7 +3816,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/182.jpg" } } }
@@ -3837,7 +3837,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/183.jpg" } } }
@@ -3858,7 +3858,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/184.jpg" } } }
@@ -3879,7 +3879,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/185.jpg" } } }
@@ -3900,7 +3900,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/186.jpg" } } }
@@ -3921,7 +3921,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/187.jpg" } } }
@@ -3942,7 +3942,7 @@
         "category": "jade",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/188.jpg" } } }
@@ -3963,7 +3963,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/189.jpg" } } }
@@ -3984,7 +3984,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/190.jpg" } } }
@@ -4005,7 +4005,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/191.jpg" } } }
@@ -4026,7 +4026,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/192.jpg" } } }
@@ -4047,7 +4047,7 @@
         "category": "jade",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/193.jpg" } } }
@@ -4068,7 +4068,7 @@
         "category": "haworthia",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/194.jpg" } } }
@@ -4089,7 +4089,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/195.jpg" } } }
@@ -4110,7 +4110,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/196.jpg" } } }
@@ -4131,7 +4131,7 @@
         "category": "sedum",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/197.jpg" } } }
@@ -4152,7 +4152,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/198.jpg" } } }
@@ -4173,7 +4173,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/199.jpg" } } }
@@ -4194,7 +4194,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/200.jpg" } } }
@@ -4215,7 +4215,7 @@
         "category": "haworthia",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 0,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/201.jpg" } } }
@@ -4236,7 +4236,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/202.jpg" } } }
@@ -4257,7 +4257,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/203.jpg" } } }
@@ -4278,7 +4278,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/204.jpg" } } }
@@ -4299,7 +4299,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/205.jpg" } } }
@@ -4320,7 +4320,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/206.jpg" } } }
@@ -4341,7 +4341,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/207.jpg" } } }
@@ -4362,7 +4362,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/208.jpg" } } }
@@ -4383,7 +4383,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/209.jpg" } } }
@@ -4404,7 +4404,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/210.jpg" } } }
@@ -4425,7 +4425,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/211.jpg" } } }
@@ -4446,7 +4446,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/212.jpg" } } }
@@ -4467,7 +4467,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/213.jpg" } } }
@@ -4488,7 +4488,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/214.jpg" } } }
@@ -4509,7 +4509,7 @@
         "category": "cactus",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/215.jpg" } } }
@@ -4530,7 +4530,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/216.jpg" } } }
@@ -4551,7 +4551,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 0,
         "image": { "fields": { "file": { "url": "./assets/img/217.jpg" } } }
@@ -4572,7 +4572,7 @@
         "category": "sedum",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/218.jpg" } } }
@@ -4593,7 +4593,7 @@
         "category": "hanging",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/219.jpg" } } }
@@ -4614,7 +4614,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/220.jpg" } } }
@@ -4635,7 +4635,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/221.jpg" } } }
@@ -4656,7 +4656,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/222.jpg" } } }
@@ -4677,7 +4677,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/223.jpg" } } }
@@ -4698,7 +4698,7 @@
         "category": "succulents",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/224.jpg" } } }
@@ -4719,7 +4719,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/225.jpg" } } }
@@ -4740,7 +4740,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/226.jpg" } } }
@@ -4761,7 +4761,7 @@
         "category": "otherPlants",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/227.jpg" } } }
@@ -4782,7 +4782,7 @@
         "category": "haworthia",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/228.jpg" } } }
@@ -4803,7 +4803,7 @@
         "category": "aloe",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/229.jpg" } } }
@@ -4824,7 +4824,49 @@
         "category": "haworthia",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 0,
+        "indoor": 1,
+        "restock": 1,
+        "image": { "fields": { "file": { "url": "./assets/img/230.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "230" },
+      "fields": {
+        "title": "Haworthia retusa",
+        "orgPrice": 120,
+        "price": 115,
+        "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Haworthia flat green",
+        "category": "haworthia",
+        "mother": 1,
+        "hanging": 1,
+        "combo": 0,
+        "indoor": 1,
+        "restock": 1,
+        "image": { "fields": { "file": { "url": "./assets/img/230.jpg" } } }
+      }
+    },
+    {
+      "sys": { "id": "230" },
+      "fields": {
+        "title": "Haworthia retusa",
+        "orgPrice": 120,
+        "price": 115,
+        "ava": 1,
+        "size": "",
+        "transit": "Low",
+        "water": "Low",
+        "sun": "Moderate",
+        "common": "Haworthia flat green",
+        "category": "",
+        "mother": 1,
+        "hanging": 1,
+        "combo": 1,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/230.jpg" } } }
@@ -4844,8 +4886,8 @@
         "common": "Silver Succulent",
         "category": "",
         "mother": 1,
-        "hanging": 1,
-        "offer": 1,
+        "hanging": 0,
+        "combo": 1,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/231.jpg" } } }
@@ -4866,7 +4908,7 @@
         "category": "",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 1,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/232.jpg" } } }
@@ -4887,7 +4929,7 @@
         "category": "",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 1,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/233.jpg" } } }
@@ -4908,7 +4950,7 @@
         "category": "",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 1,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/234.jpg" } } }
@@ -4929,7 +4971,7 @@
         "category": "",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 1,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/235.jpg" } } }
@@ -4950,7 +4992,7 @@
         "category": "",
         "mother": 1,
         "hanging": 1,
-        "offer": 1,
+        "combo": 1,
         "indoor": 1,
         "restock": 1,
         "image": { "fields": { "file": { "url": "./assets/img/236.jpg" } } }
@@ -4971,7 +5013,7 @@
         "category": "",
         "mother": "",
         "hanging": "",
-        "offer": "",
+        "combo": "",
         "indoor": "",
         "restock": "",
         "image": { "fields": { "file": { "url": "" } } }

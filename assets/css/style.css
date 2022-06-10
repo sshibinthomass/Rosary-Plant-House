@@ -117,12 +117,19 @@ body {
 }
 .section-title h2 {
   text-align: center;
-  font-size: 2.5rem; 
- /* margin-bottom: 5rem; */
+  font-size: 2.5rem;
+  /* margin-bottom: 5rem; */
   text-transform: capitalize;
   letter-spacing: var(--mainSpacing);
 }
-.products-center,.products-center1 {
+.products-center,
+.products-center1,
+.products-center2,
+.products-center3,
+.products-center4,
+.products-center5,
+.products-center6,
+.products-center7 {
   width: 90vw;
   margin: 0 auto;
   max-width: 1170px;
@@ -188,20 +195,29 @@ body {
 }
 .product a {
   text-transform: capitalize;
-  font-size:larger;
+  font-size: larger;
   margin-top: 0.3rem;
   letter-spacing: var(--mainSpacing);
   align-items: center;
   text-align: center;
 }
 .product h4 {
-  font-size:medium;
+  font-size: medium;
   font-weight: bold;
   margin-top: 0.3rem;
   letter-spacing: normal;
   color: rgb(0, 0, 131);
   text-align: center;
 }
+.product h5 {
+  font-size: small;
+  font-weight: bold;
+  margin-top: 0.3rem;
+  letter-spacing: normal;
+  color: rgb(0, 0, 131);
+  text-align: center;
+}
+
 /* ---------------> End Of Products <---------------- */
 
 /* ---------------> Start Of Cart <---------------- */
@@ -317,391 +333,392 @@ body {
 
 /* Carousel base class */
 .carousel {
-margin-bottom: 4rem;
+  margin-bottom: 4rem;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-bottom: 3rem;
-z-index: 10;
+  bottom: 3rem;
+  z-index: 10;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-height: 32rem;
+  height: 32rem;
 }
 .carousel-item > img {
-position: absolute;
-top: 0;
-right: 0;
-min-width: 100%;
-height: 32rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  height: 32rem;
 }
 /* MARKETING CONTENT
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
 .marketing .col-lg-4 {
-margin-bottom: 1.5rem;
-text-align: center;
+  margin-bottom: 1.5rem;
+  text-align: center;
 }
 .marketing h2 {
-font-weight: 400;
+  font-weight: 400;
 }
 .marketing .col-lg-4 p {
-margin-right: .75rem;
-margin-left: .75rem;
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
 }
-
 
 /* Featurettes
 ------------------------- */
 
 .featurette-divider {
-margin: 5rem 0; /* Space out the Bootstrap <hr> more */
+  margin: 5rem 0; /* Space out the Bootstrap <hr> more */
 }
 
 /* Thin out the marketing headings */
 .featurette-heading {
-font-weight: 300;
-line-height: 1;
+  font-weight: 300;
+  line-height: 1;
 }
-
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
 @media (min-width: 40em) {
-/* Bump up size of carousel content */
-.carousel-caption p {
-margin-bottom: 1.25rem;
-font-size: 1.25rem;
-line-height: 1.4;
-}
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 1.25rem;
+    font-size: 1.25rem;
+    line-height: 1.4;
+  }
 
-.featurette-heading {
-font-size: 50px;
-}
+  .featurette-heading {
+    font-size: 50px;
+  }
 }
 
 @media (min-width: 62em) {
-.featurette-heading {
-margin-top: 7rem;
+  .featurette-heading {
+    margin-top: 7rem;
+  }
 }
-}  
 .bd-placeholder-img {
-    font-size: 1.125rem;
-    text-anchor: middle;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    user-select: none;
-  }
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
 
-  @media (min-width: 768px) {
-    .bd-placeholder-img-lg {
-      font-size: 3.5rem;
-    }
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
   }
+}
 .fab {
-     font-size: 20px;
-   width: 30px;
-    text-align: center;
-    text-decoration: none;
-  }
-  .fas {
-    font-size: 20px;
+  font-size: 20px;
   width: 30px;
-   text-align: center;
-   text-decoration: none;
- }
-  
-  /* Add a hover effect if you want */
-  .fa:hover {
-    opacity: 0.7;
-  }
-  
-  /* Set a specific color for each brand */
-  
-  /* Facebook */
-  .fa-facebook {
-    color: rgb(17, 0, 255);
-  }
-  .fa-whatsapp-square{
-    color: rgb(0, 90, 0);
-  }
-  /* Twitter */
-  .fa-youtube {
-    color: rgb(179, 0, 0);
-  }
-  
-  .fa-instagram {
-    color: rgb(123, 67, 67);
-  }
+  text-align: center;
+  text-decoration: none;
+}
+.fas {
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+}
 
-  .fa-home{
-      color: rgb(0, 0, 0);
-  }
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
 
-  .fa-arrow-alt-circle-up{
-    color: rgb(0, 0, 0);
-    }
-    .destinations
-    {
-      width: 100%;
-      background: #FFFFFF;
-      padding-top: 115px;
-      padding-bottom: 116px;
-    }
-    .section_subtitle
-    {
-      font-family: 'Oswald', sans-serif;
-      font-size: 12px;
-      font-weight: 400;
-      color: #72728c;
-      line-height: 0.75;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-    }
-    .section_title
-    {
-      color: #181818;
-      margin-top: 26px;
-    }
-    .destination_sorting_row
-    {
-      margin-top: 100px;
-    }
-    .destination_sorting
-    {
-      width: 100%;
-    }
-    .item_sorting > li
-    {
-      display: inline-block;
-      position: relative;
-      width: 123px;
-      height: 33px;
-      background: #f2f5f6;
-      line-height: 33px;
-      cursor: pointer;
-      padding-left: 20px;
-      padding-right: 17px;
-      margin-right: 8px;
-      font-family: 'Oswald', sans-serif;
-      font-size: 12px;
-      font-weight: 400;
-      color: #7c7c94;
-      margin-bottom: 10px;
-    }
-    .item_sorting > li:last-child
-    {
-      margin-right: 0;
-    }
-    .num_sorting_text
-    {
-      padding-right: 11px;
-    }
-    .item_sorting li i
-    {
-      float: right;
-      line-height: 33px;
-      font-size: 12px;
-      color: #7c7c94;
-    }
-    .item_sorting li ul
-    {
-      display: block;
-      position: absolute;
-      right: 0;
-      top: 120%;
-      margin: 0;
-      width: 100%;
-      background: #FFFFFF;
-      visibility: hidden;
-      opacity: 0;
-      z-index: 1;
-      box-shadow: 0 15px 25px rgba(63, 78, 100, 0.15);
-      -webkit-transition: opacity 0.3s ease;
-      -moz-transition: opacity 0.3s ease;
-      -ms-transition: opacity 0.3s ease;
-      -o-transition: opacity 0.3s ease;
-      transition: all 0.3s ease;
-    }
-    .item_sorting > li:hover ul
-    {
-      visibility: visible;
-      opacity: 1;
-      top: calc(100% + 1px);
-    }
-    .item_sorting li ul li
-    {
-      display: block;
-      text-align: left;
-      padding-left: 15px;
-      padding-right: 15px;
-    }
-    .item_sorting li ul li span
-    {
-      display: block;
-      height: 36px;
-      line-height: 36px;
-      border-bottom: solid 1px #dddddd;
-      color: #131a2f;
-      text-align: right;
-      padding-right: 22px;
-      -webkit-transition: opacity 0.3s ease;
-      -moz-transition: opacity 0.3s ease;
-      -ms-transition: opacity 0.3s ease;
-      -o-transition: opacity 0.3s ease;
-      transition: all 0.3s ease;
-    }
-    .item_sorting li ul li span:hover
-    {
-      color: #b5aec4;
-    }
-    .item_sorting li ul li:last-child span
-    {
-      border-bottom: none;
-    }
-    .item_sorting li span:nth-child(2)
-    {
-      margin-left: 63px;
-    }
-    .sort_box
-    {
-      width: 16px;
-      height: 16px;
-      cursor: pointer;
-    }
-    .sort_box i
-    {
-      width: 100%;
-      height: 100%;
-      font-size: 18px;
-      color: #7c7c94;
-      -webkit-transition: all 200ms ease;
-      -moz-transition: all 200ms ease;
-      -ms-transition: all 200ms ease;
-      -o-transition: all 200ms ease;
-      transition: all 200ms ease;
-    }
-    .sort_box i:hover
-    {
-      color: #181818;
-    }
-    .destinations_row
-    {
-      margin-top: 45px;
-    }
-    .destination_image
-    {
-      width: 100%;
-    }
-    .destination_image img
-    {
-      max-width: 100%;
-    }
-    .spec_offer
-    {
-      position: absolute;
-      top: 15px;
-      left: 16px;
-      width: 118px;
-      height: 30px;
-      background: rgba(0, 128, 0, 0);
-      border-radius: 40%;
-    }
-    .spec_offer a
-    {
-      display: block;
-      font-family: 'Oswald', sans-serif;
-      font-size: 12px;
-      color: #ffffff77;
-      line-height: 36px;
-      font-weight: 400;
-    }
-    .destinations_container
-    {
-      width: calc(100% + 30px);
-      left: -15px;
-    }
-    .destination
-    {
-      width: calc(100% / 3);
-      padding-left: 15px;
-      padding-right: 15px;
-      margin-bottom: 58px;
-    }
-    .destination_title
-    {
-      margin-top: 15px;
-    }
-    .destination_title a
-    {
-      font-family: 'Oswald', sans-serif;
-      font-size: 30px;
-      font-weight: 400;
-      color: #181818;
-    }
-    .destination_subtitle
-    {
-      margin-top: -4px;
-    }
-    .destination_price
-    {
-      font-size: 16px;
-      font-weight: 700;
-      color: #181818;
-      margin-top: 16px;
-    }
-    .destination_list
-    {
-      margin-top: 41px;
-    }
-    .destination_list ul li
-    {
-      position: relative;
-      font-size: 15px;
-      font-weight: 600;
-      color: #72728c;
-      padding-left: 36px;
-    }
-    .destination_list ul li:not(:last-child)
-    {
-      margin-bottom: 14px;
-    }
-    .destination_list ul li::before
-    {
-      display: block;
-      position: absolute;
-      top: 50%;
-      -webkit-transform: translateY(-50%);
-      -moz-transform: translateY(-50%);
-      -ms-transform: translateY(-50%);
-      -o-transform: translateY(-50%);
-      transform: translateY(-50%);
-      left: 0;
-      width: 7px;
-      height: 7px;
-      background: #181818;
-      border-radius: 50%;
-      content: '';
-    }
-    .load_more_button
-    {
-      margin-left: auto;
-      margin-right: auto;
-      margin-top: 51px;
-    }
-    .map-container-6{
-      overflow:hidden;
-      padding-bottom:56.25%;
-      position:relative;
-      height:0;
-      }
-      .map-container-6 iframe{
-      left:0;
-      top:0;
-      height:100%;
-      width:100%;
-      position:absolute;
-      }
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: rgb(17, 0, 255);
+}
+.fa-whatsapp-square {
+  color: rgb(0, 90, 0);
+}
+/* Twitter */
+.fa-youtube {
+  color: rgb(179, 0, 0);
+}
+
+.fa-instagram {
+  color: rgb(123, 67, 67);
+}
+
+.fa-home {
+  color: rgb(0, 0, 0);
+}
+
+.fa-arrow-alt-circle-up {
+  color: rgb(0, 0, 0);
+}
+.destinations {
+  width: 100%;
+  background: #ffffff;
+  padding-top: 115px;
+  padding-bottom: 116px;
+}
+.section_subtitle {
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #72728c;
+  line-height: 0.75;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+}
+.section_title {
+  color: #181818;
+  margin-top: 26px;
+}
+.destination_sorting_row {
+  margin-top: 100px;
+}
+.destination_sorting {
+  width: 100%;
+}
+.item_sorting > li {
+  display: inline-block;
+  position: relative;
+  width: 123px;
+  height: 33px;
+  background: #f2f5f6;
+  line-height: 33px;
+  cursor: pointer;
+  padding-left: 20px;
+  padding-right: 17px;
+  margin-right: 8px;
+  font-family: "Oswald", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #7c7c94;
+  margin-bottom: 10px;
+}
+.item_sorting > li:last-child {
+  margin-right: 0;
+}
+.num_sorting_text {
+  padding-right: 11px;
+}
+.item_sorting li i {
+  float: right;
+  line-height: 33px;
+  font-size: 12px;
+  color: #7c7c94;
+}
+.item_sorting li ul {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 120%;
+  margin: 0;
+  width: 100%;
+  background: #ffffff;
+  visibility: hidden;
+  opacity: 0;
+  z-index: 1;
+  box-shadow: 0 15px 25px rgba(63, 78, 100, 0.15);
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: all 0.3s ease;
+}
+.item_sorting > li:hover ul {
+  visibility: visible;
+  opacity: 1;
+  top: calc(100% + 1px);
+}
+.item_sorting li ul li {
+  display: block;
+  text-align: left;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.item_sorting li ul li span {
+  display: block;
+  height: 36px;
+  line-height: 36px;
+  border-bottom: solid 1px #dddddd;
+  color: #131a2f;
+  text-align: right;
+  padding-right: 22px;
+  -webkit-transition: opacity 0.3s ease;
+  -moz-transition: opacity 0.3s ease;
+  -ms-transition: opacity 0.3s ease;
+  -o-transition: opacity 0.3s ease;
+  transition: all 0.3s ease;
+}
+.item_sorting li ul li span:hover {
+  color: #b5aec4;
+}
+.item_sorting li ul li:last-child span {
+  border-bottom: none;
+}
+.item_sorting li span:nth-child(2) {
+  margin-left: 63px;
+}
+.sort_box {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+}
+.sort_box i {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  color: #7c7c94;
+  -webkit-transition: all 200ms ease;
+  -moz-transition: all 200ms ease;
+  -ms-transition: all 200ms ease;
+  -o-transition: all 200ms ease;
+  transition: all 200ms ease;
+}
+.sort_box i:hover {
+  color: #181818;
+}
+.destinations_row {
+  margin-top: 45px;
+}
+.destination_image {
+  width: 100%;
+}
+.destination_image img {
+  max-width: 100%;
+}
+.offer_badge {
+  position: absolute;
+  top: -5px;
+  right: -16px;
+  width: 118px;
+  height: 30px;
+  background: rgba(0, 128, 0, 0);
+  border-radius: 40%;
+}
+.offer_badge h3 span {
+  background-color: #c3ff00;
+  color: #040000;
+}
+
+.mother_badge {
+  position: absolute;
+  bottom: -2px;
+  left: 0px;
+  width: 118px;
+  height: 30px;
+  background: rgba(0, 128, 0, 0);
+  border-radius: 40%;
+}
+.mother_badge h3 span {
+  background-color: #3f3f3f69;
+  color: #ececec;
+}
+.restock_badge {
+  position: absolute;
+  bottom: -2px;
+  right: 15px;
+  width: 118px;
+  height: 30px;
+  background: rgba(0, 128, 0, 0);
+  border-radius: 40%;
+}
+.restock_badge h3 span {
+  background-color: #3f3f3fcb;
+  color: #ececec;
+}
+.category_badge {
+  background-color: #b5aec4;
+  position: absolute;
+  top: -5px;
+  left: 0px;
+  width: 100px;
+  height: 10px;
+  background: rgba(0, 128, 0, 0);
+  border-radius: 40%;
+}
+.category_badge h3 span {
+  background-color: #3f3f3f;
+  color: #ffffff;
+}
+
+.destinations_container {
+  width: calc(100% + 30px);
+  left: -15px;
+}
+.destination {
+  width: calc(100% / 3);
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-bottom: 58px;
+}
+.destination_title {
+  margin-top: 15px;
+}
+.destination_title a {
+  font-family: "Oswald", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #181818;
+}
+.destination_subtitle {
+  margin-top: -4px;
+}
+.destination_price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #181818;
+  margin-top: 16px;
+}
+.destination_list {
+  margin-top: 41px;
+}
+.destination_list ul li {
+  position: relative;
+  font-size: 15px;
+  font-weight: 600;
+  color: #72728c;
+  padding-left: 36px;
+}
+.destination_list ul li:not(:last-child) {
+  margin-bottom: 14px;
+}
+.destination_list ul li::before {
+  display: block;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  width: 7px;
+  height: 7px;
+  background: #181818;
+  border-radius: 50%;
+  content: "";
+}
+.load_more_button {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 51px;
+}
+.map-container-6 {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+.map-container-6 iframe {
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}

@@ -18,9 +18,23 @@ const cartOverlay = document.querySelector(".cart-overlay");
 const cartItems = document.querySelector(".cart-items");
 const cartTotal = document.querySelector(".cart-total");
 const cartContent = document.querySelector(".cart-content");
+const productPrice = document.querySelector(".product-price");
+const marquee = document.querySelector(".marquee");
+const footIcons = document.querySelector(".foot-icons");
+const marqueeProduct = document.querySelector(".marquee-product");
+const navbarConst = document.querySelector(".navbar-const");
 const productsDOM = document.querySelector(".products-center");
 const productsDOM1 = document.querySelector(".products-center1");
-const productPrice=document.querySelector(".product-price");
+const productsDOM2 = document.querySelector(".products-center2");
+const productsDOM3 = document.querySelector(".products-center3");
+const productsDOM4 = document.querySelector(".products-center4");
+const productsDOM5 = document.querySelector(".products-center5");
+const productsDOM6 = document.querySelector(".products-center6");
+const productsDOM7 = document.querySelector(".products-center7");
+const productsDOM8 = document.querySelector(".products-center8");
+const productsDOM9 = document.querySelector(".products-center9");
+const productsDOM10 = document.querySelector(".products-center10");
+
 // let's cart
 let cart = [];
 // buttons
@@ -40,11 +54,45 @@ class Products {
       let products = data.items;
 
       products = products.map((item) => {
-        const { title,orgPrice, price, ava,size,transit,water,sun,common,category,mother,hanging,offer,indoor,restock } = item.fields;
+        const {
+          title,
+          orgPrice,
+          price,
+          ava,
+          size,
+          transit,
+          water,
+          sun,
+          common,
+          category,
+          mother,
+          hanging,
+          combo,
+          indoor,
+          restock,
+        } = item.fields;
         const { id } = item.sys;
         const image = item.fields.image.fields.file.url;
 
-        return { title,orgPrice, price, ava, id, image,size,transit,water,sun,common,category,mother,hanging,offer,indoor,restock  };
+        return {
+          title,
+          orgPrice,
+          price,
+          ava,
+          id,
+          image,
+          size,
+          transit,
+          water,
+          sun,
+          common,
+          category,
+          mother,
+          hanging,
+          combo,
+          indoor,
+          restock,
+        };
       });
       return products;
     } catch (error) {
@@ -55,15 +103,14 @@ class Products {
 
 // TODO: display products
 class UI {
+  //All Plants
   displayProducts(products) {
-    // console.log(products);
-
     let result = "";
     products.forEach((product) => {
-      if (product.ava == 1 
+      if (
+        product.ava == 1
         //&& product.category=="succulents"
-        ) 
-      {
+      ) {
         result += `
       <!-- single product start -->
         <article class="product">
@@ -72,12 +119,36 @@ class UI {
               src=${product.image}
               alt="product"
               class="product-img"
-            />
-          </div>
+            />`;
+        if (product.orgPrice > product.price) {
+          result += `             <div class="offer_badge">
+              <h3>  <span class="badge badge-pill badge-warning">On Offer</span> </h3>
+              </div>`;
+        }
+        if (product.mother == 1) {
+          result += `             <div class="mother_badge">
+              <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+              </div>`;
+        }
+        if (product.restock == 1) {
+          result += `             <div class="restock_badge">
+              <h3>  <span class="badge badge-pill ">New/Restocked</span> </h3>
+              </div>`;
+        }
+        result += `             <div class="category_badge">
+            <h3>  <span class="badge badge-pill"  >${product.category}</span> </h3>
+            </div>`;
+        if (product.combo == 1) {
+          result += `             <div class="category_badge">
+              <h3>  <span class="badge badge-pill"  >Combo</span> </h3>
+              </div>`;
+        }
+
+        result += `</div>
           <div class="d-flex justify-content-center">
- <!-- Button trigger modal -->
+          <!-- Button trigger modal -->
           <button type="button"           id="${product.id}"
-          value="${product.id}" class="btn btn-link" data-toggle="modal" data-target="#exampleModal${product.id}">
+          value="${product.id}" class="btn btn-link p-0" data-toggle="modal" data-target="#exampleModal${product.id}">
           ${product.id}. ${product.title}
           </button>
           </div>
@@ -87,9 +158,9 @@ class UI {
           <div class="modal-dialog">
           <div class="modal-content">
           <div class="modal-header p-0 ml-3 pt-2">
-          <h5 class="modal-title text-center" id="exampleModalLabel">
+          <h4 class="modal-title text-center" id="exampleModalLabel">
           <strong>${product.id}. ${product.title} </strong>
-        </h5>
+        </h4>
           <button type="button" class="close  mr-2" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -104,6 +175,7 @@ class UI {
                 src=${product.image}
                 width="200px"
               />
+              
               </div>
 
             </p>
@@ -111,7 +183,7 @@ class UI {
               <tbody>
               <tr >
                   <td class="py-1">Category</td>
-                  <td class="py-1">: ${product.category }</td>
+                  <td class="py-1">: ${product.category}</td>
               </tr>
               <tr>
                   <td class="py-1">Transit risk</td>
@@ -121,11 +193,20 @@ class UI {
                   <td class="py-1">Size</td>
                   <td class="py-1">: ${product.size} Inches </td>
               </tr>
+        
+              
               <tr>
-                  <td class="py-1">Price</td>
-                  <td class="py-1">:   ${product.price}
+                  <td class="py-1">Price</td>`;
+        if (product.orgPrice > product.price) {
+          result += ` <td class="py-1">: <strike> ₹ ${product.orgPrice}</strike> ₹ ${product.price}`;
+        } else {
+          result += `<td class="py-1">:  ₹ ${product.price}`;
+        }
+
+        result += `       
                   </td>
               </tr>
+          
               <tr>
                   <td class="py-1">Watering</td>
                   <td class="py-1">: ${product.water}</td>
@@ -135,9 +216,14 @@ class UI {
                   <td class="py-1">: ${product.sun}</td>
               </tr>
               <tr>
-              <td class="py-1">Indoor</td>
-              <td class="py-1">: ${product.indoor}</td>
-          </tr>
+              <td class="py-1">Indoor</td>`;
+        if (product.indoor == 0) {
+          result += `<td class="py-1">: No</td>`;
+        } else {
+          result += `<td class="py-1">: Yes</td>`;
+        }
+
+        result += `</tr>
               </tbody>
             </table>  
             <tr>
@@ -159,9 +245,14 @@ class UI {
             </div>
           </div>
         </div>
-          </div>
-          
-          <h4 class="mt-0">Price: ₹ ${product.price}</h4>
+
+          </div>`;
+        if (product.orgPrice > product.price) {
+          result += ` <h4 class="mt-0">Price:<strike> ₹ ${product.orgPrice}</strike> ₹ ${product.price}</h4>`;
+        } else {
+          result += ` <h4 class="mt-0">Price: ₹ ${product.price}</h4>`;
+        }
+        result += `<h5 class="mt-0">Transit Risk:  ${product.transit}</h5>
           <div class="d-flex justify-content-center">
           <button type="button" class="bag-btn1 btn btn-outline-success btn-sm" data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
           </div>
@@ -176,16 +267,11 @@ class UI {
       console.log("Error = " + e);
     }
   }
-  displayProducts1(products) {
-    // console.log(products);
-
+  //1_lowRisk
+  lowRisk_1(products) {
     let result = "";
     products.forEach((product) => {
-      //console.log(product.ava);
-      if (product.ava == 1 
-        && product.category=="succulents"
-        ) 
-      {
+      if (product.ava == 1 && product.transit == "Low") {
         result += `
       <!-- single product start -->
         <article class="product">
@@ -194,12 +280,36 @@ class UI {
               src=${product.image}
               alt="product"
               class="product-img"
-            />
-          </div>
+            />`;
+        if (product.orgPrice > product.price) {
+          result += `             <div class="offer_badge">
+              <h3>  <span class="badge badge-pill badge-warning">On Offer</span> </h3>
+              </div>`;
+        }
+        if (product.mother == 1) {
+          result += `             <div class="mother_badge">
+              <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+              </div>`;
+        }
+        if (product.restock == 1) {
+          result += `             <div class="restock_badge">
+              <h3>  <span class="badge badge-pill ">New/Restocked</span> </h3>
+              </div>`;
+        }
+        result += `             <div class="category_badge">
+            <h3>  <span class="badge badge-pill"  >${product.category}</span> </h3>
+            </div>`;
+        if (product.combo == 1) {
+          result += `             <div class="category_badge">
+              <h3>  <span class="badge badge-pill"  >Combo</span> </h3>
+              </div>`;
+        }
+
+        result += `</div>
           <div class="d-flex justify-content-center">
- <!-- Button trigger modal -->
+          <!-- Button trigger modal -->
           <button type="button"           id="${product.id}"
-          value="${product.id}" class="btn btn-link" data-toggle="modal" data-target="#exampleModal${product.id}">
+          value="${product.id}" class="btn btn-link p-0" data-toggle="modal" data-target="#exampleModal${product.id}">
           ${product.id}. ${product.title}
           </button>
           </div>
@@ -209,9 +319,9 @@ class UI {
           <div class="modal-dialog">
           <div class="modal-content">
           <div class="modal-header p-0 ml-3 pt-2">
-          <h5 class="modal-title text-center" id="exampleModalLabel">
+          <h4 class="modal-title text-center" id="exampleModalLabel">
           <strong>${product.id}. ${product.title} </strong>
-        </h5>
+        </h4>
           <button type="button" class="close  mr-2" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
           </button>
@@ -226,6 +336,7 @@ class UI {
                 src=${product.image}
                 width="200px"
               />
+              
               </div>
 
             </p>
@@ -233,7 +344,7 @@ class UI {
               <tbody>
               <tr >
                   <td class="py-1">Category</td>
-                  <td class="py-1">: ${product.category }</td>
+                  <td class="py-1">: ${product.category}</td>
               </tr>
               <tr>
                   <td class="py-1">Transit risk</td>
@@ -243,14 +354,20 @@ class UI {
                   <td class="py-1">Size</td>
                   <td class="py-1">: ${product.size} Inches </td>
               </tr>
+        
+              
               <tr>
-                  <td class="py-1">Price</td>
-                  <td class="py-1">:                       {% if product.orgprice != product.price %}
-                    <strike>&#8377;{{product.orgprice}}</strike>
-                    {% endif %}
-                    <b> &#8377; ${product.price}</b>
+                  <td class="py-1">Price</td>`;
+        if (product.orgPrice > product.price) {
+          result += ` <td class="py-1">: <strike> ₹ ${product.orgPrice}</strike> ₹ ${product.price}`;
+        } else {
+          result += `<td class="py-1">:  ₹ ${product.price}`;
+        }
+
+        result += `       
                   </td>
               </tr>
+          
               <tr>
                   <td class="py-1">Watering</td>
                   <td class="py-1">: ${product.water}</td>
@@ -260,10 +377,14 @@ class UI {
                   <td class="py-1">: ${product.sun}</td>
               </tr>
               <tr>
-                <td class="py-1">Maintenance</td>
-                <td class="py-1">: {{product.maintenance}}</td>
-              </tr>
+              <td class="py-1">Indoor</td>`;
+        if (product.indoor == 0) {
+          result += `<td class="py-1">: No</td>`;
+        } else {
+          result += `<td class="py-1">: Yes</td>`;
+        }
 
+        result += `</tr>
               </tbody>
             </table>  
             <tr>
@@ -285,9 +406,14 @@ class UI {
             </div>
           </div>
         </div>
-          </div>
-          
-          <h4 class="mt-0">Price: ₹ ${product.price}</h4>
+
+          </div>`;
+        if (product.orgPrice > product.price) {
+          result += ` <h4 class="mt-0">Price:<strike> ₹ ${product.orgPrice}</strike> ₹ ${product.price}</h4>`;
+        } else {
+          result += ` <h4 class="mt-0">Price: ₹ ${product.price}</h4>`;
+        }
+        result += `<h5 class="mt-0">Transit Risk:  ${product.transit}</h5>
           <div class="d-flex justify-content-center">
           <button type="button" class="bag-btn1 btn btn-outline-success btn-sm" data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
           </div>
@@ -302,6 +428,490 @@ class UI {
       console.log("Error = " + e);
     }
   }
+  //2_Moderate
+  moderateRisk_2(products) {
+    let result = "";
+    products.forEach((product) => {
+      if (product.ava == 1 && product.transit == "Moderate") {
+        result += `
+      <!-- single product start -->
+        <article class="product">
+          <div class="img-container">
+            <img
+              src=${product.image}
+              alt="product"
+              class="product-img"
+            />`;
+        if (product.orgPrice > product.price) {
+          result += `             <div class="offer_badge">
+              <h3>  <span class="badge badge-pill badge-warning">On Offer</span> </h3>
+              </div>`;
+        }
+        if (product.mother == 1) {
+          result += `             <div class="mother_badge">
+              <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+              </div>`;
+        }
+        if (product.restock == 1) {
+          result += `             <div class="restock_badge">
+              <h3>  <span class="badge badge-pill ">New/Restocked</span> </h3>
+              </div>`;
+        }
+        result += `             <div class="category_badge">
+            <h3>  <span class="badge badge-pill"  >${product.category}</span> </h3>
+            </div>`;
+        if (product.combo == 1) {
+          result += `             <div class="category_badge">
+              <h3>  <span class="badge badge-pill"  >Combo</span> </h3>
+              </div>`;
+        }
+
+        result += `</div>
+          <div class="d-flex justify-content-center">
+          <!-- Button trigger modal -->
+          <button type="button"           id="${product.id}"
+          value="${product.id}" class="btn btn-link p-0" data-toggle="modal" data-target="#exampleModal${product.id}">
+          ${product.id}. ${product.title}
+          </button>
+          </div>
+          
+          <!-- Modal -->
+          <div class="modal fade" id="exampleModal${product.id}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+          <div class="modal-dialog">
+          <div class="modal-content">
+          <div class="modal-header p-0 ml-3 pt-2">
+          <h4 class="modal-title text-center" id="exampleModalLabel">
+          <strong>${product.id}. ${product.title} </strong>
+        </h4>
+          <button type="button" class="close  mr-2" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+            <p class="card-text">
+              <div class="text-center m-0 p-0" >
+                <img
+                class="img-fluid"
+                style="border-radius: 5%;"
+                alt="Responsive image"
+                src=${product.image}
+                width="200px"
+              />
+              
+              </div>
+
+            </p>
+            <table class="table table-hover mt-3">
+              <tbody>
+              <tr >
+                  <td class="py-1">Category</td>
+                  <td class="py-1">: ${product.category}</td>
+              </tr>
+              <tr>
+                  <td class="py-1">Transit risk</td>
+                  <td class="py-1">: ${product.transit}</td>
+              </tr>
+              <tr>
+                  <td class="py-1">Size</td>
+                  <td class="py-1">: ${product.size} Inches </td>
+              </tr>
+        
+              
+              <tr>
+                  <td class="py-1">Price</td>`;
+        if (product.orgPrice > product.price) {
+          result += ` <td class="py-1">: <strike> ₹ ${product.orgPrice}</strike> ₹ ${product.price}`;
+        } else {
+          result += `<td class="py-1">:  ₹ ${product.price}`;
+        }
+
+        result += `       
+                  </td>
+              </tr>
+          
+              <tr>
+                  <td class="py-1">Watering</td>
+                  <td class="py-1">: ${product.water}</td>
+              </tr>
+              <tr>
+                  <td class="py-1">Sunlight</td>
+                  <td class="py-1">: ${product.sun}</td>
+              </tr>
+              <tr>
+              <td class="py-1">Indoor</td>`;
+        if (product.indoor == 0) {
+          result += `<td class="py-1">: No</td>`;
+        } else {
+          result += `<td class="py-1">: Yes</td>`;
+        }
+
+        result += `</tr>
+              </tbody>
+            </table>  
+            <tr>
+            <td>
+              <div class="d-flex justify-content-around pt-0" style="color: black;">
+              <a href="https://api.whatsapp.com/send?phone=%2B917904050237" target="_blank" class="fab fa-whatsapp-square pt-1"></a>            
+              <a href="https://facebook.com/rosaryplanthouse" target="_blank" class="fab fa-facebook pt-1"></a>
+              <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w" target="_blank" class="fab fa-youtube pt-1"></a>
+              <a href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1" style="color: rgb(97, 64, 64);"></a>
+           
+            </div>
+            </td>
+          </tr>                    
+            <div class="modal-footer py-1 ">
+            <div  >
+                <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
+            </div>
+            </div>
+          </div>
+        </div>
+
+          </div>`;
+        if (product.orgPrice > product.price) {
+          result += ` <h4 class="mt-0">Price:<strike> ₹ ${product.orgPrice}</strike> ₹ ${product.price}</h4>`;
+        } else {
+          result += ` <h4 class="mt-0">Price: ₹ ${product.price}</h4>`;
+        }
+        result += `<h5 class="mt-0">Transit Risk:  ${product.transit}</h5>
+          <div class="d-flex justify-content-center">
+          <button type="button" class="bag-btn1 btn btn-outline-success btn-sm" data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
+          </div>
+        </article>
+        <!-- single product end -->`;
+      }
+    });
+    try {
+      // console.log(result);
+      productsDOM2.innerHTML = result;
+    } catch (e) {
+      console.log("Error = " + e);
+    }
+  }
+  //3_High
+  highRisk_3(products) {
+    let result = "";
+    products.forEach((product) => {
+      if (product.ava == 1 && product.transit == "High") {
+        result += `
+        <!-- single product start -->
+          <article class="product">
+            <div class="img-container">
+              <img
+                src=${product.image}
+                alt="product"
+                class="product-img"
+              />`;
+        if (product.orgPrice > product.price) {
+          result += `             <div class="offer_badge">
+                <h3>  <span class="badge badge-pill badge-warning">On Offer</span> </h3>
+                </div>`;
+        }
+        if (product.mother == 1) {
+          result += `             <div class="mother_badge">
+                <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                </div>`;
+        }
+        if (product.restock == 1) {
+          result += `             <div class="restock_badge">
+                <h3>  <span class="badge badge-pill ">New/Restocked</span> </h3>
+                </div>`;
+        }
+        result += `             <div class="category_badge">
+              <h3>  <span class="badge badge-pill"  >${product.category}</span> </h3>
+              </div>`;
+        if (product.combo == 1) {
+          result += `             <div class="category_badge">
+                <h3>  <span class="badge badge-pill"  >Combo</span> </h3>
+                </div>`;
+        }
+
+        result += `</div>
+            <div class="d-flex justify-content-center">
+            <!-- Button trigger modal -->
+            <button type="button"           id="${product.id}"
+            value="${product.id}" class="btn btn-link p-0" data-toggle="modal" data-target="#exampleModal${product.id}">
+            ${product.id}. ${product.title}
+            </button>
+            </div>
+            
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal${product.id}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+            <div class="modal-content">
+            <div class="modal-header p-0 ml-3 pt-2">
+            <h4 class="modal-title text-center" id="exampleModalLabel">
+            <strong>${product.id}. ${product.title} </strong>
+          </h4>
+            <button type="button" class="close  mr-2" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+  
+              <p class="card-text">
+                <div class="text-center m-0 p-0" >
+                  <img
+                  class="img-fluid"
+                  style="border-radius: 5%;"
+                  alt="Responsive image"
+                  src=${product.image}
+                  width="200px"
+                />
+                
+                </div>
+  
+              </p>
+              <table class="table table-hover mt-3">
+                <tbody>
+                <tr >
+                    <td class="py-1">Category</td>
+                    <td class="py-1">: ${product.category}</td>
+                </tr>
+                <tr>
+                    <td class="py-1">Transit risk</td>
+                    <td class="py-1">: ${product.transit}</td>
+                </tr>
+                <tr>
+                    <td class="py-1">Size</td>
+                    <td class="py-1">: ${product.size} Inches </td>
+                </tr>
+          
+                
+                <tr>
+                    <td class="py-1">Price</td>`;
+        if (product.orgPrice > product.price) {
+          result += ` <td class="py-1">: <strike> ₹ ${product.orgPrice}</strike> ₹ ${product.price}`;
+        } else {
+          result += `<td class="py-1">:  ₹ ${product.price}`;
+        }
+
+        result += `       
+                    </td>
+                </tr>
+            
+                <tr>
+                    <td class="py-1">Watering</td>
+                    <td class="py-1">: ${product.water}</td>
+                </tr>
+                <tr>
+                    <td class="py-1">Sunlight</td>
+                    <td class="py-1">: ${product.sun}</td>
+                </tr>
+                <tr>
+                <td class="py-1">Indoor</td>`;
+        if (product.indoor == 0) {
+          result += `<td class="py-1">: No</td>`;
+        } else {
+          result += `<td class="py-1">: Yes</td>`;
+        }
+
+        result += `</tr>
+                </tbody>
+              </table>  
+              <tr>
+              <td>
+                <div class="d-flex justify-content-around pt-0" style="color: black;">
+                <a href="https://api.whatsapp.com/send?phone=%2B917904050237" target="_blank" class="fab fa-whatsapp-square pt-1"></a>            
+                <a href="https://facebook.com/rosaryplanthouse" target="_blank" class="fab fa-facebook pt-1"></a>
+                <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w" target="_blank" class="fab fa-youtube pt-1"></a>
+                <a href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1" style="color: rgb(97, 64, 64);"></a>
+             
+              </div>
+              </td>
+            </tr>                    
+              <div class="modal-footer py-1 ">
+              <div  >
+                  <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                  <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
+              </div>
+              </div>
+            </div>
+          </div>
+  
+            </div>`;
+        if (product.orgPrice > product.price) {
+          result += ` <h4 class="mt-0">Price:<strike> ₹ ${product.orgPrice}</strike> ₹ ${product.price}</h4>`;
+        } else {
+          result += ` <h4 class="mt-0">Price: ₹ ${product.price}</h4>`;
+        }
+        result += `<h5 class="mt-0">Transit Risk:  ${product.transit}</h5>
+            <div class="d-flex justify-content-center">
+            <button type="button" class="bag-btn1 btn btn-outline-success btn-sm" data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
+            </div>
+          </article>
+          <!-- single product end -->`;
+      }
+    });
+    try {
+      // console.log(result);
+      productsDOM3.innerHTML = result;
+    } catch (e) {
+      console.log("Error = " + e);
+    }
+  }
+    //3_High
+    lowAndModerate_4(products) {
+      let result = "";
+      products.forEach((product) => {
+        if (product.ava == 1 && (product.transit == "Low"||product.transit == "Moderate")) {
+          result += `
+          <!-- single product start -->
+            <article class="product">
+              <div class="img-container">
+                <img
+                  src=${product.image}
+                  alt="product"
+                  class="product-img"
+                />`;
+          if (product.orgPrice > product.price) {
+            result += `             <div class="offer_badge">
+                  <h3>  <span class="badge badge-pill badge-warning">On Offer</span> </h3>
+                  </div>`;
+          }
+          if (product.mother == 1) {
+            result += `             <div class="mother_badge">
+                  <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                  </div>`;
+          }
+          if (product.restock == 1) {
+            result += `             <div class="restock_badge">
+                  <h3>  <span class="badge badge-pill ">New/Restocked</span> </h3>
+                  </div>`;
+          }
+          result += `             <div class="category_badge">
+                <h3>  <span class="badge badge-pill"  >${product.category}</span> </h3>
+                </div>`;
+          if (product.combo == 1) {
+            result += `             <div class="category_badge">
+                  <h3>  <span class="badge badge-pill"  >Combo</span> </h3>
+                  </div>`;
+          }
+  
+          result += `</div>
+              <div class="d-flex justify-content-center">
+              <!-- Button trigger modal -->
+              <button type="button"           id="${product.id}"
+              value="${product.id}" class="btn btn-link p-0" data-toggle="modal" data-target="#exampleModal${product.id}">
+              ${product.id}. ${product.title}
+              </button>
+              </div>
+              
+              <!-- Modal -->
+              <div class="modal fade" id="exampleModal${product.id}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog">
+              <div class="modal-content">
+              <div class="modal-header p-0 ml-3 pt-2">
+              <h4 class="modal-title text-center" id="exampleModalLabel">
+              <strong>${product.id}. ${product.title} </strong>
+            </h4>
+              <button type="button" class="close  mr-2" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+    
+                <p class="card-text">
+                  <div class="text-center m-0 p-0" >
+                    <img
+                    class="img-fluid"
+                    style="border-radius: 5%;"
+                    alt="Responsive image"
+                    src=${product.image}
+                    width="200px"
+                  />
+                  
+                  </div>
+    
+                </p>
+                <table class="table table-hover mt-3">
+                  <tbody>
+                  <tr >
+                      <td class="py-1">Category</td>
+                      <td class="py-1">: ${product.category}</td>
+                  </tr>
+                  <tr>
+                      <td class="py-1">Transit risk</td>
+                      <td class="py-1">: ${product.transit}</td>
+                  </tr>
+                  <tr>
+                      <td class="py-1">Size</td>
+                      <td class="py-1">: ${product.size} Inches </td>
+                  </tr>
+            
+                  
+                  <tr>
+                      <td class="py-1">Price</td>`;
+          if (product.orgPrice > product.price) {
+            result += ` <td class="py-1">: <strike> ₹ ${product.orgPrice}</strike> ₹ ${product.price}`;
+          } else {
+            result += `<td class="py-1">:  ₹ ${product.price}`;
+          }
+  
+          result += `       
+                      </td>
+                  </tr>
+              
+                  <tr>
+                      <td class="py-1">Watering</td>
+                      <td class="py-1">: ${product.water}</td>
+                  </tr>
+                  <tr>
+                      <td class="py-1">Sunlight</td>
+                      <td class="py-1">: ${product.sun}</td>
+                  </tr>
+                  <tr>
+                  <td class="py-1">Indoor</td>`;
+          if (product.indoor == 0) {
+            result += `<td class="py-1">: No</td>`;
+          } else {
+            result += `<td class="py-1">: Yes</td>`;
+          }
+  
+          result += `</tr>
+                  </tbody>
+                </table>  
+                <tr>
+                <td>
+                  <div class="d-flex justify-content-around pt-0" style="color: black;">
+                  <a href="https://api.whatsapp.com/send?phone=%2B917904050237" target="_blank" class="fab fa-whatsapp-square pt-1"></a>            
+                  <a href="https://facebook.com/rosaryplanthouse" target="_blank" class="fab fa-facebook pt-1"></a>
+                  <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w" target="_blank" class="fab fa-youtube pt-1"></a>
+                  <a href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1" style="color: rgb(97, 64, 64);"></a>
+               
+                </div>
+                </td>
+              </tr>                    
+                <div class="modal-footer py-1 ">
+                <div  >
+                    <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                    <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
+                </div>
+                </div>
+              </div>
+            </div>
+    
+              </div>`;
+          if (product.orgPrice > product.price) {
+            result += ` <h4 class="mt-0">Price:<strike> ₹ ${product.orgPrice}</strike> ₹ ${product.price}</h4>`;
+          } else {
+            result += ` <h4 class="mt-0">Price: ₹ ${product.price}</h4>`;
+          }
+          result += `<h5 class="mt-0">Transit Risk:  ${product.transit}</h5>
+              <div class="d-flex justify-content-center">
+              <button type="button" class="bag-btn1 btn btn-outline-success btn-sm" data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
+              </div>
+            </article>
+            <!-- single product end -->`;
+        }
+      });
+      try {
+        // console.log(result);
+        productsDOM4.innerHTML = result;
+      } catch (e) {
+        console.log("Error = " + e);
+      }
+    }
+
   getBagButtons() {
     // bag buttons
     const buttons = [...document.querySelectorAll(".bag-btn1")];
@@ -358,7 +968,6 @@ class UI {
     //console.log(cartTotal, cartItems);
   }
 
-
   // add item to cart
   addCartItem(item) {
     const div = document.createElement("div");
@@ -368,7 +977,7 @@ class UI {
 
             <div>
             <div class="mb-0">
-              <h4>${item.title}</h4>
+              <h4>${item.id}. ${item.title}</h4>
               </div>
               <h4>Price : ₹ ${item.price}</h4>
               <span class="remove-item" onClick="window.location.reload()" data-id=${item.id}>Remove item</span>
@@ -392,7 +1001,6 @@ class UI {
     cartOverlay.classList.remove("transparentBcg");
     cartDOM.classList.remove("showCart");
   }
-
   // ? setup app
   setupAPP() {
     cart = Storage.getCart();
@@ -407,7 +1015,6 @@ class UI {
   populateCart(cart) {
     cart.forEach((item) => this.addCartItem(item));
   }
-
   // TODO: cart logic functionality
   cartLogic() {
     // clear cart button
@@ -446,16 +1053,15 @@ class UI {
           location.reload();
           lowerAmount.parentElement.parentElement;
           this.removeItem(id);
-          
         }
       }
     });
-  };
-  
+  }
+
   clearCart() {
     while (cartContent.children.length > 0) {
       cartContent.removeChild(cartContent.children[0]);
-    };
+    }
     localStorage.removeItem("cart");
     cart = Storage.getCart();
     //setCartValues(cart);
@@ -518,7 +1124,10 @@ document.addEventListener("DOMContentLoaded", () => {
     .getProducts()
     .then((products) => {
       ui.displayProducts(products);
-      ui.displayProducts1(products);
+      ui.lowRisk_1(products);
+      ui.moderateRisk_2(products);
+      ui.highRisk_3(products);
+      ui.lowAndModerate_4(products);
       Storage.saveProducts(products);
     })
     .then(() => {
@@ -531,19 +1140,26 @@ function getBilling(cart) {
   //var text="";
   let tempTotal = 0;
   let itemsTotal = 0;
-  const val=[];
+  const val = [];
 
-    cart.map((item) => {
-      val.push(item.id+ ". "+ item.title+"- ₹",item.price+" * "+item.amount+" = ₹"+(item.price * item.amount) +" %0a ");
-    });
+  cart.map((item) => {
+    val.push(
+      item.id + ". " + item.title + "- ₹",
+      item.price +
+        " * " +
+        item.amount +
+        " = ₹" +
+        item.price * item.amount +
+        " %0a "
+    );
+  });
 
   //console.log(tempTotal, itemsTotal);
-  return val.join('');
+  return val.join("");
 }
 
 function myFunction() {
   cart = Storage.getCart();
-
 
   let priceTotal = 0;
   let itemsTotal = 0;
@@ -553,13 +1169,235 @@ function myFunction() {
     itemsTotal += item.amount;
   });
 
-  var finalText="*Total Plants= "+itemsTotal+"*%0a*Total Price=₹"+priceTotal+"*%2Bdelivery%0a%0a";
+  var finalText =
+    "*Total Plants= " +
+    itemsTotal +
+    "*%0a*Total Price=₹" +
+    priceTotal +
+    "*%2Bdelivery%0a%0a";
 
-
-  console.log(cart);
+  //console.log(cart);
   const productText = getBilling(cart);
   //console.log(productText);
-  var linkText = "https://api.whatsapp.com/send?phone=%2B917904050237&text=*Hello, i have chosen the following plants from your site* %0a";
-  window.open(linkText.concat(productText,finalText), "_blank");
+  var linkText =
+    "https://api.whatsapp.com/send?phone=%2B917904050237&text=*Hello, i have chosen the following plants from your site* %0a";
+  window.open(linkText.concat(productText, finalText), "_blank");
 }
-console.log(cart);
+
+//marquee
+{
+  const div = document.createElement("div");
+  div.classList.add("marquee");
+
+  div.innerHTML = `<marquee behavior="scroll" direction="left" style="background-color: rgba(255, 255, 0, 0.589);">Please click<strong> Place order</strong> after selecting the plans.</marquee>`;
+
+  cartContent.appendChild(div);
+  // console.log(cartContent);
+}
+//Foot icons
+{
+  const div = document.createElement("div");
+  div.classList.add("foot-icons");
+
+  div.innerHTML = `
+  <a href="#" class="fas fa-arrow-alt-circle-up pt-1" style="position: fixed; bottom:20px; right: 10px; "></a>
+  <a href="https://api.whatsapp.com/send?phone=%2B917904050237" target="_blank" class="fab fa-whatsapp-square pt-1" style="position: fixed; bottom: 50px; right: 10px; "></a>
+  <a href="https://facebook.com/rosaryplanthouse" target="_blank" class="fab fa-facebook pt-1" style="position: fixed; bottom: 80px; right: 10px; "></a>
+  <a href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1" style="position: fixed; bottom: 110px; right: 10px; "></a>
+  <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w" target="_blank" class="fab fa-youtube pt-1" style="position: fixed; bottom: 140px; right: 10px; "></a>
+`;
+
+  footIcons.appendChild(div);
+  // console.log(cartContent);
+}
+//Marquee Product
+{
+  const div = document.createElement("div");
+  div.classList.add("marquee-product");
+
+  div.innerHTML = `     <marquee behavior="scroll" direction="left" style="background-color: rgba(91, 91, 59, 0.229);">Please click<strong> Add to Cart </strong> to select a plant and Click on the <strong>Plant Name</strong> to see more details of the plants.</marquee>
+  `;
+
+  marqueeProduct.appendChild(div);
+  // console.log(cartContent);
+}
+//NAV bar
+{
+  const div = document.createElement("div");
+  div.classList.add("navbar-const");
+
+  div.innerHTML = `
+  <button
+  class="navbar-toggler navbar-light"
+  style="background-color: rgb(208, 255, 208)"
+  type="button"
+  data-toggle="collapse"
+  data-target="#navbarNavAltMarkup"
+  aria-controls="navbarNavAltMarkup"
+  aria-expanded="false"
+  aria-label="Toggle navigation"
+>
+  <span class="navbar-toggler-icon"></span>
+</button>
+<div
+  class="collapse navbar-collapse navbar-light pl-0"
+  style="background-color: rgb(208, 255, 208)"
+  id="navbarNavAltMarkup"
+>
+<div class="navbar-nav">
+  <a
+    type="button "
+    role="button"
+    class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+    href="index.html"
+  >
+    Home
+  </a>
+
+
+  <div class=" nav-item dropdown show dropdown">
+    <a class="nav-link dropdown-toggle btn btn-outline-primary btn-sm m-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Category
+    </a>
+    <div class="dropdown-menu mx-2 mb-1" aria-labelledby="dropdownMenuLink">
+      <!--All Plants-->
+      <a class="dropdown-item" href="5_allPlants.html">All Plants</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Succulent-->
+      <a class="dropdown-item" href="6_succulent.html">Succulent</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Cactus-->
+      <a class="dropdown-item" href="7_cactus.html">Cactus</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Echeveria-->
+      <a class="dropdown-item" href="8_echeveria.html">Echeveria</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Jade-->
+      <a class="dropdown-item" href="9_jade.html">Jade</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Crassula-->
+      <a class="dropdown-item" href="10_crassula.html">Crassula (except Jade)</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Peperomia-->
+      <a class="dropdown-item" href="11_pepromia.html">Peperomia</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Aloe-->
+      <a class="dropdown-item" href="12_aloe.html">Aloe</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Sedum-->
+      <a class="dropdown-item" href="13_sedum.html">Sedum</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Haworthia-->
+      <a class="dropdown-item" href="14_haworthia.html">Haworthia</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Creeper-->
+      <a class="dropdown-item" href="15_creeper.html">Creeper (Ivy)</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Sansevieria-->
+      <a class="dropdown-item" href="16_sansevieria.html">Sansevieria</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Other Plants-->
+      <a class="dropdown-item" href="17_otherPlants.html">Other Plants</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Indoor-->
+      <a class="dropdown-item" href="18_indoorPlants.html">Indoor Plants</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Hanging-->
+      <a class="dropdown-item" href="19_hanging.html">Hanging</a>
+      <div class="dropdown-divider my-1"></div>
+                </div>
+  </div>
+  <div class=" nav-item dropdown show dropdown">
+    <a class="nav-link dropdown-toggle btn btn-outline-primary btn-sm m-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+      Transit Risk
+    </a>
+    <div class="dropdown-menu mx-2 mb-1" aria-labelledby="dropdownMenuLink">
+      <!--Low Risk-->
+      <a class="dropdown-item" href="1_lowRisk.html">Low Risk</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Moderate Risk-->
+      <a class="dropdown-item" href="2_moderateRisk.html">Moderate Risk</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--High Risk-->
+      <a class="dropdown-item" href="3_highRisk.html">High Risk</a>
+      <div class="dropdown-divider my-1"></div>
+      <!--Low and Moderate Risk-->
+      <a class="dropdown-item" href="4_lowAndModerate.html">Low & Moderate</a>
+      <div class="dropdown-divider my-1"></div>
+      </div>
+      
+
+  </div>
+  <a
+  type="button "
+  role="button"
+  class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+  href="5_allPlants.html"
+>
+  Catalogue
+</a>
+  <a
+    type="button"
+    role="button"
+    class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+    href="faq.html"
+  >
+    FAQ
+  </a>
+
+  <a
+    type="button "
+    role="button"
+    class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+    href="about.html"
+  >
+    Contact us
+  </a>
+  <a
+  type="button "
+  role="button"
+  class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+  href="20_offers.html"
+>
+  Offers
+</a>
+<a
+type="button "
+role="button"
+id="plantCategory"
+value="bigPlants"
+class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+href="21_bigPlants.html"
+>
+Big Plants
+</a>
+<a
+type="button "
+role="button"
+class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+href="22_combo.html"
+>
+Combo
+</a>
+<a
+type="button "
+role="button"
+class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+href="23_restocked.html"
+>
+Restocked
+</a>
+<a
+type="button "
+role="button"
+class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+href="care.html"
+>
+Care
+</a>
+
+</div>
+</div>  `;
+
+  navbarConst.appendChild(div);
+}
