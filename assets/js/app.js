@@ -4283,7 +4283,7 @@ function myFunction() {
   const div = document.createElement("div");
   div.classList.add("marquee");
 
-  div.innerHTML = `<marquee behavior="scroll" direction="left" style="background-color: rgba(255, 255, 0, 0.589);">Please click<strong> Place order</strong> after selecting the plans.</marquee>`;
+  div.innerHTML = `<marquee behavior="scroll" direction="left" style="background-color: rgba(91, 91, 59, 0.229);">Please click<strong> Place order</strong> after selecting the plans.</marquee>`;
 
   cartContent.appendChild(div);
   // console.log(cartContent);
