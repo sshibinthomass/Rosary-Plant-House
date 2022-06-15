@@ -108,7 +108,7 @@ class Products {
           <td class="p-0">₹${localDict.price}</td>
           <td class="p-0">
             <img
-              src="${localDict.image}"
+              src="${localDict.image}" 
               alt="mypic"
               width="50"
               height="50"
