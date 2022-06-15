@@ -123,7 +123,8 @@ class UI {
       if (
         product.ava == 1
         //&& product.category=="succulents"
-      ) {
+      ) 
+      {
         result += `
       <!-- single product start -->
         <article class="product">
@@ -4118,7 +4119,6 @@ class UI {
         let id = lowerAmount.dataset.id;
         let tempItem = cart.find((item) => item.id === id);
         tempItem.amount = tempItem.amount - 1;
-
         if (tempItem.amount > 0) {
           Storage.saveCart(cart);
           this.setCartValues(cart);
@@ -4238,7 +4238,7 @@ function getBilling(cart) {
 
   cart.map((item) => {
     val.push(
-      item.id + ". " + item.title + "- ₹",
+      item.id + ". " + item.title+"("+item.transit[0]+")" + "- ₹",
       item.price +
         " * " +
         item.amount +
@@ -4257,10 +4257,12 @@ function myFunction() {
 
   let priceTotal = 0;
   let itemsTotal = 0;
-
+  let itemsCount="%0a";
   cart.map((item) => {
     priceTotal += item.price * item.amount;
     itemsTotal += item.amount;
+    //console.log(item.id,"-",item.amount);
+    itemsCount=itemsCount.concat(item.id,"-",item.amount,",");
   });
 
   var finalText =
@@ -4275,7 +4277,7 @@ function myFunction() {
   //console.log(productText);
   var linkText =
     "https://api.whatsapp.com/send?phone=%2B917904050237&text=*Hello, i have chosen the following plants from your site* %0a";
-  window.open(linkText.concat(productText, finalText), "_blank");
+  window.open(linkText.concat(productText, finalText, itemsCount), "_blank");
 }
 
 //marquee
