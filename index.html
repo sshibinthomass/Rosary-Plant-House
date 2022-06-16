@@ -29,6 +29,40 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+    <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+    <style>
+        /* Carousel base class */
+.carousel {
+    margin-bottom: 4rem;
+  }
+  /* Since positioning the image, we need to help out the caption */
+  .carousel-caption {
+    bottom: 3rem;
+    z-index: 10;
+  }
+  
+  /* Declare heights because of positioning of img element */
+  .carousel-item {
+    height: 32rem;
+  }
+  .carousel-item > img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    min-width: 100%;
+    height: 32rem;
+  }
+</style>
   </head>
   <body>
     <!-- start of navbar -->
@@ -254,50 +288,142 @@
       </div>
     </nav>
     <!-- end of navbar -->
-        <!-- Header Start -->
-        <div class="container-fluid bg-primary px-0 px-md-5 mb-5"  style="background-image: linear-gradient(#4DA0B0, #D39D38);">
-          <div class="row align-items-center px-3">
-            <div class="col-lg-6 text-center text-lg-left">
-              <h4 class="text-white mb-4 mt-5 mt-lg-0">Nursery and Garden Center</h4>
-              <h1 class="display-3 font-weight-bold text-white">
-                Rosary Plant House
-              </h1>
-              <p class="text-white mb-4">
-                You’re only here for a short visit. Don’t hurry, don’t worry. And be sure to smell the flowers along the way. 
-              </p>
-              <a href="5_allPlants.html" class="btn  btn-main btn-main-sm  btn-secondary mt-1 py-3 px-5">Select Plants</a>
+        <!-- Header Start"background-color: linear-gradient(#4DA0B0, #D39D38);" -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                <rect width="100%" height="100%" fill="#777"/>
+                <img src="assets/img/img8.jpg" class="d-block" alt="...">
+              </svg>           
+                 <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1 class="display-3 font-weight-bold text-white">
+                    Rosary Plant House
+                  </h1>       
+                  <h5 class="text-white">150+ varieties Available</h5>     
+                  <h5 class="text-white">Selling Plants for more than 20 years</h5>                              
+                <p class="mb-0"><a class="btn btn-lg btn-primary btn-main btn-main-sm" href="5_allPlants.html">Select Plants</a></p>
+                <p class="text-white mb-4">
+                  You’re only here for a short visit. Don’t hurry, don’t worry. And be sure to smell the flowers along the way. 
+                </p>  
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                <rect width="100%" height="100%" fill="#777"/>
+                <img src="assets/img/img9.jpg" class="d-block" alt="...">
+              </svg>              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1 class="display-3 font-weight-bold text-white">
+                    Offer Zone
+                  </h1>                    
+                  <h5 class="text-white">Plants starting @29</h5>
+                  <h5 class="text-white">Upto 50% off on plants</h5>
+                  <h5 class="text-white">Offer closes soon!!!</h5>
+                  <p><a class="btn btn-lg btn-primary  btn-main btn-main-sm" style="background-color: yellow;  color: rgb(0, 0, 0);" href="20_offers.html">Shop Now</a></p>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false">
+                <rect width="100%" height="100%" fill="#777"/>
+                <img src="assets/img/img10.jpg" class="d-block" alt="...">
+              </svg>              <div class="container">
+                <div class="carousel-caption text-start">
+                  <h1 class="display-3 font-weight-bold text-white">
+                    Our Testimonial
+                  </h1>   
+                  <h5 class="text-white">5000+ happy clients</h5>             
+                  <h5 class="text-white">Dispatched more than 50000+ plants</h5>  
+                  <p><a class="btn btn-lg btn-primary  btn-main btn-main-sm" style="background-color: rgb(0, 0, 70);  color: rgb(255, 255, 255);" href="testimonial.html">Check Review</a></p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <div class="row text-center px-5 m-0">
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
+            <h2>Heading</h2>
+            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+            <p><a class="btn btn-secondary" href="#" role="button">View details »</a></p>
+          </div><!-- /.col-lg-4 -->
+        </div>
+
+        <div class="container-fluid px-0 px-md-5 mb-2 text-center"  
+        style="background-image: url('assets/img/img8.jpg'); background-size: 1600px 592px;  background-repeat: no-repeat;">
+          <div class="row align-items-center px-3 mr-0">
+            <div class="col-lg-6 text-center text-lg-right">
             </div>
             <div class="col-lg-6 text-center text-lg-right">
-              <img class="img-fluid mt-5" src="assets/img/logo(only).png" alt="" />
+              <h4 class="text-white mb-5 mt-5 mt-lg-0 pt-5 text-lg-right">Nursery and Garden Center</h4>
+              <h1 class="display-3 font-weight-bold text-white text-lg-right">
+                Rosary Plant House
+              </h1>
+              <p class="text-white mb-4 text-lg-right">
+                You’re only here for a short visit. Don’t hurry, don’t worry. And be sure to smell the flowers along the way. 
+              </p>
+              <div class="py-5">
+                <a href="5_allPlants.html" class="btn  btn-main btn-main-sm  btn-secondary mt-1 py-3 px-5">Select Plants</a>
+
+              </div>
             </div>
+
           </div>
         </div>
         <!-- Header End -->
     <div class="marquee-product"></div>
     <section class="feature-list section">
       <div class="container">
-          <div class="row" style="background-image: linear-gradient(#9EF9D8, #CAF6BF);">
-            <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
-                <div class="content">
-                    <h4 class="subheading">Catalogue</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
-                        sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
-                        quas, quo harum deserunt consequatur cumque!</p>
-                    <a href="5_allPlants.html" class="btn btn-main btn-main-sm mb-3">Shop Now</a>
-                </div>
-            </div>
-            <div class="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0">
-                <img class="img-fluid" src="assets/img/logo(only).png" alt="">
-            </div>
-        </div>
-        <hr class="m-1 ">
+        <div class="row" style="background-image: linear-gradient(#8A2EFF, #CCE0FF);">
+          <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
+              <div class="content">
+                  <h4 class="subheading text-center mt-3">Catalogue</h4>
+                  <p>Let’s root for each other and watch each other grow.</p>
+                  <p>Let’s root for each other and watch each other grow.</p>
+
+                  <a href="5_allPlants.html" class="btn btn-main btn-main-sm mb-3">Shop Now</a>
+              </div>
+          </div>
+          <div class="col-md-6 order-md-2 order-1 text-center mb-lg-0 mt-4">
+            <img class="img-fluid circle"  src="assets/img/img16.png"  alt="">
+          </div>
+      </div>
+      <hr class="m-1 ">
           <div class="row mb-40" style="background-image: linear-gradient(#C15CFF, #FF5454);">
-              <div class="col-md-6 text-center mb-5 mb-lg-0">
-                  <img class="img-fluid" src="assets/img/home_succulent.png"  alt="">
+              <div class="col-md-6 text-center mt-4">
+                  <img class="img-fluid circle"  src="assets/img/img11.png"  alt="">
               </div>
               <div class="col-md-6 align-self-center text-center text-md-left">
                   <div class="content">
-                      <h4 class="subheading mt-3">Succulent</h4>
+                      <h4 class="subheading text-center mt-3">Succulents</h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
                           sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
                           quas, quo harum deserunt consequatur cumque!</p>
@@ -309,25 +435,25 @@
           <div class="row" style="background-image: linear-gradient(#8A2EFF, #CCE0FF);">
               <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
                   <div class="content">
-                      <h4 class="subheading">Cactus</h4>
+                      <h4 class="subheading text-center mt-3">Cactus</h4>
                       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
                           sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
                           quas, quo harum deserunt consequatur cumque!</p>
                       <a href="7_cactus.html" class="btn btn-main btn-main-sm mb-3">Shop Now</a>
                   </div>
               </div>
-              <div class="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0">
-                  <img class="img-fluid" src="assets/img/logo(only).png" alt="">
+              <div class="col-md-6 order-md-2 order-1 text-center mb-lg-0 mt-4">
+                <img class="img-fluid circle"  src="assets/img/img12.png"  alt="">
               </div>
           </div>
           <hr class="m-1 ">
           <div class="row mb-40" style="background-image: linear-gradient(#1AA37A, #9DFFB3);">
-            <div class="col-md-6 text-center mb-5 mb-lg-0">
-                <img class="img-fluid" src="assets/img/home_sale.png" width="300" height="300"  alt="">
+            <div class="col-md-6 text-center mb-lg-0 mt-4">
+                <img class="img-fluid circle" src="assets/img/home_sale.png" width="250" height="250"  alt="">
             </div>
             <div class="col-md-6 align-self-center text-center text-md-left">
                 <div class="content">
-                    <h4 class="subheading mt-3">On Offer</h4>
+                    <h4 class="subheading text-center mt-3">On Offer</h4>
                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
                         sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
                         quas, quo harum deserunt consequatur cumque!</p>
@@ -339,25 +465,25 @@
         <div class="row" style="background-image: linear-gradient(#de6262  , #ffb88c);">
           <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
               <div class="content">
-                  <h4 class="subheading">Hanging Plants</h4>
+                  <h4 class="subheading text-center mt-3">Hanging Plants</h4>
                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
                       sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
                       quas, quo harum deserunt consequatur cumque!</p>
                   <a href="19_hanging.html" class="btn btn-main btn-main-sm mb-3">Shop Now</a>
               </div>
           </div>
-          <div class="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0">
-              <img class="img-fluid" src="assets/img/home_hanging.png" alt="">
+          <div class="col-md-6 order-md-2 order-1 text-center mb-lg-0 mt-4">
+              <img class="img-fluid circle" src="assets/img/img13.png" alt="">
           </div>
       </div>
       <hr class="m-1 ">
       <div class="row mb-40" style="background-image: linear-gradient(#cc2b5e , #753a88);" >
-        <div class="col-md-6 text-center mb-5 mb-lg-0">
-            <img class="img-fluid" src="assets/img/logo(only).png"  alt="">
+        <div class="col-md-6 text-center mb-lg-0 mt-4">
+            <img class="img-fluid circle" src="assets/img/img15.png"  alt="">
         </div>
         <div class="col-md-6 align-self-center text-center text-md-left">
             <div class="content">
-                <h4 class="subheading mt-3">Low Risk Plants</h4>
+                <h4 class="subheading text-center mt-3">Low Risk Plants</h4>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
                     sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
                     quas, quo harum deserunt consequatur cumque!</p>
@@ -369,18 +495,33 @@
     <div class="row" style="background-image: linear-gradient(#43cea2    , #185a9d);">
       <div class="col-md-6 order-md-1 order-2 align-self-center text-center text-md-left">
           <div class="content">
-              <h4 class="subheading">Indoor Plants</h4>
+              <h4 class="subheading text-center mt-3">Indoor Plants</h4>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
                   sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
                   quas, quo harum deserunt consequatur cumque!</p>
               <a href="18_indoorPlants.html" class="btn btn-main btn-main-sm mb-3">Shop Now</a>
           </div>
       </div>
-      <div class="col-md-6 order-md-2 order-1 text-center mb-5 mb-lg-0">
-          <img class="img-fluid" src="assets/img/logo(only).png" alt="">
+      <div class="col-md-6 order-md-2 order-1 text-center mb-lg-0 mt-4">
+          <img class="img-fluid circle" src="assets/img/img14.png" alt="">
       </div>
   </div>
   <hr class="m-1 ">
+  <div class="row mb-40" style="background-image: linear-gradient(#cc2b5e , #753a88);" >
+    <div class="col-md-6 text-center mb-lg-0 mt-4">
+        <img class="img-fluid circle" src="assets/img/new.png"  alt="">
+    </div>
+    <div class="col-md-6 align-self-center text-center text-md-left">
+        <div class="content">
+            <h4 class="subheading text-center mt-3">New Arrivals & Restocked</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, sed, assumenda. Tenetur
+                sed esse, voluptas voluptate est veniam numquam, quis magni. Architecto minus suscipit
+                quas, quo harum deserunt consequatur cumque!</p>
+            <a href="23_restocked.html" class="btn btn-main btn-main-sm mb-3">Shop Now</a>
+        </div>
+    </div>
+</div>
+<hr class="m-1 ">
       </div>
   </section>
   
