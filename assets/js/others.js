@@ -1,7 +1,7 @@
 
 showProduct = document.querySelector(".show-product");
 const productsDOM = document.querySelector(".products-center");
-
+const allPlantsDOM=document.querySelector(".all-plants");
 class Products {
     async getProducts() {
       try {
@@ -61,6 +61,8 @@ class Products {
       }
     }
   }
+
+
   class UI {
     //All Plants
     displayProducts(products,val) {
@@ -185,8 +187,8 @@ class Products {
           </td>
         </tr>`;
       });
-      console.log(totalAmount);
-      console.log(totalPlants);
+      //console.log(totalAmount);
+      //console.log(totalPlants);
       result+= `        <tr>
       <th class="p-0" scope="row"><b></b></th>
       <td class="p-0"></td>
@@ -202,11 +204,43 @@ class Products {
       } catch (e) {
         console.log("Error = " + e);
       }
+    };
+    allPlants(products,types) {
+      
+      let result = `  
+      <table class="table table-hover table-bordered text-center">
+        <tr>
+          <th class="p-0" scope="col">S.No</th>
+          <th class="p-0" scope="col">Plant Name</th>
+          <th class="p-0" scope="col">Photo</th>
+        </tr>`;
+      products.forEach((product) => {
+        if (types.includes(product.ava)  ) {
+        result+= `
+        <tr>
+          <th class="p-0" scope="row"><b>${product.id}</b></th>
+          <td class="p-0">${product.title}</td>
+          <td class="p-0">
+            <img
+              src="${product.image}"
+              alt="mypic"
+              width="50"
+              height="50"
+            />
+          </td>
+        </tr>`;};
+      });
+      try {
+        // console.log(result);
+        allPlantsDOM.innerHTML = result;
+      } catch (e) {
+        console.log("Error = " + e);
+      }
     }
 }
 //console.log(products)
 
-
+// add event listener
 
 
 function billing(billing) {
@@ -226,3 +260,14 @@ function finder(plantNumb) {
   
   //alert(plantNumb);
 }
+
+function plantTypes(types) {
+  const products = new Products();
+  const ui = new UI();
+  products.getProducts().then((products) => {   ui.allPlants(products,types);});
+  //var sum = parseInt(a, 10) + parseInt(b, 10);
+  
+  //alert(plantNumb);
+}
+
+

@@ -47,6 +47,7 @@ const productsDOM20 = document.querySelector(".products-center20");
 const productsDOM21 = document.querySelector(".products-center21");
 const productsDOM22 = document.querySelector(".products-center22");
 const productsDOM23 = document.querySelector(".products-center23");
+const testimonialDOM=document.querySelector(".testimonial-items");
 
 // let's cart
 let cart = [];
@@ -114,6 +115,33 @@ class Products {
   }
 }
 
+
+class Communities {
+  async getCommunities() {
+    try {
+      let result = await fetch("assets/json/community.json");
+
+      let data = await result.json();
+
+      let communities = data.items;
+
+      communities = communities.map((item) => {
+        const {
+          embeded
+        } = item.fields;
+        const { cId } = item.sys;
+
+        return {
+         cId,
+          embeded,
+        };
+      });
+      return communities;
+    } catch (error) {
+      console.log(error);
+    }
+  }
+}
 // TODO: display products
 class UI {
   //All Plants
@@ -931,8 +959,10 @@ class UI {
   //5_allPlants
   allPlants_5(products) {
     let result = "";
-    products.forEach((product) => {
-      if (product.ava == 1) {
+    products.forEach((product) => 
+    {
+      if (product.ava == 1) 
+      {
         result += `
             <!-- single product start -->
               <article class="product">
@@ -3988,6 +4018,22 @@ class UI {
     }
   }
 
+  testimonial(communities){
+    //console.log(communities);
+    let result = "";
+    communities.forEach((community) => {
+      result+= `
+      ${community.embeded}
+      `;
+    });
+    try {
+      // console.log(result);
+      testimonialDOM.innerHTML = result;
+    } catch (e) {
+      console.log("Error = " + e);
+    }
+  }
+
   getBagButtons() {
     // bag buttons
     const buttons = [...document.querySelectorAll(".bag-btn1")];
@@ -4191,9 +4237,22 @@ class Storage {
 document.addEventListener("DOMContentLoaded", () => {
   const ui = new UI();
   const products = new Products();
+  const communities= new Communities();
 
   // setup app
   ui.setupAPP();
+  //Community
+  communities
+    .getCommunities()
+    .then((communities)=>{
+      console.log(communities);
+      ui.testimonial(communities);
+    })
+    .then(() => {
+      ui.getBagButtons();
+      ui.cartLogic();
+    });
+
   // get all products
   products
     .getProducts()
@@ -4301,7 +4360,8 @@ function myFunction() {
   <a href="https://facebook.com/rosaryplanthouse" target="_blank" class="fab fa-facebook pt-1 nav-link" style="position: fixed; bottom: 80px; right: 10px; "></a>
   <a href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1 nav-link" style="position: fixed; bottom: 110px; right: 10px; "></a>
   <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w" target="_blank" class="fab fa-youtube pt-1 nav-link" style="position: fixed; bottom: 140px; right: 10px; "></a>
-`;
+  <a class="navbar-brand" href="categories.html"><img src="assets/img/icon_category.png" style="position: fixed; bottom: 180px; right: 5px;" alt="" width="20" height="20" /></a>
+  `;
 
   footIcons.appendChild(div);
   // console.log(cartContent);
