@@ -48,6 +48,8 @@ const productsDOM21 = document.querySelector(".products-center21");
 const productsDOM22 = document.querySelector(".products-center22");
 const productsDOM23 = document.querySelector(".products-center23");
 const testimonialDOM=document.querySelector(".testimonial-items");
+const footerDOM=document.querySelector(".footer-all");
+
 
 // let's cart
 let cart = [];
@@ -4344,7 +4346,9 @@ function myFunction() {
   const div = document.createElement("div");
   div.classList.add("marquee");
 
-  div.innerHTML = `<marquee behavior="scroll" direction="left" style="background-color: rgba(91, 91, 59, 0.229);">Please click<strong> Place order</strong> after selecting the plans.</marquee>`;
+  div.innerHTML = `
+  <marquee behavior="scroll" direction="left" style="background-color: rgba(91, 91, 59, 0.229);">Please click<strong> Place order</strong> after selecting the plans.</marquee>
+  `;
 
   cartContent.appendChild(div);
   // console.log(cartContent);
@@ -4375,5 +4379,48 @@ function myFunction() {
   `;
 
   marqueeProduct.appendChild(div);
+  // console.log(cartContent);
+}
+
+//Marquee Product
+{
+  const div = document.createElement("div");
+  div.classList.add("footer-all");
+
+  div.innerHTML = `     
+  <hr class="m-1">
+  <div class="container">
+    <footer class="py-3 my-2">
+      <ul class="nav justify-content-center">
+        <li class="nav-item"><a href="index.html" class="nav-link px-2
+                    text-muted">Home</a></li>
+        <li class="nav-item"><a href="5_allPlants.html" class="nav-link
+                    px-2 text-muted">Catalogue</a></li>
+        <li class="nav-item"><a href="testimonial.html" class="nav-link px-2
+                    text-muted">Testimonial</a></li>
+        <li class="nav-item"><a href="faq.html" class="nav-link px-2
+                    text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="about.html" class="nav-link px-2
+                    text-muted">Contact Us</a></li>
+      </ul>
+
+      <ul class="nav justify-content-center border-bottom">
+        <a href="https://api.whatsapp.com/send?phone=%2B917904050237" target="_blank" class="fab fa-whatsapp-square pt-1 nav-link
+                  px-2 text-muted""></a>
+                <a
+                  href=" https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu" target="_blank" class="fab fa-instagram pt-1 nav-link px-2
+                  text-muted"></a>
+        <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w" target="_blank" class="fab fa-youtube pt-1 nav-link px-2
+                  text-muted"></a>
+        <a href="https://facebook.com/rosaryplanthouse" target="_blank"
+          class="fab fa-facebook pt-1 px-2 nav-link text-muted"></a>
+      </ul>
+
+      <p class="text-center text-muted">© 2022 Rosary Plant House</p>
+    </footer>
+
+  </div>  `;
+
+  footerDOM.appendChild(div);
   // console.log(cartContent);
 }
