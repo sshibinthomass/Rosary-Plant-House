@@ -4099,7 +4099,7 @@ class UI {
 
     div.innerHTML = `<img src=${item.image} alt="product" />
 
-            <div>
+            <div >
             <div class="mb-0">
               <h4>${item.id}. ${item.title}</h4>
               </div>
@@ -4107,7 +4107,7 @@ class UI {
               <span class="remove-item" onClick="window.location.reload()" data-id=${item.id}>Remove item</span>
             </div>
 
-            <div>
+            <div class="mr-3">
               <i class="fa fa-plus" aria-hidden="true" data-id=${item.id}></i>
               <p class="item-amount mb-0">${item.amount}</p>
               <i class="fa fa-minus" aria-hidden="true" data-id=${item.id}></i>
@@ -4348,7 +4348,102 @@ function myFunction() {
 
   div.innerHTML = `
 
+  <div class="mt-2">
+  <marquee behavior="scroll" class="home-card" direction="left" style="background-color: rgba(91, 91, 59, 0.229);">Please click<strong> Place order</strong> after selecting the plants.</marquee>
+  <section class="feature-list section">
+    <div class="container px-0">            
+      <div class="alert alert-danger home-card py-0 px-0" role="alert">
+                        <!--Collapse Delivery Charges-->
+      <span class="d-block p-0 m-0 text-white text-center inst-header  inst-header-top mb-1">
+        <h5 class="btn btn-link collapsed text-bold text-red text-center
+          mb-0" data-toggle="collapse" data-target="#collapseInstruction"
+          aria-expanded="false" aria-controls="collapseThree">Instructions
+          (click here)</h5>
+      </span>
+      <div id="collapseInstruction" class="collapse"
+        aria-labelledby="headingThree" data-parent="#accordion">
+        <div class="card-body p-0">
+          <ul class="mx-2 text-center mb-1" style="list-style-type:none;">
+            <li>After selecting plants please click               
+              <button type="button" class="btn btn-secondary btn-sm py-0 px-2 text-small" id="demo"
+              onclick="myFunction()">
+              Place Order
+            </button> to send the required plants in Whatsapp.</li>
+            <hr class="my-0 mx-5 pt-1">
+            <li>Please click               
+              <button class="clear-cart btn btn-danger btn-sm py-0 px-2 text-small">Clear Cart</button>
+              to empty the Cart.</li>
+            <hr class="m-0 mx-5 pt-1">
+            <li>Please click <i class="fa fa-plus" aria-hidden="true"></i> to increase the Number of Plants.</li>
+            <hr class="m-0 mx-5 pt-1">
+            <li>Please click <i class="fa fa-minus" aria-hidden="true"></i> to decrease the Number of Plants.</li>
+            <hr class="m-0 mx-5 pt-1">
+            <li>Please click             <span class="close-cart">
+              <i class="fa fa-window-close" aria-hidden="true"></i>
+            </span> to close the Cart.</li>
+            <hr class="m-0 mx-5 pt-1">
+            <li>Please click <span class="remove-item" >Remove item</span> to delete item from cart..</li>
+        </ul>
+        </div>
+      </div>
+      <!--Collapse Delivery Charges-->
+      <span class="d-block p-0 m-0 text-white text-center inst-header mb-3">
+        <h5 class="btn btn-link collapsed text-bold text-red text-center
+          mb-0" data-toggle="collapse" data-target="#collapseDeliveryCart"
+          aria-expanded="false" aria-controls="collapseThree">Delivery
+          Charges
+          (click here)</h5>
+      </span>
+      <div id="collapseDeliveryCart" class="collapse"
+        aria-labelledby="headingThree" data-parent="#accordion">
+        <div class="card-body p-0">
+  
+          <table class="table table-hover table-striped table-sm
+            text-center">
+            <thead>
+              <tr>
+                <th scope="col">Location</th>
+                <th scope="col">Cost</th>
+                <th scope="col">Maximum Plants</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Tamil Nadu</th>
+                <td>80</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <th scope="row">South India(except T.N)</th>
+                <td>100</td>
+                <td>12</td>
+              </tr>
+              <tr>
+                <th scope="row">Other parts of India</th>
+                <td>150</td>
+                <td>6</td>
+              </tr>
+              <tr>
+                <th scope="row">Other parts of India</th>
+                <td>200</td>
+                <td>12</td>
+              </tr>
+              <caption class="text-center mx-2 py-0">Additional delivery
+                charges is applicable when quantity increases or more number
+                of big plants are choosen.</caption>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </section>
 
+</div>
+<div class="bink-div">
+  <p class="blink-h2 m-0">Please click  <button type="button" class="btn btn-secondary btn-sm py-0 px-2 text-small">
+    Place Order
+  </button> to send order or send a screenshot of cart page in Whatsapp.</p>
+</div>
 
   `;
 
