@@ -626,7 +626,7 @@ body {
 .mother_badge {
   position: absolute;
   bottom: -2px;
-  left: 0px;
+  left: -15px;
   width: 118px;
   height: 30px;
   background: rgba(0, 128, 0, 0);

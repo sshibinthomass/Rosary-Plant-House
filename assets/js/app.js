@@ -171,7 +171,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-              <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+              <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
               </div>`;
         }
         if (product.restock == 1) {
@@ -332,7 +332,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-              <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+              <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
               </div>`;
         }
         if (product.restock == 1) {
@@ -493,7 +493,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-              <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+              <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
               </div>`;
         }
         if (product.restock == 1) {
@@ -654,7 +654,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                 </div>`;
         }
         if (product.restock == 1) {
@@ -818,7 +818,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                  <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                  <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                   </div>`;
         }
         if (product.restock == 1) {
@@ -981,7 +981,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                    <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                    <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                     </div>`;
         }
         if (product.restock == 1) {
@@ -1142,7 +1142,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                    <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                    <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                     </div>`;
         }
         if (product.restock == 1) {
@@ -1303,7 +1303,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                      <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                      <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                       </div>`;
         }
         if (product.restock == 1) {
@@ -1464,7 +1464,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                    <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                    <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                     </div>`;
         }
         if (product.restock == 1) {
@@ -1625,7 +1625,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                      <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                      <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                       </div>`;
         }
         if (product.restock == 1) {
@@ -1786,7 +1786,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                      <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                      <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                       </div>`;
         }
         if (product.restock == 1) {
@@ -1947,7 +1947,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                      <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                      <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                       </div>`;
         }
         if (product.restock == 1) {
@@ -2108,7 +2108,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                      <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                      <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                       </div>`;
         }
         if (product.restock == 1) {
@@ -2269,7 +2269,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                        <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                        <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                         </div>`;
         }
         if (product.restock == 1) {
@@ -2430,7 +2430,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                          <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                          <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                           </div>`;
         }
         if (product.restock == 1) {
@@ -2591,7 +2591,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                          <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                          <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                           </div>`;
         }
         if (product.restock == 1) {
@@ -2752,7 +2752,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                          <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                          <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                           </div>`;
         }
         if (product.restock == 1) {
@@ -2913,7 +2913,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                          <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                          <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                           </div>`;
         }
         if (product.restock == 1) {
@@ -3074,7 +3074,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                          <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                          <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                           </div>`;
         }
         if (product.restock == 1) {
@@ -3235,7 +3235,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                          <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                          <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                           </div>`;
         }
         if (product.restock == 1) {
@@ -3396,7 +3396,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                          <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                          <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                           </div>`;
         }
         if (product.restock == 1) {
@@ -3557,7 +3557,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                          <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                          <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                           </div>`;
         }
         if (product.restock == 1) {
@@ -3718,7 +3718,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                          <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                          <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                           </div>`;
         }
         if (product.restock == 1) {
@@ -3879,7 +3879,7 @@ class UI {
         }
         if (product.mother == 1) {
           result += `             <div class="mother_badge">
-                          <h3>  <span class="badge badge-pill badge-primary">Mother Plant</span> </h3>
+                          <h3>  <span class="badge badge-pill badge-primary">Big Plant</span> </h3>
                           </div>`;
         }
         if (product.restock == 1) {
@@ -4249,10 +4249,6 @@ document.addEventListener("DOMContentLoaded", () => {
     .then((communities)=>{
       console.log(communities);
       ui.testimonial(communities);
-    })
-    .then(() => {
-      ui.getBagButtons();
-      ui.cartLogic();
     });
 
   // get all products
@@ -4482,13 +4478,22 @@ function myFunction() {
         Name</strong> to see more details of the plants.</marquee>
 
     <div class="alert alert-danger home-card py-0 px-0" role="alert">
-      <span class="d-block p-0 m-0 text-white text-center inst-header
-        inst-header-top">
+      
+    <!--Collapse Quick Link-->
+    <span class="d-block p-0 m-0 text-white text-center inst-header inst-header-top">
+      <h5 class="btn btn-link collapsed text-bold text-red text-center
+        mb-0 py-1" data-toggle="collapse" data-target="#collapseHomeInst"
+        aria-expanded="false" aria-controls="collapseThree">Instructions
+        (click here)</h5>
+    </span>
 
-        <h5 class="text-center text-bold text-red py-1">Instructions</h5>
-      </span>
+    <div id="collapseHomeInst" class="collapse show"
+      aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body p-1">
       <ul class="mx-2 text-center mb-1" style="list-style-type:none;">
         <li>Please click on <strong>Add to Cart</strong> to Select Plants.</li>
+        <hr class="my-0 mx-5 pt-1">
+        <li><strong>Quantity</strong> of plants can be <strong>Increased or Decreased in Cart</strong> page.</li>
         <hr class="my-0 mx-5 pt-1">
         <li>After selecting plants please click <strong>Place Order</strong>
           on <strong>Cart</strong> page to send the
@@ -4519,6 +4524,11 @@ function myFunction() {
         <li>Please click on the <strong>Plant Name</strong> to know more
           details on plants.</strong></li>
     </ul>
+      </div>
+    </div>
+    <hr class="m-0 pt-0">
+
+
     <!--Collapse Quick Link-->
     <span class="d-block p-0 m-0 text-white text-center inst-header">
       <h5 class="btn btn-link collapsed text-bold text-red text-center
@@ -4558,6 +4568,8 @@ function myFunction() {
         </ul>
       </div>
     </div>
+
+    <hr class="m-0 pt-0">
     <!--Collapse Category-->
     <span class="d-block p-0 m-0 text-white text-center inst-header">
       <h5 class="btn btn-link collapsed text-bold text-red text-center
@@ -4619,6 +4631,7 @@ function myFunction() {
         </ul>
       </div>
     </div>
+    <hr class="m-0 pt-0">
     <!--Collapse Delivery Charges-->
     <span class="d-block p-0 m-0 text-white text-center inst-header mb-3">
       <h5 class="btn btn-link collapsed text-bold text-red text-center
