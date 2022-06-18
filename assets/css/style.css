@@ -793,9 +793,7 @@ button.bg-primary:focus {
     text-align: center !important;
   }
 }
-.text-white {
-  color: rgb(255, 255, 255) !important;
-}
+
 
 .display-3 {
   font-size: 4.5rem;
@@ -922,4 +920,41 @@ button.bg-primary:focus {
 
 .bg-orange {
   background: #f9a74344;
+  
+}
+
+.nav-link {
+  border-radius: 5px;
+}
+
+.bag-btn1,.close-btn,.clear-cart,.btn-secondary{
+  border-radius: 20px;
+}
+
+.home-card{
+  border-radius: 20px;   
+}
+
+/*Text Operation*/
+.text-white {
+  color: rgb(255, 255, 255);
+}
+.text-red {
+  color: rgb(255, 0, 0);
+}
+.text-black {
+  color: rgb(0, 0, 0);
+}
+.text-bold {
+  font-weight:bolder;
+}
+.inst-header{
+  background-color: rgba(168, 126, 133, 0.434);
+}
+.inst-header-top{
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+.text-small{
+  font-size: 10px;
 }

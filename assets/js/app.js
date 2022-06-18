@@ -283,7 +283,7 @@ class UI {
           </tr>                    
             <div class="modal-footer py-1 ">
             <div  >
-                <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                 <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
             </div>
             </div>
@@ -444,7 +444,7 @@ class UI {
           </tr>                    
             <div class="modal-footer py-1 ">
             <div  >
-                <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                 <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
             </div>
             </div>
@@ -605,7 +605,7 @@ class UI {
           </tr>                    
             <div class="modal-footer py-1 ">
             <div  >
-                <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                 <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
             </div>
             </div>
@@ -766,7 +766,7 @@ class UI {
             </tr>                    
               <div class="modal-footer py-1 ">
               <div  >
-                  <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                  <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                   <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
               </div>
               </div>
@@ -930,7 +930,7 @@ class UI {
               </tr>                    
                 <div class="modal-footer py-1 ">
                 <div  >
-                    <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                     <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                 </div>
                 </div>
@@ -1093,7 +1093,7 @@ class UI {
                 </tr>                    
                   <div class="modal-footer py-1 ">
                   <div  >
-                      <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                       <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                   </div>
                   </div>
@@ -1254,7 +1254,7 @@ class UI {
                 </tr>                    
                   <div class="modal-footer py-1 ">
                   <div  >
-                      <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                       <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                   </div>
                   </div>
@@ -1415,7 +1415,7 @@ class UI {
                   </tr>                    
                     <div class="modal-footer py-1 ">
                     <div  >
-                        <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                         <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                     </div>
                     </div>
@@ -1576,7 +1576,7 @@ class UI {
                 </tr>                    
                   <div class="modal-footer py-1 ">
                   <div  >
-                      <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                      <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                       <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                   </div>
                   </div>
@@ -1737,7 +1737,7 @@ class UI {
                   </tr>                    
                     <div class="modal-footer py-1 ">
                     <div  >
-                        <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                         <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                     </div>
                     </div>
@@ -1898,7 +1898,7 @@ class UI {
                   </tr>                    
                     <div class="modal-footer py-1 ">
                     <div  >
-                        <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                         <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                     </div>
                     </div>
@@ -2059,7 +2059,7 @@ class UI {
                   </tr>                    
                     <div class="modal-footer py-1 ">
                     <div  >
-                        <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                         <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                     </div>
                     </div>
@@ -2220,7 +2220,7 @@ class UI {
                   </tr>                    
                     <div class="modal-footer py-1 ">
                     <div  >
-                        <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                         <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                     </div>
                     </div>
@@ -2381,7 +2381,7 @@ class UI {
                     </tr>                    
                       <div class="modal-footer py-1 ">
                       <div  >
-                          <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                          <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                           <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                       </div>
                       </div>
@@ -2542,7 +2542,7 @@ class UI {
                       </tr>                    
                         <div class="modal-footer py-1 ">
                         <div  >
-                            <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                             <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                         </div>
                         </div>
@@ -2703,7 +2703,7 @@ class UI {
                       </tr>                    
                         <div class="modal-footer py-1 ">
                         <div  >
-                            <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                             <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                         </div>
                         </div>
@@ -2864,7 +2864,7 @@ class UI {
                       </tr>                    
                         <div class="modal-footer py-1 ">
                         <div  >
-                            <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                             <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                         </div>
                         </div>
@@ -3025,7 +3025,7 @@ class UI {
                       </tr>                    
                         <div class="modal-footer py-1 ">
                         <div  >
-                            <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                             <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                         </div>
                         </div>
@@ -3186,7 +3186,7 @@ class UI {
                       </tr>                    
                         <div class="modal-footer py-1 ">
                         <div  >
-                            <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                             <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                         </div>
                         </div>
@@ -3347,7 +3347,7 @@ class UI {
                       </tr>                    
                         <div class="modal-footer py-1 ">
                         <div  >
-                            <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                             <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                         </div>
                         </div>
@@ -3508,7 +3508,7 @@ class UI {
                       </tr>                    
                         <div class="modal-footer py-1 ">
                         <div  >
-                            <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                             <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                         </div>
                         </div>
@@ -3669,7 +3669,7 @@ class UI {
                       </tr>                    
                         <div class="modal-footer py-1 ">
                         <div  >
-                            <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                             <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                         </div>
                         </div>
@@ -3830,7 +3830,7 @@ class UI {
                       </tr>                    
                         <div class="modal-footer py-1 ">
                         <div  >
-                            <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                             <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                         </div>
                         </div>
@@ -3991,7 +3991,7 @@ class UI {
                       </tr>                    
                         <div class="modal-footer py-1 ">
                         <div  >
-                            <button type="button" class="btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
+                            <button type="button" class="btn close-btn btn-outline-danger btn-sm mr-2" data-dismiss="modal">Close</button>
                             <button type="button" data-dismiss="modal" class="bag-btn1 btn btn-outline-success btn-sm py-1 ml-2"  data-id=${product.id}><i class="fas fa-shopping-cart"></i>Add to cart</button>
                         </div>
                         </div>
@@ -4347,7 +4347,9 @@ function myFunction() {
   div.classList.add("marquee");
 
   div.innerHTML = `
-  <marquee behavior="scroll" direction="left" style="background-color: rgba(91, 91, 59, 0.229);">Please click<strong> Place order</strong> after selecting the plans.</marquee>
+
+
+
   `;
 
   cartContent.appendChild(div);
@@ -4375,14 +4377,213 @@ function myFunction() {
   const div = document.createElement("div");
   div.classList.add("marquee-product");
 
-  div.innerHTML = `     <marquee behavior="scroll" direction="left" style="background-color: rgba(91, 91, 59, 0.229);">Please click<strong> Add to Cart </strong> to select a plant and Click on the <strong>Plant Name</strong> to see more details of the plants.</marquee>
+  div.innerHTML = `   
+
+  <section class="feature-list section">
+  <div class="container px-0">
+    <marquee behavior="scroll" class="home-card" direction="left"
+      style="background-color: rgba(91, 91, 59, 0.229);">Please click<strong>
+        Add to Cart </strong> to select a plant and Click on the <strong>Plant
+        Name</strong> to see more details of the plants.</marquee>
+
+    <div class="alert alert-danger home-card py-0 px-0" role="alert">
+      <span class="d-block p-0 m-0 text-white text-center inst-header
+        inst-header-top">
+
+        <h5 class="text-center text-bold text-red py-1">Instructions</h5>
+      </span>
+      <ul class="mx-2 text-center mb-1" style="list-style-type:none;">
+        <li>Please click on <strong>Add to Cart</strong> to Select Plants.</li>
+        <hr class="my-0 mx-5 pt-1">
+        <li>After selecting plants please click <strong>Place Order</strong>
+          on <strong>Cart</strong> page to send the
+          required plants in Whatsapp.</li>
+        <hr class="m-0 mx-5 pt-0">
+        <li>If you have any doubts please contact <strong>7904050237</strong>.
+          Or any of the bellow method.
+          <ul class="nav justify-content-center border-bottom">
+            <a href="https://api.whatsapp.com/send?phone=%2B917904050237"
+              target="_blank" class="fab fa-whatsapp-square pt-1 nav-link
+              px-2 mx-2 text-muted""></a>
+            <a
+              href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu"
+              target="_blank" class="fab fa-instagram pt-1 nav-link px-2
+              text-muted mx-2"></a>
+            <a href="https://facebook.com/rosaryplanthouse"
+              target="_blank"
+              class="fab fa-facebook pt-1 px-2 nav-link text-muted mx-2"></a>
+          </ul>
+        </li>
+        <hr class="m-0 mx-5 pt-1">
+        <li>You can check the selected plants by clicking in the <strong>Cart
+            button</strong> on the top of the screen.</li>
+        <hr class="m-0 mx-5 pt-1">
+        <li>Purchase for more than 1000/- and get a <strong>Complementary
+            plant</strong>.</li>
+        <hr class="m-0 mx-5 pt-1">
+        <li>Please click on the <strong>Plant Name</strong> to know more
+          details on plants.</strong></li>
+    </ul>
+    <!--Collapse Quick Link-->
+    <span class="d-block p-0 m-0 text-white text-center inst-header">
+      <h5 class="btn btn-link collapsed text-bold text-red text-center
+        mb-0 py-1" data-toggle="collapse" data-target="#collapseLinks"
+        aria-expanded="false" aria-controls="collapseThree">Quick Links
+        (click here)</h5>
+    </span>
+
+    <div id="collapseLinks" class="collapse"
+      aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body p-1">
+        <ul class="mt-x mb-0 text-center" style="list-style-type:none;">
+          <li><strong><a href="categories.html">Categories</a></strong></li>
+          <hr class="my-0 mx-5 pt-1">
+          <li><strong><a href="20_offers.html">Offers</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="23_restocked.html">New & Restocked</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="faq.html">Frequently asked Questions</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="about.html">Contact Us</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+        </ul>
+        <ul class="nav justify-content-center border-bottom">
+          <a href="https://api.whatsapp.com/send?phone=%2B917904050237"
+            target="_blank" class="fab fa-whatsapp-square pt-1 nav-link
+            px-2 mx-2 text-muted""></a>
+          <a
+            href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu"
+            target="_blank" class="fab fa-instagram pt-1 nav-link px-2
+            text-muted mx-2"></a>
+          <a href="https://youtube.com/channel/UCUYHYgkyhoVXy5_h8a5ly6w"
+            target="_blank" class="fab fa-youtube pt-1 nav-link px-2
+            text-muted mx-2"></a>
+          <a href="https://facebook.com/rosaryplanthouse" target="_blank"
+            class="fab fa-facebook pt-1 px-2 nav-link text-muted mx-2"></a>
+        </ul>
+      </div>
+    </div>
+    <!--Collapse Category-->
+    <span class="d-block p-0 m-0 text-white text-center inst-header">
+      <h5 class="btn btn-link collapsed text-bold text-red text-center
+        mb-0" data-toggle="collapse" data-target="#collapseCategory"
+        aria-expanded="false" aria-controls="collapseThree">Categories
+        (click here)</h5>
+    </span>
+    <div id="collapseCategory" class="collapse"
+      aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body p-1">
+
+        <ul class="mx-2 text-center" style="list-style-type:none;">
+          <li><strong><a href="5_allPlants.html">All Plants</a></strong></li>
+          <hr class="my-0 mx-5 pt-1">
+          <li><strong><a href="20_offers.html">On Offer</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="23_restocked.html">New & Restocked</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="21_bigPlants.html">Big Plants</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="6_succulent.html">Succulents</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="7_cactus.html">Cactus</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="8_echeveria.html">Echeveria</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="9_jade.html">Jade</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="10_crassula.html">Crassula</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="11_pepromia.html">Peperomia</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="12_aloe.html">Aloe</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="13_sedum.html">Sedum</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="14_haworthia.html">Haworthia</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="15_creeper.html">Creeper</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="16_sansevieria.html">Sanservia</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="17_otherPlants.html">Other Plants</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="18_indoorPlants.html">Indoor Plants</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="19_hanging.html">Hanginig Plants</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <p class="text-red text-bold text-center mb-0"
+          aria-expanded="false" aria-controls="collapseThree">Based on Transport Risk</p>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="1_lowRisk.html">Low Risk</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="2_moderateRisk.html">Moderate Risk</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="3_highRisk.html">High Risk</a></strong></li>
+          <hr class="m-0 mx-5 pt-1">
+          <li><strong><a href="4_lowAndModerate.html">Low & Moderate</a></strong></li>
+        </ul>
+      </div>
+    </div>
+    <!--Collapse Delivery Charges-->
+    <span class="d-block p-0 m-0 text-white text-center inst-header mb-3">
+      <h5 class="btn btn-link collapsed text-bold text-red text-center
+        mb-0" data-toggle="collapse" data-target="#collapseDelivery"
+        aria-expanded="false" aria-controls="collapseThree">Delivery
+        Charges
+        (click here)</h5>
+    </span>
+    <div id="collapseDelivery" class="collapse"
+      aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body p-0">
+
+        <table class="table table-hover table-striped table-sm
+          text-center">
+          <thead>
+            <tr>
+              <th scope="col">Location</th>
+              <th scope="col">Cost</th>
+              <th scope="col">Maximum Plants</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Tamil Nadu</th>
+              <td>80</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <th scope="row">South India(except T.N)</th>
+              <td>100</td>
+              <td>12</td>
+            </tr>
+            <tr>
+              <th scope="row">Other parts of India</th>
+              <td>150</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <th scope="row">Other parts of India</th>
+              <td>200</td>
+              <td>12</td>
+            </tr>
+            <caption class="text-center mx-2 py-0">Additional delivery
+              charges is applicable when quantity increases or more number
+              of big plants are choosen.</caption>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+
   `;
 
   marqueeProduct.appendChild(div);
   // console.log(cartContent);
 }
 
-//Marquee Product
+//Footer
 {
   const div = document.createElement("div");
   div.classList.add("footer-all");

@@ -1,37 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>All Plants</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Plants</title>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous" />
 
-  <!-- style / css -->
-  <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- style / css -->
+    <link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!-- favicon -->
-  <link rel="shortcut icon" href="assets/img/logo(only).png" type="image/png" />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/logo(only).png" type="image/png"
+      />
 
-  <!-- font awesome -->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <!-- font awesome -->
+    <link rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous" />
 
-  <!-- Option 1: Bootstrap Bundle with Popper -->
-  <script src="https://code.jquery.com/jquery-3.5.1.min.js"
-    integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-    crossorigin="anonymous"></script>
-  <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
-  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
-  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
-  <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
-  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
-  <meta name="theme-color" content="#7952b3">
-  <style>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"
+      integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0="crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+      crossorigin="anonymous"></script>
+    <link rel="apple-touch-icon"
+      href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png"
+      sizes="32x32" type="image/png">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png"
+      sizes="16x16" type="image/png">
+    <link rel="mask-icon"
+      href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg"
+      color="#7952b3">
+    <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+    <meta name="theme-color" content="#7952b3">
+    <style>
     /* Carousel base class */
     .carousel {
       margin-bottom: 4rem;
@@ -56,208 +67,261 @@
       height: 32rem;
     }
   </style>
-</head>
+  </head>
 
-<body>
-  <!-- start of navbar -->
-  <nav class="navbar navbar-expand-lg navbar-light pl-0 pr-0" style="background-color: rgb(208, 255, 208)">
-    <a class="navbar-brand" href="index.html">
-      <img src="assets/img/logo(only).png" alt="" width="30" height="30" />
-    </a>
-    <a type="button" role="button" class="nav-link btn-sm btn btn-outline-secondary p-0 m-0">
-      <div class="cart-btn px-1 p-0 m-0">
-        <span class="nav-icon p-0 m-0" style="size: small">
-          <i class="fa fa-shopping-cart" aria-hidden="true">Cart</i>
-        </span>
-        <div class="cart-items">0</div>
-      </div>
-    </a>
-    <button class="navbar-toggler navbar-light" style="background-color: rgb(208, 255, 208)" type="button"
-      data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-      aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse navbar-light pl-0" style="background-color: rgb(208, 255, 208)"
-      id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a type="button" role="button" class="nav-link btn btn-secondary nav-item btn-sm m-2" href="index.html">
-          Home
-        </a>
-
-        <div class="nav-item dropdown show dropdown">
-          <a class="nav-link dropdown-toggle btn btn-outline-primary btn-sm
-              m-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            Category
-          </a>
-          <div class="dropdown-menu mx-2 mb-1" aria-labelledby="dropdownMenuLink">
-            <!--All Plants-->
-            <a class="dropdown-item" href="5_allPlants.html">All Plants</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Succulent-->
-            <a class="dropdown-item" href="6_succulent.html">Succulent</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Cactus-->
-            <a class="dropdown-item" href="7_cactus.html">Cactus</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Echeveria-->
-            <a class="dropdown-item" href="8_echeveria.html">Echeveria</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Jade-->
-            <a class="dropdown-item" href="9_jade.html">Jade</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Crassula-->
-            <a class="dropdown-item" href="10_crassula.html">Crassula (except
-              Jade)</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Peperomia-->
-            <a class="dropdown-item" href="11_pepromia.html">Peperomia</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Aloe-->
-            <a class="dropdown-item" href="12_aloe.html">Aloe</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Sedum-->
-            <a class="dropdown-item" href="13_sedum.html">Sedum</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Haworthia-->
-            <a class="dropdown-item" href="14_haworthia.html">Haworthia</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Creeper-->
-            <a class="dropdown-item" href="15_creeper.html">Creeper (Ivy)</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Sansevieria-->
-            <a class="dropdown-item" href="16_sansevieria.html">Sansevieria</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Other Plants-->
-            <a class="dropdown-item" href="17_otherPlants.html">Other Plants</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Indoor-->
-            <a class="dropdown-item" href="18_indoorPlants.html">Indoor Plants</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Hanging-->
-            <a class="dropdown-item" href="19_hanging.html">Hanging</a>
-            <div class="dropdown-divider my-1"></div>
-          </div>
+  <body>
+    <!-- start of navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light pl-0 pr-0"
+      style="background-color: rgb(208, 255, 208)">
+      <a class="navbar-brand" href="index.html">
+        <img src="assets/img/logo(only).png" alt="" width="30" height="30" />
+      </a>
+      <a type="button" role="button" class="nav-link btn-sm btn
+        btn-outline-secondary p-0 m-0">
+        <div class="cart-btn px-1 p-0 m-0">
+          <span class="nav-icon p-0 m-0" style="size: small">
+            <i class="fa fa-shopping-cart" aria-hidden="true">Cart</i>
+          </span>
+          <div class="cart-items">0</div>
         </div>
-        <div class="nav-item dropdown show dropdown">
-          <a class="nav-link dropdown-toggle btn btn-outline-primary btn-sm
-              m-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
-            aria-expanded="false">
-            Transit Risk
+      </a>
+      <button class="navbar-toggler navbar-light" style="background-color:
+        rgb(208, 255, 208)" type="button"
+        data-toggle="collapse" data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse navbar-light pl-0"
+        style="background-color: rgb(208, 255, 208)"
+        id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a type="button" role="button" class="nav-link btn btn-secondary
+            nav-item btn-sm m-2" href="index.html">
+            Home
           </a>
-          <div class="dropdown-menu mx-2 mb-1" aria-labelledby="dropdownMenuLink">
-            <!--Low Risk-->
-            <a class="dropdown-item" href="1_lowRisk.html">Low Risk</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Moderate Risk-->
-            <a class="dropdown-item" href="2_moderateRisk.html">Moderate Risk</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--High Risk-->
-            <a class="dropdown-item" href="3_highRisk.html">High Risk</a>
-            <div class="dropdown-divider my-1"></div>
-            <!--Low and Moderate Risk-->
-            <a class="dropdown-item" href="4_lowAndModerate.html">Low &
-              Moderate</a>
-            <div class="dropdown-divider my-1"></div>
+
+          <div class="nav-item dropdown show dropdown">
+            <a class="nav-link dropdown-toggle btn btn-outline-primary btn-sm
+              m-2" href="#" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Category
+            </a>
+            <div class="dropdown-menu mx-2 mb-1"
+              aria-labelledby="dropdownMenuLink">
+              <!--All Plants-->
+              <a class="dropdown-item" href="5_allPlants.html">All Plants</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Succulent-->
+              <a class="dropdown-item" href="6_succulent.html">Succulent</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Cactus-->
+              <a class="dropdown-item" href="7_cactus.html">Cactus</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Echeveria-->
+              <a class="dropdown-item" href="8_echeveria.html">Echeveria</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Jade-->
+              <a class="dropdown-item" href="9_jade.html">Jade</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Crassula-->
+              <a class="dropdown-item" href="10_crassula.html">Crassula (except
+                Jade)</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Peperomia-->
+              <a class="dropdown-item" href="11_pepromia.html">Peperomia</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Aloe-->
+              <a class="dropdown-item" href="12_aloe.html">Aloe</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Sedum-->
+              <a class="dropdown-item" href="13_sedum.html">Sedum</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Haworthia-->
+              <a class="dropdown-item" href="14_haworthia.html">Haworthia</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Creeper-->
+              <a class="dropdown-item" href="15_creeper.html">Creeper (Ivy)</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Sansevieria-->
+              <a class="dropdown-item" href="16_sansevieria.html">Sansevieria</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Other Plants-->
+              <a class="dropdown-item" href="17_otherPlants.html">Other Plants</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Indoor-->
+              <a class="dropdown-item" href="18_indoorPlants.html">Indoor Plants</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Hanging-->
+              <a class="dropdown-item" href="19_hanging.html">Hanging</a>
+              <div class="dropdown-divider my-1"></div>
+            </div>
           </div>
+          <div class="nav-item dropdown show dropdown">
+            <a class="nav-link dropdown-toggle btn btn-outline-primary btn-sm
+              m-2" href="#" role="button" id="dropdownMenuLink"
+              data-toggle="dropdown" aria-haspopup="true"
+              aria-expanded="false">
+              Transit Risk
+            </a>
+            <div class="dropdown-menu mx-2 mb-1"
+              aria-labelledby="dropdownMenuLink">
+              <!--Low Risk-->
+              <a class="dropdown-item" href="1_lowRisk.html">Low Risk</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Moderate Risk-->
+              <a class="dropdown-item" href="2_moderateRisk.html">Moderate Risk</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--High Risk-->
+              <a class="dropdown-item" href="3_highRisk.html">High Risk</a>
+              <div class="dropdown-divider my-1"></div>
+              <!--Low and Moderate Risk-->
+              <a class="dropdown-item" href="4_lowAndModerate.html">Low &
+                Moderate</a>
+              <div class="dropdown-divider my-1"></div>
+            </div>
+          </div>
+          <a type="button" role="button" class="nav-link btn
+            btn-outline-secondary nav-item btn-sm m-2"
+            href="5_allPlants.html">
+            Catalogue
+          </a>
+          <a type="button" role="button" class="nav-link btn
+            btn-outline-secondary nav-item btn-sm m-2" href="faq.html">
+            FAQ
+          </a>
+
+          <a type="button" role="button" class="nav-link btn
+            btn-outline-secondary nav-item btn-sm m-2" href="about.html">
+            Contact us
+          </a>
+          <a type="button" role="button" class="nav-link btn
+            btn-outline-secondary nav-item btn-sm m-2"
+            href="20_offers.html">
+            Offers
+          </a>
+          <a type="button" role="button" id="plantCategory" value="bigPlants"
+            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+            href="21_bigPlants.html">
+            Big Plants
+          </a>
+          <a type="button" role="button" class="nav-link btn
+            btn-outline-secondary nav-item btn-sm m-2"
+            href="22_combo.html">
+            Combo
+          </a>
+          <a type="button" role="button" class="nav-link btn
+            btn-outline-secondary nav-item btn-sm m-2"
+            href="23_restocked.html">
+            Restocked
+          </a>
+          <a type="button" role="button" class="nav-link btn
+            btn-outline-secondary nav-item btn-sm m-2" href="care.html">
+            Care
+          </a>
         </div>
-        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-          href="5_allPlants.html">
-          Catalogue
-        </a>
-        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2" href="faq.html">
-          FAQ
-        </a>
-
-        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2" href="about.html">
-          Contact us
-        </a>
-        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-          href="20_offers.html">
-          Offers
-        </a>
-        <a type="button" role="button" id="plantCategory" value="bigPlants"
-          class="nav-link btn btn-outline-secondary nav-item btn-sm m-2" href="21_bigPlants.html">
-          Big Plants
-        </a>
-        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-          href="22_combo.html">
-          Combo
-        </a>
-        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-          href="23_restocked.html">
-          Restocked
-        </a>
-        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2" href="care.html">
-          Care
-        </a>
       </div>
-    </div>
-  </nav>
-  <!-- end of navbar -->
-  <div id="carouselExampleIndicators" class="carousel slide m-0" data-ride="carousel">
-    <ol class="carousel-indicators">
-      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-      <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-    </ol>
-    <div class="carousel-inner">
-      <div class="carousel-item active" style="background-image: linear-gradient(#8A2EFF,#CCE0FF);">
+    </nav>
+    <!-- end of navbar -->
+    <div id="carouselExampleIndicators" class="carousel slide m-0"
+      data-ride="carousel">
 
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1 class="display-3 font-weight-bold text-white">
-              Rosary Plant House
-            </h1>
-            <h5 class="text-white">150+ varieties Available</h5>
-            <h5 class="text-white">Selling Plants for more than 20 years</h5>
-            <p class="mb-0"><a class="btn btn-lg btn-primary btn-main
+      <div class="carousel-inner">
+
+
+        <div class="carousel-item active">
+          <svg class="bd-placeholder-img" width="100%" height="100%"
+            xmlns="http://www.w3.org/2000/svg" aria-hidden="true"
+            focusable="false">
+            <rect width="100%" height="100%" fill="#777" />
+              <img src="assets/img/img8.jpg" class="d-block" alt="...">
+            </svg>
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <img src="assets/img/logo(only).png" alt="" width="100"
+                  height="100" />
+                <h1 class="display-3 font-weight-bold" style="color:rgba(0, 0,
+                  0, 0.418);">
+                  Rosary Plant House
+                </h1>
+                <h5 class="text-white">150+ varieties Available</h5>
+                <h5 class="text-white">Selling Plants for more than 20 years</h5>
+                <p class="mb-0"><a class="btn btn-lg btn-primary btn-main
                     btn-main-sm" href="5_allPlants.html">Select Plants</a></p>
-            <p class="text-white mb-4">
-              You’re only here for a short visit. Don’t hurry, don’t worry.
-              And be sure to smell the flowers along the way.
-            </p>
+                <p class="text-white mb-4">
+                  You’re only here for a short visit. Don’t hurry, don’t worry.
+                  And be sure to smell the flowers along the way.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item" style="background-image:
+            linear-gradient(#b92b27,#1565C0);">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <img class="img-fluid" src="assets/img/home_sale.png"
+                  width="200" height="200" alt="">
+                <h1 class="display-3 font-weight-bold text-white">
+                  Offer Zone
+                </h1>
+                <h5 class="text-white">Plants starting @29</h5>
+                <h5 class="text-white">Upto 50% off on plants</h5>
+                <h5 class="text-white">Offer closes soon!!!</h5>
+                <p><a class="btn btn-lg btn-primary btn-main btn-main-sm
+                    btn-blink"
+                    style="background-color: yellow; color: rgb(0, 0, 0);"
+                    href="20_offers.html">Shop Now</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image:
+            linear-gradient(#03001e,#7303c0,#ec38bc,#fdeff9);">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 class="display-3 font-weight-bold text-white">
+                  Our Testimonial
+                </h1>
+                <h5 class="text-white">5000+ happy clients</h5>
+                <h5 class="text-white">Dispatched more than 50000+ plants</h5>
+                <p><a class="btn btn-lg btn-primary btn-main btn-main-sm"
+                    style="background-color: rgb(0, 0, 70); color: rgb(255,
+                    255, 255);" href="testimonial.html">Check Review</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item" style="background-image:
+            linear-gradient(#00F260,#0575E6);">
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1 class="display-3 font-weight-bold text-white">
+                  Shop by Category
+                </h1>
+                <h5 class="text-white">Plants neatly organized according to
+                  Type.</h5>
+                <h5 class="text-white">See only what you're interested in.</h5>
+                <p><a class="btn btn-lg btn-primary btn-main btn-main-sm"
+                    style="background-color: rgba(0, 0, 70, 0.377); color:
+                    rgb(255,
+                    255, 255);" href="categories.html">Category</a></p>
+              </div>
+            </div>
           </div>
         </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators"
+          role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators"
+          role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
       </div>
-      <div class="carousel-item" style="background-image: linear-gradient(#b92b27,#1565C0);">
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1 class="display-3 font-weight-bold text-white">
-              Offer Zone
-            </h1>
-            <h5 class="text-white">Plants starting @29</h5>
-            <h5 class="text-white">Upto 50% off on plants</h5>
-            <h5 class="text-white">Offer closes soon!!!</h5>
-            <p><a class="btn btn-lg btn-primary btn-main btn-main-sm btn-blink"
-                style="background-color: yellow; color: rgb(0, 0, 0);" href="20_offers.html">Shop Now</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="carousel-item" style="background-image: linear-gradient(#03001e,#7303c0,#ec38bc,#fdeff9);">
-        <div class="container">
-          <div class="carousel-caption text-start">
-            <h1 class="display-3 font-weight-bold text-white">
-              Our Testimonial
-            </h1>
-            <h5 class="text-white">5000+ happy clients</h5>
-            <h5 class="text-white">Dispatched more than 50000+ plants</h5>
-            <p><a class="btn btn-lg btn-primary btn-main btn-main-sm" style="background-color: rgb(0, 0, 70); color: rgb(255,
-                        255, 255);" href="testimonial.html">Check Review</a></p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="sr-only">Previous</span>
-    </a>
-    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="sr-only">Next</span>
-    </a>
-  </div>
-  <!-- Header Start"background-color: linear-gradient(#4DA0B0, #D39D38);" -->
+      <!-- carousel Additional-->
+      <!--
   <div id="carouselExampleIndicators" class="carousel slide m-0" data-ride="carousel">
     <ol class="carousel-indicators">
       <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
@@ -333,237 +397,345 @@
       <span class="carousel-control-next-icon" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-  </div>
+  </div>-->
+      <!-- Header End -->
+      <div class="marquee-product"></div>
 
-  <!-- Header End -->
-  <div class="marquee-product"></div>
-  <section class="feature-list section">
-    <div class="container">
-      <div class="row" style="background-image: linear-gradient(#8A2EFF,
-                #CCE0FF);">
-        <div class="col-md-6 order-md-1 order-2 align-self-center
-                  text-center text-md-left">
-          <div class="content">
-            <h4 class="subheading text-center mt-3 ">Catalogue</h4>
-            <ul class="mx-1">
-              <li>This category contains all the <strong>Available</strong> plants.</li>             
-              <li>It may vary depending on stock availability.</li>
-              <li>Let’s root for each other and watch each other grow.</li>
-              <li>Click SHOP NOW to show all plants currently Available.</li>
+      <section class="feature-list section">
+        <div class="container">
 
-            </ul>
-            <a href="5_allPlants.html" class="btn btn-main btn-main-sm
-                      mb-3">Shop Now</a>
+
+          <div class="row home-card" style="background-image:
+            linear-gradient(#8A2EFF,
+            #CCE0FF);">
+            <div class="col-md-6 order-md-1 order-2 align-self-center
+              text-center text-md-left">
+              <div class="content">
+                <h4 class="subheading text-center mt-3">Catalogue</h4>
+                <ul class="mx-2" style="list-style-type:none;">
+                  <li>This category contains all the <strong>Available</strong>
+                    plants.</li>
+                  <li>It may vary depending on stock availability.</li>
+                  <li>Let’s root for each other and watch each other grow.</li>
+                  <li>Click SHOP NOW to show all plants currently Available.</li>
+                </ul>
+                <a href="5_allPlants.html" class="btn btn-main btn-main-sm
+                  mb-3">Shop Now</a>
+              </div>
+            </div>
+            <div class="col-md-6 order-md-2 order-1 text-center mb-lg-0
+              mt-4">
+              <img class="img-fluid circle" src="assets/img/img16.png" alt="">
+            </div>
+          </div>
+          <hr class="m-1">
+
+          <div class="row home-card mb-40" style="background-image:
+            linear-gradient(#1AA37A, #9DFFB3);">
+            <div class="col-md-6 text-center mb-lg-0 mt-4">
+              <img class="img-fluid circle" src="assets/img/home_sale.png"
+                width="250" height="250" alt="">
+            </div>
+            <div class="col-md-6 align-self-center text-center
+              text-md-left">
+              <div class="content">
+                <h4 class="subheading text-center mt-3">On Offer</h4>
+                <ul class="mx-2" style="list-style-type:none;">
+                  <li>This section is valid only for Limited Time.</li>
+                  <li>Plants starting from 29/-.</li>
+                  <li>Discount upto 50% on certain plants.</li>
+                  <li>Click SHOP NOW to show plants currently on sale.</li>
+                </ul>
+                <a href="20_offers.html" class="btn btn-main btn-main-sm
+                  mb-3 btn-blink">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <hr class="m-1">
+          <div class="row home-card" style="background-image:
+            linear-gradient(#8A2EFF,
+            #CCE0FF);">
+            <div class="col-md-6 order-md-1 order-2 align-self-center
+              text-center text-md-left">
+              <div class="content">
+                <h4 class="subheading text-center mt-3">Cactus</h4>
+                <ul class="mx-2" style="list-style-type:none;">
+                  <li>Cactus are thorny thick plants.</li>
+                  <li>They are easy to maintain and grow in Dry Places.</li>
+                  <li>They can boost your productivity, make you breathe better,
+                    and make you feel happy.</li>
+                  <li>Click SHOP NOW to show cactus currently available.</li>
+                </ul>
+                <a href="7_cactus.html" class="btn btn-main btn-main-sm
+                  mb-3">Shop Now</a>
+              </div>
+            </div>
+            <div class="col-md-6 order-md-2 order-1 text-center mb-lg-0
+              mt-4">
+              <img class="img-fluid circle" src="assets/img/img12.png" alt="">
+            </div>
+          </div>
+          <hr class="m-1">
+          <div class="row mb-40 home-card" style="background-image:
+            linear-gradient(#C15CFF, #FF5454);">
+            <div class="col-md-6 text-center mt-4">
+              <img class="img-fluid circle" src="assets/img/img11.png" alt="">
+            </div>
+            <div class="col-md-6 align-self-center text-center
+              text-md-left">
+              <div class="content">
+                <h4 class="subheading text-center mt-3">Succulents</h4>
+                <ul class="mx-2" style="list-style-type:none;">
+                  <li>Most of the plants are succulents.</li>
+                  <li>They are Easy to Grow and Low Watering Plants.</li>
+                  <li>Best place to grow is Balcony with indirect Sunlight.</li>
+                  <li>Click SHOP NOW to show Succulents currently available.</li>
+                </ul>
+                <a href="6_succulent.html" class="btn btn-main btn-main-sm
+                  mb-3">Shop Now</a>
+              </div>
+            </div>
+          </div>
+
+          <hr class="m-1">
+          <div class="row home-card" style="background-image:
+            linear-gradient(#de6262
+            , #ffb88c);">
+            <div class="col-md-6 order-md-1 order-2 align-self-center
+              text-center text-md-left">
+              <div class="content">
+                <h4 class="subheading text-center mt-3">Hanging Plants</h4>
+                <ul class="mx-2" style="list-style-type:none;">
+                  <li>Hanging Plants are mostly used for decorative purpose.</li>
+                  <li>Best suited when the place is limited to grow.</li>
+                  <li>Strings, Sedum and Ivys come under this category.</li>
+                  <li>Click SHOP NOW to show Hanging Plants currently available.</li>
+                </ul>
+                <a href="19_hanging.html" class="btn btn-main btn-main-sm
+                  mb-3">Shop Now</a>
+              </div>
+            </div>
+            <div class="col-md-6 order-md-2 order-1 text-center mb-lg-0
+              mt-4">
+              <img class="img-fluid circle" src="assets/img/img13.png" alt="">
+            </div>
+          </div>
+          <hr class="m-1">
+          <div class="row mb-40 home-card" style="background-image:
+            linear-gradient(#cc2b5e , #753a88);">
+            <div class="col-md-6 text-center mb-lg-0 mt-4">
+              <img class="img-fluid circle" src="assets/img/img15.png" alt="">
+            </div>
+            <div class="col-md-6 align-self-center text-center
+              text-md-left">
+              <div class="content">
+                <h4 class="subheading text-center mt-3">Low Risk Plants</h4>
+                <ul class="mx-2" style="list-style-type:none;">
+                  <li>Low risk plants can be transported all over the country.</li>
+                  <li>Best suited for beginners and for people purchasing from
+                    long distance.</li>
+                  <li>They are hard to Kill variety</li>
+                  <li>Click SHOP NOW to show Low Risk Plants currently
+                    available.</li>
+                </ul>
+                <a href="1_lowRisk.html" class="btn btn-main btn-main-sm
+                  mb-3">Shop Now</a>
+              </div>
+            </div>
+          </div>
+          <hr class="m-1">
+          <div class="row home-card" style="background-image:
+            linear-gradient(#43cea2
+            , #185a9d);">
+            <div class="col-md-6 order-md-1 order-2 align-self-center
+              text-center text-md-left">
+              <div class="content">
+                <h4 class="subheading text-center mt-3">Indoor Plants</h4>
+                <ul class="mx-2" style="list-style-type:none;">
+                  <li>All these plants require Shade to grow.</li>
+                  <li>Best suited having indoor gardens.</li>
+                  <li>Regular watering is required.</li>
+                  <li>Click SHOP NOW to show Indoor Plants currently available.</li>
+                </ul>
+                <a href="18_indoorPlants.html" class="btn btn-main
+                  btn-main-sm mb-3">Shop Now</a>
+              </div>
+            </div>
+            <div class="col-md-6 order-md-2 order-1 text-center mb-lg-0
+              mt-4">
+              <img class="img-fluid circle" src="assets/img/img14.png" alt="">
+            </div>
+          </div>
+          <hr class="m-1">
+          <div class="row mb-40 home-card" style="background-image:
+            linear-gradient(#cc2b5e , #753a88);">
+            <div class="col-md-6 text-center mb-lg-0 mt-4">
+              <img class="img-fluid circle" src="assets/img/new.png" alt="">
+            </div>
+            <div class="col-md-6 align-self-center text-center
+              text-md-left">
+              <div class="content">
+                <h4 class="subheading text-center mt-3">New Arrivals &
+                  Restocked</h4>
+                <ul class="mx-2" style="list-style-type:none;">
+                  <li>Plants which are newly added to catalogue.</li>
+                  <li>Plants that are available after long time going out of
+                    stock.</li>
+                  <li>Will be updated Regularly.</li>
+                  <li>Click SHOP NOW to show Newly available plants.</li>
+                </ul>
+                <a href="23_restocked.html" class="btn btn-main btn-main-sm
+                  mb-3">Shop Now</a>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="col-md-6 order-md-2 order-1 text-center mb-lg-0
-                  mt-4">
-          <img class="img-fluid circle" src="assets/img/img16.png" alt="">
-        </div>
-      </div>
-      <hr class="m-1">
+      </section>
+      <!--Footer-->
+      <div class="footer-all">
 
-      <div class="row mb-40" style="background-image:
-                linear-gradient(#1AA37A, #9DFFB3);">
-        <div class="col-md-6 text-center mb-lg-0 mt-4">
-          <img class="img-fluid circle" src="assets/img/home_sale.png" width="250" height="250" alt="">
-        </div>
-        <div class="col-md-6 align-self-center text-center
-                  text-md-left">
-          <div class="content">
-            <h4 class="subheading text-center mt-3 ">On Offer</h4>
-            <ul class="mx-1">
-              <li>This section is valid only for Limited Time.</li>
-              <li>Plants starting from 29/-.</li>
-              <li>Discount upto 50% on certain plants.</li>
-              <li>Click SHOP NOW to show plants currently on sale.</li>
-            </ul>
-            <a href="20_offers.html" class="btn btn-main btn-main-sm
-                      mb-3 btn-blink">Shop Now</a>
+      </div>
+
+
+      <!-- end of products -->
+      <div class="foot-icons"></div>
+
+      <!-- start of cart -->
+      <div class="cart-overlay">
+        <div class="cart m-0 p-1">
+          <div>
+            <span class="close-cart d-flex flex-row-reverse">
+              <i class="fa fa-window-close" aria-hidden="true"></i>
+            </span>
+          </div>
+          <div class="mt-2">
+            <marquee behavior="scroll" class="home-card" direction="left" style="background-color: rgba(91, 91, 59, 0.229);">Please click<strong> Place order</strong> after selecting the plants.</marquee>
+            <section class="feature-list section">
+              <div class="container px-0">            
+                <div class="alert alert-danger home-card py-0 px-0" role="alert">
+                  <span class="d-block p-0 m-0 text-white text-center inst-header
+                    inst-header-top">
+            
+                    <h5 class="text-center text-bold text-red py-1">Instructions</h5>
+                  </span>
+                  <ul class="mx-2 text-center mb-1" style="list-style-type:none;">
+                    <li>Please click on <strong>Add to Cart</strong> to Select Plants.</li>
+                    <hr class="my-0 mx-5 pt-1">
+                    <li>After selecting plants please click               <button type="button" class="btn btn-secondary btn-sm py-0 px-2 text-small" id="demo"
+                      onclick="myFunction()">
+                      Place Order
+                    </button> to send the required plants in Whatsapp.</li>
+                    <hr class="m-0 mx-5 pt-0">
+                    <li>If you have any doubts please contact <strong><a href="tel:7904050237">7904050237</a></strong>.
+                      Or any of the bellow method.
+                      <ul class="nav justify-content-center border-bottom">
+                        <a href="https://api.whatsapp.com/send?phone=%2B917904050237"
+                          target="_blank" class="fab fa-whatsapp-square pt-1 nav-link
+                          px-2 mx-2 text-muted""></a>
+                        <a
+                          href="https://instagram.com/rosary_plant_house?igshid=ksp4zz9pj5lu"
+                          target="_blank" class="fab fa-instagram pt-1 nav-link px-2
+                          text-muted mx-2"></a>
+                        <a href="https://facebook.com/rosaryplanthouse"
+                          target="_blank"
+                          class="fab fa-facebook pt-1 px-2 nav-link text-muted mx-2"></a>
+                      </ul>
+                    </li>
+                    <hr class="m-0 mx-5 pt-1">
+                    <li>Purchase for more than 1000/- and get a <strong>Complementary
+                        plant</strong>.</li>
+                    <hr class="m-0 mx-5 pt-1">
+                    <li>Please click <i class="fa fa-plus" aria-hidden="true"></i> to increase the Number of Plants.</li>
+                    <li>Please click <i class="fa fa-minus" aria-hidden="true"></i> to decrease the Number of Plants.</li>
+                </ul>
+                <!--Collapse Delivery Charges-->
+                <span class="d-block p-0 m-0 text-white text-center inst-header mb-3">
+                  <h5 class="btn btn-link collapsed text-bold text-red text-center
+                    mb-0" data-toggle="collapse" data-target="#collapseDeliveryCart"
+                    aria-expanded="false" aria-controls="collapseThree">Delivery
+                    Charges
+                    (click here)</h5>
+                </span>
+                <div id="collapseDeliveryCart" class="collapse"
+                  aria-labelledby="headingThree" data-parent="#accordion">
+                  <div class="card-body p-0">
+            
+                    <table class="table table-hover table-striped table-sm
+                      text-center">
+                      <thead>
+                        <tr>
+                          <th scope="col">Location</th>
+                          <th scope="col">Cost</th>
+                          <th scope="col">Maximum Plants</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <th scope="row">Tamil Nadu</th>
+                          <td>80</td>
+                          <td>12</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">South India(except T.N)</th>
+                          <td>100</td>
+                          <td>12</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Other parts of India</th>
+                          <td>150</td>
+                          <td>6</td>
+                        </tr>
+                        <tr>
+                          <th scope="row">Other parts of India</th>
+                          <td>200</td>
+                          <td>12</td>
+                        </tr>
+                        <caption class="text-center mx-2 py-0">Additional delivery
+                          charges is applicable when quantity increases or more number
+                          of big plants are choosen.</caption>
+                      </tbody>
+                    </table>
+                  </div>
+                </div>
+              </div>
+            </section>
+          
+          </div>
+
+          <div class="marquee"></div>
+
+          <h2 class="mb-1">your cart</h2>
+
+          <div class="cart-content"></div>
+          <!-- cart footer -->
+          <div class="cart-footer">
+            <h3>Total Cost : ₹ <span class="cart-total">0</span>+ delivery</h3>
+            <!-- clear all cart item button -->
+            <div class="d-flex justify-content-between">
+              <button class="clear-cart btn btn-danger">clear cart</button>
+              <button type="button" class="btn btn-secondary" id="demo"
+                onclick="myFunction()">
+                Place Order
+              </button>
+            </div>
           </div>
         </div>
       </div>
-      <hr class="m-1">
-      <div class="row" style="background-image: linear-gradient(#8A2EFF,
-                #CCE0FF);">
-        <div class="col-md-6 order-md-1 order-2 align-self-center
-                  text-center text-md-left">
-          <div class="content">
-            <h4 class="subheading text-center mt-3">Cactus</h4>
-            <ul class="mx-1">
-              <li>Cactus are thorny thick plants.</li>
-              <li>They are easy to maintain and grow in Dry Places.</li>
-              <li>They can boost your productivity, make you breathe better, and make you feel happy.</li>
-              <li>Click SHOP NOW to show cactus currently available.</li>
-            </ul>
-            <a href="7_cactus.html" class="btn btn-main btn-main-sm
-                      mb-3">Shop Now</a>
-          </div>
-        </div>
-        <div class="col-md-6 order-md-2 order-1 text-center mb-lg-0
-                  mt-4">
-          <img class="img-fluid circle" src="assets/img/img12.png" alt="">
-        </div>
-      </div>
-      <hr class="m-1">
-      <div class="row mb-40" style="background-image:
-                linear-gradient(#C15CFF, #FF5454);">
-        <div class="col-md-6 text-center mt-4">
-          <img class="img-fluid circle" src="assets/img/img11.png" alt="">
-        </div>
-        <div class="col-md-6 align-self-center text-center
-                  text-md-left">
-          <div class="content">
-            <h4 class="subheading text-center mt-3">Succulents</h4>
-            <ul class="mx-1">
-              <li>Most of the plants are succulents.</li>
-              <li>They are Easy to Grow and Low Watering Plants.</li>
-              <li>Best place to grow is Balcony with indirect Sunlight.</li>
-              <li>Click SHOP NOW to show Succulents currently available.</li>
-            </ul>
-            <a href="6_succulent.html" class="btn btn-main btn-main-sm
-                      mb-3">Shop Now</a>
-          </div>
-        </div>
-      </div>
+      <!-- end of cart -->
 
-      <hr class="m-1">
-      <div class="row" style="background-image: linear-gradient(#de6262
-                , #ffb88c);">
-        <div class="col-md-6 order-md-1 order-2 align-self-center
-                  text-center text-md-left">
-          <div class="content">
-            <h4 class="subheading text-center mt-3">Hanging Plants</h4>
-            <ul class="mx-1">
-              <li>Hanging Plants are mostly used for decorative purpose.</li>
-              <li>Best suited when the place is limited to grow.</li>
-              <li>Strings, Sedum and Ivys come under this category.</li>
-              <li>Click SHOP NOW to show Hanging Plants currently available.</li>
-            </ul>
-            <a href="19_hanging.html" class="btn btn-main btn-main-sm
-                      mb-3">Shop Now</a>
-          </div>
-        </div>
-        <div class="col-md-6 order-md-2 order-1 text-center mb-lg-0
-                  mt-4">
-          <img class="img-fluid circle" src="assets/img/img13.png" alt="">
-        </div>
-      </div>
-      <hr class="m-1">
-      <div class="row mb-40" style="background-image:
-                linear-gradient(#cc2b5e , #753a88);">
-        <div class="col-md-6 text-center mb-lg-0 mt-4">
-          <img class="img-fluid circle" src="assets/img/img15.png" alt="">
-        </div>
-        <div class="col-md-6 align-self-center text-center
-                  text-md-left">
-          <div class="content">
-            <h4 class="subheading text-center mt-3">Low Risk Plants</h4>
-            <ul class="mx-1">
-              <li>Low risk plants can be transported all over the country.</li>
-              <li>Best suited for beginners and for people purchasing from long distance.</li>
-              <li>They are hard to Kill variety</li>
-              <li>Click SHOP NOW to show Low Risk Plants currently available.</li>
-            </ul>
-            <a href="1_lowRisk.html" class="btn btn-main btn-main-sm
-                      mb-3">Shop Now</a>
-          </div>
-        </div>
-      </div>
-      <hr class="m-1">
-      <div class="row" style="background-image: linear-gradient(#43cea2
-                , #185a9d);">
-        <div class="col-md-6 order-md-1 order-2 align-self-center
-                  text-center text-md-left">
-          <div class="content">
-            <h4 class="subheading text-center mt-3">Indoor Plants</h4>
-            <ul class="mx-1">
-              <li>All these plants require Shade to grow.</li>
-              <li>Best suited having indoor gardens.</li>
-              <li>Regular watering is required.</li>
-              <li>Click SHOP NOW to show Indoor Plants currently available.</li>
-            </ul>
-            <a href="18_indoorPlants.html" class="btn btn-main
-                      btn-main-sm mb-3">Shop Now</a>
-          </div>
-        </div>
-        <div class="col-md-6 order-md-2 order-1 text-center mb-lg-0
-                  mt-4">
-          <img class="img-fluid circle" src="assets/img/img14.png" alt="">
-        </div>
-      </div>
-      <hr class="m-1">
-      <div class="row mb-40" style="background-image:
-                linear-gradient(#cc2b5e , #753a88);">
-        <div class="col-md-6 text-center mb-lg-0 mt-4">
-          <img class="img-fluid circle" src="assets/img/new.png" alt="">
-        </div>
-        <div class="col-md-6 align-self-center text-center
-                  text-md-left">
-          <div class="content">
-            <h4 class="subheading text-center mt-3">New Arrivals &
-              Restocked</h4>
-              <ul class="mx-1">
-                <li>Plants which are newly added to catalogue.</li>
-                <li>Plants that are available after long time going out of stock.</li>
-                <li>Will be updated Regularly.</li>
-                <li>Click SHOP NOW to show Newly available plants.</li>
-              </ul>
-            <a href="23_restocked.html" class="btn btn-main btn-main-sm
-                      mb-3">Shop Now</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-  <!--Footer-->
-  <div class="footer-all">
+      <!-- javascript -->
+      <script src="./assets/js/app.js"></script>
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    </body>
 
-  </div>
-
-
-  <!-- end of products -->
-  <div class="foot-icons"></div>
-
-  <!-- start of cart -->
-  <div class="cart-overlay">
-    <div class="cart">
-      <div>
-        <span class="close-cart d-flex flex-row-reverse">
-          <i class="fa fa-window-close" aria-hidden="true"></i>
-        </span>
-      </div>
-      <div class="marquee"></div>
-
-      <h2 class="mb-1">your cart</h2>
-
-      <div class="cart-content"></div>
-      <!-- cart footer -->
-      <div class="cart-footer">
-        <h3>Total Cost : ₹ <span class="cart-total">0</span>+ delivery</h3>
-        <!-- clear all cart item button -->
-        <div class="d-flex justify-content-between">
-          <button class="clear-cart btn btn-danger">clear cart</button>
-          <button type="button" class="btn btn-secondary" id="demo" onclick="myFunction()">
-            Place Order
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- end of cart -->
-
-  <!-- javascript -->
-  <script src="./assets/js/app.js"></script>
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-</body>
-
-</html>
+  </html>
