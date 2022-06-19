@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>All Plants</title>
+    <title>Billing</title>
 
     <link
       rel="stylesheet"
@@ -30,22 +30,28 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body >
     <div class="nav-bar-const">
 
     </div>
+    <section class="feature-list section">
+      <div class="container">
+
     <label class="text-center">Please enter number seperated by ','</label><br />
     <div class="input-group mb-3">
     <input type="text" class="form-control" id="plantnumb" placeholder="Plants to find" />
       <div class="input-group-append">
-        <button onclick="billing(document.getElementById('plantnumb').value)">Generate Bill</button>
+        <button class="btn btn-outline-secondary" onclick="billing(document.getElementById('plantnumb').value)">Generate Bill</button>
     </div>
     </div>
 
-    <button class="btn btn-secondary mb-2 btn-lg btn-block">All Finder List</button>
+    <button class="btn btn-secondary mb-2 btn-lg btn-block">Billing</button>
     <div class="products-center">
         
     </div>
+    </div>
+    </section>
+
 
 
     <!-- javascript -->

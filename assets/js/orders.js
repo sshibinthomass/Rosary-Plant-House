@@ -249,40 +249,6 @@ class UI {
       console.log("Error = " + e);
     }
   }
-  allPlants(products, types) {
-    let result = `  
-    <table class="table table-hover table-bordered text-center">
-      <tr>
-        <th class="p-0" scope="col">S.No</th>
-        <th class="p-0" scope="col">Plant Name</th>
-        <th class="p-0" scope="col">Plant Name</th>
-        <th class="p-0" scope="col">Photo</th>
-      </tr>`;
-    products.forEach((product) => {
-      if (types.includes(product.ava)) {
-        result += `
-      <tr>
-        <th class="p-0" scope="row"><b>${product.id}</b></th>
-        <td class="p-0">${product.title}</td>
-        <td class="p-0">${product.demand}</td>
-        <td class="p-0">
-          <img
-            src="${product.image}"
-            alt="mypic"
-            width="50"
-            height="50"
-          />
-        </td>
-      </tr>`;
-      }
-    });
-    try {
-      // console.log(result);
-      allPlantsDOM.innerHTML = result;
-    } catch (e) {
-      console.log("Error = " + e);
-    }
-  }
   filter(products, availability, placeAva, qtyAva, demand) {
     let result = `  
     <table class="table table-hover table-bordered text-center">
