@@ -960,11 +960,12 @@ class UI {
     }
   }
   //5_allPlants
-  allPlants_5(products) {
+  allPlants_5(products,category,transit,watering,sunlight) {
     let result = "";
     products.forEach((product) => 
     {
-      if (product.ava == 1) 
+      if (product.ava == 1 && category.includes(product.category) 
+       && transit.includes(product.transit)  && watering.includes(product.water) && sunlight.includes(product.sun) ) 
       {
         result += `
             <!-- single product start -->
@@ -4311,7 +4312,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ui.moderateRisk_2(products);
       ui.highRisk_3(products);
       ui.lowAndModerate_4(products);
-      ui.allPlants_5(products);
+      ui.allPlants_5(products,"Succulent Cactus Echeveria Jade Crassula Peperomia Aloe Sedum Haworthia Creeper Sansevieria Others","Low Moderate High","Low Moderate High Not Specific","Low Moderate High Not Specific");
       ui.succulent_6(products);
       ui.cactus_7(products);
       ui.echeveria_8(products);
@@ -4795,4 +4796,16 @@ function filter()
   var watering = document.getElementById("watering").value;
   var sunlight = document.getElementById("sunlight").value;
   products.getProducts().then((products) => {   ui.care(products,availability,transit,watering,sunlight);});
+}
+
+function filterPlants(){
+  const products = new Products();
+  const ui = new UI();
+  var category = document.getElementById("category").value;
+  var transit = document.getElementById("transit").value;
+  var watering = document.getElementById("watering").value;
+  var sunlight = document.getElementById("sunlight").value;
+  products.getProducts().then((products) => {   ui.allPlants_5(products,category,transit,watering,sunlight);});
+  console.log(category);
+
 }
