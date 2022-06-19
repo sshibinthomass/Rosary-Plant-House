@@ -2,13 +2,15 @@
 showProduct = document.querySelector(".show-product");
 const productsDOM = document.querySelector(".products-center");
 const allPlantsDOM=document.querySelector(".all-plants");
+const navBarDOM=document.querySelector(".nav-bar-const");
+
 class Products {
     async getProducts() {
       try {
         let result = await fetch("assets/json/products.json");
         //let result = await fetch(
-        //  "https://script.google.com/macros/s/AKfycbwhEHwcHRkWt8AqMDQCC0SQMHzMswaS9IIKYx8hd8P6UXp82FURUVr7DZ1AUlH-jj1r/exec"
-        // );
+        //"https://script.google.com/macros/s/AKfycbwEeonvBEHighvVY5zN3rdNmdRRC7jq3iJFavqegSJtLDZwXmXttSyWWf-JuE5p3nN1/exec"
+        //);
   
         let data = await result.json();
   
@@ -31,6 +33,9 @@ class Products {
             combo,
             indoor,
             restock,
+            placeAva,
+            qtyAva,
+            demand
           } = item.fields;
           const { id } = item.sys;
           const image = item.fields.image.fields.file.url;
@@ -53,6 +58,9 @@ class Products {
             combo,
             indoor,
             restock,
+            placeAva,
+            qtyAva,
+            demand
           };
         });
         return products;
@@ -64,8 +72,8 @@ class Products {
 
 
   class UI {
-    //All Plants
-    displayProducts(products,val) {
+    //Billing
+    billing(products,val) {
       let result = `  
       <table class="table table-hover table-bordered text-center">
         <tr>
@@ -138,6 +146,7 @@ class Products {
         console.log("Error = " + e);
       }
     };
+    //Plant finder
     plantFinder(products,val) {
       let result = `  
       <table class="table table-hover table-bordered text-center">
@@ -164,7 +173,7 @@ class Products {
           sNo:count,
           qty:plantQty,
           id:plantId,
-          title:val.title,
+          title:val.common,
           image:val.image,
           risk:val.transit
         };
@@ -212,6 +221,7 @@ class Products {
         <tr>
           <th class="p-0" scope="col">S.No</th>
           <th class="p-0" scope="col">Plant Name</th>
+          <th class="p-0" scope="col">Plant Name</th>
           <th class="p-0" scope="col">Photo</th>
         </tr>`;
       products.forEach((product) => {
@@ -220,6 +230,7 @@ class Products {
         <tr>
           <th class="p-0" scope="row"><b>${product.id}</b></th>
           <td class="p-0">${product.title}</td>
+          <td class="p-0">${product.demand}</td>
           <td class="p-0">
             <img
               src="${product.image}"
@@ -236,7 +247,71 @@ class Products {
       } catch (e) {
         console.log("Error = " + e);
       }
+    };
+    filter(products,availability,placeAva,qtyAva,demand) {
+      let result = `  
+      <table class="table table-hover table-bordered text-center">
+        <tr>
+          <th class="p-0" scope="col">S.No</th>
+          <th class="p-0" scope="col">Plant Name</th>
+          <th class="p-0" scope="col">Demand</th>
+          <th class="p-0" scope="col">Quantity</th>
+          <th class="p-0" scope="col">Photo</th>
+        </tr>`;
+      products.forEach((product) => {
+        if (availability.includes(product.ava)
+          && placeAva.includes(product.placeAva) && qtyAva.includes(product.qtyAva) && demand.includes(product.demand)
+            ) {
+        if(product.ava==0){
+          result+='<tr class="bg-danger">';
+        }
+        if(product.ava==1){
+          result+='<tr>';
+        }
+        if(product.placeAva=="Top"){
+          result+= `<th class="p-0" scope="row"><b>${product.id}<i class="fa fa-long-arrow-up" aria-hidden="true"></i> </b></th>`;
+        }
+        if(product.placeAva=="Down"){
+          result+= `<th class="p-0" scope="row"><b>${product.id}<i class="fa fa-long-arrow-down" aria-hidden="true"></i> </b></th>`;
+        }
+        if(product.placeAva=="Both"){
+          result+= `<th class="p-0" scope="row"><b>${product.id}<i class="fa fa-arrows-v" aria-hidden="true"></i> </b></th>`;
+        }
+        result+= `
+          <td class="p-0 ">${product.common}</td>`;
+        if(product.demand=="V_Hgh"){
+          result+= `<td class="p-0 bg-info">Very High</td> `;
+        }else if(product.demand=="V_Loow"){
+          result+= `<td class="p-0">Very Low</td> `;
+        }else{
+          result+= `<td class="p-0">${product.demand}</td> `;
+        }
+        if(product.qtyAva=="Low"){
+          result+= `
+          <td class="p-0 bg-warning">${product.qtyAva}</td>`;
+        }else{
+          result+= `  
+          <td class="p-0">${product.qtyAva}</td>`;
+        }
+        result+= `  
+        <td class="p-0">
+          <img
+            src="${product.image}"
+            alt="mypic"
+            width="50"
+            height="50"
+          />
+        </td>
+      </tr>`;};
+      });
+      try {
+        // console.log(result);
+        allPlantsDOM.innerHTML = result;
+      } catch (e) {
+        console.log("Error = " + e);
+      }
     }
+
 }
 //console.log(products)
 
@@ -246,7 +321,8 @@ class Products {
 function billing(billing) {
     const products = new Products();
     const ui = new UI();
-    products.getProducts().then((products) => {   ui.displayProducts(products,billing);});
+    console.log(products);
+    products.getProducts().then((products) => {   ui.billing(products,billing);});
     //var sum = parseInt(a, 10) + parseInt(b, 10);
     
     //alert(billing);
@@ -270,4 +346,64 @@ function plantTypes(types) {
   //alert(plantNumb);
 }
 
+function filter()
+{
+  const products = new Products();
+  const ui = new UI();
+var availability = document.getElementById("availability").value;
+var placeAva = document.getElementById("placeAva").value;
+var qtyAva = document.getElementById("qtyAva").value;
+var demand = document.getElementById("demand").value;
 
+console.log(availability);
+console.log(placeAva);
+console.log(qtyAva);
+console.log(demand);
+products.getProducts().then((products) => {   ui.filter(products,availability,placeAva,qtyAva,demand);});
+
+
+}
+//Nav-bar
+{
+  const div = document.createElement("div");
+  div.classList.add("nav-bar-const");
+
+  div.innerHTML = `     
+  <nav class="navbar navbar-expand-lg navbar-light "
+  style="background-image: linear-gradient(to right,#fceabb,#f8b500 );">
+    <a class="navbar-brand" href="o_index.html">
+      <img src="assets/img/logo(only).png" alt="" width="30" height="30" />
+    </a>
+    <button class="navbar-toggler navbar-light" style="background-image: linear-gradient(to right,#fceabb,#f8b500 );" type="button"
+      data-toggle="collapse" data-target="#navbarNavAltMarkup"
+      aria-controls="navbarNavAltMarkup" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbar-light pl-0 p-0 m-0" style="background-image: linear-gradient(to right,#fceabb,#f8b500 );"id="navbarNavAltMarkup">
+      <div class="navbar-nav p-0 m-0">
+
+        <a type="button" role="button" class="nav-link btn
+          btn-outline-secondary nav-item btn-sm m-2 py-1"
+          href="o_finder.html">
+          Plant Finder
+        </a>
+
+        <a type="button" role="button" class="nav-link btn
+          btn-outline-secondary nav-item btn-sm m-2 p-1" href="o_billing.html">
+          Billing
+        </a>
+        <a type="button" role="button" class="nav-link btn
+        btn-outline-secondary nav-item btn-sm m-2 py-1"
+        href="o_filter.html">
+        Filter
+      </a>
+      </div>
+    </div>
+  </nav>
+
+  `;
+
+  navBarDOM.appendChild(div);
+  // console.log(cartContent);
+}

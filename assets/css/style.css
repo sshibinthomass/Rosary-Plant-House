@@ -928,7 +928,7 @@ button.bg-primary:focus {
   border-radius: 5px;
 }
 
-.bag-btn1,.close-btn,.clear-cart,.btn-secondary{
+.bag-btn1,.close-btn,.clear-cart,.btn-secondary,.btn-radius{
   border-radius: 20px;
 }
 
@@ -959,7 +959,9 @@ button.bg-primary:focus {
 .text-small{
   font-size: 10px;
 }
-
+.dropdown-filter{
+  border-radius: 20px;
+ }
 
    
  .blink-h2{
@@ -981,3 +983,25 @@ button.bg-primary:focus {
      opacity: 1;
    }
  }
+
+
+
+ .fixTableHead {
+  overflow-y: auto;
+  height: 400px;
+}
+.fixTableHead thead th {
+  position: sticky;
+  top: 0;
+}
+table {
+  border-collapse: collapse;        
+  width: 100%;
+}
+.scroll {
+  padding: 8px 15px;
+  border: 2px solid #529432;
+}
+.scrollth {
+  background: #ABDD93;
+}

@@ -47,6 +47,7 @@ const productsDOM20 = document.querySelector(".products-center20");
 const productsDOM21 = document.querySelector(".products-center21");
 const productsDOM22 = document.querySelector(".products-center22");
 const productsDOM23 = document.querySelector(".products-center23");
+const careDOM = document.querySelector(".products-care");
 const testimonialDOM=document.querySelector(".testimonial-items");
 const footerDOM=document.querySelector(".footer-all");
 
@@ -4036,6 +4037,56 @@ class UI {
     }
   }
 
+  //care
+  care(products,availability,transit,watering,sunlight) {
+      
+    let result = `  
+    <div class="fixTableHead">
+    <table class="table table-hover table-bordered text-center">
+    <thead >  
+    <tr>
+        <th class="scrollth p-0" scope="col">S.No</th>
+        <th class="scrollth p-0" scope="col">Plant Name</th>
+        <th class="scrollth p-0" scope="col">Transit Risk</th>
+        <th class="scrollth p-0" scope="col">Watering</th>
+        <th class="scrollth p-0" scope="col">Sunlight</th>
+        <th class="scrollth p-0" scope="col">Photo</th>
+      </tr>
+      </thead>
+      `;
+    products.forEach((product) => {
+      if(availability.includes(product.ava) && transit.includes(product.transit) 
+      && watering.includes(product.water) && sunlight.includes(product.sun)
+      
+      )
+       {
+      result+= `
+      <tr>
+        <th class="scroll p-0" scope="row"><b>${product.id}</b></th>
+        <td class="scroll p-0">${product.title}</td>
+        <td class="scroll p-0">${product.transit}</td>
+        <td class="scroll p-0">${product.water}</td>
+        <td class="scroll p-0">${product.sun}</td>
+        <td class="scroll p-0">
+          <img
+            src="${product.image}"
+            alt="mypic"
+            width="50"
+            height="50"
+          />
+        </td>
+      </tr>`;};
+    })
+    result+=`</div>`;
+    try {
+      // console.log(result);
+      careDOM.innerHTML = result;
+    } catch (e) {
+      console.log("Error = " + e);
+    }
+  }
+
+
   getBagButtons() {
     // bag buttons
     const buttons = [...document.querySelectorAll(".bag-btn1")];
@@ -4279,6 +4330,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ui.bigPlants_21(products);
       ui.combo_22(products);
       ui.restock_23(products);
+      ui.care(products,"1","Low Moderate High","Low Moderate High Not Specific","Low Moderate High Not Specific");
       Storage.saveProducts(products);
     })
     .then(() => {
@@ -4732,4 +4784,15 @@ function myFunction() {
 
   footerDOM.appendChild(div);
   // console.log(cartContent);
+}
+
+function filter()
+{
+  const products = new Products();
+  const ui = new UI();
+  var availability = document.getElementById("availability").value;
+  var transit = document.getElementById("transit").value;
+  var watering = document.getElementById("watering").value;
+  var sunlight = document.getElementById("sunlight").value;
+  products.getProducts().then((products) => {   ui.care(products,availability,transit,watering,sunlight);});
 }
