@@ -4712,7 +4712,7 @@
         "title": "Sedum rubrotinctum (Big)",
         "orgPrice": 99,
         "price": 89,
-        "ava": "1",
+        "ava": "0",
         "size": "(5\"-6\")",
         "transit": "High",
         "water": "Moderate",
@@ -4725,7 +4725,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": { "file": { "url": "./assets/img/salePlants/182.jpg" } }
@@ -5908,7 +5908,7 @@
         "title": "Haworthia cooperi var. pilifera",
         "orgPrice": 149,
         "price": 149,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -5921,7 +5921,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": { "file": { "url": "./assets/img/salePlants/228.jpg" } }
