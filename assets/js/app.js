@@ -960,12 +960,16 @@ class UI {
     }
   }
   //5_allPlants
-  allPlants_5(products,category,transit,watering,sunlight) {
+  allPlants_5(products,category,transit,watering,sunlight,bigPlantBox,indoorBox,hangingBox) {
     let result = "";
     products.forEach((product) => 
     {
       if (product.ava == 1 && category.includes(product.category) 
-       && transit.includes(product.transit)  && watering.includes(product.water) && sunlight.includes(product.sun) ) 
+       && transit.includes(product.transit)  && watering.includes(product.water) && sunlight.includes(product.sun)
+       && bigPlantBox.includes(product.mother)
+       && indoorBox.includes(product.indoor)
+       && hangingBox.includes(product.hanging)
+       ) 
       {
         result += `
             <!-- single product start -->
@@ -4312,7 +4316,7 @@ document.addEventListener("DOMContentLoaded", () => {
       ui.moderateRisk_2(products);
       ui.highRisk_3(products);
       ui.lowAndModerate_4(products);
-      ui.allPlants_5(products,"Succulent Cactus Echeveria Jade Crassula Peperomia Aloe Sedum Haworthia Creeper Sansevieria Others","Low Moderate High","Low Moderate High Not Specific","Low Moderate High Not Specific");
+      ui.allPlants_5(products,"Succulent Cactus Echeveria Jade Crassula Peperomia Aloe Sedum Haworthia Creeper Sansevieria Others","Low Moderate High","Low Moderate High Not Specific","Low Moderate High Not Specific","01","01","01");
       ui.succulent_6(products);
       ui.cactus_7(products);
       ui.echeveria_8(products);
@@ -4805,7 +4809,25 @@ function filterPlants(){
   var transit = document.getElementById("transit").value;
   var watering = document.getElementById("watering").value;
   var sunlight = document.getElementById("sunlight").value;
-  products.getProducts().then((products) => {   ui.allPlants_5(products,category,transit,watering,sunlight);});
+  var bigPlantBox=document.querySelector('.bigPlant-Box').checked;
+  var indoorBox=document.querySelector('.indoor-Box').checked;
+  var hangingBox=document.querySelector('.hanging-Box').checked;
+  if(bigPlantBox==true){
+    bigPlantBox="1"
+  }else{
+    bigPlantBox="01"
+  };
+  if(indoorBox==true){
+    indoorBox="1"
+  }else{
+    indoorBox="01"
+  };
+  if(hangingBox==true){
+    hangingBox="1"
+  }else{
+    hangingBox="01"
+  };
+  products.getProducts().then((products) => {   ui.allPlants_5(products,category,transit,watering,sunlight,bigPlantBox,indoorBox,hangingBox);});
   console.log(category);
 
 }

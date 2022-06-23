@@ -1,388 +1,341 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Catalogue</title>
 
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-      />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catalogue</title>
 
-    <!-- style / css -->
-    <link rel="stylesheet" href="./assets/css/style.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
-    <!-- favicon -->
-    <link
-      rel="shortcut icon"
-      href="assets/img/logo(only).png"
-      type="image/png"
-      />
+  <!-- style / css -->
+  <link rel="stylesheet" href="./assets/css/style.css" />
 
-    <!-- font awesome -->
-    <link
-      rel="stylesheet"
-      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
-      crossorigin="anonymous"
-      />
-  </head>
-  <body>
-    <!-- start of navbar -->
-    <nav
-      class="navbar navbar-expand-lg navbar-light pl-0 pr-0"
-      style="background-color: rgb(208, 255, 208)">
-      <a class="navbar-brand" href="index.html">
-        <img src="assets/img/logo(only).png" alt="" width="30" height="30" />
-      </a>
-      <a
-        type="button"role="button"
-        class="nav-link btn-sm btn btn-outline-secondary p-0 m-0">
-        <div class="cart-btn px-1 p-0 m-0">
-          <span class="nav-icon p-0 m-0" style="size: small">
-            <i class="fa fa-shopping-cart" aria-hidden="true">Cart</i>
-          </span>
-          <div class="cart-items">0</div>
-        </div>
-      </a>
-      <button
-        class="navbar-toggler navbar-light"
-        style="background-color: rgb(208, 255, 208)"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNavAltMarkup"
-        aria-controls="navbarNavAltMarkup"
-        aria-expanded="false"
-        aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div
-        class="collapse navbar-collapse navbar-light pl-0"
-        style="background-color: rgb(208, 255, 208)"
-        id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a
-            type="button"role="button"
-            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-            href="index.html">
-            Home
-          </a>
+  <!-- favicon -->
+  <link rel="shortcut icon" href="assets/img/logo(only).png" type="image/png" />
 
-          <div class="nav-item dropdown show dropdown">
-            <a
-              class="nav-link dropdown-toggle btn btn-outline-primary btn-sm
-              m-2"
-              href="#"
-              role="button"
-              id="dropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false">
-              Category
-            </a>
-            <div
-              class="dropdown-menu mx-2 mb-1"
-              aria-labelledby="dropdownMenuLink">
-              <!--All Plants-->
-              <a class="dropdown-item" href="5_allPlants.html">All Plants</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Succulent-->
-              <a class="dropdown-item" href="6_succulent.html">Succulent</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Cactus-->
-              <a class="dropdown-item" href="7_cactus.html">Cactus</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Echeveria-->
-              <a class="dropdown-item" href="8_echeveria.html">Echeveria</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Jade-->
-              <a class="dropdown-item" href="9_jade.html">Jade</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Crassula-->
-              <a class="dropdown-item" href="10_crassula.html">Crassula (except
-                Jade)</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Peperomia-->
-              <a class="dropdown-item" href="11_pepromia.html">Peperomia</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Aloe-->
-              <a class="dropdown-item" href="12_aloe.html">Aloe</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Sedum-->
-              <a class="dropdown-item" href="13_sedum.html">Sedum</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Haworthia-->
-              <a class="dropdown-item" href="14_haworthia.html">Haworthia</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Creeper-->
-              <a class="dropdown-item" href="15_creeper.html">Creeper (Ivy)</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Sansevieria-->
-              <a class="dropdown-item" href="16_sansevieria.html">Sansevieria</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Other Plants-->
-              <a class="dropdown-item" href="17_otherPlants.html">Other Plants</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Indoor-->
-              <a class="dropdown-item" href="18_indoorPlants.html">Indoor Plants</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Hanging-->
-              <a class="dropdown-item" href="19_hanging.html">Hanging</a>
-              <div class="dropdown-divider my-1"></div>
-            </div>
-          </div>
-          <div class="nav-item dropdown show dropdown">
-            <a
-              class="nav-link dropdown-toggle btn btn-outline-primary btn-sm
-              m-2"
-              href="#"
-              role="button"
-              id="dropdownMenuLink"
-              data-toggle="dropdown"
-              aria-haspopup="true"
-              aria-expanded="false">
-              Transit Risk
-            </a>
-            <div
-              class="dropdown-menu mx-2 mb-1"
-              aria-labelledby="dropdownMenuLink">
-              <!--Low Risk-->
-              <a class="dropdown-item" href="1_lowRisk.html">Low Risk</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Moderate Risk-->
-              <a class="dropdown-item" href="2_moderateRisk.html">Moderate Risk</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--High Risk-->
-              <a class="dropdown-item" href="3_highRisk.html">High Risk</a>
-              <div class="dropdown-divider my-1"></div>
-              <!--Low and Moderate Risk-->
-              <a class="dropdown-item" href="4_lowAndModerate.html">Low &
-                Moderate</a>
-              <div class="dropdown-divider my-1"></div>
-            </div>
-          </div>
-          <a
-            type="button"role="button"
-            class="nav-link btn btn-secondary nav-item btn-sm m-2"
-            href="5_allPlants.html">
-            Catalogue
-          </a>
-          <a
-            type="button"
-            role="button"
-            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-            href="faq.html">
-            FAQ
-          </a>
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</head>
 
-          <a
-            type="button"role="button"
-            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-            href="about.html">
-            Contact us
-          </a>
-          <a
-            type="button"role="button"
-            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-            href="20_offers.html">
-            Offers
-          </a>
-          <a
-            type="button"role="button"
-            id="plantCategory"
-            value="bigPlants"
-            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-            href="21_bigPlants.html">
-            Big Plants
-          </a>
-          <a
-            type="button"role="button"
-            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-            href="22_combo.html">
-            Combo
-          </a>
-          <a
-            type="button"role="button"
-            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-            href="23_restocked.html">
-            Restocked
-          </a>
-          <a
-            type="button"role="button"
-            class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
-            href="care.html">
-            Care
-          </a>
-        </div>
+<body>
+  <!-- start of navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light pl-0 pr-0" style="background-color: rgb(208, 255, 208)">
+    <a class="navbar-brand" href="index.html">
+      <img src="assets/img/logo(only).png" alt="" width="30" height="30" />
+    </a>
+    <a type="button" role="button" class="nav-link btn-sm btn btn-outline-secondary p-0 m-0">
+      <div class="cart-btn px-1 p-0 m-0">
+        <span class="nav-icon p-0 m-0" style="size: small">
+          <i class="fa fa-shopping-cart" aria-hidden="true">Cart</i>
+        </span>
+        <div class="cart-items">0</div>
       </div>
-    </nav>
-    <!-- end of navbar -->
-    <div class="marquee-product"></div>
-    <div class="container mt-1">
-      <div class="section-title">
-        <section class="products">
-          <div class="section-title">
-            <h2>Catalogue</h2>
-            <div class="alert alert-primary home-card" role="alert">
-              <h5 class="card-title text-center">
-                Filter Based on Requirements
-              </h5>
-              <div class="d-flex justify-content-center">
-                <div class="row home-card mb-2">
-                  <!--Filter by Category-->
-                  <div
-                    class="col-md-3 order-md-1 order-2 align-self-center
+    </a>
+    <button class="navbar-toggler navbar-light" style="background-color: rgb(208, 255, 208)" type="button"
+      data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse navbar-light pl-0" style="background-color: rgb(208, 255, 208)"
+      id="navbarNavAltMarkup">
+      <div class="navbar-nav">
+        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2" href="index.html">
+          Home
+        </a>
+
+        <div class="nav-item dropdown show dropdown">
+          <a class="nav-link dropdown-toggle btn btn-outline-primary btn-sm
+              m-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Category
+          </a>
+          <div class="dropdown-menu mx-2 mb-1" aria-labelledby="dropdownMenuLink">
+            <!--All Plants-->
+            <a class="dropdown-item" href="5_allPlants.html">All Plants</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Succulent-->
+            <a class="dropdown-item" href="6_succulent.html">Succulent</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Cactus-->
+            <a class="dropdown-item" href="7_cactus.html">Cactus</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Echeveria-->
+            <a class="dropdown-item" href="8_echeveria.html">Echeveria</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Jade-->
+            <a class="dropdown-item" href="9_jade.html">Jade</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Crassula-->
+            <a class="dropdown-item" href="10_crassula.html">Crassula (except
+              Jade)</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Peperomia-->
+            <a class="dropdown-item" href="11_pepromia.html">Peperomia</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Aloe-->
+            <a class="dropdown-item" href="12_aloe.html">Aloe</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Sedum-->
+            <a class="dropdown-item" href="13_sedum.html">Sedum</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Haworthia-->
+            <a class="dropdown-item" href="14_haworthia.html">Haworthia</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Creeper-->
+            <a class="dropdown-item" href="15_creeper.html">Creeper (Ivy)</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Sansevieria-->
+            <a class="dropdown-item" href="16_sansevieria.html">Sansevieria</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Other Plants-->
+            <a class="dropdown-item" href="17_otherPlants.html">Other Plants</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Indoor-->
+            <a class="dropdown-item" href="18_indoorPlants.html">Indoor Plants</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Hanging-->
+            <a class="dropdown-item" href="19_hanging.html">Hanging</a>
+            <div class="dropdown-divider my-1"></div>
+          </div>
+        </div>
+        <div class="nav-item dropdown show dropdown">
+          <a class="nav-link dropdown-toggle btn btn-outline-primary btn-sm
+              m-2" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            Transit Risk
+          </a>
+          <div class="dropdown-menu mx-2 mb-1" aria-labelledby="dropdownMenuLink">
+            <!--Low Risk-->
+            <a class="dropdown-item" href="1_lowRisk.html">Low Risk</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Moderate Risk-->
+            <a class="dropdown-item" href="2_moderateRisk.html">Moderate Risk</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--High Risk-->
+            <a class="dropdown-item" href="3_highRisk.html">High Risk</a>
+            <div class="dropdown-divider my-1"></div>
+            <!--Low and Moderate Risk-->
+            <a class="dropdown-item" href="4_lowAndModerate.html">Low &
+              Moderate</a>
+            <div class="dropdown-divider my-1"></div>
+          </div>
+        </div>
+        <a type="button" role="button" class="nav-link btn btn-secondary nav-item btn-sm m-2" href="5_allPlants.html">
+          Catalogue
+        </a>
+        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2" href="faq.html">
+          FAQ
+        </a>
+
+        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2" href="about.html">
+          Contact us
+        </a>
+        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+          href="20_offers.html">
+          Offers
+        </a>
+        <a type="button" role="button" id="plantCategory" value="bigPlants"
+          class="nav-link btn btn-outline-secondary nav-item btn-sm m-2" href="21_bigPlants.html">
+          Big Plants
+        </a>
+        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+          href="22_combo.html">
+          Combo
+        </a>
+        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2"
+          href="23_restocked.html">
+          Restocked
+        </a>
+        <a type="button" role="button" class="nav-link btn btn-outline-secondary nav-item btn-sm m-2" href="care.html">
+          Care
+        </a>
+      </div>
+    </div>
+  </nav>
+  <!-- end of navbar -->
+  <div class="marquee-product"></div>
+  <div class="container mt-1">
+    <div class="section-title">
+      <section class="products">
+        <div class="section-title">
+          <h2>Catalogue</h2>
+          <div class="alert alert-primary home-card" role="alert">
+            <h5 class="card-title text-center">
+              Filter Based on Requirements
+            </h5>
+            <div class="d-flex justify-content-center">
+              <div class="row home-card mb-2">
+                <!--Filter by Category-->
+                <div class="col-md-3 order-md-1 order-2 align-self-center
                     text-center text-md-left">
-                    <p class="text-center mb-0">Category</p>
-                    <select
-                      name="myselect"
-                      class="btn-outline-secondary btn dropdown-filter"
-                      id="category"
-                      onchange="filterPlants();">
-                      <option value="Succulent Cactus Echeveria Jade Crassula Peperomia Aloe Sedum Haworthia Creeper Sansevieria Others">All Plants</option>
-                      <option value="Succulent">Succulents</option>
-                      <option value="Cactus">Cactus</option>
-                      <option value="Echeveria">Echeveria</option>
-                      <option value="Jade">Jade</option>
-                      <option value="Crassula">Crassula</option>
-                      <option value="Peperomia">Peperomia</option>
-                      <option value="Aloe">Aloe</option>
-                      <option value="Sedum">Sedum</option>
-                      <option value="Haworthia">Haworthia</option>
-                      <option value="Creeper">Creeper</option>
-                      <option value="Sansevieria">Sansevieria</option>
-                      <option value="Others">Others</option>
-                    </select>
-                  </div>
+                  <p class="text-center mb-0">Category</p>
+                  <select name="myselect" class="btn-outline-secondary btn dropdown-filter" id="category"
+                    onchange="filterPlants();">
+                    <option
+                      value="Succulent Cactus Echeveria Jade Crassula Peperomia Aloe Sedum Haworthia Creeper Sansevieria Others">
+                      All Plants</option>
+                    <option value="Succulent">Succulents</option>
+                    <option value="Cactus">Cactus</option>
+                    <option value="Echeveria">Echeveria</option>
+                    <option value="Jade">Jade</option>
+                    <option value="Crassula">Crassula</option>
+                    <option value="Peperomia">Peperomia</option>
+                    <option value="Aloe">Aloe</option>
+                    <option value="Sedum">Sedum</option>
+                    <option value="Haworthia">Haworthia</option>
+                    <option value="Creeper">Creeper</option>
+                    <option value="Sansevieria">Sansevieria</option>
+                    <option value="Others">Others</option>
+                  </select>
+                </div>
 
-                  <!--Filter by Transit Risk-->
-                  <div
-                    class="col-md-3 order-md-1 order-2 align-self-center
+                <!--Filter by Transit Risk-->
+                <div class="col-md-3 order-md-1 order-2 align-self-center
                     text-center text-md-left">
-                    <p class="text-center mb-0">Transit Risk</p>
+                  <p class="text-center mb-0">Transit Risk</p>
 
-                    <select
-                      name="myselect"
-                      class="btn-outline-secondary btn dropdown-filter"
-                      id="transit"
-                      onchange="filterPlants();">
-                      <option value="Low Moderate High">All Plants</option>
-                      <option value="Low">Low</option>
-                      <option value="Moderate">Moderate</option>
-                      <option value="High">High</option>
-                    </select>
-                  </div>
+                  <select name="myselect" class="btn-outline-secondary btn dropdown-filter" id="transit"
+                    onchange="filterPlants();">
+                    <option value="Low Moderate High">All Plants</option>
+                    <option value="Low">Low</option>
+                    <option value="Moderate">Moderate</option>
+                    <option value="High">High</option>
+                  </select>
+                </div>
 
-                  <!--Filter by Watering-->
-                  <div
-                    class="col-md-3 order-md-1 order-2 align-self-center
+                <!--Filter by Watering-->
+                <div class="col-md-3 order-md-1 order-2 align-self-center
                     text-center text-md-left">
-                    <p class="text-center mb-0">Watering</p>
+                  <p class="text-center mb-0">Watering</p>
 
-                    <select
-                      name="myselect"
-                      class="btn-outline-secondary btn dropdown-filter"
-                      id="watering"
-                      onchange="filterPlants();">
-                      <option value="Low Moderate High Not Specific">
-                        All Plants
-                      </option>
-                      <option value="Low">Low</option>
-                      <option value="Moderate">Moderate</option>
-                      <option value="High">High</option>
-                      <option value="Not Specific">Not Specific</option>
-                    </select>
-                  </div>
+                  <select name="myselect" class="btn-outline-secondary btn dropdown-filter" id="watering"
+                    onchange="filterPlants();">
+                    <option value="Low Moderate High Not Specific">
+                      All Plants
+                    </option>
+                    <option value="Low">Low</option>
+                    <option value="Moderate">Moderate</option>
+                    <option value="High">High</option>
+                    <option value="Not Specific">Not Specific</option>
+                  </select>
+                </div>
 
-                  <!--Filter by Sunlight-->
-                  <div
-                    class="col-md-3 order-md-1 order-2 align-self-center
+                <!--Filter by Sunlight-->
+                <div class="col-md-3 order-md-1 order-2 align-self-center
                     text-center text-md-left">
-                    <p class="text-center mb-0">Sunlight</p>
+                  <p class="text-center mb-0">Sunlight</p>
 
-                    <select
-                      name="myselect"
-                      class="btn-outline-secondary btn dropdown-filter"
-                      id="sunlight"
-                      onchange="filterPlants();">
-                      <option value="Low Moderate High Not Specific">
-                        All Plants
-                      </option>
-                      <option value="Low">Low</option>
-                      <option value="Moderate">Moderate</option>
-                      <option value="High">High</option>
-                      <option value="Not Specific">Not Specific</option>
-                    </select>
-                  </div>
+                  <select name="myselect" class="btn-outline-secondary btn dropdown-filter" id="sunlight"
+                    onchange="filterPlants();">
+                    <option value="Low Moderate High Not Specific">
+                      All Plants
+                    </option>
+                    <option value="Low">Low</option>
+                    <option value="Moderate">Moderate</option>
+                    <option value="High">High</option>
+                    <option value="Not Specific">Not Specific</option>
+                  </select>
+                </div>
+
+
+              </div>
+            </div>
+            <div class="d-flex justify-content-center text-center">
+              <!--
+              <div class="row home-card mb-2">
+                <div class="col-md-3 order-md-1 order-2 align-self-center
+                text-center text-md-left">
+              <p class="text-center mb-0">On Offer</p>
+                <div class="col-md-3 order-md-1 order-2 align-self-center
+                  text-center text-md-left">
+                  <input class="onOffer-Box" onchange="filterPlants();" type="checkbox" value="3">
+                </div>
+                </div>
+              -->
+
+                <div class="col-md-3 order-md-1 order-2 align-self-center
+                text-center text-md-left p-0">
+
+                  <input class="bigPlant-Box" onchange="filterPlants();" type="checkbox">
+                  <label > Big Plants</label><br>
 
                 </div>
 
-              </div>
+                <div class="col-md-3 order-md-1 order-2 align-self-center
+                text-center text-md-left p-0">
 
+                  <input class="indoor-Box" onchange="filterPlants();" type="checkbox">
+                  <label > Indoor</label><br>
 
+                </div>
+
+                <div class="col-md-3 order-md-1 order-2 align-self-center
+                text-center text-md-left p-0">
+                  <input class="hanging-Box text-center" onchange="filterPlants();" type="checkbox" >
+                  <label > Hanging</label><br>
+
+                </div>
               </div>
               <div class="text-right mr-1">
-                <button type="button" onClick="window.location.reload()"
-                  class="btn btn-danger btn-radius btn-sm">Clear filter</button>
+                <button type="button" onClick="window.location.reload()" class="btn btn-danger btn-radius btn-sm">Clear
+                  filter</button>
               </div>
             </div>
+
           </div>
+
         </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="products-center5"></div>
+  </section>
+  <!-- end of products -->
+  <div class="foot-icons"></div>
+
+  <!-- start of cart -->
+  <div class="cart-overlay">
+    <div class="cart">
+      <div>
+        <span class="close-cart d-flex flex-row-reverse">
+          <i class="fa fa-window-close" aria-hidden="true"></i>
+        </span>
       </div>
+      <div class="marquee"></div>
 
-      <div class="products-center5"></div>
-    </section>
-    <!-- end of products -->
-    <div class="foot-icons"></div>
+      <h2 class="mb-1">your cart</h2>
 
-    <!-- start of cart -->
-    <div class="cart-overlay">
-      <div class="cart">
-        <div>
-          <span class="close-cart d-flex flex-row-reverse">
-            <i class="fa fa-window-close" aria-hidden="true"></i>
-          </span>
-        </div>
-        <div class="marquee"></div>
-
-        <h2 class="mb-1">your cart</h2>
-
-        <div class="cart-content"></div>
-        <!-- cart footer -->
-        <div class="cart-footer">
-          <h3>Total Cost : ₹ <span class="cart-total">0</span>+ delivery</h3>
-          <!-- clear all cart item button -->
-          <div class="d-flex justify-content-between">
-            <button class="clear-cart btn btn-danger">clear cart</button>
-            <button
-              type="button"
-              class="btn btn-secondary"
-              id="demo"
-              onclick="myFunction()">
-              Place Order
-            </button>
-          </div>
+      <div class="cart-content"></div>
+      <!-- cart footer -->
+      <div class="cart-footer">
+        <h3>Total Cost : ₹ <span class="cart-total">0</span>+ delivery</h3>
+        <!-- clear all cart item button -->
+        <div class="d-flex justify-content-between">
+          <button class="clear-cart btn btn-danger">clear cart</button>
+          <button type="button" class="btn btn-secondary" id="demo" onclick="myFunction()">
+            Place Order
+          </button>
         </div>
       </div>
     </div>
-    <!-- end of cart -->
+  </div>
+  <!-- end of cart -->
 
-    <!-- javascript -->
-    <script src="./assets/js/app.js"></script>
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"></script>
-  </body>
+  <!-- javascript -->
+  <script src="./assets/js/app.js"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
