@@ -38,6 +38,20 @@
     <section class="feature-list section">
       <div class="container px-0">
 
+      <!--Filter by Transit Risk-->
+      <div class="col-md-3 order-md-1 order-2 align-self-center
+      text-center text-md-left my-3">
+
+    <select name="myselect" class="btn-outline-secondary btn dropdown-filter" id="order-filter"
+      onchange="showAllOrders();">
+      <option value="CONT">Curent Orders Not Taken</option>
+      <option value="COT">Curent Orders Taken</option>
+      <option value="CO">Curent Orders</option>
+      <option value="DNR">Dispatched Not Reached</option>
+      <option value="AO">All Orders</option>
+
+    </select>
+  </div>
   <div class="all-orders">
         
         </div>

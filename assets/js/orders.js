@@ -77,15 +77,15 @@ class Orders {
     try {
       //let result = await fetch("assets/json/orders.json");
       let result = await fetch(
-      "https://script.google.com/macros/s/AKfycbxqlA4w6cQzlthDBuen6lQONRHjfIq6YU92Hy_jmVu0PmyQh5fKiO9Q0g5fnbDjYdyHJQ/exec"
-      );
+"https://script.google.com/macros/s/AKfycbwgQ8TwKRHPl0AopnU9-c2SBFgjoygC3UHH1PPt4tY6bgZE7nKQqbe9SBnSEV1ossABoA/exec"
+        );
 
       let data = await result.json();
 
       let orders = data.items;
 
       orders = orders.map((item) => {
-        const { date, name, state, dispatched, received, plantId } =
+        const { date, name, state,plantsTaken, dispatched, received, plantId,comments } =
           item.fields;
         const { id } = item.sys;
 
@@ -94,9 +94,11 @@ class Orders {
           date,
           name,
           state,
+          plantsTaken,
           dispatched,
           received,
           plantId,
+          comments
         };
       });
       return orders;
@@ -317,26 +319,36 @@ class UI {
     }
   }
 
-  async allOrders(orders) {
+  async allOrders(orders,plantsTaken,dispatched,received) {
     //console.log(products);
     const products1 = new Products();
+    var counts = 0;
     const products = await products1.getProducts();
     let result = `  
     <table class="table table-hover table-bordered text-center">
       <tr>
-        <th class="p-0" scope="col">Id</th>
+      <th class="p-0" scope="col">Id</th>
+        <th class="p-0" scope="col">S.No</th>
         <th class="p-0" scope="col">Date</th>
         <th class="p-0" scope="col">Name</th>
         <th class="p-0" scope="col">State</th>
         <th class="p-0" scope="col">Order</th>
       </tr>`;
     orders.forEach((order) => {
-      if (order.dispatched == false) {
+      
+      //console.log(counts);
+      if ( dispatched.includes(order.dispatched.toString())
+      &&  plantsTaken.includes(order.plantsTaken.toString())
+        &&  received.includes(order.received.toString())
+       
+        ) {
         const date = order.date.slice(0, 10);
+        counts+=1;
 
         result += `
       <tr>
-        <th class="p-0" scope="row"><b>${order.id}</b></th>
+      <th class="p-0">${counts}</th>
+        <th class="p-0" ><b>${order.id}</b></th>
         <td class="p-0">${date}</td>
         <td class="p-0">${order.name}</td>
         <td class="p-0">${order.state}</td>
@@ -350,11 +362,12 @@ class UI {
           <div class="modal-dialog modal-lg" role="document">
             <div class="modal-content">
               <div class="modal-header p-0 ml-3 pt-2">
-                <h5 class="modal-title" id="exampleModalLabel">${order.id}-${order.name}</h5>
+                <h5 class="modal-title" id="exampleModalLabel">${order.id}-${order.name}</h5><br>
                 <button type="button" class="close mr-2" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
               </div>
+              <p>${order.comments}</p>
               <div class="modal-body p-1">
               <table class="table table-hover table-bordered text-center">
                 <tr>
@@ -551,13 +564,38 @@ function showAllOrders() {
   const orders = new Orders();
   const products = new Products();
   const ui = new UI();
+  var ordersToShow = document.getElementById("order-filter").value;
   //const prod=orders.getOrders();
-  //console.log(typeof(prod));
+  var plantsTaken;
+  var billSent;
+  var reached;
+  if(ordersToShow=="CONT"){
+    plantsTaken="false";
+    dispatched="false";
+    received="false";
+  }else if(ordersToShow=="COT"){
+    plantsTaken="true";
+    dispatched="false";
+    received="false";
+  }else if(ordersToShow=="CO"){
+    plantsTaken="falsetrue";
+    dispatched="false";
+    received="false";
+  }else if(ordersToShow=="DNR"){
+    plantsTaken="falsetrue";
+    dispatched="true";
+    received="false";
+  }else if(ordersToShow=="AO"){
+    plantsTaken="falsetrue";
+    dispatched="falsetrue";
+    received="falsetrue";
+  };
+  //console.log(ordersToShow);
   //console.log(products.getProducts().then((products)));
   //const ords=orders.getOrders();
   //prod.forEach((pro) =>{console.log(pro)});
   orders.getOrders().then((orders) => {
-    ui.allOrders(orders);
+    ui.allOrders(orders,plantsTaken,dispatched,received);
   });
 
   //products.getProducts().then((products)=>{ui.allOrders(products);});
