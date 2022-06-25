@@ -143,6 +143,7 @@ class UI {
         image: val.image,
         price: val.price,
         risk: val.transit,
+        ava:val.ava
       };
       totalAmount += localDict.price * parseInt(localDict.qty);
       totalPlants += parseInt(localDict.qty);
@@ -152,7 +153,7 @@ class UI {
       <tr>
         <th class="p-0" scope="row"><b>${localDict.sNo}</b></th>
         <td class="p-0">${localDict.id}</td>
-        <td class="p-0">${localDict.title}-${localDict.risk[0]}</td>
+        <td class="p-0">${localDict.title}-${localDict.risk[0]}(${localDict.ava})</td>
         <td class="p-0">${localDict.qty}</td>
         <td class="p-0">₹${localDict.price}</td>
         <td class="p-0">
