@@ -344,7 +344,7 @@
         "title": "Echeveria Setosa",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -357,7 +357,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": { "file": { "url": "./assets/img/salePlants/14.jpg" } }
@@ -2450,7 +2450,7 @@
         "title": "Serissafoetida",
         "orgPrice": 49,
         "price": 49,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Not Specific",
@@ -2463,7 +2463,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": { "file": { "url": "./assets/img/salePlants/95.jpg" } }
@@ -3034,7 +3034,7 @@
         "combo": 0,
         "indoor": 0,
         "restock": 0,
-        "placeAva": "Down",
+        "placeAva": "Both",
         "qtyAva": "Medium",
         "demand": "Medium",
         "image": {
@@ -3516,7 +3516,7 @@
         "title": "Pilea cadierei",
         "orgPrice": 79,
         "price": 79,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "High",
@@ -3529,7 +3529,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Both",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": { "file": { "url": "./assets/img/salePlants/136.jpg" } }
@@ -3672,7 +3672,7 @@
         "title": "Sedum nussbaumerianum",
         "orgPrice": 69,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Not Specific",
@@ -3685,7 +3685,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": { "file": { "url": "./assets/img/salePlants/142.jpg" } }
@@ -5128,7 +5128,7 @@
         "title": "sansevieria trifasciata",
         "orgPrice": 69,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(5\"-6\")",
         "transit": "Low",
         "water": "Moderate",
@@ -5141,7 +5141,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "High",
+        "qtyAva": "NA",
         "demand": "Low",
         "image": {
           "fields": { "file": { "url": "./assets/img/salePlants/198.jpg" } }
@@ -5154,7 +5154,7 @@
         "title": "Aloe vera",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(4\"-5\")",
         "transit": "Low",
         "water": "Moderate",
@@ -5167,7 +5167,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "High",
+        "qtyAva": "NA",
         "demand": "V_Loow",
         "image": {
           "fields": { "file": { "url": "./assets/img/salePlants/199.jpg" } }
