@@ -452,7 +452,7 @@ class UI {
 function billing(billing) {
   const products = new Products();
   const ui = new UI();
-  console.log(products);
+  //console.log(products);
   products.getProducts().then((products) => {
     ui.billing(products, billing);
   });

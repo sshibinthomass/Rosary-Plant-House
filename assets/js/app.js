@@ -4344,12 +4344,22 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+
+
 function getBilling(cart) {
   //var text="";
   let tempTotal = 0;
   let itemsTotal = 0;
   const val = [];
-
+  const price=[];
+  //const products = new Products();
+  //const val1 =  getProd();
+  //let count=10;
+  //let val2=products.getProducts().then((prod) => {
+  // prod
+  //});
+  //console.log(val2);
+  //console.log(val1.id);
   cart.map((item) => {
     val.push(
       item.id + ". " + item.title+"("+item.transit[0]+")" + "- ₹",
