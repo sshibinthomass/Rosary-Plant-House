@@ -1,14 +1,3 @@
-/**
- * !=====> : ABOUT AUTHOR : <=====!
- *
- * @author : Md. Samiur Rahman (Mukul)
- * @education : B.Sc. Hons In CSE (SIBACS)
- * @passion : PROGRAMMER & SOFTWARE DEVELOPER
- * @email : sr.mukul9090@gmail.com
- *
- *      </> Happy Coding ☺ </>
- */
-
 // define variable & select elements
 const cartBtn = document.querySelector(".cart-btn");
 const closeCartBtn = document.querySelector(".close-cart");
@@ -4344,6 +4333,13 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 });
 
+//async function getPdt(plantId){
+//  const products = new Products();
+//  let prods=await products.getProducts();
+//  const currentItem = prods.find((o) => o.id === plantId);
+  //console.log(prods);
+//  return parseInt(currentItem.id);
+//};
 
 
 function getBilling(cart) {
@@ -4351,16 +4347,20 @@ function getBilling(cart) {
   let tempTotal = 0;
   let itemsTotal = 0;
   const val = [];
-  const price=[];
+  //const price=[];
   //const products = new Products();
-  //const val1 =  getProd();
-  //let count=10;
-  //let val2=products.getProducts().then((prod) => {
-  // prod
-  //});
-  //console.log(val2);
-  //console.log(val1.id);
+  //let prods=await products.getProducts();
+  //console.log(prods);
+
   cart.map((item) => {
+    //const currentItem = prods.find((o) => o.id === item.id);
+    //console.log(currentItem.price);
+    //const vals=getPdt(item.id).then(
+     // vals=>{
+     //   console.log()
+     // }
+    //);
+    //console.log(vals);
     val.push(
       item.id + ". " + item.title+"("+item.transit[0]+")" + "- ₹",
       item.price +
