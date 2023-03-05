@@ -3176,7 +3176,7 @@
         "title": "Aeonium arboreum/Purple",
         "orgPrice": 79,
         "price": 39,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Moderate",
@@ -3189,7 +3189,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Both",
-        "qtyAva": "High",
+        "qtyAva": "NA",
         "demand": "V_Hgh",
         "image": {
           "fields": {
@@ -3400,7 +3400,7 @@
         "title": "Delosperma",
         "orgPrice": 69,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Moderate",
@@ -3413,7 +3413,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -3496,7 +3496,7 @@
         "title": "Super Donkey Tail",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Not Specific",
@@ -3509,7 +3509,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Both",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "V_Hgh",
         "image": {
           "fields": {
@@ -3976,7 +3976,7 @@
         "title": "Turtle wine",
         "orgPrice": 59,
         "price": 39,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "High",
@@ -3989,7 +3989,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -5512,7 +5512,7 @@
         "title": "Echinopsis tubiflora",
         "orgPrice": 79,
         "price": 79,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -5525,7 +5525,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -6632,7 +6632,7 @@
         "title": "Wandering Jew(small leaf)",
         "orgPrice": 59,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(4\"-5\")",
         "transit": "High",
         "water": "Moderate",
@@ -6645,7 +6645,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -7080,7 +7080,7 @@
         "title": "Cryptanthus bivittatus",
         "orgPrice": 89,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -7093,7 +7093,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -7176,7 +7176,7 @@
         "title": "Murdannia",
         "orgPrice": 99,
         "price": 99,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Moderate",
@@ -7189,7 +7189,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7272,7 +7272,7 @@
         "title": "Haworthia cooperi var. pilifera",
         "orgPrice": 149,
         "price": 99,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -7285,7 +7285,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -8936,7 +8936,7 @@
         "title": "Rhipsalis crassutha",
         "orgPrice": 89,
         "price": 89,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -8949,7 +8949,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
