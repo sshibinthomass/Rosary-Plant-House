@@ -1,9 +1,7 @@
 {
   "items": [
     {
-      "sys": {
-        "id": "1"
-      },
+      "sys": { "id": "1" },
       "fields": {
         "title": "Sempervivum Tectorum",
         "orgPrice": 99,
@@ -22,20 +20,14 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "High",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/1.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/1.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "2"
-      },
+      "sys": { "id": "2" },
       "fields": {
         "title": "Bergeranthus",
         "orgPrice": 59,
@@ -53,21 +45,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/2.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/2.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "3"
-      },
+      "sys": { "id": "3" },
       "fields": {
         "title": "Sedum Lineare(yellow)",
         "orgPrice": 79,
@@ -85,21 +71,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "Low",
+        "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/3.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/3.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "4"
-      },
+      "sys": { "id": "4" },
       "fields": {
         "title": "Haworthia cymbiformis",
         "orgPrice": 59,
@@ -120,18 +100,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/4.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/4.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "5"
-      },
+      "sys": { "id": "5" },
       "fields": {
         "title": "Chamaecerus Silvestii",
         "orgPrice": 69,
@@ -149,21 +123,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/5.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/5.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "6"
-      },
+      "sys": { "id": "6" },
       "fields": {
         "title": "Sempervivum (Lakshmi Kamal)",
         "orgPrice": 79,
@@ -184,18 +152,12 @@
         "qtyAva": "Low",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/6.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/6.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "7"
-      },
+      "sys": { "id": "7" },
       "fields": {
         "title": "Echeveria peacockii",
         "orgPrice": 99,
@@ -213,21 +175,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/7.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/7.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "8"
-      },
+      "sys": { "id": "8" },
       "fields": {
         "title": "Crassula Portulacea(miniature)",
         "orgPrice": 59,
@@ -248,18 +204,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/8.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/8.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "9"
-      },
+      "sys": { "id": "9" },
       "fields": {
         "title": "Senecio Radicans",
         "orgPrice": 69,
@@ -280,18 +230,12 @@
         "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/9.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/9.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "10"
-      },
+      "sys": { "id": "10" },
       "fields": {
         "title": "Zebrina Huernia",
         "orgPrice": 99,
@@ -312,18 +256,12 @@
         "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/10.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/10.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "11"
-      },
+      "sys": { "id": "11" },
       "fields": {
         "title": "Hoodia",
         "orgPrice": 99,
@@ -344,18 +282,12 @@
         "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/11.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/11.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "12"
-      },
+      "sys": { "id": "12" },
       "fields": {
         "title": "Callisia",
         "orgPrice": 89,
@@ -374,20 +306,14 @@
         "restock": 1,
         "placeAva": "Top",
         "qtyAva": "High",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/12.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/12.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "13"
-      },
+      "sys": { "id": "13" },
       "fields": {
         "title": "Crassula ovatha",
         "orgPrice": 59,
@@ -408,23 +334,17 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/13.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/13.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "14"
-      },
+      "sys": { "id": "14" },
       "fields": {
         "title": "Echeveria Setosa",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -437,21 +357,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Both",
-        "qtyAva": "High",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/14.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/14.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "15"
-      },
+      "sys": { "id": "15" },
       "fields": {
         "title": "Echeveria",
         "orgPrice": 79,
@@ -470,20 +384,14 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "NA",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/15.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/15.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "16"
-      },
+      "sys": { "id": "16" },
       "fields": {
         "title": "Sedum Morganianum",
         "orgPrice": 69,
@@ -501,21 +409,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "High",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/16.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/16.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "17"
-      },
+      "sys": { "id": "17" },
       "fields": {
         "title": "Haworthiopsis Reinwardtii",
         "orgPrice": 120,
@@ -534,20 +436,14 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "High",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/17.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/17.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "18"
-      },
+      "sys": { "id": "18" },
       "fields": {
         "title": "Sinocrassula yunnanensis",
         "orgPrice": 89,
@@ -568,18 +464,12 @@
         "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/18.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/18.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "19"
-      },
+      "sys": { "id": "19" },
       "fields": {
         "title": "Chocolate soldier brodered ",
         "orgPrice": 79,
@@ -597,21 +487,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/19.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/19.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "20"
-      },
+      "sys": { "id": "20" },
       "fields": {
         "title": "Opuntia Red",
         "orgPrice": 69,
@@ -632,18 +516,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/20.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/20.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "21"
-      },
+      "sys": { "id": "21" },
       "fields": {
         "title": "Opuntia yellow",
         "orgPrice": 69,
@@ -664,18 +542,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/21.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/21.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "22"
-      },
+      "sys": { "id": "22" },
       "fields": {
         "title": "Graptopetalum Amethystinum",
         "orgPrice": 89,
@@ -693,26 +565,20 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/22.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/22.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "23"
-      },
+      "sys": { "id": "23" },
       "fields": {
         "title": "Echeveria Setosa",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -725,26 +591,20 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/23.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/23.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "24"
-      },
+      "sys": { "id": "24" },
       "fields": {
         "title": "Opuntia Monacantha",
         "orgPrice": 59,
         "price": 49,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -757,21 +617,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/24.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/24.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "25"
-      },
+      "sys": { "id": "25" },
       "fields": {
         "title": "Kalanchoe Tomentosa (Chocolate Soldier)",
         "orgPrice": 69,
@@ -789,21 +643,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Medium",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/25.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/25.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "26"
-      },
+      "sys": { "id": "26" },
       "fields": {
         "title": "Echeveria Gilwa",
         "orgPrice": 79,
@@ -822,20 +670,14 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "NA",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/26.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/26.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "27"
-      },
+      "sys": { "id": "27" },
       "fields": {
         "title": "Echeveria Akmalia",
         "orgPrice": 79,
@@ -856,18 +698,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/27.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/27.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "28"
-      },
+      "sys": { "id": "28" },
       "fields": {
         "title": "Echeveria elegans",
         "orgPrice": 89,
@@ -888,18 +724,12 @@
         "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/28.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/28.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "29"
-      },
+      "sys": { "id": "29" },
       "fields": {
         "title": "Aloe juvenna",
         "orgPrice": 59,
@@ -920,23 +750,17 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/29.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/29.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "30"
-      },
+      "sys": { "id": "30" },
       "fields": {
         "title": "Blue stick long",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -949,21 +773,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Low",
-        "demand": "V_Loow",
+        "qtyAva": "NA",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/30.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/30.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "31"
-      },
+      "sys": { "id": "31" },
       "fields": {
         "title": "Mammillaria vetula",
         "orgPrice": 89,
@@ -981,21 +799,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
-        "demand": "V_Loow",
+        "qtyAva": "Medium",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/31.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/31.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "32"
-      },
+      "sys": { "id": "32" },
       "fields": {
         "title": "Aloe Breuifolia",
         "orgPrice": 69,
@@ -1016,18 +828,12 @@
         "qtyAva": "Medium",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/32.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/32.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "33"
-      },
+      "sys": { "id": "33" },
       "fields": {
         "title": "Aloe humilis",
         "orgPrice": 79,
@@ -1048,18 +854,12 @@
         "qtyAva": "Medium",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/33.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/33.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "34"
-      },
+      "sys": { "id": "34" },
       "fields": {
         "title": "Faucaria Tigrina",
         "orgPrice": 79,
@@ -1080,18 +880,12 @@
         "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/34.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/34.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "35"
-      },
+      "sys": { "id": "35" },
       "fields": {
         "title": "Haworthia Resendeana",
         "orgPrice": 120,
@@ -1112,18 +906,12 @@
         "qtyAva": "Medium",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/35.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/35.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "36"
-      },
+      "sys": { "id": "36" },
       "fields": {
         "title": "Sedum Dasyphyllum",
         "orgPrice": 89,
@@ -1144,18 +932,12 @@
         "qtyAva": "Low",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/36.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/36.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "37"
-      },
+      "sys": { "id": "37" },
       "fields": {
         "title": "Crassula tetragona",
         "orgPrice": 59,
@@ -1174,20 +956,14 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "High",
-        "demand": "V_Loow",
+        "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/37.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/37.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "38"
-      },
+      "sys": { "id": "38" },
       "fields": {
         "title": "Sedum Lineare(green)",
         "orgPrice": 59,
@@ -1208,18 +984,12 @@
         "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/38.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/38.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "39"
-      },
+      "sys": { "id": "39" },
       "fields": {
         "title": "Radiator Plant",
         "orgPrice": 59,
@@ -1240,18 +1010,12 @@
         "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/39.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/39.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "40"
-      },
+      "sys": { "id": "40" },
       "fields": {
         "title": "Short leaved Aloe",
         "orgPrice": 59,
@@ -1270,20 +1034,14 @@
         "restock": 1,
         "placeAva": "Top",
         "qtyAva": "High",
-        "demand": "V_Loow",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/40.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/40.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "41"
-      },
+      "sys": { "id": "41" },
       "fields": {
         "title": "Senecio Cephalophorus",
         "orgPrice": 99,
@@ -1304,18 +1062,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/41.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/41.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "42"
-      },
+      "sys": { "id": "42" },
       "fields": {
         "title": "chlorophytum laxum",
         "orgPrice": 69,
@@ -1336,18 +1088,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/42.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/42.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "43"
-      },
+      "sys": { "id": "43" },
       "fields": {
         "title": "Fairy Castle",
         "orgPrice": 59,
@@ -1368,18 +1114,12 @@
         "qtyAva": "NA",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/43.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/43.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "44"
-      },
+      "sys": { "id": "44" },
       "fields": {
         "title": "Echeveria Runyonii",
         "orgPrice": 69,
@@ -1397,26 +1137,20 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/44.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/44.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "45"
-      },
+      "sys": { "id": "45" },
       "fields": {
         "title": "Kalanchoe",
         "orgPrice": 79,
         "price": 79,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Moderate",
@@ -1429,21 +1163,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Down",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/45.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/45.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "46"
-      },
+      "sys": { "id": "46" },
       "fields": {
         "title": "Pereskiopsis",
         "orgPrice": 59,
@@ -1464,18 +1192,12 @@
         "qtyAva": "Medium",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/46.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/46.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "47"
-      },
+      "sys": { "id": "47" },
       "fields": {
         "title": "Dianthus",
         "orgPrice": 59,
@@ -1493,21 +1215,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/47.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/47.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "48"
-      },
+      "sys": { "id": "48" },
       "fields": {
         "title": "Peperomia caperata",
         "orgPrice": 120,
@@ -1528,18 +1244,12 @@
         "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/48.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/48.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "49"
-      },
+      "sys": { "id": "49" },
       "fields": {
         "title": "Hydrangea",
         "orgPrice": 49,
@@ -1560,18 +1270,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/49.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/49.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "50"
-      },
+      "sys": { "id": "50" },
       "fields": {
         "title": "Wax Ivy",
         "orgPrice": 49,
@@ -1590,20 +1294,14 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "High",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/50.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/50.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "51"
-      },
+      "sys": { "id": "51" },
       "fields": {
         "title": "Camelia",
         "orgPrice": 149,
@@ -1624,18 +1322,12 @@
         "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/51.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/51.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "52"
-      },
+      "sys": { "id": "52" },
       "fields": {
         "title": "Crassula ovata",
         "orgPrice": 59,
@@ -1653,21 +1345,15 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Medium",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/52.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/52.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "53"
-      },
+      "sys": { "id": "53" },
       "fields": {
         "title": "Haworthia Zebra",
         "orgPrice": 120,
@@ -1686,20 +1372,14 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "High",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/53.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/53.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "54"
-      },
+      "sys": { "id": "54" },
       "fields": {
         "title": "Sempervivum arachnoideum",
         "orgPrice": 79,
@@ -1720,18 +1400,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/54.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/54.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "55"
-      },
+      "sys": { "id": "55" },
       "fields": {
         "title": "Crassula capitella",
         "orgPrice": 79,
@@ -1752,18 +1426,12 @@
         "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/55.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/55.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "56"
-      },
+      "sys": { "id": "56" },
       "fields": {
         "title": "Opuntia white",
         "orgPrice": 69,
@@ -1784,18 +1452,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/56.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/56.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "57"
-      },
+      "sys": { "id": "57" },
       "fields": {
         "title": "Syngonium podophyllum",
         "orgPrice": 99,
@@ -1816,18 +1478,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/57.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/57.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "58"
-      },
+      "sys": { "id": "58" },
       "fields": {
         "title": "Resnova",
         "orgPrice": 99,
@@ -1848,18 +1504,12 @@
         "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/58.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/58.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "59"
-      },
+      "sys": { "id": "59" },
       "fields": {
         "title": "Cheiridopsis denticulata",
         "orgPrice": 69,
@@ -1880,18 +1530,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/59.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/59.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "60"
-      },
+      "sys": { "id": "60" },
       "fields": {
         "title": "Peperomia caperata",
         "orgPrice": 69,
@@ -1912,18 +1556,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/60.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/60.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "61"
-      },
+      "sys": { "id": "61" },
       "fields": {
         "title": "Acanthocalycium",
         "orgPrice": 99,
@@ -1944,18 +1582,12 @@
         "qtyAva": "NA",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/61.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/61.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "62"
-      },
+      "sys": { "id": "62" },
       "fields": {
         "title": "Short-leaved aloe",
         "orgPrice": 79,
@@ -1973,21 +1605,15 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "High",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/62.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/62.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "63"
-      },
+      "sys": { "id": "63" },
       "fields": {
         "title": "Echinopsis subdenudata",
         "orgPrice": 120,
@@ -2008,18 +1634,12 @@
         "qtyAva": "Medium",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/63.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/63.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "64"
-      },
+      "sys": { "id": "64" },
       "fields": {
         "title": "Echeveria setosa",
         "orgPrice": 199,
@@ -2040,18 +1660,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/64.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/64.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "65"
-      },
+      "sys": { "id": "65" },
       "fields": {
         "title": "Crassula Falcata",
         "orgPrice": 120,
@@ -2072,18 +1686,12 @@
         "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/65.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/65.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "66"
-      },
+      "sys": { "id": "66" },
       "fields": {
         "title": "Haworthia bayeri",
         "orgPrice": 120,
@@ -2104,18 +1712,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/66.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/66.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "67"
-      },
+      "sys": { "id": "67" },
       "fields": {
         "title": "Haworthiopsis attenuata",
         "orgPrice": 120,
@@ -2136,18 +1738,12 @@
         "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/67.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/67.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "68"
-      },
+      "sys": { "id": "68" },
       "fields": {
         "title": "Haworthiopsis coarctata",
         "orgPrice": 120,
@@ -2168,18 +1764,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/68.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/68.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "69"
-      },
+      "sys": { "id": "69" },
       "fields": {
         "title": "Haworth's aeonium",
         "orgPrice": 120,
@@ -2197,21 +1787,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Both",
-        "qtyAva": "Medium",
-        "demand": "V_Hgh",
+        "qtyAva": "High",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/69.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/69.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "70"
-      },
+      "sys": { "id": "70" },
       "fields": {
         "title": "Echeveria agavoides",
         "orgPrice": 149,
@@ -2232,18 +1816,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/70.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/70.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "71"
-      },
+      "sys": { "id": "71" },
       "fields": {
         "title": "Pachyphytum oviferum",
         "orgPrice": 120,
@@ -2264,23 +1842,17 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/71.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/71.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "72"
-      },
+      "sys": { "id": "72" },
       "fields": {
         "title": "String of pearls",
         "orgPrice": 79,
         "price": 79,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -2293,21 +1865,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Both",
-        "qtyAva": "High",
-        "demand": "V_Hgh",
+        "qtyAva": "NA",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/72.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/72.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "73"
-      },
+      "sys": { "id": "73" },
       "fields": {
         "title": "Dracaena trifasciata",
         "orgPrice": 149,
@@ -2328,18 +1894,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/73.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/73.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "74"
-      },
+      "sys": { "id": "74" },
       "fields": {
         "title": "Senecio barbertonicus",
         "orgPrice": 149,
@@ -2360,18 +1920,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/74.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/74.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "75"
-      },
+      "sys": { "id": "75" },
       "fields": {
         "title": "Adromischus Cristatus",
         "orgPrice": 149,
@@ -2392,23 +1946,17 @@
         "qtyAva": "Waiting",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/75.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/75.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "76"
-      },
+      "sys": { "id": "76" },
       "fields": {
         "title": "Haworthiopsis limifolia",
         "orgPrice": 149,
         "price": 149,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -2421,26 +1969,20 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/76.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/76.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "77"
-      },
+      "sys": { "id": "77" },
       "fields": {
         "title": "Anacampseros Baeseckei",
         "orgPrice": 69,
         "price": 79,
-        "ava": "0",
+        "ava": "1",
         "size": "(1.5\"-2\")",
         "transit": "Low",
         "water": "Moderate",
@@ -2453,21 +1995,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/77.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/77.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "78"
-      },
+      "sys": { "id": "78" },
       "fields": {
         "title": "Aloe vera",
         "orgPrice": 120,
@@ -2488,23 +2024,17 @@
         "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/78.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/78.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "79"
-      },
+      "sys": { "id": "79" },
       "fields": {
         "title": "Gasteria",
         "orgPrice": 199,
         "price": 199,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -2517,21 +2047,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/79.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/79.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "80"
-      },
+      "sys": { "id": "80" },
       "fields": {
         "title": "Jain temple",
         "orgPrice": 69,
@@ -2552,18 +2076,12 @@
         "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/80.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/80.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "81"
-      },
+      "sys": { "id": "81" },
       "fields": {
         "title": "English ivy",
         "orgPrice": 39,
@@ -2584,18 +2102,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/81.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/81.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "82"
-      },
+      "sys": { "id": "82" },
       "fields": {
         "title": "Vinca major",
         "orgPrice": 39,
@@ -2616,23 +2128,17 @@
         "qtyAva": "NA",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/82.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/82.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "83"
-      },
+      "sys": { "id": "83" },
       "fields": {
         "title": "Hedera Ivy",
         "orgPrice": 39,
         "price": 49,
-        "ava": "1",
+        "ava": "0",
         "size": "(5\"-6\")",
         "transit": "Moderate",
         "water": "High",
@@ -2645,21 +2151,15 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Low",
-        "demand": "V_Hgh",
+        "qtyAva": "NA",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/83.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/83.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "84"
-      },
+      "sys": { "id": "84" },
       "fields": {
         "title": "Drimiopsis",
         "orgPrice": 79,
@@ -2680,18 +2180,12 @@
         "qtyAva": "Medium",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/84.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/84.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "85"
-      },
+      "sys": { "id": "85" },
       "fields": {
         "title": "Sedum lineare(silver)",
         "orgPrice": 69,
@@ -2712,18 +2206,12 @@
         "qtyAva": "Low",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/85.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/85.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "86"
-      },
+      "sys": { "id": "86" },
       "fields": {
         "title": "haworthia decipiens",
         "orgPrice": 79,
@@ -2744,18 +2232,12 @@
         "qtyAva": "Medium",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/86.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/86.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "87"
-      },
+      "sys": { "id": "87" },
       "fields": {
         "title": "echeveria glauca cristata",
         "orgPrice": 79,
@@ -2773,21 +2255,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/87.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/87.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "88"
-      },
+      "sys": { "id": "88" },
       "fields": {
         "title": "Hechtia glauca",
         "orgPrice": 59,
@@ -2806,20 +2282,14 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "Low",
-        "demand": "V_Loow",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/88.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/88.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "89"
-      },
+      "sys": { "id": "89" },
       "fields": {
         "title": "Echeveria nuda",
         "orgPrice": 79,
@@ -2840,18 +2310,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/89.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/89.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "90"
-      },
+      "sys": { "id": "90" },
       "fields": {
         "title": "portulakarea",
         "orgPrice": 89,
@@ -2872,18 +2336,12 @@
         "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/90.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/90.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "91"
-      },
+      "sys": { "id": "91" },
       "fields": {
         "title": "Crassula perforata",
         "orgPrice": 69,
@@ -2904,18 +2362,12 @@
         "qtyAva": "Medium",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/91.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/91.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "92"
-      },
+      "sys": { "id": "92" },
       "fields": {
         "title": "Fishbone",
         "orgPrice": 79,
@@ -2936,18 +2388,12 @@
         "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/92.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/92.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "93"
-      },
+      "sys": { "id": "93" },
       "fields": {
         "title": "Chlorophytum/spider plant",
         "orgPrice": 39,
@@ -2968,18 +2414,12 @@
         "qtyAva": "High",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/93.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/93.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "94"
-      },
+      "sys": { "id": "94" },
       "fields": {
         "title": "CC",
         "orgPrice": 89,
@@ -3000,18 +2440,12 @@
         "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/94.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/94.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "95"
-      },
+      "sys": { "id": "95" },
       "fields": {
         "title": "Serissafoetida",
         "orgPrice": 49,
@@ -3032,18 +2466,12 @@
         "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/95.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/95.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "96"
-      },
+      "sys": { "id": "96" },
       "fields": {
         "title": "Stapelia Lepida",
         "orgPrice": 99,
@@ -3064,18 +2492,12 @@
         "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/96.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/96.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "97"
-      },
+      "sys": { "id": "97" },
       "fields": {
         "title": "Euphorbia flanaganii",
         "orgPrice": 99,
@@ -3096,18 +2518,12 @@
         "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/97.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/97.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "98"
-      },
+      "sys": { "id": "98" },
       "fields": {
         "title": "Euphorbia ferox",
         "orgPrice": 99,
@@ -3128,18 +2544,12 @@
         "qtyAva": "NA",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/98.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/98.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "99"
-      },
+      "sys": { "id": "99" },
       "fields": {
         "title": "Aeonium arboreum/green",
         "orgPrice": 69,
@@ -3158,25 +2568,19 @@
         "restock": 0,
         "placeAva": "Both",
         "qtyAva": "NA",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/99.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/99.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "100"
-      },
+      "sys": { "id": "100" },
       "fields": {
         "title": "Aeonium arboreum/Purple",
         "orgPrice": 79,
         "price": 79,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Moderate",
@@ -3189,26 +2593,20 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Both",
-        "qtyAva": "NA",
-        "demand": "V_Hgh",
+        "qtyAva": "Low",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/100.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/100.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "101"
-      },
+      "sys": { "id": "101" },
       "fields": {
         "title": "crassula exilis",
         "orgPrice": 99,
         "price": 99,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "High",
@@ -3221,21 +2619,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Both",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/101.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/101.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "102"
-      },
+      "sys": { "id": "102" },
       "fields": {
         "title": "Sansevieria zeylanica",
         "orgPrice": 99,
@@ -3256,18 +2648,12 @@
         "qtyAva": "Waiting",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/102.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/102.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "103"
-      },
+      "sys": { "id": "103" },
       "fields": {
         "title": "blue chalksticks",
         "orgPrice": 59,
@@ -3286,20 +2672,14 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "Low",
-        "demand": "V_Loow",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/103.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/103.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "104"
-      },
+      "sys": { "id": "104" },
       "fields": {
         "title": "Christmas cactus",
         "orgPrice": 69,
@@ -3320,18 +2700,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/104.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/104.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "105"
-      },
+      "sys": { "id": "105" },
       "fields": {
         "title": "Spyder plant/ iris",
         "orgPrice": 49,
@@ -3352,18 +2726,12 @@
         "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/105.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/105.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "106"
-      },
+      "sys": { "id": "106" },
       "fields": {
         "title": "Sansevieria Compacta Dwarf",
         "orgPrice": 69,
@@ -3384,23 +2752,17 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/106.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/106.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "107"
-      },
+      "sys": { "id": "107" },
       "fields": {
         "title": "Delosperma",
         "orgPrice": 69,
         "price": 59,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Moderate",
@@ -3413,21 +2775,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/107.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/107.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "108"
-      },
+      "sys": { "id": "108" },
       "fields": {
         "title": "Jade plant (verigated)",
         "orgPrice": 69,
@@ -3445,21 +2801,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/108.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/108.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "109"
-      },
+      "sys": { "id": "109" },
       "fields": {
         "title": "Sedum Morganianum",
         "orgPrice": 69,
@@ -3480,18 +2830,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/109.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/109.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "110"
-      },
+      "sys": { "id": "110" },
       "fields": {
         "title": "Super Donkey Tail",
         "orgPrice": 69,
@@ -3510,20 +2854,14 @@
         "restock": 1,
         "placeAva": "Both",
         "qtyAva": "NA",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/110.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/110.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "111"
-      },
+      "sys": { "id": "111" },
       "fields": {
         "title": "String of tears",
         "orgPrice": 79,
@@ -3542,20 +2880,14 @@
         "restock": 0,
         "placeAva": "Both",
         "qtyAva": "Low",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/111.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/111.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "112"
-      },
+      "sys": { "id": "112" },
       "fields": {
         "title": "Crassula muscosa",
         "orgPrice": 69,
@@ -3576,18 +2908,12 @@
         "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/112.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/112.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "113"
-      },
+      "sys": { "id": "113" },
       "fields": {
         "title": "Syngonium/golden yellow",
         "orgPrice": 69,
@@ -3608,18 +2934,12 @@
         "qtyAva": "Medium",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/113.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/113.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "114"
-      },
+      "sys": { "id": "114" },
       "fields": {
         "title": "Syngonium/golden green",
         "orgPrice": 69,
@@ -3640,23 +2960,17 @@
         "qtyAva": "Medium",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/114.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/114.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "115"
-      },
+      "sys": { "id": "115" },
       "fields": {
         "title": "Peace lily",
         "orgPrice": 79,
         "price": 79,
-        "ava": "1",
+        "ava": "0",
         "size": "(3\"-4\")",
         "transit": "High",
         "water": "High",
@@ -3669,21 +2983,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/115.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/115.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "116"
-      },
+      "sys": { "id": "116" },
       "fields": {
         "title": "Aloe brown",
         "orgPrice": 69,
@@ -3701,26 +3009,20 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/116.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/116.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "117"
-      },
+      "sys": { "id": "117" },
       "fields": {
         "title": "Sedum rubrotinctum",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Not Specific",
@@ -3733,21 +3035,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/117.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/117.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "118"
-      },
+      "sys": { "id": "118" },
       "fields": {
         "title": "Lavandula lanata",
         "orgPrice": 99,
@@ -3768,18 +3064,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/118.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/118.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "119"
-      },
+      "sys": { "id": "119" },
       "fields": {
         "title": "African violet",
         "orgPrice": 149,
@@ -3800,18 +3090,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/119.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/119.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "120"
-      },
+      "sys": { "id": "120" },
       "fields": {
         "title": "Peperomia obtusifolia variegated green",
         "orgPrice": 69,
@@ -3832,18 +3116,12 @@
         "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/120.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/120.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "121"
-      },
+      "sys": { "id": "121" },
       "fields": {
         "title": "Peperomia obtusifolia/green",
         "orgPrice": 99,
@@ -3864,18 +3142,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/121.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/121.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "122"
-      },
+      "sys": { "id": "122" },
       "fields": {
         "title": "Peperomia obtusifolia",
         "orgPrice": 99,
@@ -3896,18 +3168,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/122.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/122.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "123"
-      },
+      "sys": { "id": "123" },
       "fields": {
         "title": "Peperomia obtusifolia variegated",
         "orgPrice": 99,
@@ -3926,25 +3192,19 @@
         "restock": 1,
         "placeAva": "Both",
         "qtyAva": "Low",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/123.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/123.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "124"
-      },
+      "sys": { "id": "124" },
       "fields": {
         "title": "Portulaka variegated",
         "orgPrice": 59,
         "price": 59,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "High",
@@ -3957,21 +3217,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
-        "demand": "V_Hgh",
+        "qtyAva": "High",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/124.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/124.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "125"
-      },
+      "sys": { "id": "125" },
       "fields": {
         "title": "Turtle wine",
         "orgPrice": 59,
@@ -3992,18 +3246,12 @@
         "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/125.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/125.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "126"
-      },
+      "sys": { "id": "126" },
       "fields": {
         "title": "Snake Draft Verigated",
         "orgPrice": 99,
@@ -4024,23 +3272,17 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/126.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/126.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "127"
-      },
+      "sys": { "id": "127" },
       "fields": {
         "title": "Aeonium Silver",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Moderate",
@@ -4053,21 +3295,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/127.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/127.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "128"
-      },
+      "sys": { "id": "128" },
       "fields": {
         "title": "Jellybean stonecrop",
         "orgPrice": 99,
@@ -4088,23 +3324,17 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/128.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/128.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "129"
-      },
+      "sys": { "id": "129" },
       "fields": {
         "title": "Graptosedum",
         "orgPrice": 69,
         "price": 59,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -4117,21 +3347,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/129.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/129.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "130"
-      },
+      "sys": { "id": "130" },
       "fields": {
         "title": "Sedum crassulaceae",
         "orgPrice": 79,
@@ -4149,21 +3373,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Both",
-        "qtyAva": "High",
+        "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/130.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/130.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "131"
-      },
+      "sys": { "id": "131" },
       "fields": {
         "title": "Senecio barbertonicus",
         "orgPrice": 69,
@@ -4181,21 +3399,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Low",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/131.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/131.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "132"
-      },
+      "sys": { "id": "132" },
       "fields": {
         "title": "heartleaf philodendron",
         "orgPrice": 49,
@@ -4213,21 +3425,15 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Low",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/132.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/132.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "133"
-      },
+      "sys": { "id": "133" },
       "fields": {
         "title": "Gold moss",
         "orgPrice": 69,
@@ -4248,18 +3454,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/133.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/133.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "134"
-      },
+      "sys": { "id": "134" },
       "fields": {
         "title": "Sedum stonecrops",
         "orgPrice": 69,
@@ -4277,26 +3477,20 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/134.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/134.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "135"
-      },
+      "sys": { "id": "135" },
       "fields": {
         "title": "Sedum Pachychyllum",
         "orgPrice": 69,
         "price": 69,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Moderate",
@@ -4309,21 +3503,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "NA",
+        "qtyAva": "Medium",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/135.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/135.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "136"
-      },
+      "sys": { "id": "136" },
       "fields": {
         "title": "Pilea cadierei",
         "orgPrice": 79,
@@ -4344,18 +3532,12 @@
         "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/136.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/136.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "137"
-      },
+      "sys": { "id": "137" },
       "fields": {
         "title": "sedum chamomile",
         "orgPrice": 59,
@@ -4376,18 +3558,12 @@
         "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/137.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/137.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "138"
-      },
+      "sys": { "id": "138" },
       "fields": {
         "title": "Cotyledon tomentosa",
         "orgPrice": 79,
@@ -4408,18 +3584,12 @@
         "qtyAva": "Low",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/138.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/138.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "139"
-      },
+      "sys": { "id": "139" },
       "fields": {
         "title": "string of hearts",
         "orgPrice": 120,
@@ -4438,25 +3608,19 @@
         "restock": 1,
         "placeAva": "Top",
         "qtyAva": "Low",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/139.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/139.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "140"
-      },
+      "sys": { "id": "140" },
       "fields": {
         "title": "creeping jade",
         "orgPrice": 69,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -4469,21 +3633,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "NA",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/140.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/140.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "141"
-      },
+      "sys": { "id": "141" },
       "fields": {
         "title": "Graptopetalum",
         "orgPrice": 69,
@@ -4504,18 +3662,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/141.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/141.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "142"
-      },
+      "sys": { "id": "142" },
       "fields": {
         "title": "Sedum nussbaumerianum",
         "orgPrice": 69,
@@ -4536,18 +3688,12 @@
         "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/142.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/142.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "143"
-      },
+      "sys": { "id": "143" },
       "fields": {
         "title": "Graptopetalum paraguayense",
         "orgPrice": 69,
@@ -4566,20 +3712,14 @@
         "restock": 0,
         "placeAva": "Down",
         "qtyAva": "NA",
-        "demand": "V_Loow",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/143.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/143.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "144"
-      },
+      "sys": { "id": "144" },
       "fields": {
         "title": "Aloe Camperi",
         "orgPrice": 79,
@@ -4600,18 +3740,12 @@
         "qtyAva": "NA",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/144.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/144.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "145"
-      },
+      "sys": { "id": "145" },
       "fields": {
         "title": "Gasteria Bicolor Liliputana",
         "orgPrice": 99,
@@ -4632,18 +3766,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/145.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/145.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "146"
-      },
+      "sys": { "id": "146" },
       "fields": {
         "title": "Crassula ovata verigated",
         "orgPrice": 99,
@@ -4664,18 +3792,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/146.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/146.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "147"
-      },
+      "sys": { "id": "147" },
       "fields": {
         "title": "Crassula ovata",
         "orgPrice": 59,
@@ -4696,18 +3818,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/147.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/147.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "148"
-      },
+      "sys": { "id": "148" },
       "fields": {
         "title": "Hedera rhombea",
         "orgPrice": 49,
@@ -4728,18 +3844,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/148.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/148.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "149"
-      },
+      "sys": { "id": "149" },
       "fields": {
         "title": "Hedera helix",
         "orgPrice": 49,
@@ -4760,18 +3870,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/149.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/149.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "150"
-      },
+      "sys": { "id": "150" },
       "fields": {
         "title": "Alligator plant",
         "orgPrice": 79,
@@ -4792,18 +3896,12 @@
         "qtyAva": "NA",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/150.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/150.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "151"
-      },
+      "sys": { "id": "151" },
       "fields": {
         "title": "Peperomia caperata/ green",
         "orgPrice": 69,
@@ -4824,18 +3922,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/151.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/151.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "152"
-      },
+      "sys": { "id": "152" },
       "fields": {
         "title": "Ophiopogon japonicus",
         "orgPrice": 99,
@@ -4856,23 +3948,17 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/152.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/152.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "153"
-      },
+      "sys": { "id": "153" },
       "fields": {
         "title": "Aeonium arboreum/verigated",
         "orgPrice": 99,
         "price": 99,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Moderate",
@@ -4885,21 +3971,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/153.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/153.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "154"
-      },
+      "sys": { "id": "154" },
       "fields": {
         "title": "Peperomia rubella",
         "orgPrice": 69,
@@ -4920,18 +4000,12 @@
         "qtyAva": "High",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/154.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/154.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "155"
-      },
+      "sys": { "id": "155" },
       "fields": {
         "title": "Rebutia",
         "orgPrice": 79,
@@ -4952,23 +4026,17 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/155.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/155.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "156"
-      },
+      "sys": { "id": "156" },
       "fields": {
         "title": "Echeveria prolifica",
         "orgPrice": 79,
         "price": 89,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -4981,21 +4049,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Medium",
-        "demand": "V_Hgh",
+        "qtyAva": "NA",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/156.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/156.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "157"
-      },
+      "sys": { "id": "157" },
       "fields": {
         "title": "Kalanchoe daigremontiana",
         "orgPrice": 79,
@@ -5016,18 +4078,12 @@
         "qtyAva": "Waiting",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/157.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/157.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "158"
-      },
+      "sys": { "id": "158" },
       "fields": {
         "title": "Aeonium haworthii",
         "orgPrice": 69,
@@ -5048,18 +4104,12 @@
         "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/158.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/158.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "159"
-      },
+      "sys": { "id": "159" },
       "fields": {
         "title": "Red Tip (Big)",
         "orgPrice": 199,
@@ -5078,20 +4128,14 @@
         "restock": 1,
         "placeAva": "Top",
         "qtyAva": "High",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/159.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/159.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "160"
-      },
+      "sys": { "id": "160" },
       "fields": {
         "title": "Echeviria (Big)",
         "orgPrice": 199,
@@ -5110,20 +4154,14 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "NA",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/160.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/160.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "161"
-      },
+      "sys": { "id": "161" },
       "fields": {
         "title": "portulaka green",
         "orgPrice": 49,
@@ -5144,18 +4182,12 @@
         "qtyAva": "NA",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/161.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/161.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "162"
-      },
+      "sys": { "id": "162" },
       "fields": {
         "title": "Sedum Lizard",
         "orgPrice": 99,
@@ -5176,23 +4208,17 @@
         "qtyAva": "Waiting",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/162.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/162.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "163"
-      },
+      "sys": { "id": "163" },
       "fields": {
         "title": "Echeveria Shaviana",
         "orgPrice": 199,
         "price": 199,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Moderate",
@@ -5205,26 +4231,20 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/163.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/163.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "164"
-      },
+      "sys": { "id": "164" },
       "fields": {
         "title": "Lenophyllum",
         "orgPrice": 79,
         "price": 69,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Moderate",
@@ -5237,26 +4257,20 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/164.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/164.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "165"
-      },
+      "sys": { "id": "165" },
       "fields": {
         "title": "String of Dolphin",
         "orgPrice": 79,
         "price": 79,
-        "ava": "1",
+        "ava": "0",
         "size": "(3\"-4\")",
         "transit": "Low",
         "water": "Moderate",
@@ -5269,26 +4283,20 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Both",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/165.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/165.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "166"
-      },
+      "sys": { "id": "166" },
       "fields": {
         "title": "Echeveria melaco",
         "orgPrice": 120,
         "price": 120,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -5301,21 +4309,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/166.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/166.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "167"
-      },
+      "sys": { "id": "167" },
       "fields": {
         "title": "Baby sun flower",
         "orgPrice": 69,
@@ -5334,25 +4336,19 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "NA",
-        "demand": "V_Loow",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/167.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/167.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "168"
-      },
+      "sys": { "id": "168" },
       "fields": {
         "title": "kalanchoe marnieriane",
         "orgPrice": 79,
         "price": 79,
-        "ava": "1",
+        "ava": "0",
         "size": "(3\"-4\")",
         "transit": "Low",
         "water": "Moderate",
@@ -5365,21 +4361,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/168.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/168.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "169"
-      },
+      "sys": { "id": "169" },
       "fields": {
         "title": "Kalanchoe panamensis",
         "orgPrice": 79,
@@ -5400,18 +4390,12 @@
         "qtyAva": "NA",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/169.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/169.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "170"
-      },
+      "sys": { "id": "170" },
       "fields": {
         "title": "Rose Cactus",
         "orgPrice": 89,
@@ -5432,23 +4416,17 @@
         "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/170.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/170.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "171"
-      },
+      "sys": { "id": "171" },
       "fields": {
         "title": "Corsican stonecrop",
         "orgPrice": 79,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Moderate",
@@ -5461,21 +4439,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "High",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/171.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/171.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "172"
-      },
+      "sys": { "id": "172" },
       "fields": {
         "title": "Pigmyweeds",
         "orgPrice": 69,
@@ -5496,18 +4468,12 @@
         "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/172.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/172.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "173"
-      },
+      "sys": { "id": "173" },
       "fields": {
         "title": "Echinopsis tubiflora",
         "orgPrice": 79,
@@ -5528,18 +4494,12 @@
         "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/173.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/173.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "174"
-      },
+      "sys": { "id": "174" },
       "fields": {
         "title": "Kalanchoe thyrsiflora",
         "orgPrice": 99,
@@ -5560,18 +4520,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/174.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/174.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "175"
-      },
+      "sys": { "id": "175" },
       "fields": {
         "title": "Tradescantia sillamontana",
         "orgPrice": 69,
@@ -5589,21 +4543,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "Medium",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/175.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/175.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "176"
-      },
+      "sys": { "id": "176" },
       "fields": {
         "title": "Syngonium podophyllum",
         "orgPrice": 79,
@@ -5624,23 +4572,17 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/176.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/176.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "177"
-      },
+      "sys": { "id": "177" },
       "fields": {
         "title": "Crassula tetragona (Big)",
         "orgPrice": 99,
         "price": 99,
-        "ava": "1",
+        "ava": "0",
         "size": "(5\"-6\")",
         "transit": "Moderate",
         "water": "Moderate",
@@ -5653,21 +4595,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Down",
-        "qtyAva": "Medium",
-        "demand": "V_Loow",
+        "qtyAva": "NA",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/177.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/177.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "178"
-      },
+      "sys": { "id": "178" },
       "fields": {
         "title": "Opuntia Monacantha (Big)",
         "orgPrice": 99,
@@ -5685,21 +4621,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "Low",
+        "qtyAva": "High",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/178.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/178.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "179"
-      },
+      "sys": { "id": "179" },
       "fields": {
         "title": "Crassula ovata (Big)",
         "orgPrice": 99,
@@ -5718,25 +4648,19 @@
         "restock": 1,
         "placeAva": "Down",
         "qtyAva": "Medium",
-        "demand": "V_Loow",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/179.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/179.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "180"
-      },
+      "sys": { "id": "180" },
       "fields": {
         "title": "Sedum Pachychyllum (Big)",
         "orgPrice": 99,
         "price": 99,
-        "ava": "0",
+        "ava": "1",
         "size": "(5\"-6\")",
         "transit": "High",
         "water": "Moderate",
@@ -5749,21 +4673,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "NA",
-        "demand": "V_Loow",
+        "qtyAva": "Low",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/180.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/180.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "181"
-      },
+      "sys": { "id": "181" },
       "fields": {
         "title": "Graptosedum (Big)",
         "orgPrice": 99,
@@ -5782,20 +4700,14 @@
         "restock": 0,
         "placeAva": "Down",
         "qtyAva": "NA",
-        "demand": "V_Loow",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/181.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/181.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "182"
-      },
+      "sys": { "id": "182" },
       "fields": {
         "title": "Sedum rubrotinctum (Big)",
         "orgPrice": 99,
@@ -5816,23 +4728,17 @@
         "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/182.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/182.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "183"
-      },
+      "sys": { "id": "183" },
       "fields": {
         "title": "Sedum nussbaumerianum (Big)",
         "orgPrice": 99,
         "price": 99,
-        "ava": "0",
+        "ava": "1",
         "size": "(5\"-6\")",
         "transit": "High",
         "water": "Moderate",
@@ -5845,21 +4751,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "NA",
-        "demand": "V_Loow",
+        "qtyAva": "High",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/183.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/183.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "184"
-      },
+      "sys": { "id": "184" },
       "fields": {
         "title": "Echeveria Gilwa (Big)",
         "orgPrice": 149,
@@ -5880,23 +4780,17 @@
         "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/184.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/184.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "185"
-      },
+      "sys": { "id": "185" },
       "fields": {
         "title": "creeping jade (Big)",
         "orgPrice": 99,
         "price": 99,
-        "ava": "1",
+        "ava": "0",
         "size": "(5\"-6\")",
         "transit": "Low",
         "water": "Moderate",
@@ -5909,21 +4803,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "Medium",
-        "demand": "V_Loow",
+        "qtyAva": "NA",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/185.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/185.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "186"
-      },
+      "sys": { "id": "186" },
       "fields": {
         "title": "Aloe juvenna (Big)",
         "orgPrice": 99,
@@ -5942,20 +4830,14 @@
         "restock": 1,
         "placeAva": "Both",
         "qtyAva": "High",
-        "demand": "V_Loow",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/186.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/186.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "187"
-      },
+      "sys": { "id": "187" },
       "fields": {
         "title": "Echeveria Setosa (Big)",
         "orgPrice": 99,
@@ -5976,18 +4858,12 @@
         "qtyAva": "Medium",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/187.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/187.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "188"
-      },
+      "sys": { "id": "188" },
       "fields": {
         "title": "Crassula ovata (Big)",
         "orgPrice": 99,
@@ -6008,18 +4884,12 @@
         "qtyAva": "Low",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/188.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/188.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "189"
-      },
+      "sys": { "id": "189" },
       "fields": {
         "title": "Aeonium haworthii (Big)",
         "orgPrice": 99,
@@ -6040,18 +4910,12 @@
         "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/189.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/189.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "190"
-      },
+      "sys": { "id": "190" },
       "fields": {
         "title": "Senecio Radicans (Big)",
         "orgPrice": 99,
@@ -6072,18 +4936,12 @@
         "qtyAva": "Low",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/190.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/190.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "191"
-      },
+      "sys": { "id": "191" },
       "fields": {
         "title": "Opuntia yellow (Big)",
         "orgPrice": 99,
@@ -6104,18 +4962,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/191.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/191.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "192"
-      },
+      "sys": { "id": "192" },
       "fields": {
         "title": "Opuntia white (Big)",
         "orgPrice": 99,
@@ -6136,18 +4988,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/192.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/192.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "193"
-      },
+      "sys": { "id": "193" },
       "fields": {
         "title": "Crassula ovatha (Big)",
         "orgPrice": 99,
@@ -6168,18 +5014,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/193.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/193.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "194"
-      },
+      "sys": { "id": "194" },
       "fields": {
         "title": "Haworthiopsis attenuata (Big)",
         "orgPrice": 199,
@@ -6200,18 +5040,12 @@
         "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/194.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/194.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "195"
-      },
+      "sys": { "id": "195" },
       "fields": {
         "title": "Echeveria Akmalia(big)",
         "orgPrice": 249,
@@ -6232,18 +5066,12 @@
         "qtyAva": "Low",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/195.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/195.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "196"
-      },
+      "sys": { "id": "196" },
       "fields": {
         "title": "Haworthia cymbiformis(big)",
         "orgPrice": 199,
@@ -6264,18 +5092,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/196.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/196.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "197"
-      },
+      "sys": { "id": "197" },
       "fields": {
         "title": "sedum spurium(tricolour)",
         "orgPrice": 59,
@@ -6296,23 +5118,17 @@
         "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/197.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/197.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "198"
-      },
+      "sys": { "id": "198" },
       "fields": {
         "title": "sansevieria trifasciata",
         "orgPrice": 69,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(5\"-6\")",
         "transit": "Low",
         "water": "Moderate",
@@ -6325,21 +5141,15 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/198.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/198.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "199"
-      },
+      "sys": { "id": "199" },
       "fields": {
         "title": "Aloe vera",
         "orgPrice": 69,
@@ -6358,20 +5168,14 @@
         "restock": 0,
         "placeAva": "Down",
         "qtyAva": "NA",
-        "demand": "V_Loow",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/199.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/199.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "200"
-      },
+      "sys": { "id": "200" },
       "fields": {
         "title": "wax ivy(green border)",
         "orgPrice": 49,
@@ -6390,20 +5194,14 @@
         "restock": 1,
         "placeAva": "Top",
         "qtyAva": "High",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/200.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/200.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "201"
-      },
+      "sys": { "id": "201" },
       "fields": {
         "title": "Haworthia cymbiformis",
         "orgPrice": 69,
@@ -6424,18 +5222,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/201.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/201.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "202"
-      },
+      "sys": { "id": "202" },
       "fields": {
         "title": "Crassula Sarmentosa Variegated",
         "orgPrice": 79,
@@ -6453,26 +5245,20 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "Medium",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/202.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/202.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "203"
-      },
+      "sys": { "id": "203" },
       "fields": {
         "title": "Peperomia Ferreyrae",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -6485,21 +5271,15 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Medium",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/203.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/203.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "204"
-      },
+      "sys": { "id": "204" },
       "fields": {
         "title": "Peperomia argyreia",
         "orgPrice": 149,
@@ -6518,20 +5298,14 @@
         "restock": 1,
         "placeAva": "Top",
         "qtyAva": "Low",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/204.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/204.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "205"
-      },
+      "sys": { "id": "205" },
       "fields": {
         "title": "Pilea peperomioides",
         "orgPrice": 149,
@@ -6550,20 +5324,14 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "High",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/205.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/205.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "206"
-      },
+      "sys": { "id": "206" },
       "fields": {
         "title": "Gasteria (variegated)",
         "orgPrice": 120,
@@ -6584,18 +5352,12 @@
         "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/206.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/206.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "207"
-      },
+      "sys": { "id": "207" },
       "fields": {
         "title": "Peperomia clusiifolia",
         "orgPrice": 69,
@@ -6616,18 +5378,12 @@
         "qtyAva": "Medium",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/207.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/207.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "208"
-      },
+      "sys": { "id": "208" },
       "fields": {
         "title": "Wandering Jew(small leaf)",
         "orgPrice": 59,
@@ -6648,18 +5404,12 @@
         "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/208.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/208.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "209"
-      },
+      "sys": { "id": "209" },
       "fields": {
         "title": "cereus forma",
         "orgPrice": 99,
@@ -6678,20 +5428,14 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "NA",
-        "demand": "V_Loow",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/209.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/209.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "210"
-      },
+      "sys": { "id": "210" },
       "fields": {
         "title": "aloe aristata",
         "orgPrice": 199,
@@ -6712,18 +5456,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/210.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/210.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "211"
-      },
+      "sys": { "id": "211" },
       "fields": {
         "title": "Mammillaria elongata",
         "orgPrice": 149,
@@ -6744,18 +5482,12 @@
         "qtyAva": "Medium",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/211.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/211.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "212"
-      },
+      "sys": { "id": "212" },
       "fields": {
         "title": "echinopsis peanut",
         "orgPrice": 199,
@@ -6776,18 +5508,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/212.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/212.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "213"
-      },
+      "sys": { "id": "213" },
       "fields": {
         "title": "Mammillaria bocasana",
         "orgPrice": 120,
@@ -6808,18 +5534,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/213.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/213.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "214"
-      },
+      "sys": { "id": "214" },
       "fields": {
         "title": "Euphorbia lactea",
         "orgPrice": 120,
@@ -6840,18 +5560,12 @@
         "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/214.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/214.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "215"
-      },
+      "sys": { "id": "215" },
       "fields": {
         "title": "opuntua cylindrica",
         "orgPrice": 120,
@@ -6872,18 +5586,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/215.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/215.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "216"
-      },
+      "sys": { "id": "216" },
       "fields": {
         "title": "stapelia flavopurpurea",
         "orgPrice": 199,
@@ -6904,18 +5612,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/216.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/216.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "217"
-      },
+      "sys": { "id": "217" },
       "fields": {
         "title": "red pagoda",
         "orgPrice": 149,
@@ -6936,18 +5638,12 @@
         "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/217.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/217.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "218"
-      },
+      "sys": { "id": "218" },
       "fields": {
         "title": "crassula davil",
         "orgPrice": 149,
@@ -6968,18 +5664,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/218.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/218.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "219"
-      },
+      "sys": { "id": "219" },
       "fields": {
         "title": "echeveria star valley ",
         "orgPrice": 120,
@@ -6997,21 +5687,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "High",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/219.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/219.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "220"
-      },
+      "sys": { "id": "220" },
       "fields": {
         "title": "Peperomia caperata (variegated)",
         "orgPrice": 149,
@@ -7030,25 +5714,19 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "NA",
-        "demand": "V_Hgh",
+        "demand": "VeryHigh",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/220.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/220.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "221"
-      },
+      "sys": { "id": "221" },
       "fields": {
         "title": "echeveria fabila",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -7061,26 +5739,20 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/221.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/221.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "222"
-      },
+      "sys": { "id": "222" },
       "fields": {
         "title": "Cryptanthus bivittatus",
         "orgPrice": 89,
         "price": 99,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -7093,21 +5765,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/222.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/222.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "223"
-      },
+      "sys": { "id": "223" },
       "fields": {
         "title": "Aloe bright star",
         "orgPrice": 120,
@@ -7128,18 +5794,12 @@
         "qtyAva": "NA",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/223.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/223.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "224"
-      },
+      "sys": { "id": "224" },
       "fields": {
         "title": "Kalanchoe millottii",
         "orgPrice": 69,
@@ -7158,25 +5818,19 @@
         "restock": 0,
         "placeAva": "Top",
         "qtyAva": "NA",
-        "demand": "V_Loow",
+        "demand": "VeryLow",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/224.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/224.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "225"
-      },
+      "sys": { "id": "225" },
       "fields": {
         "title": "Murdannia",
         "orgPrice": 99,
         "price": 99,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Moderate",
@@ -7189,21 +5843,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Medium",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/225.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/225.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "226"
-      },
+      "sys": { "id": "226" },
       "fields": {
         "title": "Rhoeo Plant",
         "orgPrice": 99,
@@ -7224,18 +5872,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/226.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/226.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "227"
-      },
+      "sys": { "id": "227" },
       "fields": {
         "title": "Spiderwort",
         "orgPrice": 79,
@@ -7256,18 +5898,12 @@
         "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/227.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/227.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "228"
-      },
+      "sys": { "id": "228" },
       "fields": {
         "title": "Haworthia cooperi var. pilifera",
         "orgPrice": 149,
@@ -7288,18 +5924,12 @@
         "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/228.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/228.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "229"
-      },
+      "sys": { "id": "229" },
       "fields": {
         "title": "Aloe minnie belle",
         "orgPrice": 99,
@@ -7320,18 +5950,12 @@
         "qtyAva": "Medium",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/229.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/229.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "230"
-      },
+      "sys": { "id": "230" },
       "fields": {
         "title": "Haworthia retusa",
         "orgPrice": 120,
@@ -7352,18 +5976,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/230.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/230.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "231"
-      },
+      "sys": { "id": "231" },
       "fields": {
         "title": "Silver pagoda",
         "orgPrice": 89,
@@ -7384,18 +6002,12 @@
         "qtyAva": "NA",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/231.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/231.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "232"
-      },
+      "sys": { "id": "232" },
       "fields": {
         "title": "senecio obovatus",
         "orgPrice": 99,
@@ -7416,18 +6028,12 @@
         "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/232.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/232.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "233"
-      },
+      "sys": { "id": "233" },
       "fields": {
         "title": "Sedum burrito",
         "orgPrice": 69,
@@ -7448,18 +6054,12 @@
         "qtyAva": "Low",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/233.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/233.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "234"
-      },
+      "sys": { "id": "234" },
       "fields": {
         "title": "curio radicans",
         "orgPrice": 79,
@@ -7480,18 +6080,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/234.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/234.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "235"
-      },
+      "sys": { "id": "235" },
       "fields": {
         "title": "Peperomia nivalis",
         "orgPrice": 149,
@@ -7509,21 +6103,15 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "Medium",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/235.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/235.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "236"
-      },
+      "sys": { "id": "236" },
       "fields": {
         "title": "Haworthia Asema",
         "orgPrice": 99,
@@ -7544,18 +6132,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/236.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/236.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "237"
-      },
+      "sys": { "id": "237" },
       "fields": {
         "title": "Echeveria cubic frost",
         "orgPrice": 120,
@@ -7576,18 +6158,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/237.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/237.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "238"
-      },
+      "sys": { "id": "238" },
       "fields": {
         "title": "Echeveria ben badis",
         "orgPrice": 120,
@@ -7605,21 +6181,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "High",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/238.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/238.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "239"
-      },
+      "sys": { "id": "239" },
       "fields": {
         "title": "Echeveria greensmile",
         "orgPrice": 120,
@@ -7640,23 +6210,17 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/239.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/239.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "240"
-      },
+      "sys": { "id": "240" },
       "fields": {
         "title": "Graptoveria pink rose",
         "orgPrice": 89,
         "price": 89,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Low",
@@ -7669,21 +6233,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/240.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/240.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "241"
-      },
+      "sys": { "id": "241" },
       "fields": {
         "title": "Echeveria Secunda",
         "orgPrice": 120,
@@ -7704,18 +6262,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/241.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/241.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "242"
-      },
+      "sys": { "id": "242" },
       "fields": {
         "title": "Pachyveria glauca",
         "orgPrice": 120,
@@ -7736,23 +6288,17 @@
         "qtyAva": "High",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/242.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/242.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "243"
-      },
+      "sys": { "id": "243" },
       "fields": {
         "title": "Graptoveria Bashful",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -7765,26 +6311,20 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/243.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/243.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "244"
-      },
+      "sys": { "id": "244" },
       "fields": {
         "title": "Variegated white moa",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "High",
@@ -7797,21 +6337,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Medium",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/244.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/244.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "245"
-      },
+      "sys": { "id": "245" },
       "fields": {
         "title": "Echeveria amor fati",
         "orgPrice": 120,
@@ -7832,18 +6366,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/245.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/245.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "246"
-      },
+      "sys": { "id": "246" },
       "fields": {
         "title": "Graptoveria Lovely rose",
         "orgPrice": 120,
@@ -7864,18 +6392,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/246.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/246.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "247"
-      },
+      "sys": { "id": "247" },
       "fields": {
         "title": "Echeveria purple pearl",
         "orgPrice": 120,
@@ -7896,18 +6418,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/247.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/247.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "248"
-      },
+      "sys": { "id": "248" },
       "fields": {
         "title": "Pachyphytum compactum",
         "orgPrice": 120,
@@ -7928,18 +6444,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/248.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/248.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "249"
-      },
+      "sys": { "id": "249" },
       "fields": {
         "title": "Echeveria laui",
         "orgPrice": 120,
@@ -7960,18 +6470,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/249.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/249.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "250"
-      },
+      "sys": { "id": "250" },
       "fields": {
         "title": "Pachyveria power puff",
         "orgPrice": 120,
@@ -7992,18 +6496,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/250.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/250.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "251"
-      },
+      "sys": { "id": "251" },
       "fields": {
         "title": "wandering jew Purple ",
         "orgPrice": 99,
@@ -8024,18 +6522,12 @@
         "qtyAva": "High",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/251.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/251.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "252"
-      },
+      "sys": { "id": "252" },
       "fields": {
         "title": "Senecio Crassiflorus",
         "orgPrice": 120,
@@ -8053,21 +6545,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "High",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/252.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/252.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "253"
-      },
+      "sys": { "id": "253" },
       "fields": {
         "title": "Baby sun rose variegated",
         "orgPrice": 99,
@@ -8088,18 +6574,12 @@
         "qtyAva": "High",
         "demand": "Medium",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/253.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/253.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "254"
-      },
+      "sys": { "id": "254" },
       "fields": {
         "title": "Leucothoe red",
         "orgPrice": 69,
@@ -8120,18 +6600,12 @@
         "qtyAva": "High",
         "demand": "High",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/254.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/254.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "255"
-      },
+      "sys": { "id": "255" },
       "fields": {
         "title": "Haworthia cymbiformis (Big)",
         "orgPrice": 199,
@@ -8152,18 +6626,12 @@
         "qtyAva": "High",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/255.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/255.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "256"
-      },
+      "sys": { "id": "256" },
       "fields": {
         "title": "Short-leaved aloe (Big)",
         "orgPrice": 199,
@@ -8181,21 +6649,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "High",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/256.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/256.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "257"
-      },
+      "sys": { "id": "257" },
       "fields": {
         "title": "mammillaria sonorensis",
         "orgPrice": 120,
@@ -8216,18 +6678,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/257.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/257.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "258"
-      },
+      "sys": { "id": "258" },
       "fields": {
         "title": "Delta lights aloe",
         "orgPrice": 149,
@@ -8248,23 +6704,17 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/258.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/258.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "259"
-      },
+      "sys": { "id": "259" },
       "fields": {
         "title": "Aloe sunrise",
         "orgPrice": 199,
         "price": 199,
-        "ava": "1",
+        "ava": "0",
         "size": "(3\"-4\")",
         "transit": "Low",
         "water": "Moderate",
@@ -8277,21 +6727,15 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/259.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/259.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "260"
-      },
+      "sys": { "id": "260" },
       "fields": {
         "title": "Cryptanthus acaulis",
         "orgPrice": 99,
@@ -8312,18 +6756,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/260.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/260.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "261"
-      },
+      "sys": { "id": "261" },
       "fields": {
         "title": "Fasciated haworthia ",
         "orgPrice": 120,
@@ -8344,18 +6782,12 @@
         "qtyAva": "Medium",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/261.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/261.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "262"
-      },
+      "sys": { "id": "262" },
       "fields": {
         "title": "Haworthia herrei",
         "orgPrice": 120,
@@ -8376,18 +6808,12 @@
         "qtyAva": "High",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/262.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/262.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "263"
-      },
+      "sys": { "id": "263" },
       "fields": {
         "title": "Haworthia Resendeana (Big)",
         "orgPrice": 199,
@@ -8408,18 +6834,12 @@
         "qtyAva": "High",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/263.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/263.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "264"
-      },
+      "sys": { "id": "264" },
       "fields": {
         "title": "Haworthiopsis coarctata (Big)",
         "orgPrice": 199,
@@ -8440,23 +6860,17 @@
         "qtyAva": "High",
         "demand": "Low",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/264.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/264.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "265"
-      },
+      "sys": { "id": "265" },
       "fields": {
         "title": "Opuntia Red (Big)",
         "orgPrice": 99,
         "price": 89,
-        "ava": "0",
+        "ava": "1",
         "size": "(4\"-6\")",
         "transit": "Low",
         "water": "Low",
@@ -8469,21 +6883,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "High",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/265.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/265.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "266"
-      },
+      "sys": { "id": "266" },
       "fields": {
         "title": "Peperomia caperata (Big)",
         "orgPrice": 99,
@@ -8501,26 +6909,20 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "Medium",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/266.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/266.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "267"
-      },
+      "sys": { "id": "267" },
       "fields": {
         "title": "Peperomia caperata/ green (Big)",
         "orgPrice": 99,
         "price": 99,
-        "ava": "0",
+        "ava": "1",
         "size": "(4\"-5\")",
         "transit": "High",
         "water": "High",
@@ -8533,21 +6935,15 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Medium",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/267.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/267.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "268"
-      },
+      "sys": { "id": "268" },
       "fields": {
         "title": "Haworthia retusa (Big)",
         "orgPrice": 199,
@@ -8568,18 +6964,12 @@
         "qtyAva": "Medium",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/268.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/268.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "269"
-      },
+      "sys": { "id": "269" },
       "fields": {
         "title": "Haworthia bayeri (Big)",
         "orgPrice": 199,
@@ -8600,18 +6990,12 @@
         "qtyAva": "Medium",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/269.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/269.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "270"
-      },
+      "sys": { "id": "270" },
       "fields": {
         "title": "Gasteria Bicolor Liliputana (Big)",
         "orgPrice": 199,
@@ -8629,21 +7013,15 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "Medium",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/270.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/270.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "271"
-      },
+      "sys": { "id": "271" },
       "fields": {
         "title": "Hechtia glauca (Big)",
         "orgPrice": 99,
@@ -8664,18 +7042,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/271.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/271.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "272"
-      },
+      "sys": { "id": "272" },
       "fields": {
         "title": "Opentia yellow twist",
         "orgPrice": 149,
@@ -8696,18 +7068,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/272.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/272.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "273"
-      },
+      "sys": { "id": "273" },
       "fields": {
         "title": "Rhoeo discolor tricolour ",
         "orgPrice": 99,
@@ -8728,18 +7094,12 @@
         "qtyAva": "Waiting",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/273.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/273.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "274"
-      },
+      "sys": { "id": "274" },
       "fields": {
         "title": "Short leaved Aloe (Big)",
         "orgPrice": 99,
@@ -8760,18 +7120,12 @@
         "qtyAva": "High",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/274.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/274.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "275"
-      },
+      "sys": { "id": "275" },
       "fields": {
         "title": "Haworthia reinwardtii coarctata",
         "orgPrice": 120,
@@ -8792,18 +7146,12 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/275.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/275.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "276"
-      },
+      "sys": { "id": "276" },
       "fields": {
         "title": "Haworthia Zebra (Big)",
         "orgPrice": 250,
@@ -8824,18 +7172,12 @@
         "qtyAva": "Medium",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/276.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/276.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "277"
-      },
+      "sys": { "id": "277" },
       "fields": {
         "title": "Crassula coccinea",
         "orgPrice": 79,
@@ -8853,21 +7195,15 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "High",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/277.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/277.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "278"
-      },
+      "sys": { "id": "278" },
       "fields": {
         "title": "Green mowa",
         "orgPrice": 79,
@@ -8888,18 +7224,12 @@
         "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/278.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/278.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "279"
-      },
+      "sys": { "id": "279" },
       "fields": {
         "title": "Delosperma cooperi",
         "orgPrice": 79,
@@ -8920,18 +7250,12 @@
         "qtyAva": "Medium",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/279.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/279.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "280"
-      },
+      "sys": { "id": "280" },
       "fields": {
         "title": "Rhipsalis crassutha",
         "orgPrice": 89,
@@ -8952,23 +7276,17 @@
         "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/280.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/280.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "281"
-      },
+      "sys": { "id": "281" },
       "fields": {
         "title": "Peperomia serpens",
         "orgPrice": 79,
         "price": 79,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Not Specific",
@@ -8981,26 +7299,20 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/281.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/281.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "282"
-      },
+      "sys": { "id": "282" },
       "fields": {
         "title": "Crassula Tom Tumbs",
         "orgPrice": 120,
         "price": 120,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -9013,26 +7325,20 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/282.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/282.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "283"
-      },
+      "sys": { "id": "283" },
       "fields": {
         "title": "Delosperma Taylorii",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -9045,26 +7351,20 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "High",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/283.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/283.jpg" } }
         }
       }
     },
     {
-      "sys": {
-        "id": "284"
-      },
+      "sys": { "id": "284" },
       "fields": {
         "title": "Dracaena reflexa",
         "orgPrice": 120,
         "price": 120,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Not Specific",
@@ -9077,14 +7377,10 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
-          "fields": {
-            "file": {
-              "url": "./assets/img/salePlants/284.jpg"
-            }
-          }
+          "fields": { "file": { "url": "./assets/img/salePlants/284.jpg" } }
         }
       }
     }
