@@ -40,7 +40,7 @@
         "title": "Bergeranthus",
         "orgPrice": 69,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -53,7 +53,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -1480,7 +1480,7 @@
         "title": "Dianthus",
         "orgPrice": 59,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "High",
@@ -1493,7 +1493,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -2440,7 +2440,7 @@
         "title": "Anacampseros Baeseckei",
         "orgPrice": 89,
         "price": 89,
-        "ava": "1",
+        "ava": "0",
         "size": "(1.5\"-2\")",
         "transit": "Low",
         "water": "Moderate",
@@ -2453,7 +2453,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -2472,7 +2472,7 @@
         "title": "Aloe vera",
         "orgPrice": 120,
         "price": 89,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -2485,7 +2485,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -2728,7 +2728,7 @@
         "title": "haworthia decipiens",
         "orgPrice": 79,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -2741,7 +2741,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -2920,7 +2920,7 @@
         "title": "Fishbone",
         "orgPrice": 79,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -2933,7 +2933,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -3245,7 +3245,7 @@
         "transit": "Low",
         "water": "Moderate",
         "sun": "Low",
-        "common": "Snake Long",
+        "common": "Snake Long yellow border",
         "category": "Sansevieria",
         "mother": 0,
         "hanging": 0,
@@ -3373,7 +3373,7 @@
         "transit": "Low",
         "water": "Moderate",
         "sun": "Low",
-        "common": "Snake Draft Long",
+        "common": "Snake Draft Green",
         "category": "Sansevieria",
         "mother": 0,
         "hanging": 0,
@@ -3688,7 +3688,7 @@
         "title": "Aloe brown",
         "orgPrice": 69,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -3701,7 +3701,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -3720,7 +3720,7 @@
         "title": "Sedum rubrotinctum",
         "orgPrice": 69,
         "price": 69,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Not Specific",
@@ -3733,7 +3733,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -4392,7 +4392,7 @@
         "title": "Cotyledon tomentosa",
         "orgPrice": 99,
         "price": 99,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Moderate",
@@ -4405,7 +4405,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -6152,7 +6152,7 @@
         "title": "Crassula ovatha (Big)",
         "orgPrice": 99,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(4\"-5\")",
         "transit": "Low",
         "water": "Moderate",
@@ -6165,7 +6165,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -6317,7 +6317,7 @@
         "transit": "Low",
         "water": "Moderate",
         "sun": "Low",
-        "common": "snake normal",
+        "common": "snake normal long",
         "category": "Sansevieria",
         "mother": 0,
         "hanging": 0,
@@ -6824,7 +6824,7 @@
         "title": "Euphorbia lactea",
         "orgPrice": 120,
         "price": 99,
-        "ava": "1",
+        "ava": "0",
         "size": "(4\"-5\")",
         "transit": "Low",
         "water": "Low",
@@ -6837,7 +6837,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
