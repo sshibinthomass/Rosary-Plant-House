@@ -21,7 +21,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -72,7 +72,7 @@
         "title": "Sedum Lineare(yellow)",
         "orgPrice": 79,
         "price": 79,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "High",
@@ -85,7 +85,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -117,7 +117,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -149,7 +149,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -213,7 +213,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -245,7 +245,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -264,7 +264,7 @@
         "title": "Senecio Radicans",
         "orgPrice": 69,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(3\"-4\")",
         "transit": "Moderate",
         "water": "Moderate",
@@ -277,7 +277,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -360,7 +360,7 @@
         "title": "Callisia",
         "orgPrice": 89,
         "price": 89,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "High",
@@ -373,7 +373,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Down",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -405,7 +405,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -488,7 +488,7 @@
         "title": "Sedum Morganianum",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -501,7 +501,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -533,7 +533,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -584,7 +584,7 @@
         "title": "Chocolate soldier brodered ",
         "orgPrice": 99,
         "price": 89,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -597,7 +597,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -629,7 +629,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -661,7 +661,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -693,7 +693,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -789,7 +789,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -853,7 +853,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -917,7 +917,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -981,7 +981,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "VeryLow",
         "image": {
           "fields": {
@@ -1013,7 +1013,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -1045,7 +1045,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -1109,7 +1109,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -1160,7 +1160,7 @@
         "title": "Crassula tetragona",
         "orgPrice": 59,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -1173,7 +1173,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -1192,7 +1192,7 @@
         "title": "Sedum Lineare(green)",
         "orgPrice": 59,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Moderate",
@@ -1205,7 +1205,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -1269,7 +1269,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "VeryLow",
         "image": {
           "fields": {
@@ -1352,7 +1352,7 @@
         "title": "Fairy Castle",
         "orgPrice": 59,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -1365,7 +1365,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Low",
         "image": {
           "fields": {
@@ -1397,7 +1397,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -1461,7 +1461,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -1512,7 +1512,7 @@
         "title": "Peperomia caperata",
         "orgPrice": 120,
         "price": 120,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "High",
@@ -1525,7 +1525,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -1557,7 +1557,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -1589,7 +1589,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -1640,7 +1640,7 @@
         "title": "Crassula ovata",
         "orgPrice": 59,
         "price": 49,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -1653,7 +1653,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -1685,7 +1685,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -1749,7 +1749,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -1781,7 +1781,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -1864,7 +1864,7 @@
         "title": "Cheiridopsis denticulata",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -1877,7 +1877,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -1909,7 +1909,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -1973,7 +1973,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -2005,7 +2005,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -2037,7 +2037,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -2056,7 +2056,7 @@
         "title": "Crassula Falcata",
         "orgPrice": 120,
         "price": 120,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -2069,7 +2069,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -2101,7 +2101,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -2133,7 +2133,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -2165,7 +2165,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -2197,7 +2197,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -2229,7 +2229,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -2325,7 +2325,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -2357,7 +2357,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -2389,7 +2389,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -2421,7 +2421,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -2504,7 +2504,7 @@
         "title": "Gasteria",
         "orgPrice": 199,
         "price": 199,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -2517,7 +2517,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -2568,7 +2568,7 @@
         "title": "English ivy",
         "orgPrice": 39,
         "price": 39,
-        "ava": "1",
+        "ava": "0",
         "size": "(5\"-6\")",
         "transit": "Moderate",
         "water": "High",
@@ -2581,7 +2581,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -2664,7 +2664,7 @@
         "title": "Drimiopsis",
         "orgPrice": 89,
         "price": 89,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "High",
@@ -2677,7 +2677,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -2696,7 +2696,7 @@
         "title": "Sedum lineare(silver)",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "High",
@@ -2709,7 +2709,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -2728,7 +2728,7 @@
         "title": "haworthia decipiens",
         "orgPrice": 79,
         "price": 79,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -2741,7 +2741,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -2773,7 +2773,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -2837,7 +2837,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -2888,7 +2888,7 @@
         "title": "Crassula perforata",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -2901,7 +2901,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -2920,7 +2920,7 @@
         "title": "Fishbone",
         "orgPrice": 79,
         "price": 79,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -2933,7 +2933,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -2965,7 +2965,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -3176,7 +3176,7 @@
         "title": "Aeonium arboreum/Purple",
         "orgPrice": 79,
         "price": 79,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Moderate",
@@ -3189,7 +3189,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -3253,7 +3253,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -3317,7 +3317,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -3349,7 +3349,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -3381,7 +3381,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -3445,7 +3445,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -3477,7 +3477,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -3528,7 +3528,7 @@
         "title": "String of tears",
         "orgPrice": 79,
         "price": 79,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -3541,7 +3541,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -3560,7 +3560,7 @@
         "title": "Crassula muscosa",
         "orgPrice": 69,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "High",
@@ -3573,7 +3573,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -3605,7 +3605,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -3637,7 +3637,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -3765,7 +3765,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -3797,7 +3797,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -3829,7 +3829,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -3861,7 +3861,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -3893,7 +3893,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -3957,7 +3957,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Low",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -4021,7 +4021,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -4085,7 +4085,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -4149,7 +4149,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -4232,7 +4232,7 @@
         "title": "Gold moss",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Moderate",
@@ -4245,7 +4245,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -4277,7 +4277,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -4309,7 +4309,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -4373,7 +4373,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -4456,7 +4456,7 @@
         "title": "creeping jade",
         "orgPrice": 69,
         "price": 59,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -4469,7 +4469,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -4501,7 +4501,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -4629,7 +4629,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -4661,7 +4661,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -4693,7 +4693,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -4712,7 +4712,7 @@
         "title": "Hedera rhombea",
         "orgPrice": 39,
         "price": 39,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "High",
@@ -4725,7 +4725,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -4744,7 +4744,7 @@
         "title": "Hedera helix",
         "orgPrice": 39,
         "price": 39,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "High",
@@ -4757,7 +4757,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -4821,7 +4821,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -4853,7 +4853,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -4917,7 +4917,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -4949,7 +4949,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -5013,7 +5013,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "Low",
         "image": {
           "fields": {
@@ -5077,7 +5077,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -5173,7 +5173,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -5589,7 +5589,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -5685,7 +5685,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -5717,7 +5717,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "VeryLow",
         "image": {
           "fields": {
@@ -5845,7 +5845,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "VeryLow",
         "image": {
           "fields": {
@@ -5941,7 +5941,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "VeryLow",
         "image": {
           "fields": {
@@ -6101,7 +6101,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -6133,7 +6133,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -6229,7 +6229,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -6261,7 +6261,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -6389,7 +6389,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -6421,7 +6421,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -6453,7 +6453,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -6485,7 +6485,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -6549,7 +6549,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Low",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -6613,7 +6613,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -6709,7 +6709,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -6741,7 +6741,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -6805,7 +6805,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -6933,7 +6933,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -6997,7 +6997,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7093,7 +7093,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -7189,7 +7189,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7221,7 +7221,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7253,7 +7253,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -7317,7 +7317,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7349,7 +7349,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -7477,7 +7477,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -7509,7 +7509,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -7541,7 +7541,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -7605,7 +7605,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7637,7 +7637,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7733,7 +7733,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7797,7 +7797,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7861,7 +7861,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7893,7 +7893,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7925,7 +7925,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7957,7 +7957,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7989,7 +7989,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8021,7 +8021,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8053,7 +8053,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8085,7 +8085,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -8117,7 +8117,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -8149,7 +8149,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -8181,7 +8181,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -8213,7 +8213,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8245,7 +8245,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8309,7 +8309,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8341,7 +8341,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8373,7 +8373,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8405,7 +8405,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -8437,7 +8437,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -8469,7 +8469,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8501,7 +8501,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8533,7 +8533,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8565,7 +8565,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8597,7 +8597,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8629,7 +8629,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8725,7 +8725,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Waiting",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8757,7 +8757,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8821,7 +8821,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Medium",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8853,7 +8853,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -9045,7 +9045,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Both",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -9096,7 +9096,7 @@
         "title": "Kleinia",
         "orgPrice": 199,
         "price": 149,
-        "ava": 1,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -9128,7 +9128,7 @@
         "title": "Tarragon",
         "orgPrice": 99,
         "price": 99,
-        "ava": 1,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "High",
@@ -9141,7 +9141,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -9160,7 +9160,7 @@
         "title": "Echeveria desmetiana",
         "orgPrice": 120,
         "price": 120,
-        "ava": 1,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Not Specific",
@@ -9192,7 +9192,7 @@
         "title": "Echeveria Runyonii Blue",
         "orgPrice": 120,
         "price": 120,
-        "ava": 1,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -9205,7 +9205,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "High",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
