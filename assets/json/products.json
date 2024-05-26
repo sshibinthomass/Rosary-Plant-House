@@ -7,7 +7,7 @@
       "fields": {
         "title": "Sempervivum Tectorum",
         "orgPrice": 99,
-        "price": 89,
+        "price": 49,
         "ava": "1",
         "size": "(1.5\"-2\")",
         "transit": "Low",
@@ -103,7 +103,7 @@
       "fields": {
         "title": "Haworthia cymbiformis",
         "orgPrice": 59,
-        "price": 59,
+        "price": 39,
         "ava": "1",
         "size": "(1.5\"-2.5\")",
         "transit": "Low",
@@ -135,7 +135,7 @@
       "fields": {
         "title": "Chamaecerus Silvestii",
         "orgPrice": 69,
-        "price": 59,
+        "price": 79,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -149,7 +149,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -199,7 +199,7 @@
       "fields": {
         "title": "Echeveria peacockii",
         "orgPrice": 99,
-        "price": 99,
+        "price": 69,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -231,7 +231,7 @@
       "fields": {
         "title": "Crassula Portulacea(miniature)",
         "orgPrice": 59,
-        "price": 59,
+        "price": 45,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -359,7 +359,7 @@
       "fields": {
         "title": "Callisia",
         "orgPrice": 89,
-        "price": 89,
+        "price": 69,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -373,7 +373,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Down",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -391,7 +391,7 @@
       "fields": {
         "title": "Crassula ovatha",
         "orgPrice": 59,
-        "price": 59,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -423,7 +423,7 @@
       "fields": {
         "title": "Echeveria Setosa",
         "orgPrice": 69,
-        "price": 69,
+        "price": 49,
         "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -455,8 +455,8 @@
       "fields": {
         "title": "Echeveria",
         "orgPrice": 79,
-        "price": 79,
-        "ava": "0",
+        "price": 49,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -469,7 +469,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Available",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -487,8 +487,8 @@
       "fields": {
         "title": "Sedum Morganianum",
         "orgPrice": 69,
-        "price": 69,
-        "ava": "0",
+        "price": 59,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -501,7 +501,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -519,7 +519,7 @@
       "fields": {
         "title": "Haworthiopsis Reinwardtii",
         "orgPrice": 120,
-        "price": 99,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -583,7 +583,7 @@
       "fields": {
         "title": "Chocolate soldier brodered ",
         "orgPrice": 99,
-        "price": 89,
+        "price": 69,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -647,7 +647,7 @@
       "fields": {
         "title": "Opuntia yellow",
         "orgPrice": 69,
-        "price": 49,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -679,7 +679,7 @@
       "fields": {
         "title": "Graptopetalum Amethystinum",
         "orgPrice": 99,
-        "price": 89,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -711,8 +711,8 @@
       "fields": {
         "title": "Echeveria Setosa",
         "orgPrice": 69,
-        "price": 69,
-        "ava": "0",
+        "price": 79,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -725,7 +725,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "Low",
         "image": {
           "fields": {
@@ -744,7 +744,7 @@
         "title": "Opuntia Monacantha",
         "orgPrice": 59,
         "price": 49,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -757,7 +757,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -839,7 +839,7 @@
       "fields": {
         "title": "Echeveria Akmalia",
         "orgPrice": 79,
-        "price": 59,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -871,8 +871,8 @@
       "fields": {
         "title": "Echeveria elegans",
         "orgPrice": 89,
-        "price": 89,
-        "ava": "0",
+        "price": 69,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Low",
@@ -885,7 +885,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -935,8 +935,8 @@
       "fields": {
         "title": "Blue stick long",
         "orgPrice": 69,
-        "price": 69,
-        "ava": "0",
+        "price": 79,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -949,7 +949,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Available",
         "demand": "VeryLow",
         "image": {
           "fields": {
@@ -967,7 +967,7 @@
       "fields": {
         "title": "Mammillaria vetula",
         "orgPrice": 89,
-        "price": 69,
+        "price": 59,
         "ava": "1",
         "size": "(1.5\"-2\")",
         "transit": "Low",
@@ -999,7 +999,7 @@
       "fields": {
         "title": "Aloe Breuifolia",
         "orgPrice": 69,
-        "price": 59,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1031,7 +1031,7 @@
       "fields": {
         "title": "Aloe humilis",
         "orgPrice": 79,
-        "price": 69,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1063,7 +1063,7 @@
       "fields": {
         "title": "Faucaria Tigrina",
         "orgPrice": 79,
-        "price": 79,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1077,7 +1077,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -1095,7 +1095,7 @@
       "fields": {
         "title": "Haworthia Resendeana",
         "orgPrice": 120,
-        "price": 79,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1159,7 +1159,7 @@
       "fields": {
         "title": "Crassula tetragona",
         "orgPrice": 59,
-        "price": 59,
+        "price": 79,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1191,7 +1191,7 @@
       "fields": {
         "title": "Sedum Lineare(green)",
         "orgPrice": 59,
-        "price": 59,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1205,7 +1205,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Low",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -1255,7 +1255,7 @@
       "fields": {
         "title": "Short leaved Aloe",
         "orgPrice": 59,
-        "price": 49,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1288,7 +1288,7 @@
         "title": "Senecio Cephalophorus",
         "orgPrice": 99,
         "price": 99,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -1301,7 +1301,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -1351,8 +1351,8 @@
       "fields": {
         "title": "Fairy Castle",
         "orgPrice": 59,
-        "price": 59,
-        "ava": "0",
+        "price": 69,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -1365,7 +1365,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "Low",
         "image": {
           "fields": {
@@ -1383,7 +1383,7 @@
       "fields": {
         "title": "Echeveria Runyonii",
         "orgPrice": 69,
-        "price": 69,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1397,7 +1397,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -1447,7 +1447,7 @@
       "fields": {
         "title": "Pereskiopsis",
         "orgPrice": 59,
-        "price": 59,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1461,7 +1461,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "Low",
         "image": {
           "fields": {
@@ -1480,7 +1480,7 @@
         "title": "Dianthus",
         "orgPrice": 59,
         "price": 59,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "High",
@@ -1493,7 +1493,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -1511,7 +1511,7 @@
       "fields": {
         "title": "Peperomia caperata",
         "orgPrice": 120,
-        "price": 120,
+        "price": 79,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1525,7 +1525,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -1543,7 +1543,7 @@
       "fields": {
         "title": "Hydrangea",
         "orgPrice": 49,
-        "price": 49,
+        "price": 29,
         "ava": "1",
         "size": "(3\"-4\")",
         "transit": "Moderate",
@@ -1575,7 +1575,7 @@
       "fields": {
         "title": "Wax Ivy",
         "orgPrice": 49,
-        "price": 49,
+        "price": 25,
         "ava": "1",
         "size": "(5\"-6\")",
         "transit": "High",
@@ -1671,7 +1671,7 @@
       "fields": {
         "title": "Haworthia Zebra",
         "orgPrice": 120,
-        "price": 120,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1704,7 +1704,7 @@
         "title": "Sempervivum arachnoideum",
         "orgPrice": 79,
         "price": 79,
-        "ava": "0",
+        "ava": "1",
         "size": "(1.5\"-2\")",
         "transit": "High",
         "water": "Moderate",
@@ -1717,7 +1717,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -1735,7 +1735,7 @@
       "fields": {
         "title": "Crassula capitella",
         "orgPrice": 79,
-        "price": 59,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1767,7 +1767,7 @@
       "fields": {
         "title": "Opuntia white",
         "orgPrice": 69,
-        "price": 49,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -1813,7 +1813,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -1831,7 +1831,7 @@
       "fields": {
         "title": "Resnova",
         "orgPrice": 99,
-        "price": 99,
+        "price": 89,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -1845,7 +1845,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -1863,8 +1863,8 @@
       "fields": {
         "title": "Cheiridopsis denticulata",
         "orgPrice": 69,
-        "price": 69,
-        "ava": "0",
+        "price": 49,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -1877,7 +1877,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -1895,7 +1895,7 @@
       "fields": {
         "title": "Peperomia caperata",
         "orgPrice": 69,
-        "price": 59,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -1928,7 +1928,7 @@
         "title": "Acanthocalycium",
         "orgPrice": 99,
         "price": 99,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -1941,7 +1941,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "Low",
         "image": {
           "fields": {
@@ -1991,7 +1991,7 @@
       "fields": {
         "title": "Echinopsis subdenudata",
         "orgPrice": 120,
-        "price": 120,
+        "price": 79,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2055,8 +2055,8 @@
       "fields": {
         "title": "Crassula Falcata",
         "orgPrice": 120,
-        "price": 120,
-        "ava": "0",
+        "price": 99,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -2069,7 +2069,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -2087,7 +2087,7 @@
       "fields": {
         "title": "Haworthia bayeri",
         "orgPrice": 120,
-        "price": 99,
+        "price": 39,
         "ava": "1",
         "size": "(1.5\"-2\")",
         "transit": "Low",
@@ -2119,7 +2119,7 @@
       "fields": {
         "title": "Haworthiopsis attenuata",
         "orgPrice": 120,
-        "price": 99,
+        "price": 79,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2133,7 +2133,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -2165,7 +2165,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -2183,7 +2183,7 @@
       "fields": {
         "title": "Haworth's aeonium",
         "orgPrice": 120,
-        "price": 120,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -2248,7 +2248,7 @@
         "title": "Pachyphytum oviferum",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Low",
@@ -2261,7 +2261,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -2279,7 +2279,7 @@
       "fields": {
         "title": "String of pearls",
         "orgPrice": 79,
-        "price": 79,
+        "price": 99,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2293,7 +2293,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -2325,7 +2325,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -2343,8 +2343,8 @@
       "fields": {
         "title": "Senecio barbertonicus",
         "orgPrice": 149,
-        "price": 149,
-        "ava": "0",
+        "price": 49,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -2357,7 +2357,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Available",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -2376,7 +2376,7 @@
         "title": "Adromischus Cristatus",
         "orgPrice": 149,
         "price": 149,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -2389,7 +2389,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -2407,7 +2407,7 @@
       "fields": {
         "title": "Haworthiopsis limifolia",
         "orgPrice": 149,
-        "price": 149,
+        "price": 69,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2440,7 +2440,7 @@
         "title": "Anacampseros Baeseckei",
         "orgPrice": 89,
         "price": 89,
-        "ava": "0",
+        "ava": "1",
         "size": "(1.5\"-2\")",
         "transit": "Low",
         "water": "Moderate",
@@ -2453,7 +2453,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -2471,8 +2471,8 @@
       "fields": {
         "title": "Aloe vera",
         "orgPrice": 120,
-        "price": 99,
-        "ava": "0",
+        "price": 89,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -2485,7 +2485,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -2504,7 +2504,7 @@
         "title": "Gasteria",
         "orgPrice": 199,
         "price": 199,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -2517,7 +2517,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -2567,7 +2567,7 @@
       "fields": {
         "title": "English ivy",
         "orgPrice": 39,
-        "price": 39,
+        "price": 29,
         "ava": "1",
         "size": "(5\"-6\")",
         "transit": "Moderate",
@@ -2581,7 +2581,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -2599,7 +2599,7 @@
       "fields": {
         "title": "Vinca major",
         "orgPrice": 39,
-        "price": 39,
+        "price": 25,
         "ava": "0",
         "size": "(5\"-6\")",
         "transit": "High",
@@ -2709,7 +2709,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -2727,7 +2727,7 @@
       "fields": {
         "title": "haworthia decipiens",
         "orgPrice": 79,
-        "price": 79,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2759,7 +2759,7 @@
       "fields": {
         "title": "echeveria glauca cristata",
         "orgPrice": 79,
-        "price": 79,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2791,7 +2791,7 @@
       "fields": {
         "title": "Hechtia glauca",
         "orgPrice": 59,
-        "price": 49,
+        "price": 89,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2805,7 +2805,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "VeryLow",
         "image": {
           "fields": {
@@ -2823,7 +2823,7 @@
       "fields": {
         "title": "Echeveria nuda",
         "orgPrice": 79,
-        "price": 79,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2856,7 +2856,7 @@
         "title": "portulakarea",
         "orgPrice": 89,
         "price": 89,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Moderate",
@@ -2869,7 +2869,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -2888,7 +2888,7 @@
         "title": "Crassula perforata",
         "orgPrice": 69,
         "price": 69,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -2901,7 +2901,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Available",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -2919,7 +2919,7 @@
       "fields": {
         "title": "Fishbone",
         "orgPrice": 79,
-        "price": 79,
+        "price": 69,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2951,7 +2951,7 @@
       "fields": {
         "title": "Chlorophytum/spider plant",
         "orgPrice": 39,
-        "price": 39,
+        "price": 25,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -2984,7 +2984,7 @@
         "title": "CC",
         "orgPrice": 89,
         "price": 89,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Moderate",
@@ -2997,7 +2997,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -3015,7 +3015,7 @@
       "fields": {
         "title": "Serissafoetida",
         "orgPrice": 49,
-        "price": 49,
+        "price": 39,
         "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -3143,7 +3143,7 @@
       "fields": {
         "title": "Aeonium arboreum/green",
         "orgPrice": 69,
-        "price": 69,
+        "price": 99,
         "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -3175,8 +3175,8 @@
       "fields": {
         "title": "Aeonium arboreum/Purple",
         "orgPrice": 79,
-        "price": 79,
-        "ava": "0",
+        "price": 49,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Moderate",
@@ -3189,7 +3189,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -3240,7 +3240,7 @@
         "title": "Sansevieria zeylanica",
         "orgPrice": 99,
         "price": 99,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -3253,7 +3253,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -3303,7 +3303,7 @@
       "fields": {
         "title": "Christmas cactus",
         "orgPrice": 69,
-        "price": 69,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -3317,7 +3317,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -3335,7 +3335,7 @@
       "fields": {
         "title": "Spyder plant/ iris",
         "orgPrice": 49,
-        "price": 49,
+        "price": 25,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -3367,7 +3367,7 @@
       "fields": {
         "title": "Sansevieria Compacta Dwarf",
         "orgPrice": 69,
-        "price": 69,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -3431,7 +3431,7 @@
       "fields": {
         "title": "Jade plant (verigated)",
         "orgPrice": 69,
-        "price": 59,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -3463,7 +3463,7 @@
       "fields": {
         "title": "Sedum Morganianum",
         "orgPrice": 69,
-        "price": 69,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -3495,7 +3495,7 @@
       "fields": {
         "title": "Super Donkey Tail",
         "orgPrice": 89,
-        "price": 89,
+        "price": 69,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -3541,7 +3541,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -3559,7 +3559,7 @@
       "fields": {
         "title": "Crassula muscosa",
         "orgPrice": 69,
-        "price": 59,
+        "price": 69,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -3591,7 +3591,7 @@
       "fields": {
         "title": "Syngonium/golden yellow",
         "orgPrice": 69,
-        "price": 69,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -3605,7 +3605,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -3623,7 +3623,7 @@
       "fields": {
         "title": "Syngonium/golden green",
         "orgPrice": 69,
-        "price": 69,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -3637,7 +3637,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "Low",
         "image": {
           "fields": {
@@ -3687,7 +3687,7 @@
       "fields": {
         "title": "Aloe brown",
         "orgPrice": 69,
-        "price": 69,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -3815,7 +3815,7 @@
       "fields": {
         "title": "Peperomia obtusifolia variegated green",
         "orgPrice": 69,
-        "price": 69,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -3911,7 +3911,7 @@
       "fields": {
         "title": "Peperomia obtusifolia variegated",
         "orgPrice": 99,
-        "price": 99,
+        "price": 69,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -3943,7 +3943,7 @@
       "fields": {
         "title": "Portulaka variegated",
         "orgPrice": 59,
-        "price": 59,
+        "price": 79,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -3957,7 +3957,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -3975,7 +3975,7 @@
       "fields": {
         "title": "Turtle wine",
         "orgPrice": 59,
-        "price": 49,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -4007,7 +4007,7 @@
       "fields": {
         "title": "Snake Draft Verigated",
         "orgPrice": 99,
-        "price": 99,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -4103,7 +4103,7 @@
       "fields": {
         "title": "Graptosedum",
         "orgPrice": 69,
-        "price": 59,
+        "price": 79,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -4135,7 +4135,7 @@
       "fields": {
         "title": "Sedum crassulaceae",
         "orgPrice": 79,
-        "price": 79,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -4167,7 +4167,7 @@
       "fields": {
         "title": "Senecio barbertonicus",
         "orgPrice": 69,
-        "price": 59,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -4181,7 +4181,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "Available",
         "demand": "Low",
         "image": {
           "fields": {
@@ -4231,7 +4231,7 @@
       "fields": {
         "title": "Gold moss",
         "orgPrice": 69,
-        "price": 69,
+        "price": 39,
         "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -4263,7 +4263,7 @@
       "fields": {
         "title": "Sedum stonecrops",
         "orgPrice": 69,
-        "price": 69,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -4295,7 +4295,7 @@
       "fields": {
         "title": "Sedum Pachychyllum",
         "orgPrice": 69,
-        "price": 69,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -4359,7 +4359,7 @@
       "fields": {
         "title": "sedum chamomile",
         "orgPrice": 59,
-        "price": 59,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -4423,7 +4423,7 @@
       "fields": {
         "title": "string of hearts",
         "orgPrice": 120,
-        "price": 120,
+        "price": 99,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -4469,7 +4469,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "Low",
         "image": {
           "fields": {
@@ -4519,8 +4519,8 @@
       "fields": {
         "title": "Sedum nussbaumerianum",
         "orgPrice": 69,
-        "price": 59,
-        "ava": "1",
+        "price": 49,
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Not Specific",
@@ -4533,7 +4533,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -4551,7 +4551,7 @@
       "fields": {
         "title": "Graptopetalum paraguayense",
         "orgPrice": 69,
-        "price": 69,
+        "price": 59,
         "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -4615,7 +4615,7 @@
       "fields": {
         "title": "Gasteria Bicolor Liliputana",
         "orgPrice": 99,
-        "price": 79,
+        "price": 39,
         "ava": "1",
         "size": "(1.5\"-2\")",
         "transit": "Low",
@@ -4647,8 +4647,8 @@
       "fields": {
         "title": "Crassula ovata verigated",
         "orgPrice": 99,
-        "price": 99,
-        "ava": "1",
+        "price": 59,
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -4661,7 +4661,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -4679,7 +4679,7 @@
       "fields": {
         "title": "Crassula ovata",
         "orgPrice": 59,
-        "price": 49,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -4711,7 +4711,7 @@
       "fields": {
         "title": "Hedera rhombea",
         "orgPrice": 39,
-        "price": 39,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -4743,7 +4743,7 @@
       "fields": {
         "title": "Hedera helix",
         "orgPrice": 39,
-        "price": 39,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -4807,7 +4807,7 @@
       "fields": {
         "title": "Peperomia caperata/ green",
         "orgPrice": 69,
-        "price": 69,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -4821,7 +4821,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -4839,7 +4839,7 @@
       "fields": {
         "title": "Ophiopogon japonicus",
         "orgPrice": 99,
-        "price": 99,
+        "price": 25,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -4935,7 +4935,7 @@
       "fields": {
         "title": "Rebutia",
         "orgPrice": 79,
-        "price": 79,
+        "price": "Low",
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -5031,8 +5031,8 @@
       "fields": {
         "title": "Aeonium haworthii",
         "orgPrice": 69,
-        "price": 69,
-        "ava": "1",
+        "price": 59,
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -5045,7 +5045,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -5063,7 +5063,7 @@
       "fields": {
         "title": "Red Tip (Big)",
         "orgPrice": 199,
-        "price": 199,
+        "price": 69,
         "ava": "1",
         "size": "4\"+",
         "transit": "Low",
@@ -5095,8 +5095,8 @@
       "fields": {
         "title": "Echeviria (Big)",
         "orgPrice": 199,
-        "price": 199,
-        "ava": "0",
+        "price": 89,
+        "ava": "1",
         "size": "5\"+",
         "transit": "Low",
         "water": "Moderate",
@@ -5109,7 +5109,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Available",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -5160,7 +5160,7 @@
         "title": "Sedum Lizard",
         "orgPrice": 99,
         "price": 99,
-        "ava": "0",
+        "ava": "1",
         "size": "(3\"-4\")",
         "transit": "Low",
         "water": "Moderate",
@@ -5173,7 +5173,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -5191,8 +5191,8 @@
       "fields": {
         "title": "Echeveria Shaviana",
         "orgPrice": 199,
-        "price": 199,
-        "ava": "0",
+        "price": 149,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "Moderate",
@@ -5205,7 +5205,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -5223,7 +5223,7 @@
       "fields": {
         "title": "Lenophyllum",
         "orgPrice": 79,
-        "price": 69,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -5255,7 +5255,7 @@
       "fields": {
         "title": "String of Dolphin",
         "orgPrice": 79,
-        "price": 79,
+        "price": 59,
         "ava": "1",
         "size": "(3\"-4\")",
         "transit": "Low",
@@ -5269,7 +5269,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Down",
-        "qtyAva": "Low",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -5416,7 +5416,7 @@
         "title": "Rose Cactus",
         "orgPrice": 89,
         "price": 89,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -5429,7 +5429,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -5447,7 +5447,7 @@
       "fields": {
         "title": "Corsican stonecrop",
         "orgPrice": 79,
-        "price": 69,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -5461,7 +5461,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "Low",
+        "qtyAva": "Available",
         "demand": "High",
         "image": {
           "fields": {
@@ -5512,7 +5512,7 @@
         "title": "Echinopsis tubiflora",
         "orgPrice": 79,
         "price": 79,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -5525,7 +5525,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -5575,7 +5575,7 @@
       "fields": {
         "title": "Tradescantia sillamontana",
         "orgPrice": 69,
-        "price": 59,
+        "price": 29,
         "ava": "1",
         "size": "(3\"-4\")",
         "transit": "Low",
@@ -5607,7 +5607,7 @@
       "fields": {
         "title": "Syngonium podophyllum",
         "orgPrice": 79,
-        "price": 79,
+        "price": 69,
         "ava": "1",
         "size": "(3\"-4\")",
         "transit": "High",
@@ -5639,7 +5639,7 @@
       "fields": {
         "title": "Crassula tetragona (Big)",
         "orgPrice": 99,
-        "price": 99,
+        "price": 69,
         "ava": "1",
         "size": "(5\"-6\")",
         "transit": "Moderate",
@@ -5671,7 +5671,7 @@
       "fields": {
         "title": "Opuntia Monacantha (Big)",
         "orgPrice": 99,
-        "price": 99,
+        "price": 59,
         "ava": "1",
         "size": "(5\"-6\")",
         "transit": "Low",
@@ -5703,7 +5703,7 @@
       "fields": {
         "title": "Crassula ovata (Big)",
         "orgPrice": 99,
-        "price": 69,
+        "price": 59,
         "ava": "1",
         "size": "(5\"-6\")",
         "transit": "Moderate",
@@ -5768,7 +5768,7 @@
         "title": "Graptosedum (Big)",
         "orgPrice": 99,
         "price": 99,
-        "ava": "0",
+        "ava": "1",
         "size": "(5\"-6\")",
         "transit": "High",
         "water": "Moderate",
@@ -5781,7 +5781,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "VeryLow",
         "image": {
           "fields": {
@@ -5799,8 +5799,8 @@
       "fields": {
         "title": "Sedum rubrotinctum (Big)",
         "orgPrice": 99,
-        "price": 99,
-        "ava": "0",
+        "price": 89,
+        "ava": "1",
         "size": "(5\"-6\")",
         "transit": "High",
         "water": "Moderate",
@@ -5813,7 +5813,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -5895,7 +5895,7 @@
       "fields": {
         "title": "creeping jade (Big)",
         "orgPrice": 99,
-        "price": 99,
+        "price": 59,
         "ava": "1",
         "size": "(5\"-6\")",
         "transit": "Low",
@@ -5927,7 +5927,7 @@
       "fields": {
         "title": "Aloe juvenna (Big)",
         "orgPrice": 99,
-        "price": 89,
+        "price": 79,
         "ava": "1",
         "size": "(4\"-5\")",
         "transit": "Low",
@@ -5941,7 +5941,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "VeryLow",
         "image": {
           "fields": {
@@ -5991,7 +5991,7 @@
       "fields": {
         "title": "Crassula ovata (Big)",
         "orgPrice": 99,
-        "price": 89,
+        "price": 99,
         "ava": "1",
         "size": "(5\"-6\")",
         "transit": "Moderate",
@@ -6023,8 +6023,8 @@
       "fields": {
         "title": "Aeonium haworthii (Big)",
         "orgPrice": 99,
-        "price": 99,
-        "ava": "1",
+        "price": 79,
+        "ava": "0",
         "size": "(5\"-6\")",
         "transit": "High",
         "water": "Moderate",
@@ -6037,7 +6037,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -6087,7 +6087,7 @@
       "fields": {
         "title": "Opuntia yellow (Big)",
         "orgPrice": 99,
-        "price": 89,
+        "price": 79,
         "ava": "1",
         "size": "(5\"-6\")",
         "transit": "Moderate",
@@ -6119,7 +6119,7 @@
       "fields": {
         "title": "Opuntia white (Big)",
         "orgPrice": 99,
-        "price": 89,
+        "price": 79,
         "ava": "1",
         "size": "(5\"-6\")",
         "transit": "Low",
@@ -6151,7 +6151,7 @@
       "fields": {
         "title": "Crassula ovatha (Big)",
         "orgPrice": 99,
-        "price": 99,
+        "price": 79,
         "ava": "1",
         "size": "(4\"-5\")",
         "transit": "Low",
@@ -6183,7 +6183,7 @@
       "fields": {
         "title": "Haworthiopsis attenuata (Big)",
         "orgPrice": 199,
-        "price": 199,
+        "price": 149,
         "ava": "1",
         "size": "(4\"-5\")",
         "transit": "Low",
@@ -6215,7 +6215,7 @@
       "fields": {
         "title": "Echeveria Akmalia(big)",
         "orgPrice": 249,
-        "price": 249,
+        "price": 149,
         "ava": "1",
         "size": "(5\"-6\")",
         "transit": "Moderate",
@@ -6229,7 +6229,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -6247,7 +6247,7 @@
       "fields": {
         "title": "Haworthia cymbiformis(big)",
         "orgPrice": 199,
-        "price": 199,
+        "price": 69,
         "ava": "1",
         "size": "(5\"-6\")",
         "transit": "Moderate",
@@ -6279,7 +6279,7 @@
       "fields": {
         "title": "sedum spurium(tricolour)",
         "orgPrice": 59,
-        "price": 59,
+        "price": 49,
         "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -6311,7 +6311,7 @@
       "fields": {
         "title": "sansevieria trifasciata",
         "orgPrice": 69,
-        "price": 59,
+        "price": 49,
         "ava": "0",
         "size": "(5\"-6\")",
         "transit": "Low",
@@ -6375,8 +6375,8 @@
       "fields": {
         "title": "wax ivy(green border)",
         "orgPrice": 49,
-        "price": 49,
-        "ava": "1",
+        "price": 39,
+        "ava": "0",
         "size": "(5\"-6\")",
         "transit": "High",
         "water": "Moderate",
@@ -6389,7 +6389,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "NA",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -6407,7 +6407,7 @@
       "fields": {
         "title": "Haworthia cymbiformis",
         "orgPrice": 69,
-        "price": 69,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -6439,7 +6439,7 @@
       "fields": {
         "title": "Crassula Sarmentosa Variegated",
         "orgPrice": 79,
-        "price": 69,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -6453,7 +6453,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -6503,7 +6503,7 @@
       "fields": {
         "title": "Peperomia argyreia",
         "orgPrice": 149,
-        "price": 149,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -6535,7 +6535,7 @@
       "fields": {
         "title": "Pilea peperomioides",
         "orgPrice": 149,
-        "price": 149,
+        "price": 69,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -6567,7 +6567,7 @@
       "fields": {
         "title": "Gasteria (variegated)",
         "orgPrice": 149,
-        "price": 149,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -6599,7 +6599,7 @@
       "fields": {
         "title": "Peperomia clusiifolia",
         "orgPrice": 99,
-        "price": 79,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
@@ -6663,8 +6663,8 @@
       "fields": {
         "title": "cereus forma",
         "orgPrice": 99,
-        "price": 59,
-        "ava": "0",
+        "price": 99,
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -6677,7 +6677,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "VeryLow",
         "image": {
           "fields": {
@@ -6696,7 +6696,7 @@
         "title": "aloe aristata",
         "orgPrice": 199,
         "price": 199,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Moderate",
@@ -6709,7 +6709,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -6727,8 +6727,8 @@
       "fields": {
         "title": "Mammillaria elongata",
         "orgPrice": 149,
-        "price": 149,
-        "ava": "1",
+        "price": 69,
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -6741,7 +6741,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -6791,7 +6791,7 @@
       "fields": {
         "title": "Mammillaria bocasana",
         "orgPrice": 120,
-        "price": 99,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -6805,7 +6805,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -6824,7 +6824,7 @@
         "title": "Euphorbia lactea",
         "orgPrice": 120,
         "price": 99,
-        "ava": "0",
+        "ava": "1",
         "size": "(4\"-5\")",
         "transit": "Low",
         "water": "Low",
@@ -6837,7 +6837,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -6919,7 +6919,7 @@
       "fields": {
         "title": "red pagoda",
         "orgPrice": 149,
-        "price": 149,
+        "price": 99,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -6933,7 +6933,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -6983,7 +6983,7 @@
       "fields": {
         "title": "echeveria star valley ",
         "orgPrice": 120,
-        "price": 120,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -7079,7 +7079,7 @@
       "fields": {
         "title": "Cryptanthus bivittatus",
         "orgPrice": 99,
-        "price": 99,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -7111,7 +7111,7 @@
       "fields": {
         "title": "Aloe bright star",
         "orgPrice": 120,
-        "price": 120,
+        "price": 89,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -7189,7 +7189,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7271,7 +7271,7 @@
       "fields": {
         "title": "Haworthia cooperi var. pilifera",
         "orgPrice": 149,
-        "price": 149,
+        "price": 99,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -7303,7 +7303,7 @@
       "fields": {
         "title": "Aloe minnie belle",
         "orgPrice": 99,
-        "price": 99,
+        "price": 69,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -7335,7 +7335,7 @@
       "fields": {
         "title": "Haworthia retusa",
         "orgPrice": 120,
-        "price": 99,
+        "price": 39,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -7367,7 +7367,7 @@
       "fields": {
         "title": "Silver pagoda",
         "orgPrice": 89,
-        "price": 79,
+        "price": 69,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -7463,7 +7463,7 @@
       "fields": {
         "title": "curio radicans",
         "orgPrice": 79,
-        "price": 79,
+        "price": 39,
         "ava": "1",
         "size": "(3\"-4\")",
         "transit": "Low",
@@ -7527,7 +7527,7 @@
       "fields": {
         "title": "Haworthia Asema",
         "orgPrice": 120,
-        "price": 99,
+        "price": 39,
         "ava": "1",
         "size": "(1.5\"-3\")",
         "transit": "Low",
@@ -7591,8 +7591,8 @@
       "fields": {
         "title": "Echeveria ben badis",
         "orgPrice": 120,
-        "price": 120,
-        "ava": "1",
+        "price": 79,
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -7605,7 +7605,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7719,7 +7719,7 @@
       "fields": {
         "title": "Pachyveria glauca",
         "orgPrice": 120,
-        "price": 99,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -7752,7 +7752,7 @@
         "title": "Graptoveria Bashful",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -7765,7 +7765,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7783,7 +7783,7 @@
       "fields": {
         "title": "Variegated white moa",
         "orgPrice": 120,
-        "price": 120,
+        "price": 29,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -7816,7 +7816,7 @@
         "title": "Echeveria amor fati",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -7829,7 +7829,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7848,7 +7848,7 @@
         "title": "Graptoveria Lovely rose",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -7861,7 +7861,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7912,7 +7912,7 @@
         "title": "Pachyphytum compactum",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -7925,7 +7925,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -7944,7 +7944,7 @@
         "title": "Echeveria laui",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -7957,7 +7957,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8007,7 +8007,7 @@
       "fields": {
         "title": "wandering jew Purple ",
         "orgPrice": 99,
-        "price": 89,
+        "price": 29,
         "ava": "1",
         "size": "(3\"-4\")",
         "transit": "Moderate",
@@ -8039,7 +8039,7 @@
       "fields": {
         "title": "Senecio Crassiflorus",
         "orgPrice": 120,
-        "price": 120,
+        "price": 29,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -8085,7 +8085,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -8103,7 +8103,7 @@
       "fields": {
         "title": "Leucothoe red",
         "orgPrice": 69,
-        "price": 59,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -8117,7 +8117,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "High",
         "image": {
           "fields": {
@@ -8135,7 +8135,7 @@
       "fields": {
         "title": "Haworthia cymbiformis (Big)",
         "orgPrice": 199,
-        "price": 199,
+        "price": 89,
         "ava": "1",
         "size": "(3\"-4\")",
         "transit": "Low",
@@ -8167,7 +8167,7 @@
       "fields": {
         "title": "Short-leaved aloe (Big)",
         "orgPrice": 199,
-        "price": 149,
+        "price": 89,
         "ava": "1",
         "size": "(4\"-6\")",
         "transit": "Low",
@@ -8200,7 +8200,7 @@
         "title": "mammillaria sonorensis",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Low",
@@ -8213,7 +8213,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8232,7 +8232,7 @@
         "title": "Delta lights aloe",
         "orgPrice": 149,
         "price": 149,
-        "ava": "0",
+        "ava": "1",
         "size": "(3\"-4\")",
         "transit": "Low",
         "water": "Moderate",
@@ -8245,7 +8245,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8263,8 +8263,8 @@
       "fields": {
         "title": "Aloe sunrise",
         "orgPrice": 199,
-        "price": 199,
-        "ava": "0",
+        "price": 149,
+        "ava": "1",
         "size": "(3\"-4\")",
         "transit": "Low",
         "water": "Moderate",
@@ -8277,7 +8277,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8296,7 +8296,7 @@
         "title": "Cryptanthus acaulis",
         "orgPrice": 99,
         "price": 99,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "High",
@@ -8309,7 +8309,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8327,7 +8327,7 @@
       "fields": {
         "title": "Fasciated haworthia ",
         "orgPrice": 120,
-        "price": 120,
+        "price": 99,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -8359,7 +8359,7 @@
       "fields": {
         "title": "Haworthia herrei",
         "orgPrice": 120,
-        "price": 120,
+        "price": 99,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -8373,7 +8373,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8405,7 +8405,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "Low",
         "image": {
           "fields": {
@@ -8437,7 +8437,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "Low",
         "image": {
           "fields": {
@@ -8487,7 +8487,7 @@
       "fields": {
         "title": "Peperomia caperata (Big)",
         "orgPrice": 99,
-        "price": 89,
+        "price": 59,
         "ava": "1",
         "size": "(4\"-5\")",
         "transit": "High",
@@ -8519,7 +8519,7 @@
       "fields": {
         "title": "Peperomia caperata/ green (Big)",
         "orgPrice": 99,
-        "price": 99,
+        "price": 79,
         "ava": "1",
         "size": "(4\"-5\")",
         "transit": "High",
@@ -8551,7 +8551,7 @@
       "fields": {
         "title": "Haworthia retusa (Big)",
         "orgPrice": 249,
-        "price": 249,
+        "price": 99,
         "ava": "1",
         "size": "(3\"-4\")",
         "transit": "Low",
@@ -8583,7 +8583,7 @@
       "fields": {
         "title": "Haworthia bayeri (Big)",
         "orgPrice": 249,
-        "price": 249,
+        "price": 99,
         "ava": "1",
         "size": "(3\"-4\")",
         "transit": "Low",
@@ -8615,7 +8615,7 @@
       "fields": {
         "title": "Gasteria Bicolor Liliputana (Big)",
         "orgPrice": 199,
-        "price": 149,
+        "price": 99,
         "ava": "1",
         "size": "(3\"-4\")",
         "transit": "Low",
@@ -8679,7 +8679,7 @@
       "fields": {
         "title": "Opentia yellow twist",
         "orgPrice": 149,
-        "price": 149,
+        "price": 129,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -8743,7 +8743,7 @@
       "fields": {
         "title": "Short leaved Aloe (Big)",
         "orgPrice": 99,
-        "price": 89,
+        "price": 69,
         "ava": "1",
         "size": "(4\"-5\")",
         "transit": "Low",
@@ -8776,7 +8776,7 @@
         "title": "Haworthia reinwardtii coarctata",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "Not Specific",
@@ -8789,7 +8789,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -8807,7 +8807,7 @@
       "fields": {
         "title": "Haworthia Zebra (Big)",
         "orgPrice": 250,
-        "price": 250,
+        "price": 89,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -8839,7 +8839,7 @@
       "fields": {
         "title": "Crassula coccinea",
         "orgPrice": 79,
-        "price": 79,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -8967,7 +8967,7 @@
       "fields": {
         "title": "Peperomia serpens",
         "orgPrice": 79,
-        "price": 79,
+        "price": 49,
         "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
@@ -9031,7 +9031,7 @@
       "fields": {
         "title": "Delosperma Taylorii",
         "orgPrice": 120,
-        "price": 120,
+        "price": 49,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -9064,7 +9064,7 @@
         "title": "Dracaena reflexa",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Not Specific",
@@ -9077,7 +9077,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -9127,7 +9127,7 @@
       "fields": {
         "title": "Tarragon",
         "orgPrice": 99,
-        "price": 99,
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -9141,7 +9141,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -9160,7 +9160,7 @@
         "title": "Echeveria desmetiana",
         "orgPrice": 120,
         "price": 120,
-        "ava": "0",
+        "ava": "1",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "Not Specific",
@@ -9173,7 +9173,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "NA",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
@@ -9205,7 +9205,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "Low",
         "demand": "NotStarted",
         "image": {
           "fields": {
