@@ -4935,7 +4935,7 @@
       "fields": {
         "title": "Rebutia",
         "orgPrice": 79,
-        "price": "Low",
+        "price": 59,
         "ava": "1",
         "size": "(2\"-3\")",
         "transit": "Low",
@@ -5941,7 +5941,7 @@
         "indoor": 1,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": 59,
         "demand": "VeryLow",
         "image": {
           "fields": {
