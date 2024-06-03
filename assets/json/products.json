@@ -264,7 +264,7 @@
         "title": "Senecio Radicans",
         "orgPrice": 69,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(3\"-4\")",
         "transit": "Moderate",
         "water": "Moderate",
@@ -277,7 +277,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Both",
-        "qtyAva": "Available",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -360,7 +360,7 @@
         "title": "Callisia",
         "orgPrice": 89,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "High",
@@ -373,7 +373,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Down",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "VeryHigh",
         "image": {
           "fields": {
@@ -1512,7 +1512,7 @@
         "title": "Peperomia caperata",
         "orgPrice": 120,
         "price": 79,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "High",
         "water": "High",
@@ -1525,7 +1525,7 @@
         "indoor": 1,
         "restock": 0,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -3560,7 +3560,7 @@
         "title": "Crassula muscosa",
         "orgPrice": 69,
         "price": 69,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Moderate",
         "water": "High",
@@ -3573,7 +3573,7 @@
         "indoor": 0,
         "restock": 0,
         "placeAva": "Down",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -6056,7 +6056,7 @@
         "title": "Senecio Radicans (Big)",
         "orgPrice": 99,
         "price": 99,
-        "ava": "1",
+        "ava": "0",
         "size": "(5\"-6\")",
         "transit": "High",
         "water": "Moderate",
@@ -6069,7 +6069,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Available",
+        "qtyAva": "NA",
         "demand": "High",
         "image": {
           "fields": {
@@ -8072,7 +8072,7 @@
         "title": "Baby sun rose variegated",
         "orgPrice": 99,
         "price": 59,
-        "ava": "1",
+        "ava": "0",
         "size": "(3\"-4\")",
         "transit": "High",
         "water": "Moderate",
@@ -8085,7 +8085,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "Medium",
         "image": {
           "fields": {
@@ -9800,7 +9800,7 @@
         "title": "Plant 307",
         "orgPrice": 120,
         "price": 79,
-        "ava": "1",
+        "ava": "0",
         "size": "(2\"-3\")",
         "transit": "Low",
         "water": "High",
@@ -9813,7 +9813,7 @@
         "indoor": 0,
         "restock": 1,
         "placeAva": "Top",
-        "qtyAva": "Low",
+        "qtyAva": "NA",
         "demand": "NotStarted",
         "image": {
           "fields": {
